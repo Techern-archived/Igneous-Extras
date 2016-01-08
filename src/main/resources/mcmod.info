@@ -1,0 +1,16 @@
+[
+{
+  "modid": "IgneousExtras",
+  "name": "Igneous Extras",
+  "description": "Extra igneous blocks for your Minecraft adventure",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cruz Bishop"],
+  "credits": "Everybody that helped test Igneous Additions",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
