@@ -1,0 +1,96 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "blocks/stone"
+    },
+    "model": "cube_all",
+    "uvlock": true
+  },
+  "variants": {
+    "color": {
+      "lime": {
+        "textures": {
+          "all": "igneous_extras:blocks/lime_dyed_stone"
+        }
+      },
+      "red": {
+        "textures": {
+          "all": "igneous_extras:blocks/red_dyed_stone"
+        }
+      },
+      "purple": {
+        "textures": {
+          "all": "igneous_extras:blocks/purple_dyed_stone"
+        }
+      },
+      "orange": {
+        "textures": {
+          "all": "igneous_extras:blocks/orange_dyed_stone"
+        }
+      },
+      "brown": {
+        "textures": {
+          "all": "igneous_extras:blocks/brown_dyed_stone"
+        }
+      },
+      "black": {
+        "textures": {
+          "all": "igneous_extras:blocks/black_dyed_stone"
+        }
+      },
+      "gray": {
+        "textures": {
+          "all": "igneous_extras:blocks/gray_dyed_stone"
+        }
+      },
+      "green": {
+        "textures": {
+          "all": "igneous_extras:blocks/green_dyed_stone"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "all": "igneous_extras:blocks/magenta_dyed_stone"
+        }
+      },
+      "silver": {
+        "textures": {
+          "all": "igneous_extras:blocks/silver_dyed_stone"
+        }
+      },
+      "blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/blue_dyed_stone"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/light_blue_dyed_stone"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "all": "igneous_extras:blocks/cyan_dyed_stone"
+        }
+      },
+      "pink": {
+        "textures": {
+          "all": "igneous_extras:blocks/pink_dyed_stone"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "all": "igneous_extras:blocks/yellow_dyed_stone"
+        }
+      },
+      "white": {
+        "textures": {
+          "all": "igneous_extras:blocks/white_dyed_stone"
+        }
+      }
+    },
+    "inventory": [{
+    }]
+  }
+}

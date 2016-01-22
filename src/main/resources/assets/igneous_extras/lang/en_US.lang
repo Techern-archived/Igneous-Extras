@@ -17,3 +17,21 @@ tile.dyed_cobblestone.lightBlue.name=Light Blue Dyed Cobblestone
 tile.dyed_cobblestone.pink.name=Pink Dyed Cobblestone
 tile.dyed_cobblestone.yellow.name=Yellow Dyed Cobblestone
 tile.dyed_cobblestone.white.name=White Dyed Cobblestone
+
+#Then dyed stone
+tile.dyed_stone.lime.name=Lime Dyed Stone
+tile.dyed_stone.purple.name=Purple Dyed Stone
+tile.dyed_stone.red.name=Red Dyed Stone
+tile.dyed_stone.orange.name=Orange Dyed Stone
+tile.dyed_stone.brown.name=Brown Dyed Stone
+tile.dyed_stone.black.name=Black Dyed Stone
+tile.dyed_stone.gray.name=Gray Dyed Stone
+tile.dyed_stone.green.name=Green Dyed Stone
+tile.dyed_stone.magenta.name=Magenta Dyed Stone
+tile.dyed_stone.silver.name=Silver Dyed Stone
+tile.dyed_stone.blue.name=Blue Dyed Stone
+tile.dyed_stone.cyan.name=Cyan Dyed Stone
+tile.dyed_stone.lightBlue.name=Light Blue Dyed Stone
+tile.dyed_stone.pink.name=Pink Dyed Stone
+tile.dyed_stone.yellow.name=Yellow Dyed Stone
+tile.dyed_stone.white.name=White Dyed Stone

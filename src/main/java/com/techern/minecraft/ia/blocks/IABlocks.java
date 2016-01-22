@@ -26,12 +26,20 @@ public class IABlocks {
     public static BlockColored DYED_COBBLESTONE = new BlockDyedCobblestone();
 
     /**
+     * A {@link BlockColored} defining a {@link BlockDyedStone}
+     *
+     * @since 0.0.1
+     */
+    public static BlockColored DYED_STONE = new BlockDyedStone();
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
      */
     public static void registerBlocks() {
-        GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone"); //TODO: ItemDyedCobblestone
+        GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone");
+        GameRegistry.registerBlock(DYED_STONE, ItemColoredBlock.class, "dyed_stone");
 
         //TODO: More here
 
@@ -42,6 +50,9 @@ public class IABlocks {
 
             //Start off with coloured cobblestone
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_COBBLESTONE), color.getMetadata(), "dyed_cobblestone", "color=" + color.getName());
+
+            //Then coloured stone
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_STONE), color.getMetadata(), "dyed_stone", "color=" + color.getName());
         }
 
     }
@@ -54,6 +65,7 @@ public class IABlocks {
     public static void registerRecipes() {
 
         registerSingleDyeBlockRecipeCombination(Blocks.cobblestone, DYED_COBBLESTONE);
+        registerSingleDyeBlockRecipeCombination(Blocks.stone, 0, DYED_STONE);
 
         //TODO: Add recipes for items second
 
@@ -68,6 +80,19 @@ public class IABlocks {
      * @since 0.0.1
      */
     public static void registerSingleDyeBlockRecipeCombination(Block blockToConsume, Block blockToReturn) {
+        registerSingleDyeBlockRecipeCombination(blockToConsume, 0, blockToReturn);
+    }
+
+    /**
+     * Registers all dye variant recipes for a single input {@link Block}
+     *
+     * @param blockToConsume The {@link Block} to consume
+     * @param consumptionMetadata The metadata of the block being consumed
+     * @param blockToReturn The {@link Block} to return
+     *
+     * @since 0.0.1
+     */
+    public static void registerSingleDyeBlockRecipeCombination(Block blockToConsume, int consumptionMetadata, Block blockToReturn) {
         ItemStack dye;
         for (EnumDyeColor color : EnumDyeColor.values()) {
             dye = new ItemStack(Items.dye, 1, color.getDyeDamage());
