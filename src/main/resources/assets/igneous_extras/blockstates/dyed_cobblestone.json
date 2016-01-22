@@ -1,0 +1,96 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "blocks/cobblestone"
+    },
+    "model": "cube_all",
+    "uvlock": true
+  },
+  "variants": {
+    "color": {
+      "lime": {
+        "textures": {
+          "all": "igneous_extras:blocks/lime_dyed_cobblestone"
+        }
+      },
+      "red": {
+        "textures": {
+          "all": "igneous_extras:blocks/red_dyed_cobblestone"
+        }
+      },
+      "purple": {
+        "textures": {
+          "all": "igneous_extras:blocks/purple_dyed_cobblestone"
+        }
+      },
+      "orange": {
+        "textures": {
+          "all": "igneous_extras:blocks/orange_dyed_cobblestone"
+        }
+      },
+      "brown": {
+        "textures": {
+          "all": "igneous_extras:blocks/brown_dyed_cobblestone"
+        }
+      },
+      "black": {
+        "textures": {
+          "all": "igneous_extras:blocks/black_dyed_cobblestone"
+        }
+      },
+      "gray": {
+        "textures": {
+          "all": "igneous_extras:blocks/gray_dyed_cobblestone"
+        }
+      },
+      "green": {
+        "textures": {
+          "all": "igneous_extras:blocks/green_dyed_cobblestone"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "all": "igneous_extras:blocks/magenta_dyed_cobblestone"
+        }
+      },
+      "silver": {
+        "textures": {
+          "all": "igneous_extras:blocks/silver_dyed_cobblestone"
+        }
+      },
+      "blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/blue_dyed_cobblestone"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/light_blue_dyed_cobblestone"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "all": "igneous_extras:blocks/cyan_dyed_cobblestone"
+        }
+      },
+      "pink": {
+        "textures": {
+          "all": "igneous_extras:blocks/pink_dyed_cobblestone"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "all": "igneous_extras:blocks/yellow_dyed_cobblestone"
+        }
+      },
+      "white": {
+        "textures": {
+          "all": "igneous_extras:blocks/white_dyed_cobblestone"
+        }
+      }
+    },
+    "inventory": [{
+    }]
+  }
+}

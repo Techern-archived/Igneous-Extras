@@ -1,0 +1,82 @@
+package com.techern.minecraft.ia.blocks;
+
+import com.techern.minecraft.IgneousExtrasMod;
+import com.techern.minecraft.ia.items.ItemColoredBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockColored;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.EnumDyeColor;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+/**
+ * A class that contains every {@link net.minecraft.block.Block} added by the {@link com.techern.minecraft.IgneousExtrasMod}
+ *
+ * @since 0.0.1
+ */
+public class IABlocks {
+
+    /**
+     * A {@link BlockColored} defining a {@link BlockDyedCobblestone}
+     *
+     * @since 0.0.1
+     */
+    public static BlockColored DYED_COBBLESTONE = new BlockDyedCobblestone();
+
+    /**
+     * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
+     *
+     * @since 0.0.1
+     */
+    public static void registerBlocks() {
+        GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone"); //TODO: ItemDyedCobblestone
+
+        //TODO: More here
+
+        //TODO: Register normal block meshes here
+
+        //Now we register meshes for coloured blocks in this loop
+        for (EnumDyeColor color : EnumDyeColor.values()) {
+
+            //Start off with coloured cobblestone
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_COBBLESTONE), color.getMetadata(), "dyed_cobblestone", "color=" + color.getName());
+        }
+
+    }
+
+    /**
+     * Registers recipes for {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
+     *
+     * @since 0.0.1
+     */
+    public static void registerRecipes() {
+
+        registerSingleDyeBlockRecipeCombination(Blocks.cobblestone, DYED_COBBLESTONE);
+
+        //TODO: Add recipes for items second
+
+    }
+
+    /**
+     * Registers all dye variant recipes for a single input {@link Block}
+     *
+     * @param blockToConsume The {@link Block} to consume
+     * @param blockToReturn The {@link Block} to return
+     *
+     * @since 0.0.1
+     */
+    public static void registerSingleDyeBlockRecipeCombination(Block blockToConsume, Block blockToReturn) {
+        ItemStack dye;
+        for (EnumDyeColor color : EnumDyeColor.values()) {
+            dye = new ItemStack(Items.dye, 1, color.getDyeDamage());
+
+            ItemStack input = new ItemStack(blockToConsume, 1);
+            ItemStack output = new ItemStack(blockToReturn, 8, color.getMetadata());
+
+            GameRegistry.addShapedRecipe(output, "III", "IDI", "III", 'I', input, 'D', dye);
+        }
+    }
+
+}
