@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
  *
  * @since 0.0.1
  */
-@Mod(modid = "IgneousExtras", version = IgneousExtrasMod.VERSION)
+@Mod(modid = "igneous_extras", version = IgneousExtrasMod.VERSION)
 public class IgneousExtrasMod {
 
     /**
