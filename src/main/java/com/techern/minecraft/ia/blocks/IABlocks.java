@@ -106,13 +106,17 @@ public class IABlocks {
      */
     public static void registerSingleDyeBlockRecipeCombination(Block blockToConsume, int consumptionMetadata, Block blockToReturn) {
         ItemStack dye;
+        ItemStack water = new ItemStack(Items.water_bucket, 1);
         for (EnumDyeColor color : EnumDyeColor.values()) {
             dye = new ItemStack(Items.dye, 1, color.getDyeDamage());
 
-            ItemStack input = new ItemStack(blockToConsume, 1);
+            ItemStack input = new ItemStack(blockToConsume, 1, consumptionMetadata);
             ItemStack output = new ItemStack(blockToReturn, 8, color.getMetadata());
 
             GameRegistry.addShapedRecipe(output, "III", "IDI", "III", 'I', input, 'D', dye);
+            GameRegistry.addShapedRecipe(new ItemStack(blockToConsume, 8, consumptionMetadata),
+                                         "OOO", "OWO", "OOO",
+                                         'W', water, 'O', new ItemStack(blockToReturn, 1, color.getMetadata()));
         }
     }
 
