@@ -18,6 +18,24 @@ tile.dyed_cobblestone.pink.name=Pink Dyed Cobblestone
 tile.dyed_cobblestone.yellow.name=Yellow Dyed Cobblestone
 tile.dyed_cobblestone.white.name=White Dyed Cobblestone
 
+#Then dyed mossy cobblestone
+tile.dyed_mossy_cobblestone.lime.name=Lime Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.purple.name=Purple Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.red.name=Red Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.orange.name=Orange Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.brown.name=Brown Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.black.name=Black Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.gray.name=Gray Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.green.name=Green Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.magenta.name=Magenta Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.silver.name=Silver Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.blue.name=Blue Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.cyan.name=Cyan Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.lightBlue.name=Light Blue Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.pink.name=Pink Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.yellow.name=Yellow Dyed Mossy Cobblestone
+tile.dyed_mossy_cobblestone.white.name=White Dyed Mossy Cobblestone
+
 #Then dyed stone
 tile.dyed_stone.lime.name=Lime Dyed Stone
 tile.dyed_stone.purple.name=Purple Dyed Stone

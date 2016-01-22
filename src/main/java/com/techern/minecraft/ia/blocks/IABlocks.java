@@ -26,6 +26,13 @@ public class IABlocks {
     public static BlockColored DYED_COBBLESTONE = new BlockDyedCobblestone();
 
     /**
+     * A {@link BlockColored} defining a {@link BlockDyedMossyCobblestone}
+     *
+     * @since 0.0.1
+     */
+    public static BlockColored DYED_MOSSY_COBBLESTONE = new BlockDyedMossyCobblestone();
+
+    /**
      * A {@link BlockColored} defining a {@link BlockDyedStone}
      *
      * @since 0.0.1
@@ -39,6 +46,7 @@ public class IABlocks {
      */
     public static void registerBlocks() {
         GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone");
+        GameRegistry.registerBlock(DYED_MOSSY_COBBLESTONE, ItemColoredBlock.class, "dyed_mossy_cobblestone");
         GameRegistry.registerBlock(DYED_STONE, ItemColoredBlock.class, "dyed_stone");
 
         //TODO: More here
@@ -48,10 +56,13 @@ public class IABlocks {
         //Now we register meshes for coloured blocks in this loop
         for (EnumDyeColor color : EnumDyeColor.values()) {
 
-            //Start off with coloured cobblestone
+            //Start off with dyed cobblestone
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_COBBLESTONE), color.getMetadata(), "dyed_cobblestone", "color=" + color.getName());
 
-            //Then coloured stone
+            //Then dyed mossy cobblestone
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_MOSSY_COBBLESTONE), color.getMetadata(), "dyed_mossy_cobblestone", "color=" + color.getName());
+
+            //Then dyed stone
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_STONE), color.getMetadata(), "dyed_stone", "color=" + color.getName());
         }
 
@@ -65,6 +76,7 @@ public class IABlocks {
     public static void registerRecipes() {
 
         registerSingleDyeBlockRecipeCombination(Blocks.cobblestone, DYED_COBBLESTONE);
+        registerSingleDyeBlockRecipeCombination(Blocks.mossy_cobblestone, DYED_MOSSY_COBBLESTONE);
         registerSingleDyeBlockRecipeCombination(Blocks.stone, 0, DYED_STONE);
 
         //TODO: Add recipes for items second
