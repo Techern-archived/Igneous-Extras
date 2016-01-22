@@ -1,0 +1,19 @@
+#Language file for US English
+
+#Start off with dyed cobblestone blocks
+tile.dyed_cobblestone.lime.name=Lime Dyed Cobblestone
+tile.dyed_cobblestone.purple.name=Purple Dyed Cobblestone
+tile.dyed_cobblestone.red.name=Red Dyed Cobblestone
+tile.dyed_cobblestone.orange.name=Orange Dyed Cobblestone
+tile.dyed_cobblestone.brown.name=Brown Dyed Cobblestone
+tile.dyed_cobblestone.black.name=Black Dyed Cobblestone
+tile.dyed_cobblestone.gray.name=Gray Dyed Cobblestone
+tile.dyed_cobblestone.green.name=Green Dyed Cobblestone
+tile.dyed_cobblestone.magenta.name=Magenta Dyed Cobblestone
+tile.dyed_cobblestone.silver.name=Silver Dyed Cobblestone
+tile.dyed_cobblestone.blue.name=Blue Dyed Cobblestone
+tile.dyed_cobblestone.cyan.name=Cyan Dyed Cobblestone
+tile.dyed_cobblestone.lightBlue.name=Light Blue Dyed Cobblestone
+tile.dyed_cobblestone.pink.name=Pink Dyed Cobblestone
+tile.dyed_cobblestone.yellow.name=Yellow Dyed Cobblestone
+tile.dyed_cobblestone.white.name=White Dyed Cobblestone
