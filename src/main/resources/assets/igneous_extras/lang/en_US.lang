@@ -72,3 +72,22 @@ tile.dyed_andesite.lightBlue.name=Light Blue Dyed Andesite
 tile.dyed_andesite.pink.name=Pink Dyed Andesite
 tile.dyed_andesite.yellow.name=Yellow Dyed Andesite
 tile.dyed_andesite.white.name=White Dyed Andesite
+
+
+#Then dyed smooth andesite
+tile.dyed_smooth_andesite.lime.name=Lime Dyed Smooth Andesite
+tile.dyed_smooth_andesite.purple.name=Purple Dyed Smooth Andesite
+tile.dyed_smooth_andesite.red.name=Red Dyed Smooth Andesite
+tile.dyed_smooth_andesite.orange.name=Orange Dyed Smooth Andesite
+tile.dyed_smooth_andesite.brown.name=Brown Dyed Smooth Andesite
+tile.dyed_smooth_andesite.black.name=Black Dyed Smooth Andesite
+tile.dyed_smooth_andesite.gray.name=Gray Dyed Smooth Andesite
+tile.dyed_smooth_andesite.green.name=Green Dyed Smooth Andesite
+tile.dyed_smooth_andesite.magenta.name=Magenta Dyed Smooth Andesite
+tile.dyed_smooth_andesite.silver.name=Silver Dyed Smooth Andesite
+tile.dyed_smooth_andesite.blue.name=Blue Dyed Smooth Andesite
+tile.dyed_smooth_andesite.cyan.name=Cyan Dyed Smooth Andesite
+tile.dyed_smooth_andesite.lightBlue.name=Light Blue Dyed Smooth Andesite
+tile.dyed_smooth_andesite.pink.name=Pink Dyed Smooth Andesite
+tile.dyed_smooth_andesite.yellow.name=Yellow Dyed Smooth Andesite
+tile.dyed_smooth_andesite.white.name=White Dyed Smooth Andesite

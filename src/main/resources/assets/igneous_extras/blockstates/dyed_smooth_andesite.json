@@ -1,0 +1,96 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "blocks/stone_andesite_smooth"
+    },
+    "model": "cube_all",
+    "uvlock": true
+  },
+  "variants": {
+    "color": {
+      "lime": {
+        "textures": {
+          "all": "igneous_extras:blocks/lime_dyed_smooth_andesite"
+        }
+      },
+      "red": {
+        "textures": {
+          "all": "igneous_extras:blocks/red_dyed_smooth_andesite"
+        }
+      },
+      "purple": {
+        "textures": {
+          "all": "igneous_extras:blocks/purple_dyed_smooth_andesite"
+        }
+      },
+      "orange": {
+        "textures": {
+          "all": "igneous_extras:blocks/orange_dyed_smooth_andesite"
+        }
+      },
+      "brown": {
+        "textures": {
+          "all": "igneous_extras:blocks/brown_dyed_smooth_andesite"
+        }
+      },
+      "black": {
+        "textures": {
+          "all": "igneous_extras:blocks/black_dyed_smooth_andesite"
+        }
+      },
+      "gray": {
+        "textures": {
+          "all": "igneous_extras:blocks/gray_dyed_smooth_andesite"
+        }
+      },
+      "green": {
+        "textures": {
+          "all": "igneous_extras:blocks/green_dyed_smooth_andesite"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "all": "igneous_extras:blocks/magenta_dyed_smooth_andesite"
+        }
+      },
+      "silver": {
+        "textures": {
+          "all": "igneous_extras:blocks/silver_dyed_smooth_andesite"
+        }
+      },
+      "blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/blue_dyed_smooth_andesite"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/light_blue_dyed_smooth_andesite"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "all": "igneous_extras:blocks/cyan_dyed_smooth_andesite"
+        }
+      },
+      "pink": {
+        "textures": {
+          "all": "igneous_extras:blocks/pink_dyed_smooth_andesite"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "all": "igneous_extras:blocks/yellow_dyed_smooth_andesite"
+        }
+      },
+      "white": {
+        "textures": {
+          "all": "igneous_extras:blocks/white_dyed_smooth_andesite"
+        }
+      }
+    },
+    "inventory": [{
+    }]
+  }
+}
