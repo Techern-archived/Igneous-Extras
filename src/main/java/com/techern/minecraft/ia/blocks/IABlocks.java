@@ -40,6 +40,13 @@ public class IABlocks {
     public static BlockColored DYED_STONE = new BlockDyedStone();
 
     /**
+     * A {@link BlockColored} defining a {@link BlockDyedAndesite}
+     *
+     * @since 0.0.1
+     */
+    public static BlockColored DYED_ANDESITE = new BlockDyedAndesite();
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -48,6 +55,7 @@ public class IABlocks {
         GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone");
         GameRegistry.registerBlock(DYED_MOSSY_COBBLESTONE, ItemColoredBlock.class, "dyed_mossy_cobblestone");
         GameRegistry.registerBlock(DYED_STONE, ItemColoredBlock.class, "dyed_stone");
+        GameRegistry.registerBlock(DYED_ANDESITE, ItemColoredBlock.class, "dyed_andesite");
 
         //TODO: More here
 
@@ -64,6 +72,9 @@ public class IABlocks {
 
             //Then dyed stone
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_STONE), color.getMetadata(), "dyed_stone", "color=" + color.getName());
+
+            //Then dyed andesite
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_ANDESITE), color.getMetadata(), "dyed_andesite", "color=" + color.getName());
         }
 
     }
@@ -78,6 +89,7 @@ public class IABlocks {
         registerSingleDyeBlockRecipeCombination(Blocks.cobblestone, DYED_COBBLESTONE);
         registerSingleDyeBlockRecipeCombination(Blocks.mossy_cobblestone, DYED_MOSSY_COBBLESTONE);
         registerSingleDyeBlockRecipeCombination(Blocks.stone, 0, DYED_STONE);
+        registerSingleDyeBlockRecipeCombination(Blocks.stone, 5, DYED_ANDESITE);
 
         //TODO: Add recipes for items second
 

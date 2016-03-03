@@ -53,3 +53,22 @@ tile.dyed_stone.lightBlue.name=Light Blue Dyed Stone
 tile.dyed_stone.pink.name=Pink Dyed Stone
 tile.dyed_stone.yellow.name=Yellow Dyed Stone
 tile.dyed_stone.white.name=White Dyed Stone
+
+
+#Then dyed andesite
+tile.dyed_andesite.lime.name=Lime Dyed Andesite
+tile.dyed_andesite.purple.name=Purple Dyed Andesite
+tile.dyed_andesite.red.name=Red Dyed Andesite
+tile.dyed_andesite.orange.name=Orange Dyed Andesite
+tile.dyed_andesite.brown.name=Brown Dyed Andesite
+tile.dyed_andesite.black.name=Black Dyed Andesite
+tile.dyed_andesite.gray.name=Gray Dyed Andesite
+tile.dyed_andesite.green.name=Green Dyed Andesite
+tile.dyed_andesite.magenta.name=Magenta Dyed Andesite
+tile.dyed_andesite.silver.name=Silver Dyed Andesite
+tile.dyed_andesite.blue.name=Blue Dyed Andesite
+tile.dyed_andesite.cyan.name=Cyan Dyed Andesite
+tile.dyed_andesite.lightBlue.name=Light Blue Dyed Andesite
+tile.dyed_andesite.pink.name=Pink Dyed Andesite
+tile.dyed_andesite.yellow.name=Yellow Dyed Andesite
+tile.dyed_andesite.white.name=White Dyed Andesite
