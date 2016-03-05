@@ -55,6 +55,44 @@ tile.dyed_stone.yellow.name=Yellow Dyed Stone
 tile.dyed_stone.white.name=White Dyed Stone
 
 
+#Then dyed diorite
+tile.dyed_diorite.lime.name=Lime Dyed Diorite
+tile.dyed_diorite.purple.name=Purple Dyed Diorite
+tile.dyed_diorite.red.name=Red Dyed Diorite
+tile.dyed_diorite.orange.name=Orange Dyed Diorite
+tile.dyed_diorite.brown.name=Brown Dyed Diorite
+tile.dyed_diorite.black.name=Black Dyed Diorite
+tile.dyed_diorite.gray.name=Gray Dyed Diorite
+tile.dyed_diorite.green.name=Green Dyed Diorite
+tile.dyed_diorite.magenta.name=Magenta Dyed Diorite
+tile.dyed_diorite.silver.name=Silver Dyed Diorite
+tile.dyed_diorite.blue.name=Blue Dyed Diorite
+tile.dyed_diorite.cyan.name=Cyan Dyed Diorite
+tile.dyed_diorite.lightBlue.name=Light Blue Dyed Diorite
+tile.dyed_diorite.pink.name=Pink Dyed Diorite
+tile.dyed_diorite.yellow.name=Yellow Dyed Diorite
+tile.dyed_diorite.white.name=White Dyed Diorite
+
+
+#Then dyed smooth diorite
+tile.dyed_smooth_diorite.lime.name=Lime Dyed Smooth Diorite
+tile.dyed_smooth_diorite.purple.name=Purple Dyed Smooth Diorite
+tile.dyed_smooth_diorite.red.name=Red Dyed Smooth Diorite
+tile.dyed_smooth_diorite.orange.name=Orange Dyed Smooth Diorite
+tile.dyed_smooth_diorite.brown.name=Brown Dyed Smooth Diorite
+tile.dyed_smooth_diorite.black.name=Black Dyed Smooth Diorite
+tile.dyed_smooth_diorite.gray.name=Gray Dyed Smooth Diorite
+tile.dyed_smooth_diorite.green.name=Green Dyed Smooth Diorite
+tile.dyed_smooth_diorite.magenta.name=Magenta Dyed Smooth Diorite
+tile.dyed_smooth_diorite.silver.name=Silver Dyed Smooth Diorite
+tile.dyed_smooth_diorite.blue.name=Blue Dyed Smooth Diorite
+tile.dyed_smooth_diorite.cyan.name=Cyan Dyed Smooth Diorite
+tile.dyed_smooth_diorite.lightBlue.name=Light Blue Dyed Smooth Diorite
+tile.dyed_smooth_diorite.pink.name=Pink Dyed Smooth Diorite
+tile.dyed_smooth_diorite.yellow.name=Yellow Dyed Smooth Diorite
+tile.dyed_smooth_diorite.white.name=White Dyed Smooth Diorite
+
+
 #Then dyed andesite
 tile.dyed_andesite.lime.name=Lime Dyed Andesite
 tile.dyed_andesite.purple.name=Purple Dyed Andesite
