@@ -55,6 +55,44 @@ tile.dyed_stone.yellow.name=Yellow Dyed Stone
 tile.dyed_stone.white.name=White Dyed Stone
 
 
+#Then dyed granite
+tile.dyed_granite.lime.name=Lime Dyed Granite
+tile.dyed_granite.purple.name=Purple Dyed Granite
+tile.dyed_granite.red.name=Red Dyed Granite
+tile.dyed_granite.orange.name=Orange Dyed Granite
+tile.dyed_granite.brown.name=Brown Dyed Granite
+tile.dyed_granite.black.name=Black Dyed Granite
+tile.dyed_granite.gray.name=Gray Dyed Granite
+tile.dyed_granite.green.name=Green Dyed Granite
+tile.dyed_granite.magenta.name=Magenta Dyed Granite
+tile.dyed_granite.silver.name=Silver Dyed Granite
+tile.dyed_granite.blue.name=Blue Dyed Granite
+tile.dyed_granite.cyan.name=Cyan Dyed Granite
+tile.dyed_granite.lightBlue.name=Light Blue Dyed Granite
+tile.dyed_granite.pink.name=Pink Dyed Granite
+tile.dyed_granite.yellow.name=Yellow Dyed Granite
+tile.dyed_granite.white.name=White Dyed Granite
+
+
+#Then dyed smooth granite
+tile.dyed_smooth_granite.lime.name=Lime Dyed Smooth Granite
+tile.dyed_smooth_granite.purple.name=Purple Dyed Smooth Granite
+tile.dyed_smooth_granite.red.name=Red Dyed Smooth Granite
+tile.dyed_smooth_granite.orange.name=Orange Dyed Smooth Granite
+tile.dyed_smooth_granite.brown.name=Brown Dyed Smooth Granite
+tile.dyed_smooth_granite.black.name=Black Dyed Smooth Granite
+tile.dyed_smooth_granite.gray.name=Gray Dyed Smooth Granite
+tile.dyed_smooth_granite.green.name=Green Dyed Smooth Granite
+tile.dyed_smooth_granite.magenta.name=Magenta Dyed Smooth Granite
+tile.dyed_smooth_granite.silver.name=Silver Dyed Smooth Granite
+tile.dyed_smooth_granite.blue.name=Blue Dyed Smooth Granite
+tile.dyed_smooth_granite.cyan.name=Cyan Dyed Smooth Granite
+tile.dyed_smooth_granite.lightBlue.name=Light Blue Dyed Smooth Granite
+tile.dyed_smooth_granite.pink.name=Pink Dyed Smooth Granite
+tile.dyed_smooth_granite.yellow.name=Yellow Dyed Smooth Granite
+tile.dyed_smooth_granite.white.name=White Dyed Smooth Granite
+
+
 #Then dyed diorite
 tile.dyed_diorite.lime.name=Lime Dyed Diorite
 tile.dyed_diorite.purple.name=Purple Dyed Diorite

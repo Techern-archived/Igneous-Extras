@@ -1,0 +1,96 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "blocks/stone_granite"
+    },
+    "model": "cube_all",
+    "uvlock": true
+  },
+  "variants": {
+    "color": {
+      "lime": {
+        "textures": {
+          "all": "igneous_extras:blocks/lime_dyed_granite"
+        }
+      },
+      "red": {
+        "textures": {
+          "all": "igneous_extras:blocks/red_dyed_granite"
+        }
+      },
+      "purple": {
+        "textures": {
+          "all": "igneous_extras:blocks/purple_dyed_granite"
+        }
+      },
+      "orange": {
+        "textures": {
+          "all": "igneous_extras:blocks/orange_dyed_granite"
+        }
+      },
+      "brown": {
+        "textures": {
+          "all": "igneous_extras:blocks/brown_dyed_granite"
+        }
+      },
+      "black": {
+        "textures": {
+          "all": "igneous_extras:blocks/black_dyed_granite"
+        }
+      },
+      "gray": {
+        "textures": {
+          "all": "igneous_extras:blocks/gray_dyed_granite"
+        }
+      },
+      "green": {
+        "textures": {
+          "all": "igneous_extras:blocks/green_dyed_granite"
+        }
+      },
+      "magenta": {
+        "textures": {
+          "all": "igneous_extras:blocks/magenta_dyed_granite"
+        }
+      },
+      "silver": {
+        "textures": {
+          "all": "igneous_extras:blocks/silver_dyed_granite"
+        }
+      },
+      "blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/blue_dyed_granite"
+        }
+      },
+      "light_blue": {
+        "textures": {
+          "all": "igneous_extras:blocks/light_blue_dyed_granite"
+        }
+      },
+      "cyan": {
+        "textures": {
+          "all": "igneous_extras:blocks/cyan_dyed_granite"
+        }
+      },
+      "pink": {
+        "textures": {
+          "all": "igneous_extras:blocks/pink_dyed_granite"
+        }
+      },
+      "yellow": {
+        "textures": {
+          "all": "igneous_extras:blocks/yellow_dyed_granite"
+        }
+      },
+      "white": {
+        "textures": {
+          "all": "igneous_extras:blocks/white_dyed_granite"
+        }
+      }
+    },
+    "inventory": [{
+    }]
+  }
+}

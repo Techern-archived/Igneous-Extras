@@ -40,6 +40,20 @@ public class IABlocks {
     public static BlockColored DYED_STONE = new BlockDyedStone();
 
     /**
+     * A {@link BlockColored} defining a {@link BlockDyedGranite}
+     *
+     * @since 0.0.1
+     */
+    public static BlockColored DYED_GRANITE = new BlockDyedGranite();
+
+    /**
+     * A {@link BlockColored} defining a {@link BlockDyedSmoothGranite}
+     *
+     * @since 0.0.1
+     */
+    public static BlockColored DYED_SMOOTH_GRANITE = new BlockDyedSmoothGranite();
+
+    /**
      * A {@link BlockColored} defining a {@link BlockDyedDiorite}
      *
      * @since 0.0.1
@@ -76,6 +90,8 @@ public class IABlocks {
         GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone");
         GameRegistry.registerBlock(DYED_MOSSY_COBBLESTONE, ItemColoredBlock.class, "dyed_mossy_cobblestone");
         GameRegistry.registerBlock(DYED_STONE, ItemColoredBlock.class, "dyed_stone");
+        GameRegistry.registerBlock(DYED_GRANITE, ItemColoredBlock.class, "dyed_granite");
+        GameRegistry.registerBlock(DYED_SMOOTH_GRANITE, ItemColoredBlock.class, "dyed_smooth_granite");
         GameRegistry.registerBlock(DYED_DIORITE, ItemColoredBlock.class, "dyed_diorite");
         GameRegistry.registerBlock(DYED_SMOOTH_DIORITE, ItemColoredBlock.class, "dyed_smooth_diorite");
         GameRegistry.registerBlock(DYED_ANDESITE, ItemColoredBlock.class, "dyed_andesite");
@@ -96,6 +112,10 @@ public class IABlocks {
 
             //Then dyed stone
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_STONE), color.getMetadata(), "dyed_stone", "color=" + color.getName());
+
+            //Then dyed granite
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_GRANITE), color.getMetadata(), "dyed_granite", "color=" + color.getName());
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_SMOOTH_GRANITE), color.getMetadata(), "dyed_smooth_granite", "color=" + color.getName());
 
             //Then dyed diorite
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_DIORITE), color.getMetadata(), "dyed_diorite", "color=" + color.getName());
@@ -119,6 +139,8 @@ public class IABlocks {
         registerSingleDyeBlockRecipeCombination(Blocks.cobblestone, DYED_COBBLESTONE);
         registerSingleDyeBlockRecipeCombination(Blocks.mossy_cobblestone, DYED_MOSSY_COBBLESTONE);
         registerSingleDyeBlockRecipeCombination(Blocks.stone, 0, DYED_STONE);
+        registerSingleDyeBlockRecipeCombination(Blocks.stone, 1, DYED_GRANITE);
+        registerSingleDyeBlockRecipeCombination(Blocks.stone, 2, DYED_SMOOTH_GRANITE);
         registerSingleDyeBlockRecipeCombination(Blocks.stone, 3, DYED_DIORITE);
         registerSingleDyeBlockRecipeCombination(Blocks.stone, 4, DYED_SMOOTH_DIORITE);
         registerSingleDyeBlockRecipeCombination(Blocks.stone, 5, DYED_ANDESITE);
