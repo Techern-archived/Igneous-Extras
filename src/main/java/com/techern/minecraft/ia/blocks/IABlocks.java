@@ -26,60 +26,60 @@ public class IABlocks {
     public static BlockColored DYED_COBBLESTONE = new BlockDyedCobblestone();
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedMossyCobblestone}
+     * A {@link BlockColored} defining a mossy cobblestone {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_MOSSY_COBBLESTONE = new BlockDyedMossyCobblestone();
+    public static BlockColored DYED_MOSSY_COBBLESTONE = new BlockDyedStone("dyed_mossy_cobblestone");
 
     /**
      * A {@link BlockColored} defining a {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_STONE = new BlockDyedStone();
+    public static BlockColored DYED_STONE = new BlockDyedStone("dyed_stone");
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedGranite}
+     * A {@link BlockColored} defining a granite {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_GRANITE = new BlockDyedGranite();
+    public static BlockColored DYED_GRANITE = new BlockDyedStone("dyed_granite");
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedSmoothGranite}
+     * A {@link BlockColored} defining a smooth granite {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_SMOOTH_GRANITE = new BlockDyedSmoothGranite();
+    public static BlockColored DYED_SMOOTH_GRANITE = new BlockDyedStone("dyed_smooth_granite");
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedDiorite}
+     * A {@link BlockColored} defining a diorite {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_DIORITE = new BlockDyedDiorite();
+    public static BlockColored DYED_DIORITE = new BlockDyedStone("dyed_diorite");
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedSmoothDiorite}
+     * A {@link BlockColored} defining a smooth diorite {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_SMOOTH_DIORITE = new BlockDyedSmoothDiorite();
+    public static BlockColored DYED_SMOOTH_DIORITE = new BlockDyedStone("dyed_smooth_diorite");
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedAndesite}
+     * A {@link BlockColored} defining an andesite {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_ANDESITE = new BlockDyedAndesite();
+    public static BlockColored DYED_ANDESITE = new BlockDyedStone("dyed_andesite");
 
     /**
-     * A {@link BlockColored} defining a {@link BlockDyedSmoothAndesite}
+     * A {@link BlockColored} defining a smooth andesite {@link BlockDyedStone}
      *
      * @since 0.0.1
      */
-    public static BlockColored DYED_SMOOTH_ANDESITE = new BlockDyedSmoothAndesite();
+    public static BlockColored DYED_SMOOTH_ANDESITE = new BlockDyedStone("dyed_smooth_andesite");
 
     /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
