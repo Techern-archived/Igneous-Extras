@@ -5,7 +5,8 @@
       "all": "blocks/cobblestone_mossy"
     },
     "model": "cube_all",
-    "uvlock": true
+    "uvlock": true,
+    "transform": "forge:default-block"
   },
   "variants": {
     "color": {

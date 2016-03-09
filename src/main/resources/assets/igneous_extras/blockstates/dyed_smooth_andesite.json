@@ -5,7 +5,8 @@
       "all": "blocks/stone_andesite_smooth"
     },
     "model": "cube_all",
-    "uvlock": true
+    "uvlock": true,
+    "transform": "forge:default-block"
   },
   "variants": {
     "color": {
