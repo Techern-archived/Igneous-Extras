@@ -1,9 +1,12 @@
 package com.techern.minecraft.ia.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
+import com.techern.minecraft.ia.blocks.stairs.BaseBlockStairs;
 import com.techern.minecraft.ia.items.ItemColoredBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
+import net.minecraft.block.BlockStairs;
+import net.minecraft.block.BlockStone;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumDyeColor;
@@ -82,6 +85,13 @@ public class IABlocks {
     public static BlockColored DYED_SMOOTH_ANDESITE = new BlockDyedStone("dyed_smooth_andesite");
 
     /**
+     * A {@link BlockStairs} defining stone stairs
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs STONE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.STONE), "stone_stairs");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -99,6 +109,12 @@ public class IABlocks {
             GameRegistry.registerBlock(DYED_SMOOTH_DIORITE, ItemColoredBlock.class, "dyed_smooth_diorite");
             GameRegistry.registerBlock(DYED_ANDESITE, ItemColoredBlock.class, "dyed_andesite");
             GameRegistry.registerBlock(DYED_SMOOTH_ANDESITE, ItemColoredBlock.class, "dyed_smooth_andesite");
+        }
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
+
+            GameRegistry.registerBlock(STONE_STAIRS, "stone_stairs");
+
         }
 
         //TODO: More here
@@ -133,6 +149,11 @@ public class IABlocks {
             }
         }
 
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
+
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_STAIRS), 0, "stone_stairs", "inventory");
+
+        }
     }
 
     /**

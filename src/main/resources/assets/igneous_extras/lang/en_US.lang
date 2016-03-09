@@ -167,3 +167,6 @@ tile.dyed_smooth_andesite.lightBlue.name=Light Blue Dyed Smooth Andesite
 tile.dyed_smooth_andesite.pink.name=Pink Dyed Smooth Andesite
 tile.dyed_smooth_andesite.yellow.name=Yellow Dyed Smooth Andesite
 tile.dyed_smooth_andesite.white.name=White Dyed Smooth Andesite
+
+#Then stairs
+tile.stone_stairs.name=Stone Stairs
