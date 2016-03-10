@@ -75,22 +75,22 @@ tile.dyed_granite.white.name=White Dyed Granite
 
 
 #Then dyed smooth granite
-tile.dyed_smooth_granite.lime.name=Lime Dyed Smooth Granite
-tile.dyed_smooth_granite.purple.name=Purple Dyed Smooth Granite
-tile.dyed_smooth_granite.red.name=Red Dyed Smooth Granite
-tile.dyed_smooth_granite.orange.name=Orange Dyed Smooth Granite
-tile.dyed_smooth_granite.brown.name=Brown Dyed Smooth Granite
-tile.dyed_smooth_granite.black.name=Black Dyed Smooth Granite
-tile.dyed_smooth_granite.gray.name=Gray Dyed Smooth Granite
-tile.dyed_smooth_granite.green.name=Green Dyed Smooth Granite
-tile.dyed_smooth_granite.magenta.name=Magenta Dyed Smooth Granite
-tile.dyed_smooth_granite.silver.name=Silver Dyed Smooth Granite
-tile.dyed_smooth_granite.blue.name=Blue Dyed Smooth Granite
-tile.dyed_smooth_granite.cyan.name=Cyan Dyed Smooth Granite
-tile.dyed_smooth_granite.lightBlue.name=Light Blue Dyed Smooth Granite
-tile.dyed_smooth_granite.pink.name=Pink Dyed Smooth Granite
-tile.dyed_smooth_granite.yellow.name=Yellow Dyed Smooth Granite
-tile.dyed_smooth_granite.white.name=White Dyed Smooth Granite
+tile.dyed_smooth_granite.lime.name=Lime Dyed Polished Granite
+tile.dyed_smooth_granite.purple.name=Purple Dyed Polished Granite
+tile.dyed_smooth_granite.red.name=Red Dyed Polished Granite
+tile.dyed_smooth_granite.orange.name=Orange Dyed Polished Granite
+tile.dyed_smooth_granite.brown.name=Brown Dyed Polished Granite
+tile.dyed_smooth_granite.black.name=Black Dyed Polished Granite
+tile.dyed_smooth_granite.gray.name=Gray Dyed Polished Granite
+tile.dyed_smooth_granite.green.name=Green Dyed Polished Granite
+tile.dyed_smooth_granite.magenta.name=Magenta Dyed Polished Granite
+tile.dyed_smooth_granite.silver.name=Silver Dyed Polished Granite
+tile.dyed_smooth_granite.blue.name=Blue Dyed Polished Granite
+tile.dyed_smooth_granite.cyan.name=Cyan Dyed Polished Granite
+tile.dyed_smooth_granite.lightBlue.name=Light Blue Dyed Polished Granite
+tile.dyed_smooth_granite.pink.name=Pink Dyed Polished Granite
+tile.dyed_smooth_granite.yellow.name=Yellow Dyed Polished Granite
+tile.dyed_smooth_granite.white.name=White Dyed Polished Granite
 
 
 #Then dyed diorite
@@ -113,22 +113,22 @@ tile.dyed_diorite.white.name=White Dyed Diorite
 
 
 #Then dyed smooth diorite
-tile.dyed_smooth_diorite.lime.name=Lime Dyed Smooth Diorite
-tile.dyed_smooth_diorite.purple.name=Purple Dyed Smooth Diorite
-tile.dyed_smooth_diorite.red.name=Red Dyed Smooth Diorite
-tile.dyed_smooth_diorite.orange.name=Orange Dyed Smooth Diorite
-tile.dyed_smooth_diorite.brown.name=Brown Dyed Smooth Diorite
-tile.dyed_smooth_diorite.black.name=Black Dyed Smooth Diorite
-tile.dyed_smooth_diorite.gray.name=Gray Dyed Smooth Diorite
-tile.dyed_smooth_diorite.green.name=Green Dyed Smooth Diorite
-tile.dyed_smooth_diorite.magenta.name=Magenta Dyed Smooth Diorite
-tile.dyed_smooth_diorite.silver.name=Silver Dyed Smooth Diorite
-tile.dyed_smooth_diorite.blue.name=Blue Dyed Smooth Diorite
-tile.dyed_smooth_diorite.cyan.name=Cyan Dyed Smooth Diorite
-tile.dyed_smooth_diorite.lightBlue.name=Light Blue Dyed Smooth Diorite
-tile.dyed_smooth_diorite.pink.name=Pink Dyed Smooth Diorite
-tile.dyed_smooth_diorite.yellow.name=Yellow Dyed Smooth Diorite
-tile.dyed_smooth_diorite.white.name=White Dyed Smooth Diorite
+tile.dyed_smooth_diorite.lime.name=Lime Dyed Polished Diorite
+tile.dyed_smooth_diorite.purple.name=Purple Dyed Polished Diorite
+tile.dyed_smooth_diorite.red.name=Red Dyed Polished Diorite
+tile.dyed_smooth_diorite.orange.name=Orange Dyed Polished Diorite
+tile.dyed_smooth_diorite.brown.name=Brown Dyed Polished Diorite
+tile.dyed_smooth_diorite.black.name=Black Dyed Polished Diorite
+tile.dyed_smooth_diorite.gray.name=Gray Dyed Polished Diorite
+tile.dyed_smooth_diorite.green.name=Green Dyed Polished Diorite
+tile.dyed_smooth_diorite.magenta.name=Magenta Dyed Polished Diorite
+tile.dyed_smooth_diorite.silver.name=Silver Dyed Polished Diorite
+tile.dyed_smooth_diorite.blue.name=Blue Dyed Polished Diorite
+tile.dyed_smooth_diorite.cyan.name=Cyan Dyed Polished Diorite
+tile.dyed_smooth_diorite.lightBlue.name=Light Blue Dyed Polished Diorite
+tile.dyed_smooth_diorite.pink.name=Pink Dyed Polished Diorite
+tile.dyed_smooth_diorite.yellow.name=Yellow Dyed Polished Diorite
+tile.dyed_smooth_diorite.white.name=White Dyed Polished Diorite
 
 
 #Then dyed andesite
@@ -151,19 +151,19 @@ tile.dyed_andesite.white.name=White Dyed Andesite
 
 
 #Then dyed smooth andesite
-tile.dyed_smooth_andesite.lime.name=Lime Dyed Smooth Andesite
-tile.dyed_smooth_andesite.purple.name=Purple Dyed Smooth Andesite
-tile.dyed_smooth_andesite.red.name=Red Dyed Smooth Andesite
-tile.dyed_smooth_andesite.orange.name=Orange Dyed Smooth Andesite
-tile.dyed_smooth_andesite.brown.name=Brown Dyed Smooth Andesite
-tile.dyed_smooth_andesite.black.name=Black Dyed Smooth Andesite
-tile.dyed_smooth_andesite.gray.name=Gray Dyed Smooth Andesite
-tile.dyed_smooth_andesite.green.name=Green Dyed Smooth Andesite
-tile.dyed_smooth_andesite.magenta.name=Magenta Dyed Smooth Andesite
-tile.dyed_smooth_andesite.silver.name=Silver Dyed Smooth Andesite
-tile.dyed_smooth_andesite.blue.name=Blue Dyed Smooth Andesite
-tile.dyed_smooth_andesite.cyan.name=Cyan Dyed Smooth Andesite
-tile.dyed_smooth_andesite.lightBlue.name=Light Blue Dyed Smooth Andesite
-tile.dyed_smooth_andesite.pink.name=Pink Dyed Smooth Andesite
-tile.dyed_smooth_andesite.yellow.name=Yellow Dyed Smooth Andesite
-tile.dyed_smooth_andesite.white.name=White Dyed Smooth Andesite
+tile.dyed_smooth_andesite.lime.name=Lime Dyed Polished Andesite
+tile.dyed_smooth_andesite.purple.name=Purple Dyed Polished Andesite
+tile.dyed_smooth_andesite.red.name=Red Dyed Polished Andesite
+tile.dyed_smooth_andesite.orange.name=Orange Dyed Polished Andesite
+tile.dyed_smooth_andesite.brown.name=Brown Dyed Polished Andesite
+tile.dyed_smooth_andesite.black.name=Black Dyed Polished Andesite
+tile.dyed_smooth_andesite.gray.name=Gray Dyed Polished Andesite
+tile.dyed_smooth_andesite.green.name=Green Dyed Polished Andesite
+tile.dyed_smooth_andesite.magenta.name=Magenta Dyed Polished Andesite
+tile.dyed_smooth_andesite.silver.name=Silver Dyed Polished Andesite
+tile.dyed_smooth_andesite.blue.name=Blue Dyed Polished Andesite
+tile.dyed_smooth_andesite.cyan.name=Cyan Dyed Polished Andesite
+tile.dyed_smooth_andesite.lightBlue.name=Light Blue Dyed Polished Andesite
+tile.dyed_smooth_andesite.pink.name=Pink Dyed Polished Andesite
+tile.dyed_smooth_andesite.yellow.name=Yellow Dyed Polished Andesite
+tile.dyed_smooth_andesite.white.name=White Dyed Polished Andesite
