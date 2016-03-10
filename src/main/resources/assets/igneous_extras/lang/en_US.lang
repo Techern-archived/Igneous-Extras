@@ -170,3 +170,5 @@ tile.dyed_smooth_andesite.white.name=White Dyed Smooth Andesite
 
 #Then stairs
 tile.stone_stairs.name=Stone Stairs
+tile.granite_stairs.name=Granite Stairs
+tile.polished_granite_stairs.name=Polished Granite Stairs
