@@ -175,8 +175,39 @@ public class IABlocks {
             registerSingleDyeBlockRecipeCombination(Blocks.stone, 6, DYED_SMOOTH_ANDESITE);
         }
 
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
+            registerStairsRecipe(Blocks.stone, 0, STONE_STAIRS);
+        }
+
         //TODO: Add recipes for items second
 
+    }
+
+    /**
+     * Registers a {@link BlockStairs} recipe
+     *
+     * @param baseBlock The base block to be consumed
+     * @param stairBlock The stair block to be returned
+     * @since 0.0.1
+     */
+    public static void registerStairsRecipe(Block baseBlock, Block stairBlock) {
+        registerStairsRecipe(baseBlock, 0, stairBlock);
+    }
+
+    /**
+     * Registers a {@link BlockStairs} recipe
+     *
+     * @param baseBlock The base block to be consumed
+     * @param baseBlockMetadata The required metadata value of the base block
+     * @param stairBlock The stair block to be returned
+     * @since 0.0.1
+     */
+    public static void registerStairsRecipe(Block baseBlock, int baseBlockMetadata, Block stairBlock) {
+        ItemStack input = new ItemStack(baseBlock, 1, baseBlockMetadata);
+        ItemStack output = new ItemStack(stairBlock, 4, 0);
+
+        GameRegistry.addShapedRecipe(output, "  I", " II", "III", 'I', input);
+        GameRegistry.addShapedRecipe(output, "I  ", "II ", "III", 'I', input);
     }
 
     /**
