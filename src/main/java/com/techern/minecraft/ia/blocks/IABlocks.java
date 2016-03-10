@@ -106,6 +106,34 @@ public class IABlocks {
     public static BlockStairs POLISHED_GRANITE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.GRANITE_SMOOTH), "polished_granite_stairs");
 
     /**
+     * A {@link BlockStairs} defining diorite stairs
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs DIORITE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.DIORITE), "diorite_stairs");
+
+    /**
+     * A {@link BlockStairs} defining polished diorite stairs
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs POLISHED_DIORITE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.DIORITE_SMOOTH), "polished_diorite_stairs");
+
+    /**
+     * A {@link BlockStairs} defining andesite stairs
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs ANDESITE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.ANDESITE), "andesite_stairs");
+
+    /**
+     * A {@link BlockStairs} defining polished andesite stairs
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.ANDESITE_SMOOTH), "polished_andesite_stairs");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -130,6 +158,10 @@ public class IABlocks {
             GameRegistry.registerBlock(STONE_STAIRS, "stone_stairs");
             GameRegistry.registerBlock(GRANITE_STAIRS, "granite_stairs");
             GameRegistry.registerBlock(POLISHED_GRANITE_STAIRS, "polished_granite_stairs");
+            GameRegistry.registerBlock(DIORITE_STAIRS, "diorite_stairs");
+            GameRegistry.registerBlock(POLISHED_DIORITE_STAIRS, "polished_diorite_stairs");
+            GameRegistry.registerBlock(ANDESITE_STAIRS, "andesite_stairs");
+            GameRegistry.registerBlock(POLISHED_ANDESITE_STAIRS, "polished_andesite_stairs");
 
         }
 
@@ -170,6 +202,10 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_STAIRS), 0, "stone_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_STAIRS), 0, "granite_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_STAIRS), 0, "polished_granite_stairs", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DIORITE_STAIRS), 0, "diorite_stairs", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_DIORITE_STAIRS), 0, "polished_diorite_stairs", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ANDESITE_STAIRS), 0, "andesite_stairs", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_STAIRS), 0, "polished_andesite_stairs", "inventory");
 
         }
     }
@@ -197,6 +233,10 @@ public class IABlocks {
             registerStairsRecipe(Blocks.stone, 0, STONE_STAIRS);
             registerStairsRecipe(Blocks.stone, 1, GRANITE_STAIRS);
             registerStairsRecipe(Blocks.stone, 2, POLISHED_GRANITE_STAIRS);
+            registerStairsRecipe(Blocks.stone, 3, DIORITE_STAIRS);
+            registerStairsRecipe(Blocks.stone, 4, POLISHED_DIORITE_STAIRS);
+            registerStairsRecipe(Blocks.stone, 5, ANDESITE_STAIRS);
+            registerStairsRecipe(Blocks.stone, 6, POLISHED_ANDESITE_STAIRS);
         }
 
         //TODO: Add recipes for items second
