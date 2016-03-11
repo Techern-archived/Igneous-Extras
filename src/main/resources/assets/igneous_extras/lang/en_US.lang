@@ -177,3 +177,21 @@ tile.diorite_stairs.name=Diorite Stairs
 tile.polished_diorite_stairs.name=Polished Diorite Stairs
 tile.andesite_stairs.name=Andesite Stairs
 tile.polished_andesite_stairs.name=Polished Andesite Stairs
+
+#Now dyed cobblestone stairs
+tile.lime_dyed_cobblestone_stairs.name=Lime Dyed Cobblestone Stairs
+tile.purple_dyed_cobblestone_stairs.name=Purple Dyed Cobblestone Stairs
+tile.red_dyed_cobblestone_stairs.name=Red Dyed Cobblestone Stairs
+tile.orange_dyed_cobblestone_stairs.name=Orange Dyed Cobblestone Stairs
+tile.brown_dyed_cobblestone_stairs.name=Brown Dyed Cobblestone Stairs
+tile.black_dyed_cobblestone_stairs.name=Black Dyed Cobblestone Stairs
+tile.gray_dyed_cobblestone_stairs.name=Gray Dyed Cobblestone Stairs
+tile.green_dyed_cobblestone_stairs.name=Green Dyed Cobblestone Stairs
+tile.magenta_dyed_cobblestone_stairs.name=Magenta Dyed Cobblestone Stairs
+tile.silver_dyed_cobblestone_stairs.name=Silver Dyed Cobblestone Stairs
+tile.blue_dyed_cobblestone_stairs.name=Blue Dyed Cobblestone Stairs
+tile.cyan_dyed_cobblestone_stairs.name=Cyan Dyed Cobblestone Stairs
+tile.light_blue_dyed_cobblestone_stairs.name=Light Blue Dyed Cobblestone Stairs
+tile.pink_dyed_cobblestone_stairs.name=Pink Dyed Cobblestone Stairs
+tile.yellow_dyed_cobblestone_stairs.name=Yellow Dyed Cobblestone Stairs
+tile.white_dyed_cobblestone_stairs.name=White Dyed Cobblestone Stairs

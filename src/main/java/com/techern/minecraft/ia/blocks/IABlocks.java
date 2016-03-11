@@ -141,6 +141,118 @@ public class IABlocks {
     public static BlockStairs POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.ANDESITE_SMOOTH), "polished_andesite_stairs");
 
     /**
+     * Lime coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs LIME_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIME), "lime_dyed_cobblestone_stairs");
+
+    /**
+     * Black coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs BLACK_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLACK), "black_dyed_cobblestone_stairs");
+
+    /**
+     * Blue coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs BLUE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLUE), "blue_dyed_cobblestone_stairs");
+
+    /**
+     * Brown coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs BROWN_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BROWN), "brown_dyed_cobblestone_stairs");
+
+    /**
+     * Cyan coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs CYAN_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_cobblestone_stairs");
+
+    /**
+     * Gray coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs GRAY_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GRAY), "gray_dyed_cobblestone_stairs");
+
+    /**
+     * Green coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs GREEN_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GREEN), "green_dyed_cobblestone_stairs");
+
+    /**
+     * Light blue coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs LIGHT_BLUE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_cobblestone_stairs");
+
+    /**
+     * Magenta coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs MAGENTA_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_cobblestone_stairs");
+
+    /**
+     * Orange coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs ORANGE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_cobblestone_stairs");
+
+    /**
+     * Pink coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs PINK_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PINK), "pink_dyed_cobblestone_stairs");
+
+    /**
+     * Purple coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs PURPLE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_cobblestone_stairs");
+
+    /**
+     * Red coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs RED_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.RED), "red_dyed_cobblestone_stairs");
+
+    /**
+     * Silver coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs SILVER_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.SILVER), "silver_dyed_cobblestone_stairs");
+
+    /**
+     * White coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs WHITE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.WHITE), "white_dyed_cobblestone_stairs");
+
+    /**
+     * Yellow coloured {@link BlockStairs}
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs YELLOW_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_cobblestone_stairs");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -170,6 +282,28 @@ public class IABlocks {
             GameRegistry.registerBlock(POLISHED_DIORITE_STAIRS, "polished_diorite_stairs");
             GameRegistry.registerBlock(ANDESITE_STAIRS, "andesite_stairs");
             GameRegistry.registerBlock(POLISHED_ANDESITE_STAIRS, "polished_andesite_stairs");
+
+            //Okay, dyed blocks now!
+            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
+
+                GameRegistry.registerBlock(WHITE_DYED_COBBLESTONE_STAIRS, "white_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(BLACK_DYED_COBBLESTONE_STAIRS, "black_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(RED_DYED_COBBLESTONE_STAIRS, "red_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(PINK_DYED_COBBLESTONE_STAIRS, "pink_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(MAGENTA_DYED_COBBLESTONE_STAIRS, "magenta_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(CYAN_DYED_COBBLESTONE_STAIRS, "cyan_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(BLUE_DYED_COBBLESTONE_STAIRS, "blue_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(LIGHT_BLUE_DYED_COBBLESTONE_STAIRS, "light_blue_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(GREEN_DYED_COBBLESTONE_STAIRS, "green_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(LIME_DYED_COBBLESTONE_STAIRS, "lime_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(GRAY_DYED_COBBLESTONE_STAIRS, "gray_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(SILVER_DYED_COBBLESTONE_STAIRS, "silver_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(YELLOW_DYED_COBBLESTONE_STAIRS, "yellow_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(ORANGE_DYED_COBBLESTONE_STAIRS, "orange_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(PURPLE_DYED_COBBLESTONE_STAIRS, "purple_dyed_cobblestone_stairs");
+                GameRegistry.registerBlock(BROWN_DYED_COBBLESTONE_STAIRS, "brown_dyed_cobblestone_stairs");
+
+            }
 
         }
 
@@ -216,6 +350,28 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ANDESITE_STAIRS), 0, "andesite_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_STAIRS), 0, "polished_andesite_stairs", "inventory");
 
+            //Now begin the dyed versions
+            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
+                
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_COBBLESTONE_STAIRS), 0, "white_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_COBBLESTONE_STAIRS), 0, "black_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_COBBLESTONE_STAIRS), 0, "red_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_COBBLESTONE_STAIRS), 0, "pink_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_COBBLESTONE_STAIRS), 0, "magenta_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_COBBLESTONE_STAIRS), 0, "cyan_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_COBBLESTONE_STAIRS), 0, "blue_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_COBBLESTONE_STAIRS), 0, "light_blue_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_COBBLESTONE_STAIRS), 0, "green_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_COBBLESTONE_STAIRS), 0, "lime_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_COBBLESTONE_STAIRS), 0, "gray_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_COBBLESTONE_STAIRS), 0, "silver_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_COBBLESTONE_STAIRS), 0, "yellow_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_COBBLESTONE_STAIRS), 0, "orange_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_COBBLESTONE_STAIRS), 0, "purple_dyed_cobblestone_stairs", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_COBBLESTONE_STAIRS), 0, "brown_dyed_cobblestone_stairs", "inventory");
+
+            }
+
         }
     }
 
@@ -247,6 +403,28 @@ public class IABlocks {
             registerStairsRecipe(Blocks.stone, 4, POLISHED_DIORITE_STAIRS);
             registerStairsRecipe(Blocks.stone, 5, ANDESITE_STAIRS);
             registerStairsRecipe(Blocks.stone, 6, POLISHED_ANDESITE_STAIRS);
+
+            //Now dyed variants
+            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
+                
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.RED.getMetadata(), RED_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_COBBLESTONE_STAIRS);
+                registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_COBBLESTONE_STAIRS);
+
+            }
         }
 
         //TODO: Add recipes for items second
