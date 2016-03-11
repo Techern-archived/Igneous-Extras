@@ -92,6 +92,13 @@ public class IABlocks {
     public static BlockStairs STONE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.STONE), "stone_stairs");
 
     /**
+     * A {@link BlockStairs} defining mossy cobblestonje stairs
+     *
+     * @since 0.0.1
+     */
+    public static BlockStairs MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(Blocks.mossy_cobblestone.getDefaultState(), "mossy_cobblestone_stairs");
+
+    /**
      * A {@link BlockStairs} defining granite stairs
      *
      * @since 0.0.1
@@ -156,6 +163,7 @@ public class IABlocks {
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
 
             GameRegistry.registerBlock(STONE_STAIRS, "stone_stairs");
+            GameRegistry.registerBlock(MOSSY_COBBLESTONE_STAIRS, "mossy_cobblestone_stairs");
             GameRegistry.registerBlock(GRANITE_STAIRS, "granite_stairs");
             GameRegistry.registerBlock(POLISHED_GRANITE_STAIRS, "polished_granite_stairs");
             GameRegistry.registerBlock(DIORITE_STAIRS, "diorite_stairs");
@@ -200,6 +208,7 @@ public class IABlocks {
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
 
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_STAIRS), 0, "stone_stairs", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_COBBLESTONE_STAIRS), 0, "mossy_cobblestone_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_STAIRS), 0, "granite_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_STAIRS), 0, "polished_granite_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DIORITE_STAIRS), 0, "diorite_stairs", "inventory");
@@ -231,6 +240,7 @@ public class IABlocks {
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
             registerStairsRecipe(Blocks.stone, 0, STONE_STAIRS);
+            registerStairsRecipe(Blocks.mossy_cobblestone, 0, MOSSY_COBBLESTONE_STAIRS);
             registerStairsRecipe(Blocks.stone, 1, GRANITE_STAIRS);
             registerStairsRecipe(Blocks.stone, 2, POLISHED_GRANITE_STAIRS);
             registerStairsRecipe(Blocks.stone, 3, DIORITE_STAIRS);
