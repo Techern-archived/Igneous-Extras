@@ -1,1 +1,169 @@
+#Language file for Dutch (Netherlands)
 
+#Start off with dyed cobblestone blocks
+tile.dyed_cobblestone.lime.name=Lichtgroen Geverfd Keisteen
+tile.dyed_cobblestone.purple.name=Paars Geverfd Keisteen
+tile.dyed_cobblestone.red.name=Rood Geverfd Keisteen
+tile.dyed_cobblestone.orange.name=Oranje Geverfd Keisteen
+tile.dyed_cobblestone.brown.name=Buin Geverfd Keisteen
+tile.dyed_cobblestone.black.name=Zwart Geverfd Keisteen
+tile.dyed_cobblestone.gray.name=Grijs Geverfd Keisteen
+tile.dyed_cobblestone.green.name=Groen Geverfd Keisteen
+tile.dyed_cobblestone.magenta.name=Magenta Geverfd Keisteen
+tile.dyed_cobblestone.silver.name=Zilver Geverfd Keisteen
+tile.dyed_cobblestone.blue.name=Blauw Geverfd Keisteen
+tile.dyed_cobblestone.cyan.name=Cyaan Geverfd Keisteen
+tile.dyed_cobblestone.lightBlauw.name=Licht Blauw Geverfd Keisteen
+tile.dyed_cobblestone.pink.name=Roze Geverfd Keisteen
+tile.dyed_cobblestone.yellow.name=Geel Geverfd Keisteen
+tile.dyed_cobblestone.white.name=Wit Geverfd Keisteen
+
+#Then dyed mossy cobblestone
+tile.dyed_mossy_cobblestone.lime.name=Lichtgroen Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.purple.name=Paars Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.red.name=Rood Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.orange.name=Oranje Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.brown.name=Buin Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.black.name=Zwart Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.gray.name=Grijs Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.green.name=Groen Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.magenta.name=Magenta Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.silver.name=Zilver Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.blue.name=Blauw Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.cyan.name=Cyaan Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.lightBlauw.name=Licht Blauw Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.pink.name=Roze Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.yellow.name=Geel Geverfd Mossig Keisteen
+tile.dyed_mossy_cobblestone.white.name=Wit Geverfd Mossig Keisteen
+
+#Then dyed stone
+tile.dyed_stone.lime.name=Lichtgroen Geverfde Steen
+tile.dyed_stone.purple.name=Paars Geverfde Steen
+tile.dyed_stone.red.name=Rood Geverfde Steen
+tile.dyed_stone.orange.name=Oranje Geverfde Steen
+tile.dyed_stone.brown.name=Buin Geverfde Steen
+tile.dyed_stone.black.name=Zwart Geverfde Steen
+tile.dyed_stone.gray.name=Grijs Geverfde Steen
+tile.dyed_stone.green.name=Groen Geverfde Steen
+tile.dyed_stone.magenta.name=Magenta Geverfde Steen
+tile.dyed_stone.silver.name=Zilver Geverfde Steen
+tile.dyed_stone.blue.name=Blauw Geverfde Steen
+tile.dyed_stone.cyan.name=Cyaan Geverfde Steen
+tile.dyed_stone.lightBlauw.name=Licht Blauw Geverfde Steen
+tile.dyed_stone.pink.name=Roze Geverfde Steen
+tile.dyed_stone.yellow.name=Geel Geverfde Steen
+tile.dyed_stone.white.name=Wit Geverfde Steen
+
+
+#Then dyed granite
+tile.dyed_granite.lime.name=Lichtgroen Geverfd Graniet
+tile.dyed_granite.purple.name=Paars Geverfd Graniet
+tile.dyed_granite.red.name=Rood Geverfd Graniet
+tile.dyed_granite.orange.name=Oranje Geverfd Graniet
+tile.dyed_granite.brown.name=Buin Geverfd Graniet
+tile.dyed_granite.black.name=Zwart Geverfd Graniet
+tile.dyed_granite.gray.name=Grijs Geverfd Graniet
+tile.dyed_granite.green.name=Groen Geverfd Graniet
+tile.dyed_granite.magenta.name=Magenta Geverfd Graniet
+tile.dyed_granite.silver.name=Zilver Geverfd Graniet
+tile.dyed_granite.blue.name=Blauw Geverfd Graniet
+tile.dyed_granite.cyan.name=Cyaan Geverfd Graniet
+tile.dyed_granite.lightBlauw.name=Licht Blauw Geverfd Graniet
+tile.dyed_granite.pink.name=Roze Geverfd Graniet
+tile.dyed_granite.yellow.name=Geel Geverfd Graniet
+tile.dyed_granite.white.name=Wit Geverfd Graniet
+
+
+#Then dyed smooth granite
+tile.dyed_smooth_granite.lime.name=Lichtgroen Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.purple.name=Paars Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.red.name=Rood Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.orange.name=Oranje Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.brown.name=Buin Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.black.name=Zwart Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.gray.name=Grijs Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.green.name=Groen Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.magenta.name=Magenta Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.silver.name=Zilver Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.blue.name=Blauw Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.cyan.name=Cyaan Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.lightBlauw.name=Licht Blauw Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.pink.name=Roze Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.yellow.name=Geel Geverfd Gepolijst Graniet
+tile.dyed_smooth_granite.white.name=Wit Geverfd Gepolijst Graniet
+
+
+#Then dyed diorite
+tile.dyed_diorite.lime.name=Lichtgroen Geverfd Dioriet
+tile.dyed_diorite.purple.name=Paars Geverfd Dioriet
+tile.dyed_diorite.red.name=Rood Geverfd Dioriet
+tile.dyed_diorite.orange.name=Oranje Geverfd Dioriet
+tile.dyed_diorite.brown.name=Buin Geverfd Dioriet
+tile.dyed_diorite.black.name=Zwart Geverfd Dioriet
+tile.dyed_diorite.gray.name=Grijs Geverfd Dioriet
+tile.dyed_diorite.green.name=Groen Geverfd Dioriet
+tile.dyed_diorite.magenta.name=Magenta Geverfd Dioriet
+tile.dyed_diorite.silver.name=Zilver Geverfd Dioriet
+tile.dyed_diorite.blue.name=Blauw Geverfd Dioriet
+tile.dyed_diorite.cyan.name=Cyaan Geverfd Dioriet
+tile.dyed_diorite.lightBlauw.name=Licht Blauw Geverfd Dioriet
+tile.dyed_diorite.pink.name=Roze Geverfd Dioriet
+tile.dyed_diorite.yellow.name=Geel Geverfd Dioriet
+tile.dyed_diorite.white.name=Wit Geverfd Dioriet
+
+
+#Then dyed smooth diorite
+tile.dyed_smooth_diorite.lime.name=Lichtgroen Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.purple.name=Paars Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.red.name=Rood Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.orange.name=Oranje Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.brown.name=Buin Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.black.name=Zwart Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.gray.name=Grijs Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.green.name=Groen Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.magenta.name=Magenta Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.silver.name=Zilver Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.blue.name=Blauw Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.cyan.name=Cyaan Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.lightBlauw.name=Licht Blauw Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.pink.name=Roze Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.yellow.name=Geel Geverfd Gepolijst Dioriet
+tile.dyed_smooth_diorite.white.name=Wit Geverfd Gepolijst Dioriet
+
+
+#Then dyed andesite
+tile.dyed_andesite.lime.name=Lichtgroen Geverfd Andesiet
+tile.dyed_andesite.purple.name=Paars Geverfd Andesiet
+tile.dyed_andesite.red.name=Rood Geverfd Andesiet
+tile.dyed_andesite.orange.name=Oranje Geverfd Andesiet
+tile.dyed_andesite.brown.name=Buin Geverfd Andesiet
+tile.dyed_andesite.black.name=Zwart Geverfd Andesiet
+tile.dyed_andesite.gray.name=Grijs Geverfd Andesiet
+tile.dyed_andesite.green.name=Groen Geverfd Andesiet
+tile.dyed_andesite.magenta.name=Magenta Geverfd Andesiet
+tile.dyed_andesite.silver.name=Zilver Geverfd Andesiet
+tile.dyed_andesite.blue.name=Blauw Geverfd Andesiet
+tile.dyed_andesite.cyan.name=Cyaan Geverfd Andesiet
+tile.dyed_andesite.lightBlauw.name=Licht Blauw Geverfd Andesiet
+tile.dyed_andesite.pink.name=Roze Geverfd Andesiet
+tile.dyed_andesite.yellow.name=Geel Geverfd Andesiet
+tile.dyed_andesite.white.name=Wit Geverfd Andesiet
+
+
+#Then dyed smooth andesite
+tile.dyed_smooth_andesite.lime.name=Lichtgroen Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.purple.name=Paars Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.red.name=Rood Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.orange.name=Oranje Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.brown.name=Buin Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.black.name=Zwart Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.gray.name=Grijs Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.green.name=Groen Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.magenta.name=Magenta Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.silver.name=Zilver Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.blue.name=Blauw Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.cyan.name=Cyaan Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.lightBlauw.name=Licht Blauw Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.pink.name=Roze Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.yellow.name=Geel Geverfd Gepolijst Andesiet
+tile.dyed_smooth_andesite.white.name=Wit Geverfd Gepolijst Andesiet
