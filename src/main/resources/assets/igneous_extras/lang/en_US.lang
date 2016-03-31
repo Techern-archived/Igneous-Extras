@@ -231,3 +231,111 @@ tile.light_blue_dyed_stone_stairs.name=Light Blue Dyed Stone Stairs
 tile.pink_dyed_stone_stairs.name=Pink Dyed Stone Stairs
 tile.yellow_dyed_stone_stairs.name=Yellow Dyed Stone Stairs
 tile.white_dyed_stone_stairs.name=White Dyed Stone Stairs
+
+#Now dyed andesite stairs
+tile.lime_dyed_andesite_stairs.name=Lime Dyed Andesite Stairs
+tile.purple_dyed_andesite_stairs.name=Purple Dyed Andesite Stairs
+tile.red_dyed_andesite_stairs.name=Red Dyed Andesite Stairs
+tile.orange_dyed_andesite_stairs.name=Orange Dyed Andesite Stairs
+tile.brown_dyed_andesite_stairs.name=Brown Dyed Andesite Stairs
+tile.black_dyed_andesite_stairs.name=Black Dyed Andesite Stairs
+tile.gray_dyed_andesite_stairs.name=Gray Dyed Andesite Stairs
+tile.green_dyed_andesite_stairs.name=Green Dyed Andesite Stairs
+tile.magenta_dyed_andesite_stairs.name=Magenta Dyed Andesite Stairs
+tile.silver_dyed_andesite_stairs.name=Silver Dyed Andesite Stairs
+tile.blue_dyed_andesite_stairs.name=Blue Dyed Andesite Stairs
+tile.cyan_dyed_andesite_stairs.name=Cyan Dyed Andesite Stairs
+tile.light_blue_dyed_andesite_stairs.name=Light Blue Dyed Andesite Stairs
+tile.pink_dyed_andesite_stairs.name=Pink Dyed Andesite Stairs
+tile.yellow_dyed_andesite_stairs.name=Yellow Dyed Andesite Stairs
+tile.white_dyed_andesite_stairs.name=White Dyed Andesite Stairs
+
+#Now dyed diorite stairs
+tile.lime_dyed_diorite_stairs.name=Lime Dyed Diorite Stairs
+tile.purple_dyed_diorite_stairs.name=Purple Dyed Diorite Stairs
+tile.red_dyed_diorite_stairs.name=Red Dyed Diorite Stairs
+tile.orange_dyed_diorite_stairs.name=Orange Dyed Diorite Stairs
+tile.brown_dyed_diorite_stairs.name=Brown Dyed Diorite Stairs
+tile.black_dyed_diorite_stairs.name=Black Dyed Diorite Stairs
+tile.gray_dyed_diorite_stairs.name=Gray Dyed Diorite Stairs
+tile.green_dyed_diorite_stairs.name=Green Dyed Diorite Stairs
+tile.magenta_dyed_diorite_stairs.name=Magenta Dyed Diorite Stairs
+tile.silver_dyed_diorite_stairs.name=Silver Dyed Diorite Stairs
+tile.blue_dyed_diorite_stairs.name=Blue Dyed Diorite Stairs
+tile.cyan_dyed_diorite_stairs.name=Cyan Dyed Diorite Stairs
+tile.light_blue_dyed_diorite_stairs.name=Light Blue Dyed Diorite Stairs
+tile.pink_dyed_diorite_stairs.name=Pink Dyed Diorite Stairs
+tile.yellow_dyed_diorite_stairs.name=Yellow Dyed Diorite Stairs
+tile.white_dyed_diorite_stairs.name=White Dyed Diorite Stairs
+
+#Now dyed granite stairs
+tile.lime_dyed_granite_stairs.name=Lime Dyed Granite Stairs
+tile.purple_dyed_granite_stairs.name=Purple Dyed Granite Stairs
+tile.red_dyed_granite_stairs.name=Red Dyed Granite Stairs
+tile.orange_dyed_granite_stairs.name=Orange Dyed Granite Stairs
+tile.brown_dyed_granite_stairs.name=Brown Dyed Granite Stairs
+tile.black_dyed_granite_stairs.name=Black Dyed Granite Stairs
+tile.gray_dyed_granite_stairs.name=Gray Dyed Granite Stairs
+tile.green_dyed_granite_stairs.name=Green Dyed Granite Stairs
+tile.magenta_dyed_granite_stairs.name=Magenta Dyed Granite Stairs
+tile.silver_dyed_granite_stairs.name=Silver Dyed Granite Stairs
+tile.blue_dyed_granite_stairs.name=Blue Dyed Granite Stairs
+tile.cyan_dyed_granite_stairs.name=Cyan Dyed Granite Stairs
+tile.light_blue_dyed_granite_stairs.name=Light Blue Dyed Granite Stairs
+tile.pink_dyed_granite_stairs.name=Pink Dyed Granite Stairs
+tile.yellow_dyed_granite_stairs.name=Yellow Dyed Granite Stairs
+tile.white_dyed_granite_stairs.name=White Dyed Granite Stairs
+
+#Now dyed polished andesite stairs
+tile.lime_dyed_polished_andesite_stairs.name=Lime Dyed Polished Andesite Stairs
+tile.purple_dyed_polished_andesite_stairs.name=Purple Dyed Polished Andesite Stairs
+tile.red_dyed_polished_andesite_stairs.name=Red Dyed Polished Andesite Stairs
+tile.orange_dyed_polished_andesite_stairs.name=Orange Dyed Polished Andesite Stairs
+tile.brown_dyed_polished_andesite_stairs.name=Brown Dyed Polished Andesite Stairs
+tile.black_dyed_polished_andesite_stairs.name=Black Dyed Polished Andesite Stairs
+tile.gray_dyed_polished_andesite_stairs.name=Gray Dyed Polished Andesite Stairs
+tile.green_dyed_polished_andesite_stairs.name=Green Dyed Polished Andesite Stairs
+tile.magenta_dyed_polished_andesite_stairs.name=Magenta Dyed Polished Andesite Stairs
+tile.silver_dyed_polished_andesite_stairs.name=Silver Dyed Polished Andesite Stairs
+tile.blue_dyed_polished_andesite_stairs.name=Blue Dyed Polished Andesite Stairs
+tile.cyan_dyed_polished_andesite_stairs.name=Cyan Dyed Polished Andesite Stairs
+tile.light_blue_dyed_polished_andesite_stairs.name=Light Blue Dyed Polished Andesite Stairs
+tile.pink_dyed_polished_andesite_stairs.name=Pink Dyed Polished Andesite Stairs
+tile.yellow_dyed_polished_andesite_stairs.name=Yellow Dyed Polished Andesite Stairs
+tile.white_dyed_polished_andesite_stairs.name=White Dyed Polished Andesite Stairs
+
+#Now dyed polished diorite stairs
+tile.lime_dyed_polished_diorite_stairs.name=Lime Dyed Polished Diorite Stairs
+tile.purple_dyed_polished_diorite_stairs.name=Purple Dyed Polished Diorite Stairs
+tile.red_dyed_polished_diorite_stairs.name=Red Dyed Polished Diorite Stairs
+tile.orange_dyed_polished_diorite_stairs.name=Orange Dyed Polished Diorite Stairs
+tile.brown_dyed_polished_diorite_stairs.name=Brown Dyed Polished Diorite Stairs
+tile.black_dyed_polished_diorite_stairs.name=Black Dyed Polished Diorite Stairs
+tile.gray_dyed_polished_diorite_stairs.name=Gray Dyed Polished Diorite Stairs
+tile.green_dyed_polished_diorite_stairs.name=Green Dyed Polished Diorite Stairs
+tile.magenta_dyed_polished_diorite_stairs.name=Magenta Dyed Polished Diorite Stairs
+tile.silver_dyed_polished_diorite_stairs.name=Silver Dyed Polished Diorite Stairs
+tile.blue_dyed_polished_diorite_stairs.name=Blue Dyed Polished Diorite Stairs
+tile.cyan_dyed_polished_diorite_stairs.name=Cyan Dyed Polished Diorite Stairs
+tile.light_blue_dyed_polished_diorite_stairs.name=Light Blue Dyed Polished Diorite Stairs
+tile.pink_dyed_polished_diorite_stairs.name=Pink Dyed Polished Diorite Stairs
+tile.yellow_dyed_polished_diorite_stairs.name=Yellow Dyed Polished Diorite Stairs
+tile.white_dyed_polished_diorite_stairs.name=White Dyed Polished Diorite Stairs
+
+#Now dyed polished granite stairs
+tile.lime_dyed_polished_granite_stairs.name=Lime Dyed Polished Granite Stairs
+tile.purple_dyed_polished_granite_stairs.name=Purple Dyed Polished Granite Stairs
+tile.red_dyed_polished_granite_stairs.name=Red Dyed Polished Granite Stairs
+tile.orange_dyed_polished_granite_stairs.name=Orange Dyed Polished Granite Stairs
+tile.brown_dyed_polished_granite_stairs.name=Brown Dyed Polished Granite Stairs
+tile.black_dyed_polished_granite_stairs.name=Black Dyed Polished Granite Stairs
+tile.gray_dyed_polished_granite_stairs.name=Gray Dyed Polished Granite Stairs
+tile.green_dyed_polished_granite_stairs.name=Green Dyed Polished Granite Stairs
+tile.magenta_dyed_polished_granite_stairs.name=Magenta Dyed Polished Granite Stairs
+tile.silver_dyed_polished_granite_stairs.name=Silver Dyed Polished Granite Stairs
+tile.blue_dyed_polished_granite_stairs.name=Blue Dyed Polished Granite Stairs
+tile.cyan_dyed_polished_granite_stairs.name=Cyan Dyed Polished Granite Stairs
+tile.light_blue_dyed_polished_granite_stairs.name=Light Blue Dyed Polished Granite Stairs
+tile.pink_dyed_polished_granite_stairs.name=Pink Dyed Polished Granite Stairs
+tile.yellow_dyed_polished_granite_stairs.name=Yellow Dyed Polished Granite Stairs
+tile.white_dyed_polished_granite_stairs.name=White Dyed Polished Granite Stairs
