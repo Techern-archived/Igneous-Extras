@@ -1,5 +1,6 @@
 package com.techern.minecraft.ia.blocks.stairs;
 
+import com.techern.minecraft.ia.blocks.IABlocks;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.state.IBlockState;
 
@@ -20,5 +21,6 @@ public class BaseBlockStairs extends BlockStairs {
     public BaseBlockStairs(IBlockState referenceState, String unlocalizedName) {
         super(referenceState);
         this.setUnlocalizedName(unlocalizedName);
+        this.setCreativeTab(IABlocks.STAIRS_TAB);
     }
 }

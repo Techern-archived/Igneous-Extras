@@ -1,5 +1,10 @@
 #Speakin' Scroll fer yer Mateys
 
+#First, we do item groups
+itemGroup.dyed_blocks=Colorrred Squares
+itemGroup.dyed_igneous_stairs=Stairs o' Colorrred Rock
+itemGroup.igneous_stairs=Stairs o' Rock
+
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Colorrred Pebbles
 tile.dyed_cobblestone.purple.name=Purple Colorrred Pebbles

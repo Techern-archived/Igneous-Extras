@@ -2,6 +2,7 @@ package com.techern.minecraft.ia.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
 import com.techern.minecraft.ia.blocks.stairs.BaseBlockStairs;
+import com.techern.minecraft.ia.blocks.stairs.ColoredBlockStairs;
 import com.techern.minecraft.ia.items.ItemColoredBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
@@ -31,6 +32,30 @@ public class IABlocks {
         @Override
         public Item getTabIconItem() {
             return Item.getItemFromBlock(DYED_COBBLESTONE);
+        }
+    };
+
+    /**
+     * The {@link CreativeTabs} for igneous stairs
+     *
+     * @since 0.0.1
+     */
+    public static CreativeTabs STAIRS_TAB = new CreativeTabs("igneous_stairs") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(GRANITE_STAIRS);
+        }
+    };
+
+    /**
+     * The {@link CreativeTabs} for dyed igneous stirs
+     *
+     * @since 0.0.1
+     */
+    public static CreativeTabs DYED_STAIRS_TAB = new CreativeTabs("dyed_igneous_stairs") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(WHITE_DYED_COBBLESTONE_STAIRS);
         }
     };
 
@@ -158,112 +183,112 @@ public class IABlocks {
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIME), "lime_dyed_cobblestone_stairs");
+    public static BlockStairs LIME_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIME), "lime_dyed_cobblestone_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLACK), "black_dyed_cobblestone_stairs");
+    public static BlockStairs BLACK_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLACK), "black_dyed_cobblestone_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLUE), "blue_dyed_cobblestone_stairs");
+    public static BlockStairs BLUE_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLUE), "blue_dyed_cobblestone_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BROWN), "brown_dyed_cobblestone_stairs");
+    public static BlockStairs BROWN_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BROWN), "brown_dyed_cobblestone_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_cobblestone_stairs");
+    public static BlockStairs CYAN_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_cobblestone_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GRAY), "gray_dyed_cobblestone_stairs");
+    public static BlockStairs GRAY_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GRAY), "gray_dyed_cobblestone_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GREEN), "green_dyed_cobblestone_stairs");
+    public static BlockStairs GREEN_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GREEN), "green_dyed_cobblestone_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_cobblestone_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_cobblestone_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_cobblestone_stairs");
+    public static BlockStairs MAGENTA_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_cobblestone_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_cobblestone_stairs");
+    public static BlockStairs ORANGE_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_cobblestone_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PINK), "pink_dyed_cobblestone_stairs");
+    public static BlockStairs PINK_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PINK), "pink_dyed_cobblestone_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_cobblestone_stairs");
+    public static BlockStairs PURPLE_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_cobblestone_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.RED), "red_dyed_cobblestone_stairs");
+    public static BlockStairs RED_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.RED), "red_dyed_cobblestone_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.SILVER), "silver_dyed_cobblestone_stairs");
+    public static BlockStairs SILVER_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.SILVER), "silver_dyed_cobblestone_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.WHITE), "white_dyed_cobblestone_stairs");
+    public static BlockStairs WHITE_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.WHITE), "white_dyed_cobblestone_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_cobblestone_stairs");
+    public static BlockStairs YELLOW_DYED_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_cobblestone_stairs");
 
 
     /**
@@ -271,112 +296,112 @@ public class IABlocks {
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIME), "lime_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs LIME_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIME), "lime_dyed_mossy_cobblestone_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLACK), "black_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs BLACK_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLACK), "black_dyed_mossy_cobblestone_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLUE), "blue_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs BLUE_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BLUE), "blue_dyed_mossy_cobblestone_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BROWN), "brown_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs BROWN_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.BROWN), "brown_dyed_mossy_cobblestone_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs CYAN_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_mossy_cobblestone_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GRAY), "gray_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs GRAY_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GRAY), "gray_dyed_mossy_cobblestone_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GREEN), "green_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs GREEN_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.GREEN), "green_dyed_mossy_cobblestone_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_mossy_cobblestone_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs MAGENTA_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_mossy_cobblestone_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_mossy_cobblestone_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PINK), "pink_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs PINK_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PINK), "pink_dyed_mossy_cobblestone_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs PURPLE_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_mossy_cobblestone_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.RED), "red_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs RED_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.RED), "red_dyed_mossy_cobblestone_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.SILVER), "silver_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs SILVER_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.SILVER), "silver_dyed_mossy_cobblestone_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.WHITE), "white_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs WHITE_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.WHITE), "white_dyed_mossy_cobblestone_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_MOSSY_COBBLESTONE_STAIRS = new BaseBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_mossy_cobblestone_stairs");
+    public static BlockStairs YELLOW_DYED_MOSSY_COBBLESTONE_STAIRS = new ColoredBlockStairs(DYED_MOSSY_COBBLESTONE.getDefaultState().withProperty(BlockDyedCobblestone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_mossy_cobblestone_stairs");
 
 
     /**
@@ -384,448 +409,448 @@ public class IABlocks {
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_stone_stairs");
+    public static BlockStairs LIME_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_stone_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_stone_stairs");
+    public static BlockStairs BLACK_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_stone_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_stone_stairs");
+    public static BlockStairs BLUE_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_stone_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_stone_stairs");
+    public static BlockStairs BROWN_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_stone_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_stone_stairs");
+    public static BlockStairs CYAN_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_stone_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_stone_stairs");
+    public static BlockStairs GRAY_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_stone_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_stone_stairs");
+    public static BlockStairs GREEN_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_stone_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_stone_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_stone_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_stone_stairs");
+    public static BlockStairs MAGENTA_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_stone_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_stone_stairs");
+    public static BlockStairs ORANGE_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_stone_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_stone_stairs");
+    public static BlockStairs PINK_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_stone_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_stone_stairs");
+    public static BlockStairs PURPLE_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_stone_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_stone_stairs");
+    public static BlockStairs RED_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_stone_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_stone_stairs");
+    public static BlockStairs SILVER_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_stone_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_stone_stairs");
+    public static BlockStairs WHITE_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_stone_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_STONE_STAIRS = new BaseBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_stone_stairs");
+    public static BlockStairs YELLOW_DYED_STONE_STAIRS = new ColoredBlockStairs(DYED_STONE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_stone_stairs");
 
     /**
      * Lime coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_andesite_stairs");
+    public static BlockStairs LIME_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_andesite_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_andesite_stairs");
+    public static BlockStairs BLACK_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_andesite_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_andesite_stairs");
+    public static BlockStairs BLUE_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_andesite_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_andesite_stairs");
+    public static BlockStairs BROWN_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_andesite_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_andesite_stairs");
+    public static BlockStairs CYAN_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_andesite_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_andesite_stairs");
+    public static BlockStairs GRAY_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_andesite_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_andesite_stairs");
+    public static BlockStairs GREEN_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_andesite_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_andesite_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_andesite_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_andesite_stairs");
+    public static BlockStairs MAGENTA_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_andesite_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_andesite_stairs");
+    public static BlockStairs ORANGE_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_andesite_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_andesite_stairs");
+    public static BlockStairs PINK_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_andesite_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_andesite_stairs");
+    public static BlockStairs PURPLE_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_andesite_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_andesite_stairs");
+    public static BlockStairs RED_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_andesite_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_andesite_stairs");
+    public static BlockStairs SILVER_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_andesite_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_andesite_stairs");
+    public static BlockStairs WHITE_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_andesite_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_andesite_stairs");
+    public static BlockStairs YELLOW_DYED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_andesite_stairs");
 
     /**
      * Lime coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_diorite_stairs");
+    public static BlockStairs LIME_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_diorite_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_diorite_stairs");
+    public static BlockStairs BLACK_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_diorite_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_diorite_stairs");
+    public static BlockStairs BLUE_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_diorite_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_diorite_stairs");
+    public static BlockStairs BROWN_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_diorite_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_diorite_stairs");
+    public static BlockStairs CYAN_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_diorite_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_diorite_stairs");
+    public static BlockStairs GRAY_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_diorite_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_diorite_stairs");
+    public static BlockStairs GREEN_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_diorite_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_diorite_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_diorite_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_diorite_stairs");
+    public static BlockStairs MAGENTA_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_diorite_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_diorite_stairs");
+    public static BlockStairs ORANGE_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_diorite_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_diorite_stairs");
+    public static BlockStairs PINK_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_diorite_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_diorite_stairs");
+    public static BlockStairs PURPLE_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_diorite_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_diorite_stairs");
+    public static BlockStairs RED_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_diorite_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_diorite_stairs");
+    public static BlockStairs SILVER_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_diorite_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_diorite_stairs");
+    public static BlockStairs WHITE_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_diorite_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_DIORITE_STAIRS = new BaseBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_diorite_stairs");
+    public static BlockStairs YELLOW_DYED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_diorite_stairs");
 
     /**
      * Lime coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_granite_stairs");
+    public static BlockStairs LIME_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_granite_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_granite_stairs");
+    public static BlockStairs BLACK_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_granite_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_granite_stairs");
+    public static BlockStairs BLUE_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_granite_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_granite_stairs");
+    public static BlockStairs BROWN_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_granite_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_granite_stairs");
+    public static BlockStairs CYAN_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_granite_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_granite_stairs");
+    public static BlockStairs GRAY_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_granite_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_granite_stairs");
+    public static BlockStairs GREEN_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_granite_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_granite_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_granite_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_granite_stairs");
+    public static BlockStairs MAGENTA_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_granite_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_granite_stairs");
+    public static BlockStairs ORANGE_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_granite_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_granite_stairs");
+    public static BlockStairs PINK_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_granite_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_granite_stairs");
+    public static BlockStairs PURPLE_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_granite_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_granite_stairs");
+    public static BlockStairs RED_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_granite_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_granite_stairs");
+    public static BlockStairs SILVER_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_granite_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_granite_stairs");
+    public static BlockStairs WHITE_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_granite_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_GRANITE_STAIRS = new BaseBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_granite_stairs");
+    public static BlockStairs YELLOW_DYED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_granite_stairs");
 
 
     /**
@@ -833,336 +858,336 @@ public class IABlocks {
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_polished_andesite_stairs");
+    public static BlockStairs LIME_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_polished_andesite_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_polished_andesite_stairs");
+    public static BlockStairs BLACK_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_polished_andesite_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_polished_andesite_stairs");
+    public static BlockStairs BLUE_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_polished_andesite_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_polished_andesite_stairs");
+    public static BlockStairs BROWN_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_polished_andesite_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_polished_andesite_stairs");
+    public static BlockStairs CYAN_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_polished_andesite_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_polished_andesite_stairs");
+    public static BlockStairs GRAY_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_polished_andesite_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_polished_andesite_stairs");
+    public static BlockStairs GREEN_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_polished_andesite_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_polished_andesite_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_polished_andesite_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_polished_andesite_stairs");
+    public static BlockStairs MAGENTA_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_polished_andesite_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_polished_andesite_stairs");
+    public static BlockStairs ORANGE_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_polished_andesite_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_polished_andesite_stairs");
+    public static BlockStairs PINK_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_polished_andesite_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_polished_andesite_stairs");
+    public static BlockStairs PURPLE_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_polished_andesite_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_polished_andesite_stairs");
+    public static BlockStairs RED_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_polished_andesite_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_polished_andesite_stairs");
+    public static BlockStairs SILVER_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_polished_andesite_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_polished_andesite_stairs");
+    public static BlockStairs WHITE_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_polished_andesite_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_POLISHED_ANDESITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_andesite_stairs");
+    public static BlockStairs YELLOW_DYED_POLISHED_ANDESITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_ANDESITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_andesite_stairs");
 
     /**
      * Lime coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_polished_diorite_stairs");
+    public static BlockStairs LIME_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_polished_diorite_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_polished_diorite_stairs");
+    public static BlockStairs BLACK_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_polished_diorite_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_polished_diorite_stairs");
+    public static BlockStairs BLUE_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_polished_diorite_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_polished_diorite_stairs");
+    public static BlockStairs BROWN_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_polished_diorite_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_polished_diorite_stairs");
+    public static BlockStairs CYAN_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_polished_diorite_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_polished_diorite_stairs");
+    public static BlockStairs GRAY_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_polished_diorite_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_polished_diorite_stairs");
+    public static BlockStairs GREEN_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_polished_diorite_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_polished_diorite_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_polished_diorite_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_polished_diorite_stairs");
+    public static BlockStairs MAGENTA_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_polished_diorite_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_polished_diorite_stairs");
+    public static BlockStairs ORANGE_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_polished_diorite_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_polished_diorite_stairs");
+    public static BlockStairs PINK_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_polished_diorite_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_polished_diorite_stairs");
+    public static BlockStairs PURPLE_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_polished_diorite_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_polished_diorite_stairs");
+    public static BlockStairs RED_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_polished_diorite_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_polished_diorite_stairs");
+    public static BlockStairs SILVER_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_polished_diorite_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_polished_diorite_stairs");
+    public static BlockStairs WHITE_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_polished_diorite_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_POLISHED_DIORITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_diorite_stairs");
+    public static BlockStairs YELLOW_DYED_POLISHED_DIORITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_DIORITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_diorite_stairs");
 
     /**
      * Lime coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIME_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_polished_granite_stairs");
+    public static BlockStairs LIME_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIME), "lime_dyed_polished_granite_stairs");
 
     /**
      * Black coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLACK_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_polished_granite_stairs");
+    public static BlockStairs BLACK_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLACK), "black_dyed_polished_granite_stairs");
 
     /**
      * Blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BLUE_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_polished_granite_stairs");
+    public static BlockStairs BLUE_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BLUE), "blue_dyed_polished_granite_stairs");
 
     /**
      * Brown coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs BROWN_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_polished_granite_stairs");
+    public static BlockStairs BROWN_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.BROWN), "brown_dyed_polished_granite_stairs");
 
     /**
      * Cyan coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs CYAN_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_polished_granite_stairs");
+    public static BlockStairs CYAN_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.CYAN), "cyan_dyed_polished_granite_stairs");
 
     /**
      * Gray coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GRAY_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_polished_granite_stairs");
+    public static BlockStairs GRAY_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GRAY), "gray_dyed_polished_granite_stairs");
 
     /**
      * Green coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs GREEN_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_polished_granite_stairs");
+    public static BlockStairs GREEN_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.GREEN), "green_dyed_polished_granite_stairs");
 
     /**
      * Light blue coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs LIGHT_BLUE_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_polished_granite_stairs");
+    public static BlockStairs LIGHT_BLUE_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.LIGHT_BLUE), "light_blue_dyed_polished_granite_stairs");
 
     /**
      * Magenta coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs MAGENTA_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_polished_granite_stairs");
+    public static BlockStairs MAGENTA_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.MAGENTA), "magenta_dyed_polished_granite_stairs");
 
     /**
      * Orange coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs ORANGE_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_polished_granite_stairs");
+    public static BlockStairs ORANGE_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.ORANGE), "orange_dyed_polished_granite_stairs");
 
     /**
      * Pink coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PINK_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_polished_granite_stairs");
+    public static BlockStairs PINK_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PINK), "pink_dyed_polished_granite_stairs");
 
     /**
      * Purple coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs PURPLE_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_polished_granite_stairs");
+    public static BlockStairs PURPLE_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.PURPLE), "purple_dyed_polished_granite_stairs");
 
     /**
      * Red coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs RED_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_polished_granite_stairs");
+    public static BlockStairs RED_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.RED), "red_dyed_polished_granite_stairs");
 
     /**
      * Silver coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs SILVER_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_polished_granite_stairs");
+    public static BlockStairs SILVER_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.SILVER), "silver_dyed_polished_granite_stairs");
 
     /**
      * White coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs WHITE_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_polished_granite_stairs");
+    public static BlockStairs WHITE_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.WHITE), "white_dyed_polished_granite_stairs");
 
     /**
      * Yellow coloured {@link BlockStairs}
      *
      * @since 0.0.1
      */
-    public static BlockStairs YELLOW_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_granite_stairs");
+    public static BlockStairs YELLOW_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_granite_stairs");
 
     /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
