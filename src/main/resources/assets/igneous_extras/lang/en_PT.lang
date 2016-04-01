@@ -1,0 +1,346 @@
+#Speakin' Scroll fer yer Mateys
+
+#First, we do item groups
+itemGroup.dyed_blocks=Colorrred Squares
+itemGroup.dyed_igneous_stairs=Stairs o' Colorrred Rock
+itemGroup.igneous_stairs=Stairs o' Rock
+
+#Start off with dyed cobblestone blocks
+tile.dyed_cobblestone.lime.name=Lime Colorrred Pebbles
+tile.dyed_cobblestone.purple.name=Purple Colorrred Pebbles
+tile.dyed_cobblestone.red.name=Red Colorrred Pebbles
+tile.dyed_cobblestone.orange.name=Orange Colorrred Pebbles
+tile.dyed_cobblestone.brown.name=Brown Colorrred Pebbles
+tile.dyed_cobblestone.black.name=Black Colorrred Pebbles
+tile.dyed_cobblestone.gray.name=Gray Colorrred Pebbles
+tile.dyed_cobblestone.green.name=Green Colorrred Pebbles
+tile.dyed_cobblestone.magenta.name=Magenta Colorrred Pebbles
+tile.dyed_cobblestone.silver.name=Silver Colorrred Pebbles
+tile.dyed_cobblestone.blue.name=Blue Colorrred Pebbles
+tile.dyed_cobblestone.cyan.name=Cyan Colorrred Pebbles
+tile.dyed_cobblestone.lightBlue.name=Light Blue Colorrred Pebbles
+tile.dyed_cobblestone.pink.name=Pink Colorrred Pebbles
+tile.dyed_cobblestone.yellow.name=Yellow Colorrred Pebbles
+tile.dyed_cobblestone.white.name=White Colorrred Pebbles
+
+#Then dyed mossy cobblestone
+tile.dyed_mossy_cobblestone.lime.name=Lime Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.purple.name=Purple Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.red.name=Red Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.orange.name=Orange Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.brown.name=Brown Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.black.name=Black Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.gray.name=Gray Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.green.name=Green Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.magenta.name=Magenta Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.silver.name=Silver Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.blue.name=Blue Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.cyan.name=Cyan Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.lightBlue.name=Light Blue Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.pink.name=Pink Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.yellow.name=Yellow Colorrred Slimy Pebbles
+tile.dyed_mossy_cobblestone.white.name=White Colorrred Slimy Pebbles
+
+#Then dyed stone
+tile.dyed_stone.lime.name=Lime Colorrred Rock
+tile.dyed_stone.purple.name=Purple Colorrred Rock
+tile.dyed_stone.red.name=Red Colorrred Rock
+tile.dyed_stone.orange.name=Orange Colorrred Rock
+tile.dyed_stone.brown.name=Brown Colorrred Rock
+tile.dyed_stone.black.name=Black Colorrred Rock
+tile.dyed_stone.gray.name=Gray Colorrred Rock
+tile.dyed_stone.green.name=Green Colorrred Rock
+tile.dyed_stone.magenta.name=Magenta Colorrred Rock
+tile.dyed_stone.silver.name=Silver Colorrred Rock
+tile.dyed_stone.blue.name=Blue Colorrred Rock
+tile.dyed_stone.cyan.name=Cyan Colorrred Rock
+tile.dyed_stone.lightBlue.name=Light Blue Colorrred Rock
+tile.dyed_stone.pink.name=Pink Colorrred Rock
+tile.dyed_stone.yellow.name=Yellow Colorrred Rock
+tile.dyed_stone.white.name=White Colorrred Rock
+
+
+#Then dyed granite
+tile.dyed_granite.lime.name=Lime Colorrred Brown Pebbles
+tile.dyed_granite.purple.name=Purple Colorrred Brown Pebbles
+tile.dyed_granite.red.name=Red Colorrred Brown Pebbles
+tile.dyed_granite.orange.name=Orange Colorrred Brown Pebbles
+tile.dyed_granite.brown.name=Brown Colorrred Brown Pebbles
+tile.dyed_granite.black.name=Black Colorrred Brown Pebbles
+tile.dyed_granite.gray.name=Gray Colorrred Brown Pebbles
+tile.dyed_granite.green.name=Green Colorrred Brown Pebbles
+tile.dyed_granite.magenta.name=Magenta Colorrred Brown Pebbles
+tile.dyed_granite.silver.name=Silver Colorrred Brown Pebbles
+tile.dyed_granite.blue.name=Blue Colorrred Brown Pebbles
+tile.dyed_granite.cyan.name=Cyan Colorrred Brown Pebbles
+tile.dyed_granite.lightBlue.name=Light Blue Colorrred Brown Pebbles
+tile.dyed_granite.pink.name=Pink Colorrred Brown Pebbles
+tile.dyed_granite.yellow.name=Yellow Colorrred Brown Pebbles
+tile.dyed_granite.white.name=White Colorrred Brown Pebbles
+
+
+#Then dyed smooth granite
+tile.dyed_smooth_granite.lime.name=Lime Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.purple.name=Purple Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.red.name=Red Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.orange.name=Orange Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.brown.name=Brown Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.black.name=Black Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.gray.name=Gray Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.green.name=Green Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.magenta.name=Magenta Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.silver.name=Silver Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.blue.name=Blue Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.cyan.name=Cyan Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.lightBlue.name=Light Blue Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.pink.name=Pink Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.yellow.name=Yellow Colorrred Good lookin' Brown Pebbles
+tile.dyed_smooth_granite.white.name=White Colorrred Good lookin' Brown Pebbles
+
+
+#Then dyed diorite
+tile.dyed_diorite.lime.name=Lime Colorrred Grey Pebbles
+tile.dyed_diorite.purple.name=Purple Colorrred Grey Pebbles
+tile.dyed_diorite.red.name=Red Colorrred Grey Pebbles
+tile.dyed_diorite.orange.name=Orange Colorrred Grey Pebbles
+tile.dyed_diorite.brown.name=Brown Colorrred Grey Pebbles
+tile.dyed_diorite.black.name=Black Colorrred Grey Pebbles
+tile.dyed_diorite.gray.name=Gray Colorrred Grey Pebbles
+tile.dyed_diorite.green.name=Green Colorrred Grey Pebbles
+tile.dyed_diorite.magenta.name=Magenta Colorrred Grey Pebbles
+tile.dyed_diorite.silver.name=Silver Colorrred Grey Pebbles
+tile.dyed_diorite.blue.name=Blue Colorrred Grey Pebbles
+tile.dyed_diorite.cyan.name=Cyan Colorrred Grey Pebbles
+tile.dyed_diorite.lightBlue.name=Light Blue Colorrred Grey Pebbles
+tile.dyed_diorite.pink.name=Pink Colorrred Grey Pebbles
+tile.dyed_diorite.yellow.name=Yellow Colorrred Grey Pebbles
+tile.dyed_diorite.white.name=White Colorrred Grey Pebbles
+
+
+#Then dyed smooth diorite
+tile.dyed_smooth_diorite.lime.name=Lime Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.purple.name=Purple Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.red.name=Red Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.orange.name=Orange Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.brown.name=Brown Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.black.name=Black Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.gray.name=Gray Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.green.name=Green Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.magenta.name=Magenta Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.silver.name=Silver Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.blue.name=Blue Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.cyan.name=Cyan Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.lightBlue.name=Light Blue Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.pink.name=Pink Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.yellow.name=Yellow Colorrred Good lookin' Grey Pebbles
+tile.dyed_smooth_diorite.white.name=White Colorrred Good lookin' Grey Pebbles
+
+
+#Then dyed andesite
+tile.dyed_andesite.lime.name=Lime Colorrred White Pebbles
+tile.dyed_andesite.purple.name=Purple Colorrred White Pebbles
+tile.dyed_andesite.red.name=Red Colorrred White Pebbles
+tile.dyed_andesite.orange.name=Orange Colorrred White Pebbles
+tile.dyed_andesite.brown.name=Brown Colorrred White Pebbles
+tile.dyed_andesite.black.name=Black Colorrred White Pebbles
+tile.dyed_andesite.gray.name=Gray Colorrred White Pebbles
+tile.dyed_andesite.green.name=Green Colorrred White Pebbles
+tile.dyed_andesite.magenta.name=Magenta Colorrred White Pebbles
+tile.dyed_andesite.silver.name=Silver Colorrred White Pebbles
+tile.dyed_andesite.blue.name=Blue Colorrred White Pebbles
+tile.dyed_andesite.cyan.name=Cyan Colorrred White Pebbles
+tile.dyed_andesite.lightBlue.name=Light Blue Colorrred White Pebbles
+tile.dyed_andesite.pink.name=Pink Colorrred White Pebbles
+tile.dyed_andesite.yellow.name=Yellow Colorrred White Pebbles
+tile.dyed_andesite.white.name=White Colorrred White Pebbles
+
+
+#Then dyed smooth andesite
+tile.dyed_smooth_andesite.lime.name=Lime Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.purple.name=Purple Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.red.name=Red Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.orange.name=Orange Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.brown.name=Brown Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.black.name=Black Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.gray.name=Gray Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.green.name=Green Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.magenta.name=Magenta Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.silver.name=Silver Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.blue.name=Blue Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.cyan.name=Cyan Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.lightBlue.name=Light Blue Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.pink.name=Pink Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.yellow.name=Yellow Colorrred Good lookin' White Pebbles
+tile.dyed_smooth_andesite.white.name=White Colorrred Good lookin' White Pebbles
+
+#Then stairs
+tile.stone_stairs.name=Stairs o' Rock
+tile.mossy_cobblestone_stairs.name=Stairs o' Slimy Pebbles
+tile.granite_stairs.name=Stairs o' Brown Pebbles
+tile.polished_granite_stairs.name=Stairs o' Good lookin' Brown Pebbles
+tile.diorite_stairs.name=Stairs o' Grey Pebbles
+tile.polished_diorite_stairs.name=Stairs o' Good lookin' Grey Pebbles
+tile.andesite_stairs.name=Stairs o' White Pebbles
+tile.polished_andesite_stairs.name=Stairs o' Good lookin' White Pebbles
+
+#Now dyed cobblestone stairs
+tile.lime_dyed_cobblestone_stairs.name=Stairs o' Lime Colorrred Pebbles
+tile.purple_dyed_cobblestone_stairs.name=Stairs o' Purple Colorrred Pebbles
+tile.red_dyed_cobblestone_stairs.name=Stairs o' Red Colorrred Pebbles
+tile.orange_dyed_cobblestone_stairs.name=Stairs o' Orange Colorrred Pebbles
+tile.brown_dyed_cobblestone_stairs.name=Stairs o' Brown Colorrred Pebbles
+tile.black_dyed_cobblestone_stairs.name=Stairs o' Black Colorrred Pebbles
+tile.gray_dyed_cobblestone_stairs.name=Stairs o' Gray Colorrred Pebbles
+tile.green_dyed_cobblestone_stairs.name=Stairs o' Green Colorrred Pebbles
+tile.magenta_dyed_cobblestone_stairs.name=Stairs o' Magenta Colorrred Pebbles
+tile.silver_dyed_cobblestone_stairs.name=Stairs o' Silver Colorrred Pebbles
+tile.blue_dyed_cobblestone_stairs.name=Stairs o' Blue Colorrred Pebbles
+tile.cyan_dyed_cobblestone_stairs.name=Stairs o' Cyan Colorrred Pebbles
+tile.light_blue_dyed_cobblestone_stairs.name=Stairs o' Light Blue Colorrred Pebbles
+tile.pink_dyed_cobblestone_stairs.name=Stairs o' Pink Colorrred Pebbles
+tile.yellow_dyed_cobblestone_stairs.name=Stairs o' Yellow Colorrred Pebbles
+tile.white_dyed_cobblestone_stairs.name=Stairs o' White Colorrred Pebbles
+
+#Now dyed mossy cobblestone stairs
+tile.lime_dyed_mossy_cobblestone_stairs.name=Stairs o' Lime Colorrred Slimy Pebbles
+tile.purple_dyed_mossy_cobblestone_stairs.name=Stairs o' Purple Colorrred Slimy Pebbles
+tile.red_dyed_mossy_cobblestone_stairs.name=Stairs o' Red Colorrred Slimy Pebbles
+tile.orange_dyed_mossy_cobblestone_stairs.name=Stairs o' Orange Colorrred Slimy Pebbles
+tile.brown_dyed_mossy_cobblestone_stairs.name=Stairs o' Brown Colorrred Slimy Pebbles
+tile.black_dyed_mossy_cobblestone_stairs.name=Stairs o' Black Colorrred Slimy Pebbles
+tile.gray_dyed_mossy_cobblestone_stairs.name=Stairs o' Gray Colorrred Slimy Pebbles
+tile.green_dyed_mossy_cobblestone_stairs.name=Stairs o' Green Colorrred Slimy Pebbles
+tile.magenta_dyed_mossy_cobblestone_stairs.name=Stairs o' Magenta Colorrred Slimy Pebbles
+tile.silver_dyed_mossy_cobblestone_stairs.name=Stairs o' Silver Colorrred Slimy Pebbles
+tile.blue_dyed_mossy_cobblestone_stairs.name=Stairs o' Blue Colorrred Slimy Pebbles
+tile.cyan_dyed_mossy_cobblestone_stairs.name=Stairs o' Cyan Colorrred Slimy Pebbles
+tile.light_blue_dyed_mossy_cobblestone_stairs.name=Stairs o' Light Blue Colorrred Slimy Pebbles
+tile.pink_dyed_mossy_cobblestone_stairs.name=Stairs o' Pink Colorrred Slimy Pebbles
+tile.yellow_dyed_mossy_cobblestone_stairs.name=Stairs o' Yellow Colorrred Slimy Pebbles
+tile.white_dyed_mossy_cobblestone_stairs.name=Stairs o' White Colorrred Slimy Pebbles
+
+#Now dyed stone stairs
+tile.lime_dyed_stone_stairs.name=Stairs o' Lime Colorrred Rock
+tile.purple_dyed_stone_stairs.name=Stairs o' Purple Colorrred Rock
+tile.red_dyed_stone_stairs.name=Stairs o' Red Colorrred Rock
+tile.orange_dyed_stone_stairs.name=Stairs o' Orange Colorrred Rock
+tile.brown_dyed_stone_stairs.name=Stairs o' Brown Colorrred Rock
+tile.black_dyed_stone_stairs.name=Stairs o' Black Colorrred Rock
+tile.gray_dyed_stone_stairs.name=Stairs o' Gray Colorrred Rock
+tile.green_dyed_stone_stairs.name=Stairs o' Green Colorrred Rock
+tile.magenta_dyed_stone_stairs.name=Stairs o' Magenta Colorrred Rock
+tile.silver_dyed_stone_stairs.name=Stairs o' Silver Colorrred Rock
+tile.blue_dyed_stone_stairs.name=Stairs o' Blue Colorrred Rock
+tile.cyan_dyed_stone_stairs.name=Stairs o' Cyan Colorrred Rock
+tile.light_blue_dyed_stone_stairs.name=Stairs o' Light Blue Colorrred Rock
+tile.pink_dyed_stone_stairs.name=Stairs o' Pink Colorrred Rock
+tile.yellow_dyed_stone_stairs.name=Stairs o' Yellow Colorrred Rock
+tile.white_dyed_stone_stairs.name=Stairs o' White Colorrred Rock
+
+#Now dyed andesite stairs
+tile.lime_dyed_andesite_stairs.name=Stairs o' Lime Colorrred White Pebbles
+tile.purple_dyed_andesite_stairs.name=Stairs o' Purple Colorrred White Pebbles
+tile.red_dyed_andesite_stairs.name=Stairs o' Red Colorrred White Pebbles
+tile.orange_dyed_andesite_stairs.name=Stairs o' Orange Colorrred White Pebbles
+tile.brown_dyed_andesite_stairs.name=Stairs o' Brown Colorrred White Pebbles
+tile.black_dyed_andesite_stairs.name=Stairs o' Black Colorrred White Pebbles
+tile.gray_dyed_andesite_stairs.name=Stairs o' Gray Colorrred White Pebbles
+tile.green_dyed_andesite_stairs.name=Stairs o' Green Colorrred White Pebbles
+tile.magenta_dyed_andesite_stairs.name=Stairs o' Magenta Colorrred White Pebbles
+tile.silver_dyed_andesite_stairs.name=Stairs o' Silver Colorrred White Pebbles
+tile.blue_dyed_andesite_stairs.name=Stairs o' Blue Colorrred White Pebbles
+tile.cyan_dyed_andesite_stairs.name=Stairs o' Cyan Colorrred White Pebbles
+tile.light_blue_dyed_andesite_stairs.name=Stairs o' Light Blue Colorrred White Pebbles
+tile.pink_dyed_andesite_stairs.name=Stairs o' Pink Colorrred White Pebbles
+tile.yellow_dyed_andesite_stairs.name=Stairs o' Yellow Colorrred White Pebbles
+tile.white_dyed_andesite_stairs.name=Stairs o' White Colorrred White Pebbles
+
+#Now dyed diorite stairs
+tile.lime_dyed_diorite_stairs.name=Stairs o' Lime Colorrred Grey Pebbles
+tile.purple_dyed_diorite_stairs.name=Stairs o' Purple Colorrred Grey Pebbles
+tile.red_dyed_diorite_stairs.name=Stairs o' Red Colorrred Grey Pebbles
+tile.orange_dyed_diorite_stairs.name=Stairs o' Orange Colorrred Grey Pebbles
+tile.brown_dyed_diorite_stairs.name=Stairs o' Brown Colorrred Grey Pebbles
+tile.black_dyed_diorite_stairs.name=Stairs o' Black Colorrred Grey Pebbles
+tile.gray_dyed_diorite_stairs.name=Stairs o' Gray Colorrred Grey Pebbles
+tile.green_dyed_diorite_stairs.name=Stairs o' Green Colorrred Grey Pebbles
+tile.magenta_dyed_diorite_stairs.name=Stairs o' Magenta Colorrred Grey Pebbles
+tile.silver_dyed_diorite_stairs.name=Stairs o' Silver Colorrred Grey Pebbles
+tile.blue_dyed_diorite_stairs.name=Stairs o' Blue Colorrred Grey Pebbles
+tile.cyan_dyed_diorite_stairs.name=Stairs o' Cyan Colorrred Grey Pebbles
+tile.light_blue_dyed_diorite_stairs.name=Stairs o' Light Blue Colorrred Grey Pebbles
+tile.pink_dyed_diorite_stairs.name=Stairs o' Pink Colorrred Grey Pebbles
+tile.yellow_dyed_diorite_stairs.name=Stairs o' Yellow Colorrred Grey Pebbles
+tile.white_dyed_diorite_stairs.name=Stairs o' White Colorrred Grey Pebbles
+
+#Now dyed granite stairs
+tile.lime_dyed_granite_stairs.name=Stairs o' Lime Colorrred Brown Pebbles
+tile.purple_dyed_granite_stairs.name=Stairs o' Purple Colorrred Brown Pebbles
+tile.red_dyed_granite_stairs.name=Stairs o' Red Colorrred Brown Pebbles
+tile.orange_dyed_granite_stairs.name=Stairs o' Orange Colorrred Brown Pebbles
+tile.brown_dyed_granite_stairs.name=Stairs o' Brown Colorrred Brown Pebbles
+tile.black_dyed_granite_stairs.name=Stairs o' Black Colorrred Brown Pebbles
+tile.gray_dyed_granite_stairs.name=Stairs o' Gray Colorrred Brown Pebbles
+tile.green_dyed_granite_stairs.name=Stairs o' Green Colorrred Brown Pebbles
+tile.magenta_dyed_granite_stairs.name=Stairs o' Magenta Colorrred Brown Pebbles
+tile.silver_dyed_granite_stairs.name=Stairs o' Silver Colorrred Brown Pebbles
+tile.blue_dyed_granite_stairs.name=Stairs o' Blue Colorrred Brown Pebbles
+tile.cyan_dyed_granite_stairs.name=Stairs o' Cyan Colorrred Brown Pebbles
+tile.light_blue_dyed_granite_stairs.name=Stairs o' Light Blue Colorrred Brown Pebbles
+tile.pink_dyed_granite_stairs.name=Stairs o' Pink Colorrred Brown Pebbles
+tile.yellow_dyed_granite_stairs.name=Stairs o' Yellow Colorrred Brown Pebbles
+tile.white_dyed_granite_stairs.name=Stairs o' White Colorrred Brown Pebbles
+
+#Now dyed polished andesite stairs
+tile.lime_dyed_polished_andesite_stairs.name=Stairs o' Lime Colorrred Good lookin' White Pebbles
+tile.purple_dyed_polished_andesite_stairs.name=Stairs o' Purple Colorrred Good lookin' White Pebbles
+tile.red_dyed_polished_andesite_stairs.name=Stairs o' Red Colorrred Good lookin' White Pebbles
+tile.orange_dyed_polished_andesite_stairs.name=Stairs o' Orange Colorrred Good lookin' White Pebbles
+tile.brown_dyed_polished_andesite_stairs.name=Stairs o' Brown Colorrred Good lookin' White Pebbles
+tile.black_dyed_polished_andesite_stairs.name=Stairs o' Black Colorrred Good lookin' White Pebbles
+tile.gray_dyed_polished_andesite_stairs.name=Stairs o' Gray Colorrred Good lookin' White Pebbles
+tile.green_dyed_polished_andesite_stairs.name=Stairs o' Green Colorrred Good lookin' White Pebbles
+tile.magenta_dyed_polished_andesite_stairs.name=Stairs o' Magenta Colorrred Good lookin' White Pebbles
+tile.silver_dyed_polished_andesite_stairs.name=Stairs o' Silver Colorrred Good lookin' White Pebbles
+tile.blue_dyed_polished_andesite_stairs.name=Stairs o' Blue Colorrred Good lookin' White Pebbles
+tile.cyan_dyed_polished_andesite_stairs.name=Stairs o' Cyan Colorrred Good lookin' White Pebbles
+tile.light_blue_dyed_polished_andesite_stairs.name=Stairs o' Light Blue Colorrred Good lookin' White Pebbles
+tile.pink_dyed_polished_andesite_stairs.name=Stairs o' Pink Colorrred Good lookin' White Pebbles
+tile.yellow_dyed_polished_andesite_stairs.name=Stairs o' Yellow Colorrred Good lookin' White Pebbles
+tile.white_dyed_polished_andesite_stairs.name=Stairs o' White Colorrred Good lookin' White Pebbles
+
+#Now dyed polished diorite stairs
+tile.lime_dyed_polished_diorite_stairs.name=Stairs o' Lime Colorrred Good lookin' Grey Pebbles
+tile.purple_dyed_polished_diorite_stairs.name=Stairs o' Purple Colorrred Good lookin' Grey Pebbles
+tile.red_dyed_polished_diorite_stairs.name=Stairs o' Red Colorrred Good lookin' Grey Pebbles
+tile.orange_dyed_polished_diorite_stairs.name=Stairs o' Orange Colorrred Good lookin' Grey Pebbles
+tile.brown_dyed_polished_diorite_stairs.name=Stairs o' Brown Colorrred Good lookin' Grey Pebbles
+tile.black_dyed_polished_diorite_stairs.name=Stairs o' Black Colorrred Good lookin' Grey Pebbles
+tile.gray_dyed_polished_diorite_stairs.name=Stairs o' Gray Colorrred Good lookin' Grey Pebbles
+tile.green_dyed_polished_diorite_stairs.name=Stairs o' Green Colorrred Good lookin' Grey Pebbles
+tile.magenta_dyed_polished_diorite_stairs.name=Stairs o' Magenta Colorrred Good lookin' Grey Pebbles
+tile.silver_dyed_polished_diorite_stairs.name=Stairs o' Silver Colorrred Good lookin' Grey Pebbles
+tile.blue_dyed_polished_diorite_stairs.name=Stairs o' Blue Colorrred Good lookin' Grey Pebbles
+tile.cyan_dyed_polished_diorite_stairs.name=Stairs o' Cyan Colorrred Good lookin' Grey Pebbles
+tile.light_blue_dyed_polished_diorite_stairs.name=Stairs o' Light Blue Colorrred Good lookin' Grey Pebbles
+tile.pink_dyed_polished_diorite_stairs.name=Stairs o' Pink Colorrred Good lookin' Grey Pebbles
+tile.yellow_dyed_polished_diorite_stairs.name=Stairs o' Yellow Colorrred Good lookin' Grey Pebbles
+tile.white_dyed_polished_diorite_stairs.name=Stairs o' White Colorrred Good lookin' Grey Pebbles
+
+#Now dyed polished granite stairs
+tile.lime_dyed_polished_granite_stairs.name=Stairs o' Lime Colorrred Good lookin' Brown Pebbles
+tile.purple_dyed_polished_granite_stairs.name=Stairs o' Purple Colorrred Good lookin' Brown Pebbles
+tile.red_dyed_polished_granite_stairs.name=Stairs o' Red Colorrred Good lookin' Brown Pebbles
+tile.orange_dyed_polished_granite_stairs.name=Stairs o' Orange Colorrred Good lookin' Brown Pebbles
+tile.brown_dyed_polished_granite_stairs.name=Stairs o' Brown Colorrred Good lookin' Brown Pebbles
+tile.black_dyed_polished_granite_stairs.name=Stairs o' Black Colorrred Good lookin' Brown Pebbles
+tile.gray_dyed_polished_granite_stairs.name=Stairs o' Gray Colorrred Good lookin' Brown Pebbles
+tile.green_dyed_polished_granite_stairs.name=Stairs o' Green Colorrred Good lookin' Brown Pebbles
+tile.magenta_dyed_polished_granite_stairs.name=Stairs o' Magenta Colorrred Good lookin' Brown Pebbles
+tile.silver_dyed_polished_granite_stairs.name=Stairs o' Silver Colorrred Good lookin' Brown Pebbles
+tile.blue_dyed_polished_granite_stairs.name=Stairs o' Blue Colorrred Good lookin' Brown Pebbles
+tile.cyan_dyed_polished_granite_stairs.name=Stairs o' Cyan Colorrred Good lookin' Brown Pebbles
+tile.light_blue_dyed_polished_granite_stairs.name=Stairs o' Light Blue Colorrred Good lookin' Brown Pebbles
+tile.pink_dyed_polished_granite_stairs.name=Stairs o' Pink Colorrred Good lookin' Brown Pebbles
+tile.yellow_dyed_polished_granite_stairs.name=Stairs o' Yellow Colorrred Good lookin' Brown Pebbles
+tile.white_dyed_polished_granite_stairs.name=Stairs o' White Colorrred Good lookin' Brown Pebbles
