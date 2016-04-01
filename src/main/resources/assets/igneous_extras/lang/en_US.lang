@@ -1,5 +1,8 @@
 #Language file for US English
 
+#First, we do item groups
+itemGroup.dyed_blocks=Dyed Blocks
+
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Dyed Cobblestone
 tile.dyed_cobblestone.purple.name=Purple Dyed Cobblestone

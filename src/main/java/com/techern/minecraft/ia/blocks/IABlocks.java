@@ -7,6 +7,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.BlockStone;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumDyeColor;
@@ -20,6 +21,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  * @since 0.0.1
  */
 public class IABlocks {
+
+    /**
+     * The {@link CreativeTabs} for dyed blocks
+     *
+     * @since 0.0.1
+     */
+    public static CreativeTabs DYED_BLOCKS_TAB = new CreativeTabs("dyed_blocks") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(DYED_COBBLESTONE);
+        }
+    };
 
     /**
      * A {@link BlockColored} defining a {@link BlockDyedCobblestone}
@@ -1150,7 +1163,6 @@ public class IABlocks {
      * @since 0.0.1
      */
     public static BlockStairs YELLOW_DYED_POLISHED_GRANITE_STAIRS = new BaseBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_granite_stairs");
-
 
     /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
