@@ -2,6 +2,8 @@
 
 #First, we do item groups
 itemGroup.dyed_blocks=Dyed Blocks
+itemGroup.dyed_igneous_stairs=Dyed Stairs
+itemGroup.igneous_stairs=Igneous Stairs
 
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Dyed Cobblestone
