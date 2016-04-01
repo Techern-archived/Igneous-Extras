@@ -1,5 +1,10 @@
 #Language file for Dutch (Netherlands)
 
+#First, we do item groups
+itemGroup.dyed_blocks=Geverfde Blocks
+itemGroup.dyed_igneous_stairs=Geverfde Igneous Trappen
+itemGroup.igneous_stairs=Igneous Trappen
+
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lichtgroen Geverfd Keisteen
 tile.dyed_cobblestone.purple.name=Paars Geverfd Keisteen
@@ -37,22 +42,22 @@ tile.dyed_mossy_cobblestone.yellow.name=Geel Geverfd Mossig Keisteen
 tile.dyed_mossy_cobblestone.white.name=Wit Geverfd Mossig Keisteen
 
 #Then dyed stone
-tile.dyed_stone.lime.name=Lichtgroen Geverfde Steen
-tile.dyed_stone.purple.name=Paars Geverfde Steen
-tile.dyed_stone.red.name=Rood Geverfde Steen
-tile.dyed_stone.orange.name=Oranje Geverfde Steen
-tile.dyed_stone.brown.name=Buin Geverfde Steen
-tile.dyed_stone.black.name=Zwart Geverfde Steen
-tile.dyed_stone.gray.name=Grijs Geverfde Steen
-tile.dyed_stone.green.name=Groen Geverfde Steen
-tile.dyed_stone.magenta.name=Magenta Geverfde Steen
-tile.dyed_stone.silver.name=Zilver Geverfde Steen
-tile.dyed_stone.blue.name=Blauw Geverfde Steen
-tile.dyed_stone.cyan.name=Cyaan Geverfde Steen
-tile.dyed_stone.lightBlauw.name=Licht Blauw Geverfde Steen
-tile.dyed_stone.pink.name=Roze Geverfde Steen
-tile.dyed_stone.yellow.name=Geel Geverfde Steen
-tile.dyed_stone.white.name=Wit Geverfde Steen
+tile.dyed_stone.lime.name=Lichtgroen Geverfd Steen
+tile.dyed_stone.purple.name=Paars Geverfd Steen
+tile.dyed_stone.red.name=Rood Geverfd Steen
+tile.dyed_stone.orange.name=Oranje Geverfd Steen
+tile.dyed_stone.brown.name=Buin Geverfd Steen
+tile.dyed_stone.black.name=Zwart Geverfd Steen
+tile.dyed_stone.gray.name=Grijs Geverfd Steen
+tile.dyed_stone.green.name=Groen Geverfd Steen
+tile.dyed_stone.magenta.name=Magenta Geverfd Steen
+tile.dyed_stone.silver.name=Zilver Geverfd Steen
+tile.dyed_stone.blue.name=Blauw Geverfd Steen
+tile.dyed_stone.cyan.name=Cyaan Geverfd Steen
+tile.dyed_stone.lightBlauw.name=Licht Blauw Geverfd Steen
+tile.dyed_stone.pink.name=Roze Geverfd Steen
+tile.dyed_stone.yellow.name=Geel Geverfd Steen
+tile.dyed_stone.white.name=Wit Geverfd Steen
 
 
 #Then dyed granite
@@ -167,3 +172,175 @@ tile.dyed_smooth_andesite.lightBlauw.name=Licht Blauw Geverfd Gepolijst Andesiet
 tile.dyed_smooth_andesite.pink.name=Roze Geverfd Gepolijst Andesiet
 tile.dyed_smooth_andesite.yellow.name=Geel Geverfd Gepolijst Andesiet
 tile.dyed_smooth_andesite.white.name=Wit Geverfd Gepolijst Andesiet
+
+#Then stairs
+tile.stone_stairs.name=Stene Trappen
+tile.mossy_cobblestone_stairs.name=Mossig Keisteen Trappen
+tile.granite_stairs.name=Graniet Trappen
+tile.polished_granite_stairs.name=Gepolijste Graniet Trappen
+tile.diorite_stairs.name=Dioriet Trappen
+tile.polished_diorite_stairs.name=Gepolijste Dioriet Trappen
+tile.andesite_stairs.name=Andesiet Trappen
+tile.polished_andesite_stairs.name=Gepolijste Andesiet Trappen
+
+#Now dyed cobblestone stairs
+tile.lime_dyed_cobblestone_stairs.name=Lichtgroen Geverfde Keisteen Trappen
+tile.purple_dyed_cobblestone_stairs.name=Paars Geverfde Keisteen Trappen
+tile.red_dyed_cobblestone_stairs.name=Rood Geverfde Keisteen Trappen
+tile.orange_dyed_cobblestone_stairs.name=Oranje Geverfde Keisteen Trappen
+tile.brown_dyed_cobblestone_stairs.name=Bruin Geverfde Keisteen Trappen
+tile.black_dyed_cobblestone_stairs.name=Zwart Geverfde Keisteen Trappen
+tile.gray_dyed_cobblestone_stairs.name=Grijs Geverfde Keisteen Trappen
+tile.green_dyed_cobblestone_stairs.name=Green Geverfde Keisteen Trappen
+tile.magenta_dyed_cobblestone_stairs.name=Magenta Geverfde Keisteen Trappen
+tile.silver_dyed_cobblestone_stairs.name=Zilver Geverfde Keisteen Trappen
+tile.blue_dyed_cobblestone_stairs.name=Blauw Geverfde Keisteen Trappen
+tile.cyan_dyed_cobblestone_stairs.name=Cyaan Geverfde Keisteen Trappen
+tile.light_blue_dyed_cobblestone_stairs.name=Licht Blauw Geverfde Keisteen Trappen
+tile.pink_dyed_cobblestone_stairs.name=Roze Geverfde Keisteen Trappen
+tile.yellow_dyed_cobblestone_stairs.name=Geel Geverfde Keisteen Trappen
+tile.white_dyed_cobblestone_stairs.name=Wit Geverfde Keisteen Trappen
+
+#Now dyed mossy cobblestone stairs
+tile.lime_dyed_mossy_cobblestone_stairs.name=Lichtgroen Geverfd Mossig Keisteen Trappen
+tile.purple_dyed_mossy_cobblestone_stairs.name=Paars Geverfd Mossig Keisteen Trappen
+tile.red_dyed_mossy_cobblestone_stairs.name=Rood Geverfd Mossig Keisteen Trappen
+tile.orange_dyed_mossy_cobblestone_stairs.name=Oranje Geverfd Mossig Keisteen Trappen
+tile.brown_dyed_mossy_cobblestone_stairs.name=Bruin Geverfd Mossig Keisteen Trappen
+tile.black_dyed_mossy_cobblestone_stairs.name=Zwart Geverfd Mossig Keisteen Trappen
+tile.gray_dyed_mossy_cobblestone_stairs.name=Grijs Geverfd Mossig Keisteen Trappen
+tile.green_dyed_mossy_cobblestone_stairs.name=Green Geverfd Mossig Keisteen Trappen
+tile.magenta_dyed_mossy_cobblestone_stairs.name=Magenta Geverfd Mossig Keisteen Trappen
+tile.silver_dyed_mossy_cobblestone_stairs.name=Zilver Geverfd Mossig Keisteen Trappen
+tile.blue_dyed_mossy_cobblestone_stairs.name=Blauw Geverfd Mossig Keisteen Trappen
+tile.cyan_dyed_mossy_cobblestone_stairs.name=Cyaan Geverfd Mossig Keisteen Trappen
+tile.light_blue_dyed_mossy_cobblestone_stairs.name=Licht Blauw Geverfd Mossig Keisteen Trappen
+tile.pink_dyed_mossy_cobblestone_stairs.name=Roze Geverfd Mossig Keisteen Trappen
+tile.yellow_dyed_mossy_cobblestone_stairs.name=Geel Geverfd Mossig Keisteen Trappen
+tile.white_dyed_mossy_cobblestone_stairs.name=Wit Geverfd Mossig Keisteen Trappen
+
+#Now dyed stone stairs
+tile.lime_dyed_stone_stairs.name=Lichtgroen Geverfde Stene Trappen
+tile.purple_dyed_stone_stairs.name=Paars Geverfde Stene Trappen
+tile.red_dyed_stone_stairs.name=Rood Geverfde Stene Trappen
+tile.orange_dyed_stone_stairs.name=Oranje Geverfde Stene Trappen
+tile.brown_dyed_stone_stairs.name=Bruin Geverfde Stene Trappen
+tile.black_dyed_stone_stairs.name=Zwart Geverfde Stene Trappen
+tile.gray_dyed_stone_stairs.name=Grijs Geverfde Stene Trappen
+tile.green_dyed_stone_stairs.name=Green Geverfde Stene Trappen
+tile.magenta_dyed_stone_stairs.name=Magenta Geverfde Stene Trappen
+tile.silver_dyed_stone_stairs.name=Zilver Geverfde Stene Trappen
+tile.blue_dyed_stone_stairs.name=Blauw Geverfde Stene Trappen
+tile.cyan_dyed_stone_stairs.name=Cyaan Geverfde Stene Trappen
+tile.light_blue_dyed_stone_stairs.name=Licht Blauw Geverfde Stene Trappen
+tile.pink_dyed_stone_stairs.name=Roze Geverfde Stene Trappen
+tile.yellow_dyed_stone_stairs.name=Geel Geverfde Stene Trappen
+tile.white_dyed_stone_stairs.name=Wit Geverfde Stene Trappen
+
+#Now dyed andesite stairs
+tile.lime_dyed_andesite_stairs.name=Lichtgroen Geverfde Andesiet Trappen
+tile.purple_dyed_andesite_stairs.name=Paars Geverfde Andesiet Trappen
+tile.red_dyed_andesite_stairs.name=Rood Geverfde Andesiet Trappen
+tile.orange_dyed_andesite_stairs.name=Oranje Geverfde Andesiet Trappen
+tile.brown_dyed_andesite_stairs.name=Bruin Geverfde Andesiet Trappen
+tile.black_dyed_andesite_stairs.name=Zwart Geverfde Andesiet Trappen
+tile.gray_dyed_andesite_stairs.name=Grijs Geverfde Andesiet Trappen
+tile.green_dyed_andesite_stairs.name=Green Geverfde Andesiet Trappen
+tile.magenta_dyed_andesite_stairs.name=Magenta Geverfde Andesiet Trappen
+tile.silver_dyed_andesite_stairs.name=Zilver Geverfde Andesiet Trappen
+tile.blue_dyed_andesite_stairs.name=Blauw Geverfde Andesiet Trappen
+tile.cyan_dyed_andesite_stairs.name=Cyaan Geverfde Andesiet Trappen
+tile.light_blue_dyed_andesite_stairs.name=Licht Blauw Geverfde Andesiet Trappen
+tile.pink_dyed_andesite_stairs.name=Roze Geverfde Andesiet Trappen
+tile.yellow_dyed_andesite_stairs.name=Geel Geverfde Andesiet Trappen
+tile.white_dyed_andesite_stairs.name=Wit Geverfde Andesiet Trappen
+
+#Now dyed diorite stairs
+tile.lime_dyed_diorite_stairs.name=Lichtgroen Geverfde Dioriet Trappen
+tile.purple_dyed_diorite_stairs.name=Paars Geverfde Dioriet Trappen
+tile.red_dyed_diorite_stairs.name=Rood Geverfde Dioriet Trappen
+tile.orange_dyed_diorite_stairs.name=Oranje Geverfde Dioriet Trappen
+tile.brown_dyed_diorite_stairs.name=Bruin Geverfde Dioriet Trappen
+tile.black_dyed_diorite_stairs.name=Zwart Geverfde Dioriet Trappen
+tile.gray_dyed_diorite_stairs.name=Grijs Geverfde Dioriet Trappen
+tile.green_dyed_diorite_stairs.name=Green Geverfde Dioriet Trappen
+tile.magenta_dyed_diorite_stairs.name=Magenta Geverfde Dioriet Trappen
+tile.silver_dyed_diorite_stairs.name=Zilver Geverfde Dioriet Trappen
+tile.blue_dyed_diorite_stairs.name=Blauw Geverfde Dioriet Trappen
+tile.cyan_dyed_diorite_stairs.name=Cyaan Geverfde Dioriet Trappen
+tile.light_blue_dyed_diorite_stairs.name=Licht Blauw Geverfde Dioriet Trappen
+tile.pink_dyed_diorite_stairs.name=Roze Geverfde Dioriet Trappen
+tile.yellow_dyed_diorite_stairs.name=Geel Geverfde Dioriet Trappen
+tile.white_dyed_diorite_stairs.name=Wit Geverfde Dioriet Trappen
+
+#Now dyed granite stairs
+tile.lime_dyed_granite_stairs.name=Lichtgroen Geverfde Graniet Trappen
+tile.purple_dyed_granite_stairs.name=Paars Geverfde Graniet Trappen
+tile.red_dyed_granite_stairs.name=Rood Geverfde Graniet Trappen
+tile.orange_dyed_granite_stairs.name=Oranje Geverfde Graniet Trappen
+tile.brown_dyed_granite_stairs.name=Bruin Geverfde Graniet Trappen
+tile.black_dyed_granite_stairs.name=Zwart Geverfde Graniet Trappen
+tile.gray_dyed_granite_stairs.name=Grijs Geverfde Graniet Trappen
+tile.green_dyed_granite_stairs.name=Green Geverfde Graniet Trappen
+tile.magenta_dyed_granite_stairs.name=Magenta Geverfde Graniet Trappen
+tile.silver_dyed_granite_stairs.name=Zilver Geverfde Graniet Trappen
+tile.blue_dyed_granite_stairs.name=Blauw Geverfde Graniet Trappen
+tile.cyan_dyed_granite_stairs.name=Cyaan Geverfde Graniet Trappen
+tile.light_blue_dyed_granite_stairs.name=Licht Blauw Geverfde Graniet Trappen
+tile.pink_dyed_granite_stairs.name=Roze Geverfde Graniet Trappen
+tile.yellow_dyed_granite_stairs.name=Geel Geverfde Graniet Trappen
+tile.white_dyed_granite_stairs.name=Wit Geverfde Graniet Trappen
+
+#Now dyed polished andesite stairs
+tile.lime_dyed_polished_andesite_stairs.name=Lichtgroen Geverfde Gepolijste Andesiet Trappen
+tile.purple_dyed_polished_andesite_stairs.name=Paars Geverfde Gepolijste Andesiet Trappen
+tile.red_dyed_polished_andesite_stairs.name=Rood Geverfde Gepolijste Andesiet Trappen
+tile.orange_dyed_polished_andesite_stairs.name=Oranje Geverfde Gepolijste Andesiet Trappen
+tile.brown_dyed_polished_andesite_stairs.name=Bruin Geverfde Gepolijste Andesiet Trappen
+tile.black_dyed_polished_andesite_stairs.name=Zwart Geverfde Gepolijste Andesiet Trappen
+tile.gray_dyed_polished_andesite_stairs.name=Grijs Geverfde Gepolijste Andesiet Trappen
+tile.green_dyed_polished_andesite_stairs.name=Green Geverfde Gepolijste Andesiet Trappen
+tile.magenta_dyed_polished_andesite_stairs.name=Magenta Geverfde Gepolijste Andesiet Trappen
+tile.silver_dyed_polished_andesite_stairs.name=Zilver Geverfde Gepolijste Andesiet Trappen
+tile.blue_dyed_polished_andesite_stairs.name=Blauw Geverfde Gepolijste Andesiet Trappen
+tile.cyan_dyed_polished_andesite_stairs.name=Cyaan Geverfde Gepolijste Andesiet Trappen
+tile.light_blue_dyed_polished_andesite_stairs.name=Licht Blauw Geverfde Gepolijste Andesiet Trappen
+tile.pink_dyed_polished_andesite_stairs.name=Roze Geverfde Gepolijste Andesiet Trappen
+tile.yellow_dyed_polished_andesite_stairs.name=Geel Geverfde Gepolijste Andesiet Trappen
+tile.white_dyed_polished_andesite_stairs.name=Wit Geverfde Gepolijste Andesiet Trappen
+
+#Now dyed polished diorite stairs
+tile.lime_dyed_polished_diorite_stairs.name=Lichtgroen Geverfde Gepolijste Dioriet Trappen
+tile.purple_dyed_polished_diorite_stairs.name=Paars Geverfde Gepolijste Dioriet Trappen
+tile.red_dyed_polished_diorite_stairs.name=Rood Geverfde Gepolijste Dioriet Trappen
+tile.orange_dyed_polished_diorite_stairs.name=Oranje Geverfde Gepolijste Dioriet Trappen
+tile.brown_dyed_polished_diorite_stairs.name=Bruin Geverfde Gepolijste Dioriet Trappen
+tile.black_dyed_polished_diorite_stairs.name=Zwart Geverfde Gepolijste Dioriet Trappen
+tile.gray_dyed_polished_diorite_stairs.name=Grijs Geverfde Gepolijste Dioriet Trappen
+tile.green_dyed_polished_diorite_stairs.name=Green Geverfde Gepolijste Dioriet Trappen
+tile.magenta_dyed_polished_diorite_stairs.name=Magenta Geverfde Gepolijste Dioriet Trappen
+tile.silver_dyed_polished_diorite_stairs.name=Zilver Geverfde Gepolijste Dioriet Trappen
+tile.blue_dyed_polished_diorite_stairs.name=Blauw Geverfde Gepolijste Dioriet Trappen
+tile.cyan_dyed_polished_diorite_stairs.name=Cyaan Geverfde Gepolijste Dioriet Trappen
+tile.light_blue_dyed_polished_diorite_stairs.name=Licht Blauw Geverfde Gepolijste Dioriet Trappen
+tile.pink_dyed_polished_diorite_stairs.name=Roze Geverfde Gepolijste Dioriet Trappen
+tile.yellow_dyed_polished_diorite_stairs.name=Geel Geverfde Gepolijste Dioriet Trappen
+tile.white_dyed_polished_diorite_stairs.name=Wit Geverfde Gepolijste Dioriet Trappen
+
+#Now dyed polished granite stairs
+tile.lime_dyed_polished_granite_stairs.name=Lichtgroen Geverfde Gepolijste Graniet Trappen
+tile.purple_dyed_polished_granite_stairs.name=Paars Geverfde Gepolijste Graniet Trappen
+tile.red_dyed_polished_granite_stairs.name=Rood Geverfde Gepolijste Graniet Trappen
+tile.orange_dyed_polished_granite_stairs.name=Oranje Geverfde Gepolijste Graniet Trappen
+tile.brown_dyed_polished_granite_stairs.name=Bruin Geverfde Gepolijste Graniet Trappen
+tile.black_dyed_polished_granite_stairs.name=Zwart Geverfde Gepolijste Graniet Trappen
+tile.gray_dyed_polished_granite_stairs.name=Grijs Geverfde Gepolijste Graniet Trappen
+tile.green_dyed_polished_granite_stairs.name=Green Geverfde Gepolijste Graniet Trappen
+tile.magenta_dyed_polished_granite_stairs.name=Magenta Geverfde Gepolijste Graniet Trappen
+tile.silver_dyed_polished_granite_stairs.name=Zilver Geverfde Gepolijste Graniet Trappen
+tile.blue_dyed_polished_granite_stairs.name=Blauw Geverfde Gepolijste Graniet Trappen
+tile.cyan_dyed_polished_granite_stairs.name=Cyaan Geverfde Gepolijste Graniet Trappen
+tile.light_blue_dyed_polished_granite_stairs.name=Licht Blauw Geverfde Gepolijste Graniet Trappen
+tile.pink_dyed_polished_granite_stairs.name=Roze Geverfde Gepolijste Graniet Trappen
+tile.yellow_dyed_polished_granite_stairs.name=Geel Geverfde Gepolijste Graniet Trappen
+tile.white_dyed_polished_granite_stairs.name=Wit Geverfde Gepolijste Graniet Trappen
