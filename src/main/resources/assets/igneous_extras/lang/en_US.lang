@@ -2,7 +2,7 @@
 
 #First, we do item groups
 itemGroup.dyed_blocks=Dyed Blocks
-itemGroup.dyed_igneous_stairs=Dyed Stairs
+itemGroup.dyed_igneous_stairs=Dyed Igneous Stairs
 itemGroup.igneous_stairs=Igneous Stairs
 
 #Start off with dyed cobblestone blocks
