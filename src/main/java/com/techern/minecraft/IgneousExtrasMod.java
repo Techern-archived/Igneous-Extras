@@ -24,7 +24,7 @@ public class IgneousExtrasMod {
      *
      * @since 0.0.1
      */
-    public static final String VERSION = "0.0.1-SNAPSHOT-1.9";
+    public static final String VERSION = "0.0.2-SNAPSHOT";
 
     /**
      * The {@link Logger} for this mod
