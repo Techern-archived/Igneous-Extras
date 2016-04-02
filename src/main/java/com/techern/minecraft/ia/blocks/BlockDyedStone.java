@@ -1,6 +1,7 @@
 package com.techern.minecraft.ia.blocks;
 
 import net.minecraft.block.BlockColored;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 
@@ -21,7 +22,7 @@ public class BlockDyedStone extends BlockColored {
 
         this.setHardness(1.5F);
         this.setResistance(10.0F);
-        this.setStepSound(soundTypeStone);
+        this.setStepSound(SoundType.STONE);
         this.setCreativeTab(IABlocks.DYED_BLOCKS_TAB);
         this.setUnlocalizedName(unlocalizedName);
         this.setHarvestLevel("pickaxe", 0);
