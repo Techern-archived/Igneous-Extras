@@ -2,6 +2,7 @@ package com.techern.minecraft;
 
 import com.techern.minecraft.ia.blocks.IABlocks;
 import com.techern.minecraft.ia.proxy.CommonProxy;
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -23,7 +24,7 @@ public class IgneousExtrasMod {
      *
      * @since 0.0.1
      */
-    public static final String VERSION = "0.0.1-SNAPSHOT";
+    public static final String VERSION = "0.0.1";
 
     /**
      * The {@link Logger} for this mod
@@ -44,6 +45,13 @@ public class IgneousExtrasMod {
     public static CommonProxy PROXY;
 
     /**
+     * The {@link Configuration} (backed by a {@link java.io.File} used by {@link IgneousExtrasMod}
+     *
+     * @since 0.0.1
+     */
+    public static Configuration CONFIGURATION;
+
+    /**
      * Handles the {@link FMLPreInitializationEvent}
      *
      * @param event The {@link FMLPreInitializationEvent}
@@ -52,7 +60,11 @@ public class IgneousExtrasMod {
     @Mod.EventHandler
     public void handlePreInitEvent(FMLPreInitializationEvent event) {
         LOGGER = event.getModLog();
-        LOGGER.info("Set up logging for Igneous Extras! :D");
+        LOGGER.debug("Attempting to load configuration file...");
+
+        CONFIGURATION = new Configuration(event.getSuggestedConfigurationFile());
+
+        LOGGER.info("Loaded configuration file for Igneous Extras");
     }
 
     /**
@@ -75,6 +87,10 @@ public class IgneousExtrasMod {
     @Mod.EventHandler
     public void handlePostInitEvent(FMLPostInitializationEvent event) {
         IABlocks.registerRecipes();
+        if (CONFIGURATION.hasChanged()) {
+            LOGGER.info("Igneous Additions found extra / changed configuration, and is now saving");
+            CONFIGURATION.save();
+        }
     }
 
 }

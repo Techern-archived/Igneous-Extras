@@ -16,14 +16,14 @@ public class BlockDyedStone extends BlockColored {
      *
      * @since 0.0.1
      */
-    public BlockDyedStone() {
+    public BlockDyedStone(String unlocalizedName) {
         super(Material.rock);
 
         this.setHardness(1.5F);
         this.setResistance(10.0F);
         this.setStepSound(soundTypeStone);
-        this.setCreativeTab(CreativeTabs.tabDecorations); //TODO: Add to Coloured Blocks tab
-        this.setUnlocalizedName("dyed_stone");
+        this.setCreativeTab(IABlocks.DYED_BLOCKS_TAB);
+        this.setUnlocalizedName(unlocalizedName);
         this.setHarvestLevel("pickaxe", 0);
     }
 
