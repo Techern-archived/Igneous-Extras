@@ -1,9 +1,9 @@
-package com.techern.minecraft.ia.blocks;
+package com.techern.minecraft.igneousextras.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
-import com.techern.minecraft.ia.blocks.stairs.BaseBlockStairs;
-import com.techern.minecraft.ia.blocks.stairs.ColoredBlockStairs;
-import com.techern.minecraft.ia.items.ItemColoredBlock;
+import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
+import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
+import com.techern.minecraft.igneousextras.items.ItemColoredBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockColored;
 import net.minecraft.block.BlockStairs;

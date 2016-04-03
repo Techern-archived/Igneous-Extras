@@ -1,9 +1,8 @@
-package com.techern.minecraft.ia.blocks;
+package com.techern.minecraft.igneousextras.blocks;
 
 import net.minecraft.block.BlockColored;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 /**
  * A block representing a colored stone {@link net.minecraft.block.Block}

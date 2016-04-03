@@ -1,7 +1,7 @@
 package com.techern.minecraft;
 
-import com.techern.minecraft.ia.blocks.IABlocks;
-import com.techern.minecraft.ia.proxy.CommonProxy;
+import com.techern.minecraft.igneousextras.blocks.IABlocks;
+import com.techern.minecraft.igneousextras.proxy.CommonProxy;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -36,12 +36,12 @@ public class IgneousExtrasMod {
     public static Logger LOGGER = LogManager.getLogger(IgneousExtrasMod.class);
 
     /**
-     * A {@link SidedProxy} of either {@link CommonProxy} or {@link com.techern.minecraft.ia.proxy.ClientProxy}
+     * A {@link SidedProxy} of either {@link CommonProxy} or {@link com.techern.minecraft.igneousextras.proxy.ClientProxy}
      *
      * @since 0.0.1
      */
-    @SidedProxy(clientSide = "com.techern.minecraft.ia.proxy.ClientProxy",
-                serverSide = "com.techern.minecraft.ia.proxy.CommonProxy")
+    @SidedProxy(clientSide = "com.techern.minecraft.igneousextras.proxy.ClientProxy",
+                serverSide = "com.techern.minecraft.igneousextras.proxy.CommonProxy")
     public static CommonProxy PROXY;
 
     /**
