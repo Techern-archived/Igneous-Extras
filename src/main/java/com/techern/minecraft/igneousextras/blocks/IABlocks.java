@@ -1812,6 +1812,13 @@ public class IABlocks {
             }
         }
 
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_PRESSURE_PLATE);
+
+        }
+
         //TODO: Add recipes for items second
 
     }
@@ -1841,6 +1848,22 @@ public class IABlocks {
 
         GameRegistry.addShapedRecipe(output, "  I", " II", "III", 'I', input);
         GameRegistry.addShapedRecipe(output, "I  ", "II ", "III", 'I', input);
+    }
+
+    /**
+     * Registers a {@link BlockPressurePlate} recipe
+     *
+     *
+     * @param baseBlock The base block to be consumedd
+     * @param baseBlockMetadata The required metadata value of the base block
+     * @param plateBlock The plate block to be returned
+     * @since 0.0.2
+     */
+    public static void registerPressurePlateRecipe(Block baseBlock, int baseBlockMetadata, Block plateBlock) {
+        ItemStack input = new ItemStack(baseBlock, 1, baseBlockMetadata);
+        ItemStack output = new ItemStack(plateBlock, 1, 0);
+
+        GameRegistry.addShapedRecipe(output, "II", 'I', input);
     }
 
     /**
