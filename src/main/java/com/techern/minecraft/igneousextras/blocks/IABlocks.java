@@ -1196,6 +1196,13 @@ public class IABlocks {
     public static Block GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("granite_pressure_plate");
 
     /**
+     * A polished granite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_granite_pressure_plate");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1399,6 +1406,7 @@ public class IABlocks {
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
             GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE, "granite_pressure_plate");
+            GameRegistry.registerBlock(POLISHED_GRANITE_PRESSURE_PLATE, "polished_granite_pressure_plate");
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
@@ -1606,6 +1614,7 @@ public class IABlocks {
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_PRESSURE_PLATE), 0, "granite_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_PRESSURE_PLATE), 0, "polished_granite_pressure_plate", "inventory");
         }
     }
 
