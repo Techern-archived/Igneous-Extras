@@ -1231,6 +1231,20 @@ public class IABlocks {
     public static Block POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_andesite_pressure_plate");
 
     /**
+     * A cobblestone {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("cobblestone_pressure_plate");
+
+    /**
+     * A mossy cobblestone {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block MOSSY_COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_cobblestone_pressure_plate");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1433,6 +1447,8 @@ public class IABlocks {
         //Now register pressure plates
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+            GameRegistry.registerBlock(COBBLESTONE_PRESSURE_PLATE, "cobblestone_pressure_plate");
+            GameRegistry.registerBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE, "mossy_cobblestone_pressure_plate");
             GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE, "granite_pressure_plate");
             GameRegistry.registerBlock(POLISHED_GRANITE_PRESSURE_PLATE, "polished_granite_pressure_plate");
             GameRegistry.registerBlock(DIORITE_PRESSURE_PLATE, "diorite_pressure_plate");
@@ -1645,6 +1661,8 @@ public class IABlocks {
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(COBBLESTONE_PRESSURE_PLATE), 0, "cobblestone_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE), 0, "mossy_cobblestone_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_PRESSURE_PLATE), 0, "granite_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_PRESSURE_PLATE), 0, "polished_granite_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DIORITE_PRESSURE_PLATE), 0, "diorite_pressure_plate", "inventory");
@@ -1849,6 +1867,9 @@ public class IABlocks {
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+
+            registerPressurePlateRecipe(Blocks.cobblestone, 0, COBBLESTONE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.mossy_cobblestone, 0, MOSSY_COBBLESTONE_PRESSURE_PLATE);
 
             registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_PRESSURE_PLATE);

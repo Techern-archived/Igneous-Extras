@@ -346,6 +346,8 @@ tile.yellow_dyed_polished_granite_stairs.name=Yellow Dyed Polished Granite Stair
 tile.white_dyed_polished_granite_stairs.name=White Dyed Polished Granite Stairs
 
 #Now pressure plates
+tile.cobblestone_pressure_plate.name=Cobblestone Pressure Plate
+tile.mossy_cobblestone_pressure_plate.name=Mossy Cobblestone Pressure Plate
 tile.granite_pressure_plate.name=Granite Pressure Plate
 tile.polished_granite_pressure_plate.name=Polished Granite Pressure Plate
 tile.diorite_pressure_plate.name=Diorite Pressure Plate
