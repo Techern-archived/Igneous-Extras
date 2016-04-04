@@ -344,3 +344,6 @@ tile.light_blue_dyed_polished_granite_stairs.name=Light Blue Dyed Polished Grani
 tile.pink_dyed_polished_granite_stairs.name=Pink Dyed Polished Granite Stairs
 tile.yellow_dyed_polished_granite_stairs.name=Yellow Dyed Polished Granite Stairs
 tile.white_dyed_polished_granite_stairs.name=White Dyed Polished Granite Stairs
+
+#Now pressure plates
+tile.granite_pressure_plate.name=Granite Pressure Plate

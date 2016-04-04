@@ -1,13 +1,12 @@
 package com.techern.minecraft.igneousextras.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
+import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
 import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
 import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
 import com.techern.minecraft.igneousextras.items.ItemColoredBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockColored;
-import net.minecraft.block.BlockStairs;
-import net.minecraft.block.BlockStone;
+import net.minecraft.block.*;
+import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -1190,6 +1189,13 @@ public class IABlocks {
     public static BlockStairs YELLOW_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_granite_stairs");
 
     /**
+     * A granite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("granite_pressure_plate");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1275,7 +1281,7 @@ public class IABlocks {
                 GameRegistry.registerBlock(GREEN_DYED_STONE_STAIRS, "green_dyed_stone_stairs");
                 GameRegistry.registerBlock(RED_DYED_STONE_STAIRS, "red_dyed_stone_stairs");
                 GameRegistry.registerBlock(BLACK_DYED_STONE_STAIRS, "black_dyed_stone_stairs");
-                
+
                 //Ugh
 
 
@@ -1389,6 +1395,12 @@ public class IABlocks {
 
         }
 
+        //Now register pressure plates
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+            GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE, "granite_pressure_plate");
+        }
+
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
             //Now we register meshes for coloured blocks in this loop
             for (EnumDyeColor color : EnumDyeColor.values()) {
@@ -1482,7 +1494,7 @@ public class IABlocks {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_STONE_STAIRS), 0, "green_dyed_stone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_STONE_STAIRS), 0, "red_dyed_stone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_STONE_STAIRS), 0, "black_dyed_stone_stairs", "inventory");
-                
+
                 //I repeat; ugh
 
 
@@ -1590,6 +1602,10 @@ public class IABlocks {
 
             }
 
+        }
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_PRESSURE_PLATE), 0, "granite_pressure_plate", "inventory");
         }
     }
 
