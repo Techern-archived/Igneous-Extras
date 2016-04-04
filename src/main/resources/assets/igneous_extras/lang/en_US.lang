@@ -348,3 +348,7 @@ tile.white_dyed_polished_granite_stairs.name=White Dyed Polished Granite Stairs
 #Now pressure plates
 tile.granite_pressure_plate.name=Granite Pressure Plate
 tile.polished_granite_pressure_plate.name=Polished Granite Pressure Plate
+tile.diorite_pressure_plate.name=Diorite Pressure Plate
+tile.polished_diorite_pressure_plate.name=Polished Diorite Pressure Plate
+tile.andesite_pressure_plate.name=Andesite Pressure Plate
+tile.polished_andesite_pressure_plate.name=Polished Andesite Pressure Plate
