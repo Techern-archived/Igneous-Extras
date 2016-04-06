@@ -1245,6 +1245,34 @@ public class IABlocks {
     public static Block MOSSY_COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_cobblestone_pressure_plate");
 
     /**
+     * A stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("stone_brick_pressure_plate");
+
+    /**
+     * A cracked stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block CRACKED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("cracked_stone_brick_pressure_plate");
+
+    /**
+     * A chiseled stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block CHISELED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("chiseled_stone_brick_pressure_plate");
+
+    /**
+     * A mossy stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block MOSSY_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_stone_brick_pressure_plate");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1455,6 +1483,11 @@ public class IABlocks {
             GameRegistry.registerBlock(POLISHED_DIORITE_PRESSURE_PLATE, "polished_diorite_pressure_plate");
             GameRegistry.registerBlock(ANDESITE_PRESSURE_PLATE, "andesite_pressure_plate");
             GameRegistry.registerBlock(POLISHED_ANDESITE_PRESSURE_PLATE, "polished_andesite_pressure_plate");
+
+            GameRegistry.registerBlock(STONE_BRICK_PRESSURE_PLATE, "stone_brick_pressure_plate");
+            GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE, "cracked_stone_brick_pressure_plate");
+            GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE, "chiseled_stone_brick_pressure_plate");
+            GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE, "mossy_stone_brick_pressure_plate");
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
@@ -1669,6 +1702,11 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_DIORITE_PRESSURE_PLATE), 0, "polished_diorite_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ANDESITE_PRESSURE_PLATE), 0, "andesite_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_PRESSURE_PLATE), 0, "polished_andesite_pressure_plate", "inventory");
+
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_BRICK_PRESSURE_PLATE), 0, "stone_brick_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE), 0, "chiseled_stone_brick_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE), 0, "cracked_stone_brick_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
         }
     }
 
@@ -1877,6 +1915,11 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE_SMOOTH.getMetadata(), POLISHED_ANDESITE_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.DIORITE.getMetadata(), DIORITE_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.DIORITE_SMOOTH.getMetadata(), POLISHED_DIORITE_PRESSURE_PLATE);
+
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.DEFAULT.getMetadata(), STONE_BRICK_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
 
         }
 

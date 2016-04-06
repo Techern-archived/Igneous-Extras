@@ -354,3 +354,7 @@ tile.diorite_pressure_plate.name=Diorite Pressure Plate
 tile.polished_diorite_pressure_plate.name=Polished Diorite Pressure Plate
 tile.andesite_pressure_plate.name=Andesite Pressure Plate
 tile.polished_andesite_pressure_plate.name=Polished Andesite Pressure Plate
+tile.stone_brick_pressure_plate.name=Stone Brick Pressure Plate
+tile.cracked_stone_brick_pressure_plate.name=Cracked Stone Brick Pressure Plate
+tile.chiseled_stone_brick_pressure_plate.name=Chiseled Stone Brick Pressure Plate
+tile.mossy_stone_brick_pressure_plate.name=Mossy Stone Brick Pressure Plate
