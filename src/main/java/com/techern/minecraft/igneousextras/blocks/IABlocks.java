@@ -1957,8 +1957,7 @@ public class IABlocks {
     /**
      * Registers a {@link BlockPressurePlate} recipe
      *
-     *
-     * @param baseBlock The base block to be consumedd
+     * @param baseBlock The base block to be consumed
      * @param baseBlockMetadata The required metadata value of the base block
      * @param plateBlock The plate block to be returned
      * @since 0.0.2
