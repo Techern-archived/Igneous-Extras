@@ -130,7 +130,7 @@ public class IABlocks {
     public static BlockStairs STONE_STAIRS = new BaseBlockStairs(Blocks.stone.getDefaultState().withProperty(BlockStone.VARIANT, BlockStone.EnumType.STONE), "stone_stairs");
 
     /**
-     * A {@link BlockStairs} defining mossy cobblestonje stairs
+     * A {@link BlockStairs} defining mossy cobblestone stairs
      *
      * @since 0.0.1
      */
