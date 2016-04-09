@@ -360,9 +360,11 @@ tile.chiseled_stone_brick_pressure_plate.name=Chiseled Stone Brick Pressure Plat
 tile.mossy_stone_brick_pressure_plate.name=Mossy Stone Brick Pressure Plate
 
 #Now levers
+tile.stone_lever.name=Stone Lever
 tile.diorite_lever.name=Diorite Lever
 tile.polished_diorite_lever.name=Polished Diorite Lever
 tile.andesite_lever.name=Andesite Lever
 tile.polished_andesite_lever.name=Polished Andesite Lever
 tile.granite_lever.name=Granite Lever
 tile.polished_granite_lever.name=Polished Granite Lever
+tile.mossy_cobblestone_lever.name=Mossy Cobblestone Lever
