@@ -1,6 +1,7 @@
 package com.techern.minecraft.igneousextras.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
+import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicLever;
 import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
 import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
 import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
@@ -1274,6 +1275,20 @@ public class IABlocks {
     public static Block MOSSY_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_stone_brick_pressure_plate");
 
     /**
+     * A granite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block GRANITE_LEVER = new BlockBasicLever("granite_lever");
+
+    /**
+     * A polished granite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_GRANITE_LEVER = new BlockBasicLever("polished_granite_lever");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1490,6 +1505,15 @@ public class IABlocks {
             GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE, "cracked_stone_brick_pressure_plate");
             GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE, "chiseled_stone_brick_pressure_plate");
             GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE, "mossy_stone_brick_pressure_plate");
+        }
+
+        //Now register levers
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+
+            GameRegistry.registerBlock(GRANITE_LEVER, "granite_lever");
+            GameRegistry.registerBlock(POLISHED_GRANITE_LEVER, "polished_granite_lever");
+
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
@@ -1710,6 +1734,11 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE), 0, "cracked_stone_brick_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
         }
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_LEVER), 0, "granite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_LEVER), 0, "polished_granite_lever", "inventory");
+        }
     }
 
     /**
@@ -1904,6 +1933,11 @@ public class IABlocks {
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_GRANITE_STAIRS);
 
             }
+
+            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+                registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_LEVER);
+                registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_LEVER);
+            }
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
@@ -1969,6 +2003,22 @@ public class IABlocks {
         ItemStack output = new ItemStack(plateBlock, 1, 0);
 
         GameRegistry.addShapedRecipe(output, "II", 'I', input);
+    }
+
+    /**
+     * Registers a {@link BlockBasicLever} recipe
+     *
+     * @param baseBlock The base block to be consumed
+     * @param baseBlockMetadata The required metadata value of the base block
+     * @param leverBlock The lever block to be returned
+     * @since 0.0.2
+     */
+    public static void registerLeverRecipe(Block baseBlock, int baseBlockMetadata, Block leverBlock) {
+        ItemStack input = new ItemStack(baseBlock, 1, baseBlockMetadata);
+        ItemStack output = new ItemStack(leverBlock, 1, 0);
+        ItemStack stick = new ItemStack(Items.stick, 1);
+
+        GameRegistry.addShapedRecipe(output, "S", "I", 'I', input, 'S', stick);
     }
 
     /**

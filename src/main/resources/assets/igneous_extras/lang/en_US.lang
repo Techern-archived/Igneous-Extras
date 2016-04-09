@@ -358,3 +358,7 @@ tile.stone_brick_pressure_plate.name=Stone Brick Pressure Plate
 tile.cracked_stone_brick_pressure_plate.name=Cracked Stone Brick Pressure Plate
 tile.chiseled_stone_brick_pressure_plate.name=Chiseled Stone Brick Pressure Plate
 tile.mossy_stone_brick_pressure_plate.name=Mossy Stone Brick Pressure Plate
+
+#Now levers
+tile.granite_lever.name=Granite Lever
+tile.polished_granite_lever.name=Polished Granite Lever
