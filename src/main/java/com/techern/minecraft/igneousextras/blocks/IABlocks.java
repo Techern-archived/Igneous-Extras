@@ -1287,6 +1287,34 @@ public class IABlocks {
      * @since 0.0.2
      */
     public static Block POLISHED_GRANITE_LEVER = new BlockBasicLever("polished_granite_lever");
+    
+    /**
+     * A diorite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block DIORITE_LEVER = new BlockBasicLever("diorite_lever");
+
+    /**
+     * A polished diorite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_DIORITE_LEVER = new BlockBasicLever("polished_diorite_lever");
+
+    /**
+     * A andesite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block ANDESITE_LEVER = new BlockBasicLever("andesite_lever");
+
+    /**
+     * A polished andesite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_ANDESITE_LEVER = new BlockBasicLever("polished_andesite_lever");
 
     /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
@@ -1513,6 +1541,10 @@ public class IABlocks {
 
             GameRegistry.registerBlock(GRANITE_LEVER, "granite_lever");
             GameRegistry.registerBlock(POLISHED_GRANITE_LEVER, "polished_granite_lever");
+            GameRegistry.registerBlock(DIORITE_LEVER, "diorite_lever");
+            GameRegistry.registerBlock(POLISHED_DIORITE_LEVER, "polished_diorite_lever");
+            GameRegistry.registerBlock(ANDESITE_LEVER, "andesite_lever");
+            GameRegistry.registerBlock(POLISHED_ANDESITE_LEVER, "polished_andesite_lever");
 
         }
 
@@ -1738,6 +1770,10 @@ public class IABlocks {
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_LEVER), 0, "granite_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_LEVER), 0, "polished_granite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DIORITE_LEVER), 0, "diorite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_DIORITE_LEVER), 0, "polished_diorite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ANDESITE_LEVER), 0, "andesite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_LEVER), 0, "polished_andesite_lever", "inventory");
         }
     }
 
@@ -1934,10 +1970,6 @@ public class IABlocks {
 
             }
 
-            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
-                registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_LEVER);
-                registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_LEVER);
-            }
         }
 
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
@@ -1957,6 +1989,15 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
 
+        }
+        
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.DIORITE.getMetadata(), DIORITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.DIORITE_SMOOTH.getMetadata(), POLISHED_DIORITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE.getMetadata(), ANDESITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE_SMOOTH.getMetadata(), POLISHED_ANDESITE_LEVER);
         }
 
         //TODO: Add recipes for items second
