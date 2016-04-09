@@ -5,6 +5,7 @@ import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePla
 import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
 import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
 import com.techern.minecraft.igneousextras.items.ItemColoredBlock;
+
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
@@ -1277,7 +1278,8 @@ public class IABlocks {
      *
      * @since 0.0.1
      */
-    public static void registerBlocks() {
+    @SuppressWarnings("deprecation")
+	public static void registerBlocks() {
 
         //First, we'll register dyed blocks
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
