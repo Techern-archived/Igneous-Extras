@@ -1,4 +1,4 @@
-package com.techern.minecraft.ia.proxy;
+package com.techern.minecraft.igneousextras.proxy;
 
 import net.minecraft.item.Item;
 
