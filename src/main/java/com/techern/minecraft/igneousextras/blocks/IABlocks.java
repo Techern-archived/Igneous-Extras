@@ -1,13 +1,12 @@
 package com.techern.minecraft.igneousextras.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
+import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
 import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
 import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
 import com.techern.minecraft.igneousextras.items.ItemColoredBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockColored;
-import net.minecraft.block.BlockStairs;
-import net.minecraft.block.BlockStone;
+import net.minecraft.block.*;
+import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -1190,6 +1189,90 @@ public class IABlocks {
     public static BlockStairs YELLOW_DYED_POLISHED_GRANITE_STAIRS = new ColoredBlockStairs(DYED_SMOOTH_GRANITE.getDefaultState().withProperty(BlockDyedStone.COLOR, EnumDyeColor.YELLOW), "yellow_dyed_polished_granite_stairs");
 
     /**
+     * A granite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("granite_pressure_plate");
+
+    /**
+     * A polished granite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_granite_pressure_plate");
+
+    /**
+     * A diorite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("diorite_pressure_plate");
+
+    /**
+     * A polished diorite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_diorite_pressure_plate");
+
+    /**
+     * A andesite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("andesite_pressure_plate");
+
+    /**
+     * A polished andesite {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_andesite_pressure_plate");
+
+    /**
+     * A cobblestone {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("cobblestone_pressure_plate");
+
+    /**
+     * A mossy cobblestone {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block MOSSY_COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_cobblestone_pressure_plate");
+
+    /**
+     * A stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("stone_brick_pressure_plate");
+
+    /**
+     * A cracked stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block CRACKED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("cracked_stone_brick_pressure_plate");
+
+    /**
+     * A chiseled stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block CHISELED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("chiseled_stone_brick_pressure_plate");
+
+    /**
+     * A mossy stone brick {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static Block MOSSY_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_stone_brick_pressure_plate");
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1275,7 +1358,7 @@ public class IABlocks {
                 GameRegistry.registerBlock(GREEN_DYED_STONE_STAIRS, "green_dyed_stone_stairs");
                 GameRegistry.registerBlock(RED_DYED_STONE_STAIRS, "red_dyed_stone_stairs");
                 GameRegistry.registerBlock(BLACK_DYED_STONE_STAIRS, "black_dyed_stone_stairs");
-                
+
                 //Ugh
 
 
@@ -1389,6 +1472,24 @@ public class IABlocks {
 
         }
 
+        //Now register pressure plates
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+            GameRegistry.registerBlock(COBBLESTONE_PRESSURE_PLATE, "cobblestone_pressure_plate");
+            GameRegistry.registerBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE, "mossy_cobblestone_pressure_plate");
+            GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE, "granite_pressure_plate");
+            GameRegistry.registerBlock(POLISHED_GRANITE_PRESSURE_PLATE, "polished_granite_pressure_plate");
+            GameRegistry.registerBlock(DIORITE_PRESSURE_PLATE, "diorite_pressure_plate");
+            GameRegistry.registerBlock(POLISHED_DIORITE_PRESSURE_PLATE, "polished_diorite_pressure_plate");
+            GameRegistry.registerBlock(ANDESITE_PRESSURE_PLATE, "andesite_pressure_plate");
+            GameRegistry.registerBlock(POLISHED_ANDESITE_PRESSURE_PLATE, "polished_andesite_pressure_plate");
+
+            GameRegistry.registerBlock(STONE_BRICK_PRESSURE_PLATE, "stone_brick_pressure_plate");
+            GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE, "cracked_stone_brick_pressure_plate");
+            GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE, "chiseled_stone_brick_pressure_plate");
+            GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE, "mossy_stone_brick_pressure_plate");
+        }
+
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
             //Now we register meshes for coloured blocks in this loop
             for (EnumDyeColor color : EnumDyeColor.values()) {
@@ -1482,7 +1583,7 @@ public class IABlocks {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_STONE_STAIRS), 0, "green_dyed_stone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_STONE_STAIRS), 0, "red_dyed_stone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_STONE_STAIRS), 0, "black_dyed_stone_stairs", "inventory");
-                
+
                 //I repeat; ugh
 
 
@@ -1590,6 +1691,22 @@ public class IABlocks {
 
             }
 
+        }
+
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(COBBLESTONE_PRESSURE_PLATE), 0, "cobblestone_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE), 0, "mossy_cobblestone_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_PRESSURE_PLATE), 0, "granite_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_PRESSURE_PLATE), 0, "polished_granite_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DIORITE_PRESSURE_PLATE), 0, "diorite_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_DIORITE_PRESSURE_PLATE), 0, "polished_diorite_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ANDESITE_PRESSURE_PLATE), 0, "andesite_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_PRESSURE_PLATE), 0, "polished_andesite_pressure_plate", "inventory");
+
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_BRICK_PRESSURE_PLATE), 0, "stone_brick_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE), 0, "chiseled_stone_brick_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE), 0, "cracked_stone_brick_pressure_plate", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
         }
     }
 
@@ -1787,6 +1904,25 @@ public class IABlocks {
             }
         }
 
+        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+
+            registerPressurePlateRecipe(Blocks.cobblestone, 0, COBBLESTONE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.mossy_cobblestone, 0, MOSSY_COBBLESTONE_PRESSURE_PLATE);
+
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE.getMetadata(), ANDESITE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE_SMOOTH.getMetadata(), POLISHED_ANDESITE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.DIORITE.getMetadata(), DIORITE_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stone, BlockStone.EnumType.DIORITE_SMOOTH.getMetadata(), POLISHED_DIORITE_PRESSURE_PLATE);
+
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.DEFAULT.getMetadata(), STONE_BRICK_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
+            registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
+
+        }
+
         //TODO: Add recipes for items second
 
     }
@@ -1816,6 +1952,22 @@ public class IABlocks {
 
         GameRegistry.addShapedRecipe(output, "  I", " II", "III", 'I', input);
         GameRegistry.addShapedRecipe(output, "I  ", "II ", "III", 'I', input);
+    }
+
+    /**
+     * Registers a {@link BlockPressurePlate} recipe
+     *
+     *
+     * @param baseBlock The base block to be consumedd
+     * @param baseBlockMetadata The required metadata value of the base block
+     * @param plateBlock The plate block to be returned
+     * @since 0.0.2
+     */
+    public static void registerPressurePlateRecipe(Block baseBlock, int baseBlockMetadata, Block plateBlock) {
+        ItemStack input = new ItemStack(baseBlock, 1, baseBlockMetadata);
+        ItemStack output = new ItemStack(plateBlock, 1, 0);
+
+        GameRegistry.addShapedRecipe(output, "II", 'I', input);
     }
 
     /**

@@ -344,3 +344,17 @@ tile.light_blue_dyed_polished_granite_stairs.name=Light Blue Dyed Polished Grani
 tile.pink_dyed_polished_granite_stairs.name=Pink Dyed Polished Granite Stairs
 tile.yellow_dyed_polished_granite_stairs.name=Yellow Dyed Polished Granite Stairs
 tile.white_dyed_polished_granite_stairs.name=White Dyed Polished Granite Stairs
+
+#Now pressure plates
+tile.cobblestone_pressure_plate.name=Cobblestone Pressure Plate
+tile.mossy_cobblestone_pressure_plate.name=Mossy Cobblestone Pressure Plate
+tile.granite_pressure_plate.name=Granite Pressure Plate
+tile.polished_granite_pressure_plate.name=Polished Granite Pressure Plate
+tile.diorite_pressure_plate.name=Diorite Pressure Plate
+tile.polished_diorite_pressure_plate.name=Polished Diorite Pressure Plate
+tile.andesite_pressure_plate.name=Andesite Pressure Plate
+tile.polished_andesite_pressure_plate.name=Polished Andesite Pressure Plate
+tile.stone_brick_pressure_plate.name=Stone Brick Pressure Plate
+tile.cracked_stone_brick_pressure_plate.name=Cracked Stone Brick Pressure Plate
+tile.chiseled_stone_brick_pressure_plate.name=Chiseled Stone Brick Pressure Plate
+tile.mossy_stone_brick_pressure_plate.name=Mossy Stone Brick Pressure Plate

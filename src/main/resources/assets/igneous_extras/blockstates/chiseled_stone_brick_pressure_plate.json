@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "blocks/stonebrick_carved"
+    },
+    "model": "pressure_plate_up",
+    "uvlock": true
+  },
+  "variants": {
+    "powered": {
+      "true": {
+        "model": "pressure_plate_down"
+      },
+      "false": {
+        "model": "pressure_plate_up"
+      }
+    },
+    "inventory": [{
+    }]
+  }
+}
