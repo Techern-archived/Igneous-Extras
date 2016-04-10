@@ -1916,18 +1916,6 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
         }
-
-    }
-
-    /**
-     * Registers a {@link BlockStairs} recipe
-     *
-     * @param baseBlock The base block to be consumed
-     * @param stairBlock The stair block to be returned
-     * @since 0.0.1
-     */
-    public static void registerStairsRecipe(Block baseBlock, Block stairBlock) {
-        registerStairsRecipe(baseBlock, 0, stairBlock);
     }
 
     /**
