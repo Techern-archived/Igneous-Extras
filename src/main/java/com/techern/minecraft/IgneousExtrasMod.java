@@ -1,15 +1,18 @@
 package com.techern.minecraft;
 
-import com.techern.minecraft.igneousextras.blocks.IABlocks;
-import com.techern.minecraft.igneousextras.proxy.CommonProxy;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import com.techern.minecraft.igneousextras.ConfigHandler;
+import com.techern.minecraft.igneousextras.blocks.IABlocks;
+import com.techern.minecraft.igneousextras.proxy.CommonProxy;
 
 /**
  * A {@link net.minecraftforge.fml.common.Mod} for additional igneous rock blocks
@@ -45,13 +48,6 @@ public class IgneousExtrasMod {
     public static CommonProxy PROXY;
 
     /**
-     * The {@link Configuration} (backed by a {@link java.io.File} used by {@link IgneousExtrasMod}
-     *
-     * @since 0.0.1
-     */
-    public static Configuration CONFIGURATION;
-
-    /**
      * Handles the {@link FMLPreInitializationEvent}
      *
      * @param event The {@link FMLPreInitializationEvent}
@@ -62,7 +58,7 @@ public class IgneousExtrasMod {
         LOGGER = event.getModLog();
         LOGGER.debug("Attempting to load configuration file...");
 
-        CONFIGURATION = new Configuration(event.getSuggestedConfigurationFile());
+        ConfigHandler.init(new Configuration(event.getSuggestedConfigurationFile()));
 
         LOGGER.info("Loaded configuration file for Igneous Extras");
     }
@@ -87,9 +83,9 @@ public class IgneousExtrasMod {
     @Mod.EventHandler
     public void handlePostInitEvent(FMLPostInitializationEvent event) {
         IABlocks.registerRecipes();
-        if (CONFIGURATION.hasChanged()) {
+        if (ConfigHandler.getConfig().hasChanged()) {
             LOGGER.info("Igneous Additions found extra / changed configuration, and is now saving");
-            CONFIGURATION.save();
+            ConfigHandler.getConfig().save();
         }
     }
 
