@@ -368,3 +368,7 @@ tile.polished_andesite_lever.name=Polished Andesite Lever
 tile.granite_lever.name=Granite Lever
 tile.polished_granite_lever.name=Polished Granite Lever
 tile.mossy_cobblestone_lever.name=Mossy Cobblestone Lever
+tile.stone_brick_lever.name=Stone Brick Lever
+tile.cracked_stone_brick_lever.name=Cracked Stone Brick Lever
+tile.chiseled_stone_brick_lever.name=Chiseled Stone Brick Lever
+tile.mossy_stone_brick_lever.name=Mossy Stone Brick Lever
