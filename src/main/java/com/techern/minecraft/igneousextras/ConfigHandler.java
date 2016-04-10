@@ -24,23 +24,32 @@ public class ConfigHandler {
     public static boolean ENABLE_DYED_STONE_BLOCKS;
     public static boolean ENABLE_ADDITIONAL_STAIRS;
     public static boolean ENABLE_DYED_STONE_STAIRS;
+    public static boolean ENABLE_ADDITIONAL_PRESSURE_PLATES;
+    
+    public static boolean ENABLE_ANDESITE_TOOLS;
+    public static boolean ENABLE_GRANITE_TOOLS;
+    public static boolean ENABLE_DIORITE_TOOLS;
     
     public static ToolMaterial MAT_GRANITE;
     public static ToolMaterial MAT_ANDESITE;
     public static ToolMaterial MAT_DIORITE;
-
-	public static boolean ENABLE_ADDITIONAL_PRESSURE_PLATES;
-
     
 	public static void init(Configuration cfgFile) {
     	cfg = cfgFile;
     	cfg.load();
     	
+    	//Blocks
     	ENABLE_DYED_STONE_BLOCKS = cfg.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean();
     	ENABLE_DYED_STONE_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "DYED_STONE_STAIRS", true, "Enable the use of dyed stone stairs").getBoolean();
     	ENABLE_ADDITIONAL_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean();
     	ENABLE_ADDITIONAL_PRESSURE_PLATES = cfg.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean();
     	
+    	//Items
+    	ENABLE_ANDESITE_TOOLS = cfg.get("ADDITIONAL_TOOLS", "ANDESITE", true, "Enable andesite tools").getBoolean();
+    	ENABLE_GRANITE_TOOLS = cfg.get("ADDITIONAL_TOOLS", "GRANITE", true, "Enable granite tools").getBoolean();
+    	ENABLE_DIORITE_TOOLS = cfg.get("ADDITIONAL_TOOLS", "DIORITE", true, "Enable diorite tools").getBoolean();
+    	
+    	//Materials
 		MAT_GRANITE = EnumHelper.addToolMaterial("granite", 
 				cfg.getInt("harvestlevel", "granite_material", 1, 0, Integer.MAX_VALUE, ""),
 				cfg.getInt("durability", "granite_material", 250, 1, Integer.MAX_VALUE, ""),
