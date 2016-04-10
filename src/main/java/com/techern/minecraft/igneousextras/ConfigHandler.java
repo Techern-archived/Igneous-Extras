@@ -45,6 +45,7 @@ public class ConfigHandler {
 				cfg.getInt("harvestlevel", "granite_material", 1, 0, Integer.MAX_VALUE, ""),
 				cfg.getInt("durability", "granite_material", 250, 1, Integer.MAX_VALUE, ""),
 				cfg.getFloat("efficiency", "granite_material", 4.5F, 1.0F, Float.MAX_VALUE, ""),
+				//TODO use this value as base value and put in comment the damage that is added per tool
 				cfg.getFloat("damge_on_hit", "granite_material", 5.0F, 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				cfg.getInt("enchantability", "granite_material", 250, 1, Integer.MAX_VALUE, ""));
 		MAT_ANDESITE = EnumHelper.addToolMaterial("andesite",
