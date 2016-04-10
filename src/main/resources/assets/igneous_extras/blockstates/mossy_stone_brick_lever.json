@@ -6,7 +6,8 @@
       "base": "blocks/stonebrick_mossy",
       "lever": "blocks/lever"
     },
-    "model": "igneous_extras:lever_off"
+    "model": "igneous_extras:lever_off",
+    "transform": "forge:default-item"
   },
   "variants": {
     "facing=down_z,powered=false": { "model": "igneous_extras:lever_off", "x": 180, "y": 180 },
