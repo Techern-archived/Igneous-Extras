@@ -1577,7 +1577,7 @@ public class IABlocks {
 
         //Now register levers
 
-        /*if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
 
             GameRegistry.registerBlock(STONE_LEVER, "stone_lever");
             GameRegistry.registerBlock(GRANITE_LEVER, "granite_lever");
@@ -1594,7 +1594,7 @@ public class IABlocks {
             GameRegistry.registerBlock(CRACKED_STONE_BRICK_LEVER, "cracked_stone_brick_lever");
             GameRegistry.registerBlock(MOSSY_STONE_BRICK_LEVER, "mossy_stone_brick_lever");
 
-        }*/
+        }
 
         if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
             //Now we register meshes for coloured blocks in this loop
@@ -1810,7 +1810,7 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
         }
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_LEVER), 0, "stone_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_LEVER), 0, "granite_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_LEVER), 0, "polished_granite_lever", "inventory");
@@ -2041,8 +2041,8 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
         }
-        
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+
+        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
             registerLeverRecipe(Blocks.stone, BlockStone.EnumType.STONE.getMetadata(), STONE_LEVER);
             registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_LEVER);
             registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_LEVER);
