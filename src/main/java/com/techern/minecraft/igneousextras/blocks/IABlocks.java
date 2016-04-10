@@ -2,6 +2,7 @@ package com.techern.minecraft.igneousextras.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
 import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicLever;
+import com.techern.minecraft.igneousextras.ConfigHandler;
 import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
 import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
 import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
@@ -1368,7 +1369,7 @@ public class IABlocks {
 	public static void registerBlocks() {
 
         //First, we'll register dyed blocks
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
+        if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
             GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone");
             GameRegistry.registerBlock(DYED_MOSSY_COBBLESTONE, ItemColoredBlock.class, "dyed_mossy_cobblestone");
             GameRegistry.registerBlock(DYED_STONE, ItemColoredBlock.class, "dyed_stone");
@@ -1380,8 +1381,7 @@ public class IABlocks {
             GameRegistry.registerBlock(DYED_SMOOTH_ANDESITE, ItemColoredBlock.class, "dyed_smooth_andesite");
         }
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
-
+        if (ConfigHandler.ENABLE_ADDITIONAL_STAIRS) {
             GameRegistry.registerBlock(STONE_STAIRS, "stone_stairs");
             GameRegistry.registerBlock(MOSSY_COBBLESTONE_STAIRS, "mossy_cobblestone_stairs");
             GameRegistry.registerBlock(GRANITE_STAIRS, "granite_stairs");
@@ -1392,8 +1392,7 @@ public class IABlocks {
             GameRegistry.registerBlock(POLISHED_ANDESITE_STAIRS, "polished_andesite_stairs");
 
             //Okay, dyed blocks now!
-            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
-
+            if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
                 GameRegistry.registerBlock(WHITE_DYED_COBBLESTONE_STAIRS, "white_dyed_cobblestone_stairs");
                 GameRegistry.registerBlock(ORANGE_DYED_COBBLESTONE_STAIRS, "orange_dyed_cobblestone_stairs");
                 GameRegistry.registerBlock(MAGENTA_DYED_COBBLESTONE_STAIRS, "magenta_dyed_cobblestone_stairs");
@@ -1555,14 +1554,12 @@ public class IABlocks {
                 GameRegistry.registerBlock(GREEN_DYED_POLISHED_GRANITE_STAIRS, "green_dyed_polished_granite_stairs");
                 GameRegistry.registerBlock(RED_DYED_POLISHED_GRANITE_STAIRS, "red_dyed_polished_granite_stairs");
                 GameRegistry.registerBlock(BLACK_DYED_POLISHED_GRANITE_STAIRS, "black_dyed_polished_granite_stairs");
-
             }
-
         }
 
         //Now register pressure plates
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
             GameRegistry.registerBlock(COBBLESTONE_PRESSURE_PLATE, "cobblestone_pressure_plate");
             GameRegistry.registerBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE, "mossy_cobblestone_pressure_plate");
             GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE, "granite_pressure_plate");
@@ -1580,7 +1577,7 @@ public class IABlocks {
 
         //Now register levers
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
+        /*if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
 
             GameRegistry.registerBlock(STONE_LEVER, "stone_lever");
             GameRegistry.registerBlock(GRANITE_LEVER, "granite_lever");
@@ -1597,9 +1594,9 @@ public class IABlocks {
             GameRegistry.registerBlock(CRACKED_STONE_BRICK_LEVER, "cracked_stone_brick_lever");
             GameRegistry.registerBlock(MOSSY_STONE_BRICK_LEVER, "mossy_stone_brick_lever");
 
-        }
+        }*/
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
+        if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
             //Now we register meshes for coloured blocks in this loop
             for (EnumDyeColor color : EnumDyeColor.values()) {
 
@@ -1623,12 +1620,10 @@ public class IABlocks {
                 //Then dyed andesite
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_ANDESITE), color.getMetadata(), "dyed_andesite", "color=" + color.getName());
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DYED_SMOOTH_ANDESITE), color.getMetadata(), "dyed_smooth_andesite", "color=" + color.getName());
-
             }
         }
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
-
+        if (ConfigHandler.ENABLE_ADDITIONAL_STAIRS) {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_STAIRS), 0, "stone_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_COBBLESTONE_STAIRS), 0, "mossy_cobblestone_stairs", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_STAIRS), 0, "granite_stairs", "inventory");
@@ -1639,8 +1634,7 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_STAIRS), 0, "polished_andesite_stairs", "inventory");
 
             //Now begin the dyed versions
-            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
-
+            if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_COBBLESTONE_STAIRS), 0, "white_dyed_cobblestone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_COBBLESTONE_STAIRS), 0, "orange_dyed_cobblestone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_COBBLESTONE_STAIRS), 0, "magenta_dyed_cobblestone_stairs", "inventory");
@@ -1694,7 +1688,6 @@ public class IABlocks {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_STONE_STAIRS), 0, "black_dyed_stone_stairs", "inventory");
 
                 //I repeat; ugh
-
 
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_ANDESITE_STAIRS), 0, "white_dyed_andesite_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_ANDESITE_STAIRS), 0, "orange_dyed_andesite_stairs", "inventory");
@@ -1797,12 +1790,11 @@ public class IABlocks {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_GRANITE_STAIRS), 0, "green_dyed_polished_granite_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_GRANITE_STAIRS), 0, "red_dyed_polished_granite_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_GRANITE_STAIRS), 0, "black_dyed_polished_granite_stairs", "inventory");
-
             }
 
         }
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(COBBLESTONE_PRESSURE_PLATE), 0, "cobblestone_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE), 0, "mossy_cobblestone_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_PRESSURE_PLATE), 0, "granite_pressure_plate", "inventory");
@@ -1843,7 +1835,7 @@ public class IABlocks {
      */
     public static void registerRecipes() {
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
+        if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
             registerSingleDyeBlockRecipeCombination(Blocks.cobblestone, DYED_COBBLESTONE);
             registerSingleDyeBlockRecipeCombination(Blocks.mossy_cobblestone, DYED_MOSSY_COBBLESTONE);
             registerSingleDyeBlockRecipeCombination(Blocks.stone, 0, DYED_STONE);
@@ -1855,7 +1847,7 @@ public class IABlocks {
             registerSingleDyeBlockRecipeCombination(Blocks.stone, 6, DYED_SMOOTH_ANDESITE);
         }
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean()) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_STAIRS) {
             registerStairsRecipe(Blocks.stone, 0, STONE_STAIRS);
             registerStairsRecipe(Blocks.mossy_cobblestone, 0, MOSSY_COBBLESTONE_STAIRS);
             registerStairsRecipe(Blocks.stone, 1, GRANITE_STAIRS);
@@ -1866,8 +1858,7 @@ public class IABlocks {
             registerStairsRecipe(Blocks.stone, 6, POLISHED_ANDESITE_STAIRS);
 
             //Now dyed variants
-            if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean()) {
-
+            if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_COBBLESTONE_STAIRS);
@@ -1884,6 +1875,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.RED.getMetadata(), RED_DYED_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_COBBLESTONE_STAIRS);
+                
                 
                 registerStairsRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_MOSSY_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS);
@@ -1921,9 +1913,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_STONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_STONE_STAIRS);
 
                 //<h1>UGHHHHH</h1>
-
                 //Maybe I should have skipped dyed stone... But oh well
-
 
                 registerStairsRecipe(DYED_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_ANDESITE_STAIRS);
                 registerStairsRecipe(DYED_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_ANDESITE_STAIRS);
@@ -1942,6 +1932,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_ANDESITE, EnumDyeColor.RED.getMetadata(), RED_DYED_ANDESITE_STAIRS);
                 registerStairsRecipe(DYED_ANDESITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_ANDESITE_STAIRS);
 
+                
                 registerStairsRecipe(DYED_DIORITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_DIORITE_STAIRS);
                 registerStairsRecipe(DYED_DIORITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_DIORITE_STAIRS);
                 registerStairsRecipe(DYED_DIORITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_DIORITE_STAIRS);
@@ -1959,6 +1950,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_DIORITE, EnumDyeColor.RED.getMetadata(), RED_DYED_DIORITE_STAIRS);
                 registerStairsRecipe(DYED_DIORITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_DIORITE_STAIRS);
 
+                
                 registerStairsRecipe(DYED_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_GRANITE_STAIRS);
@@ -1976,6 +1968,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_GRANITE_STAIRS);
 
+                
                 registerStairsRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_ANDESITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_ANDESITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_ANDESITE_STAIRS);
@@ -1993,6 +1986,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_ANDESITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_ANDESITE_STAIRS);
 
+                
                 registerStairsRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_DIORITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_DIORITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_DIORITE_STAIRS);
@@ -2010,6 +2004,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_DIORITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_DIORITE_STAIRS);
 
+                
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_GRANITE_STAIRS);
@@ -2026,13 +2021,11 @@ public class IABlocks {
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_GRANITE_STAIRS);
-
             }
 
         }
 
-        if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean()) {
-
+        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
             registerPressurePlateRecipe(Blocks.cobblestone, 0, COBBLESTONE_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.mossy_cobblestone, 0, MOSSY_COBBLESTONE_PRESSURE_PLATE);
 
@@ -2047,7 +2040,6 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
-
         }
         
         if (IgneousExtrasMod.CONFIGURATION.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean()) {
