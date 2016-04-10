@@ -31,6 +31,8 @@ public class ConfigHandler {
 
 	public static boolean ENABLE_ADDITIONAL_PRESSURE_PLATES;
 
+	public static boolean ENABLE_ADDITIONAL_LEVERS;
+
     
 	public static void init(Configuration cfgFile) {
     	cfg = cfgFile;
@@ -40,6 +42,7 @@ public class ConfigHandler {
     	ENABLE_DYED_STONE_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "DYED_STONE_STAIRS", true, "Enable the use of dyed stone stairs").getBoolean();
     	ENABLE_ADDITIONAL_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean();
     	ENABLE_ADDITIONAL_PRESSURE_PLATES = cfg.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean();
+		ENABLE_ADDITIONAL_LEVERS = cfg.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean();
     	
 		MAT_GRANITE = EnumHelper.addToolMaterial("granite", 
 				cfg.getInt("harvestlevel", "granite_material", 1, 0, Integer.MAX_VALUE, ""),
