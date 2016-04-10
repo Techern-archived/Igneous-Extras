@@ -1810,7 +1810,7 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
         }
 
-        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_LEVER), 0, "stone_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_LEVER), 0, "granite_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_LEVER), 0, "polished_granite_lever", "inventory");
@@ -2042,7 +2042,7 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
         }
 
-        if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
+        if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
             registerLeverRecipe(Blocks.stone, BlockStone.EnumType.STONE.getMetadata(), STONE_LEVER);
             registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_LEVER);
             registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_LEVER);
