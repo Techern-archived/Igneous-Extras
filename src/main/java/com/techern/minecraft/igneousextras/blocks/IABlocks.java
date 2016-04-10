@@ -1925,19 +1925,6 @@ public class IABlocks {
 
         }
 
-        //TODO: Add recipes for items second
-
-    }
-
-    /**
-     * Registers a {@link BlockStairs} recipe
-     *
-     * @param baseBlock The base block to be consumed
-     * @param stairBlock The stair block to be returned
-     * @since 0.0.1
-     */
-    public static void registerStairsRecipe(Block baseBlock, Block stairBlock) {
-        registerStairsRecipe(baseBlock, 0, stairBlock);
     }
 
     /**
