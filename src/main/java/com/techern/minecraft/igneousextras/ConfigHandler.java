@@ -25,6 +25,7 @@ public class ConfigHandler {
     public static boolean ENABLE_ADDITIONAL_STAIRS;
     public static boolean ENABLE_DYED_STONE_STAIRS;
     public static boolean ENABLE_ADDITIONAL_PRESSURE_PLATES;
+    public static boolean ENABLE_ADDITIONAL_LEVERS;
     
     public static boolean ENABLE_ANDESITE_TOOLS;
     public static boolean ENABLE_GRANITE_TOOLS;
@@ -43,6 +44,7 @@ public class ConfigHandler {
     	ENABLE_DYED_STONE_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "DYED_STONE_STAIRS", true, "Enable the use of dyed stone stairs").getBoolean();
     	ENABLE_ADDITIONAL_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean();
     	ENABLE_ADDITIONAL_PRESSURE_PLATES = cfg.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean();
+		ENABLE_ADDITIONAL_LEVERS = cfg.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean();
     	
     	//Items
     	ENABLE_ANDESITE_TOOLS = cfg.get("ADDITIONAL_TOOLS", "ANDESITE", true, "Enable andesite tools").getBoolean();

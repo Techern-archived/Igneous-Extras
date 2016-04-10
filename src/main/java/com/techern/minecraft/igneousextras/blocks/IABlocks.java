@@ -1,6 +1,7 @@
 package com.techern.minecraft.igneousextras.blocks;
 
 import com.techern.minecraft.IgneousExtrasMod;
+import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicLever;
 import com.techern.minecraft.igneousextras.ConfigHandler;
 import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
 import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
@@ -1275,6 +1276,91 @@ public class IABlocks {
     public static Block MOSSY_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_stone_brick_pressure_plate");
 
     /**
+     * A granite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block GRANITE_LEVER = new BlockBasicLever("granite_lever");
+
+    /**
+     * A polished granite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_GRANITE_LEVER = new BlockBasicLever("polished_granite_lever");
+    
+    /**
+     * A diorite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block DIORITE_LEVER = new BlockBasicLever("diorite_lever");
+
+    /**
+     * A polished diorite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_DIORITE_LEVER = new BlockBasicLever("polished_diorite_lever");
+
+    /**
+     * A andesite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block ANDESITE_LEVER = new BlockBasicLever("andesite_lever");
+
+    /**
+     * A polished andesite {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block POLISHED_ANDESITE_LEVER = new BlockBasicLever("polished_andesite_lever");
+
+    /**
+     * A mossy cobblestone {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("mossy_cobblestone_lever");
+
+    /**
+     * A stone {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block STONE_LEVER = new BlockBasicLever("stone_lever");
+
+    /**
+     * A stone brick {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block STONE_BRICK_LEVER = new BlockBasicLever("stone_brick_lever");
+
+    /**
+     * A chiseled stone brick {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block CHISELED_STONE_BRICK_LEVER = new BlockBasicLever("chiseled_stone_brick_lever");
+
+    /**
+     * A cracked stone brick {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block CRACKED_STONE_BRICK_LEVER = new BlockBasicLever("cracked_stone_brick_lever");
+
+    /**
+     * A mossy stone brick {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static Block MOSSY_STONE_BRICK_LEVER = new BlockBasicLever("mossy_stone_brick_lever");
+
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1487,6 +1573,27 @@ public class IABlocks {
             GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE, "cracked_stone_brick_pressure_plate");
             GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE, "chiseled_stone_brick_pressure_plate");
             GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE, "mossy_stone_brick_pressure_plate");
+        }
+
+        //Now register levers
+
+        if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
+
+            GameRegistry.registerBlock(STONE_LEVER, "stone_lever");
+            GameRegistry.registerBlock(GRANITE_LEVER, "granite_lever");
+            GameRegistry.registerBlock(POLISHED_GRANITE_LEVER, "polished_granite_lever");
+            GameRegistry.registerBlock(DIORITE_LEVER, "diorite_lever");
+            GameRegistry.registerBlock(POLISHED_DIORITE_LEVER, "polished_diorite_lever");
+            GameRegistry.registerBlock(ANDESITE_LEVER, "andesite_lever");
+            GameRegistry.registerBlock(POLISHED_ANDESITE_LEVER, "polished_andesite_lever");
+
+            GameRegistry.registerBlock(MOSSY_COBBLESTONE_LEVER, "mossy_cobblestone_lever");
+
+            GameRegistry.registerBlock(STONE_BRICK_LEVER, "stone_brick_lever");
+            GameRegistry.registerBlock(CHISELED_STONE_BRICK_LEVER, "chiseled_stone_brick_lever");
+            GameRegistry.registerBlock(CRACKED_STONE_BRICK_LEVER, "cracked_stone_brick_lever");
+            GameRegistry.registerBlock(MOSSY_STONE_BRICK_LEVER, "mossy_stone_brick_lever");
+
         }
 
         if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
@@ -1702,6 +1809,23 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE), 0, "cracked_stone_brick_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
         }
+
+        if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_LEVER), 0, "stone_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRANITE_LEVER), 0, "granite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_GRANITE_LEVER), 0, "polished_granite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(DIORITE_LEVER), 0, "diorite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_DIORITE_LEVER), 0, "polished_diorite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ANDESITE_LEVER), 0, "andesite_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_LEVER), 0, "polished_andesite_lever", "inventory");
+
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_COBBLESTONE_LEVER), 0, "mossy_cobblestone_lever", "inventory");
+
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(STONE_BRICK_LEVER), 0, "stone_brick_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_LEVER), 0, "cracked_stone_brick_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CHISELED_STONE_BRICK_LEVER), 0, "chiseled_stone_brick_lever", "inventory");
+            IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_LEVER), 0, "mossy_stone_brick_lever", "inventory");
+        }
     }
 
     /**
@@ -1898,6 +2022,7 @@ public class IABlocks {
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_GRANITE_STAIRS);
                 registerStairsRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_GRANITE_STAIRS);
             }
+
         }
 
         if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
@@ -1916,6 +2041,24 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
         }
+
+        if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.STONE.getMetadata(), STONE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE.getMetadata(), GRANITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.GRANITE_SMOOTH.getMetadata(), POLISHED_GRANITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.DIORITE.getMetadata(), DIORITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.DIORITE_SMOOTH.getMetadata(), POLISHED_DIORITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE.getMetadata(), ANDESITE_LEVER);
+            registerLeverRecipe(Blocks.stone, BlockStone.EnumType.ANDESITE_SMOOTH.getMetadata(), POLISHED_ANDESITE_LEVER);
+
+            registerLeverRecipe(Blocks.mossy_cobblestone, 0, MOSSY_COBBLESTONE_LEVER);
+
+            registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.DEFAULT.getMetadata(), STONE_BRICK_LEVER);
+            registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_LEVER);
+            registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_LEVER);
+            registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_LEVER);
+        }
+
     }
 
     /**
@@ -1947,6 +2090,22 @@ public class IABlocks {
         ItemStack output = new ItemStack(plateBlock, 1, 0);
 
         GameRegistry.addShapedRecipe(output, "II", 'I', input);
+    }
+
+    /**
+     * Registers a {@link BlockBasicLever} recipe
+     *
+     * @param baseBlock The base block to be consumed
+     * @param baseBlockMetadata The required metadata value of the base block
+     * @param leverBlock The lever block to be returned
+     * @since 0.0.2
+     */
+    public static void registerLeverRecipe(Block baseBlock, int baseBlockMetadata, Block leverBlock) {
+        ItemStack input = new ItemStack(baseBlock, 1, baseBlockMetadata);
+        ItemStack output = new ItemStack(leverBlock, 1, 0);
+        ItemStack stick = new ItemStack(Items.stick, 1);
+
+        GameRegistry.addShapedRecipe(output, "S", "I", 'I', input, 'S', stick);
     }
 
     /**
