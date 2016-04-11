@@ -372,3 +372,43 @@ tile.stone_brick_lever.name=Stone Brick Lever
 tile.cracked_stone_brick_lever.name=Cracked Stone Brick Lever
 tile.chiseled_stone_brick_lever.name=Chiseled Stone Brick Lever
 tile.mossy_stone_brick_lever.name=Mossy Stone Brick Lever
+
+#Time for axes!
+item.granite_axe.name=Granite Axe
+item.diorite_axe.name=Diorite Axe
+item.andesite_axe.name=Andesite Axe
+item.polished_granite_axe.name=Polished Granite Axe
+item.polished_diorite_axe.name=Polished Diorite Axe
+item.polished_andesite_axe.name=Polished Andesite Axe
+
+#Time for pickaxes!
+item.granite_pickaxe.name=Granite Pickaxe
+item.diorite_pickaxe.name=Diorite Pickaxe
+item.andesite_pickaxe.name=Andesite Pickaxe
+item.polished_granite_pickaxe.name=Polished Granite Pickaxe
+item.polished_diorite_pickaxe.name=Polished Diorite Pickaxe
+item.polished_andesite_pickaxe.name=Polished Andesite Pickaxe
+
+#Time for shovels!
+item.granite_shovel.name=Granite Shovel
+item.diorite_shovel.name=Diorite Shovel
+item.andesite_shovel.name=Andesite Shovel
+item.polished_granite_shovel.name=Polished Granite Shovel
+item.polished_diorite_shovel.name=Polished Diorite Shovel
+item.polished_andesite_shovel.name=Polished Andesite Shovel
+
+#Time for swords!
+item.granite_sword.name=Granite Sword
+item.diorite_sword.name=Diorite Sword
+item.andesite_sword.name=Andesite Sword
+item.polished_granite_sword.name=Polished Granite Sword
+item.polished_diorite_sword.name=Polished Diorite Sword
+item.polished_andesite_sword.name=Polished Andesite Sword
+
+#Time for hoes!
+item.granite_hoe.name=Granite Hoe
+item.diorite_hoe.name=Diorite Hoe
+item.andesite_hoe.name=Andesite Hoe
+item.polished_granite_hoe.name=Polished Granite Hoe
+item.polished_diorite_hoe.name=Polished Diorite Hoe
+item.polished_andesite_hoe.name=Polished Andesite Hoe
