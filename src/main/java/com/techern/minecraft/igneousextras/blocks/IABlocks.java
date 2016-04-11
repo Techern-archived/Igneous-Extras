@@ -1197,84 +1197,84 @@ public class IABlocks {
      *
      * @since 0.0.2
      */
-    public static Block GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("granite_pressure_plate");
+    public static Block GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "granite_pressure_plate");
 
     /**
      * A polished granite {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_granite_pressure_plate");
+    public static Block POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "polished_granite_pressure_plate");
 
     /**
      * A diorite {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("diorite_pressure_plate");
+    public static Block DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "diorite_pressure_plate");
 
     /**
      * A polished diorite {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_diorite_pressure_plate");
+    public static Block POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "polished_diorite_pressure_plate");
 
     /**
      * A andesite {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("andesite_pressure_plate");
+    public static Block ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "andesite_pressure_plate");
 
     /**
      * A polished andesite {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("polished_andesite_pressure_plate");
+    public static Block POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "polished_andesite_pressure_plate");
 
     /**
      * A cobblestone {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("cobblestone_pressure_plate");
+    public static Block COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cobblestone_pressure_plate");
 
     /**
      * A mossy cobblestone {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block MOSSY_COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_cobblestone_pressure_plate");
+    public static Block MOSSY_COBBLESTONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "mossy_cobblestone_pressure_plate");
 
     /**
      * A stone brick {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("stone_brick_pressure_plate");
+    public static Block STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "stone_brick_pressure_plate");
 
     /**
      * A cracked stone brick {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block CRACKED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("cracked_stone_brick_pressure_plate");
+    public static Block CRACKED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cracked_stone_brick_pressure_plate");
 
     /**
      * A chiseled stone brick {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block CHISELED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("chiseled_stone_brick_pressure_plate");
+    public static Block CHISELED_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "chiseled_stone_brick_pressure_plate");
 
     /**
      * A mossy stone brick {@link BlockBasicPressurePlate}
      *
      * @since 0.0.2
      */
-    public static Block MOSSY_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING).setUnlocalizedName("mossy_stone_brick_pressure_plate");
+    public static Block MOSSY_STONE_BRICK_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "mossy_stone_brick_pressure_plate");
 
     /**
      * A granite {@link BlockBasicLever}
@@ -1383,197 +1383,197 @@ public class IABlocks {
         }
 
         if (ConfigHandler.ENABLE_ADDITIONAL_STAIRS) {
-            GameRegistry.registerBlock(STONE_STAIRS, "stone_stairs");
-            GameRegistry.registerBlock(MOSSY_COBBLESTONE_STAIRS, "mossy_cobblestone_stairs");
-            GameRegistry.registerBlock(GRANITE_STAIRS, "granite_stairs");
-            GameRegistry.registerBlock(POLISHED_GRANITE_STAIRS, "polished_granite_stairs");
-            GameRegistry.registerBlock(DIORITE_STAIRS, "diorite_stairs");
-            GameRegistry.registerBlock(POLISHED_DIORITE_STAIRS, "polished_diorite_stairs");
-            GameRegistry.registerBlock(ANDESITE_STAIRS, "andesite_stairs");
-            GameRegistry.registerBlock(POLISHED_ANDESITE_STAIRS, "polished_andesite_stairs");
+            registerSimpleBlock(STONE_STAIRS);
+            registerSimpleBlock(MOSSY_COBBLESTONE_STAIRS);
+            registerSimpleBlock(GRANITE_STAIRS);
+            registerSimpleBlock(POLISHED_GRANITE_STAIRS);
+            registerSimpleBlock(DIORITE_STAIRS);
+            registerSimpleBlock(POLISHED_DIORITE_STAIRS);
+            registerSimpleBlock(ANDESITE_STAIRS);
+            registerSimpleBlock(POLISHED_ANDESITE_STAIRS);
 
             //Okay, dyed blocks now!
             if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
-                GameRegistry.registerBlock(WHITE_DYED_COBBLESTONE_STAIRS, "white_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_COBBLESTONE_STAIRS, "orange_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_COBBLESTONE_STAIRS, "magenta_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_COBBLESTONE_STAIRS, "light_blue_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_COBBLESTONE_STAIRS, "yellow_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(LIME_DYED_COBBLESTONE_STAIRS, "lime_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(PINK_DYED_COBBLESTONE_STAIRS, "pink_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_COBBLESTONE_STAIRS, "gray_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_COBBLESTONE_STAIRS, "silver_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_COBBLESTONE_STAIRS, "cyan_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_COBBLESTONE_STAIRS, "purple_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_COBBLESTONE_STAIRS, "blue_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_COBBLESTONE_STAIRS, "brown_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_COBBLESTONE_STAIRS, "green_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(RED_DYED_COBBLESTONE_STAIRS, "red_dyed_cobblestone_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_COBBLESTONE_STAIRS, "black_dyed_cobblestone_stairs");
+                registerSimpleBlock(WHITE_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(LIME_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(PINK_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(RED_DYED_COBBLESTONE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_COBBLESTONE_STAIRS);
 
 
-                GameRegistry.registerBlock(WHITE_DYED_MOSSY_COBBLESTONE_STAIRS, "white_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS, "orange_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_STAIRS, "magenta_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_STAIRS, "light_blue_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_MOSSY_COBBLESTONE_STAIRS, "yellow_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(LIME_DYED_MOSSY_COBBLESTONE_STAIRS, "lime_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(PINK_DYED_MOSSY_COBBLESTONE_STAIRS, "pink_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_MOSSY_COBBLESTONE_STAIRS, "gray_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_MOSSY_COBBLESTONE_STAIRS, "silver_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_MOSSY_COBBLESTONE_STAIRS, "cyan_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_MOSSY_COBBLESTONE_STAIRS, "purple_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_MOSSY_COBBLESTONE_STAIRS, "blue_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_MOSSY_COBBLESTONE_STAIRS, "brown_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_MOSSY_COBBLESTONE_STAIRS, "green_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(RED_DYED_MOSSY_COBBLESTONE_STAIRS, "red_dyed_mossy_cobblestone_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_MOSSY_COBBLESTONE_STAIRS, "black_dyed_mossy_cobblestone_stairs");
+                registerSimpleBlock(WHITE_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(LIME_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(PINK_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(RED_DYED_MOSSY_COBBLESTONE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_MOSSY_COBBLESTONE_STAIRS);
 
 
-                GameRegistry.registerBlock(WHITE_DYED_STONE_STAIRS, "white_dyed_stone_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_STONE_STAIRS, "orange_dyed_stone_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_STONE_STAIRS, "magenta_dyed_stone_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_STONE_STAIRS, "light_blue_dyed_stone_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_STONE_STAIRS, "yellow_dyed_stone_stairs");
-                GameRegistry.registerBlock(LIME_DYED_STONE_STAIRS, "lime_dyed_stone_stairs");
-                GameRegistry.registerBlock(PINK_DYED_STONE_STAIRS, "pink_dyed_stone_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_STONE_STAIRS, "gray_dyed_stone_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_STONE_STAIRS, "silver_dyed_stone_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_STONE_STAIRS, "cyan_dyed_stone_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_STONE_STAIRS, "purple_dyed_stone_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_STONE_STAIRS, "blue_dyed_stone_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_STONE_STAIRS, "brown_dyed_stone_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_STONE_STAIRS, "green_dyed_stone_stairs");
-                GameRegistry.registerBlock(RED_DYED_STONE_STAIRS, "red_dyed_stone_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_STONE_STAIRS, "black_dyed_stone_stairs");
+                registerSimpleBlock(WHITE_DYED_STONE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_STONE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_STONE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_STONE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_STONE_STAIRS);
+                registerSimpleBlock(LIME_DYED_STONE_STAIRS);
+                registerSimpleBlock(PINK_DYED_STONE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_STONE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_STONE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_STONE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_STONE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_STONE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_STONE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_STONE_STAIRS);
+                registerSimpleBlock(RED_DYED_STONE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_STONE_STAIRS);
 
                 //Ugh
 
 
-                GameRegistry.registerBlock(WHITE_DYED_ANDESITE_STAIRS, "white_dyed_andesite_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_ANDESITE_STAIRS, "orange_dyed_andesite_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_ANDESITE_STAIRS, "magenta_dyed_andesite_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_ANDESITE_STAIRS, "light_blue_dyed_andesite_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_ANDESITE_STAIRS, "yellow_dyed_andesite_stairs");
-                GameRegistry.registerBlock(LIME_DYED_ANDESITE_STAIRS, "lime_dyed_andesite_stairs");
-                GameRegistry.registerBlock(PINK_DYED_ANDESITE_STAIRS, "pink_dyed_andesite_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_ANDESITE_STAIRS, "gray_dyed_andesite_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_ANDESITE_STAIRS, "silver_dyed_andesite_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_ANDESITE_STAIRS, "cyan_dyed_andesite_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_ANDESITE_STAIRS, "purple_dyed_andesite_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_ANDESITE_STAIRS, "blue_dyed_andesite_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_ANDESITE_STAIRS, "brown_dyed_andesite_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_ANDESITE_STAIRS, "green_dyed_andesite_stairs");
-                GameRegistry.registerBlock(RED_DYED_ANDESITE_STAIRS, "red_dyed_andesite_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_ANDESITE_STAIRS, "black_dyed_andesite_stairs");
+                registerSimpleBlock(WHITE_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(LIME_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(PINK_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(RED_DYED_ANDESITE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_ANDESITE_STAIRS);
 
 
-                GameRegistry.registerBlock(WHITE_DYED_DIORITE_STAIRS, "white_dyed_diorite_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_DIORITE_STAIRS, "orange_dyed_diorite_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_DIORITE_STAIRS, "magenta_dyed_diorite_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_DIORITE_STAIRS, "light_blue_dyed_diorite_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_DIORITE_STAIRS, "yellow_dyed_diorite_stairs");
-                GameRegistry.registerBlock(LIME_DYED_DIORITE_STAIRS, "lime_dyed_diorite_stairs");
-                GameRegistry.registerBlock(PINK_DYED_DIORITE_STAIRS, "pink_dyed_diorite_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_DIORITE_STAIRS, "gray_dyed_diorite_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_DIORITE_STAIRS, "silver_dyed_diorite_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_DIORITE_STAIRS, "cyan_dyed_diorite_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_DIORITE_STAIRS, "purple_dyed_diorite_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_DIORITE_STAIRS, "blue_dyed_diorite_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_DIORITE_STAIRS, "brown_dyed_diorite_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_DIORITE_STAIRS, "green_dyed_diorite_stairs");
-                GameRegistry.registerBlock(RED_DYED_DIORITE_STAIRS, "red_dyed_diorite_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_DIORITE_STAIRS, "black_dyed_diorite_stairs");
+                registerSimpleBlock(WHITE_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(LIME_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(PINK_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(RED_DYED_DIORITE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_DIORITE_STAIRS);
 
 
-                GameRegistry.registerBlock(WHITE_DYED_GRANITE_STAIRS, "white_dyed_granite_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_GRANITE_STAIRS, "orange_dyed_granite_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_GRANITE_STAIRS, "magenta_dyed_granite_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_GRANITE_STAIRS, "light_blue_dyed_granite_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_GRANITE_STAIRS, "yellow_dyed_granite_stairs");
-                GameRegistry.registerBlock(LIME_DYED_GRANITE_STAIRS, "lime_dyed_granite_stairs");
-                GameRegistry.registerBlock(PINK_DYED_GRANITE_STAIRS, "pink_dyed_granite_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_GRANITE_STAIRS, "gray_dyed_granite_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_GRANITE_STAIRS, "silver_dyed_granite_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_GRANITE_STAIRS, "cyan_dyed_granite_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_GRANITE_STAIRS, "purple_dyed_granite_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_GRANITE_STAIRS, "blue_dyed_granite_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_GRANITE_STAIRS, "brown_dyed_granite_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_GRANITE_STAIRS, "green_dyed_granite_stairs");
-                GameRegistry.registerBlock(RED_DYED_GRANITE_STAIRS, "red_dyed_granite_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_GRANITE_STAIRS, "black_dyed_granite_stairs");
+                registerSimpleBlock(WHITE_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(LIME_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(PINK_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(RED_DYED_GRANITE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_GRANITE_STAIRS);
 
-                GameRegistry.registerBlock(WHITE_DYED_POLISHED_ANDESITE_STAIRS, "white_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_POLISHED_ANDESITE_STAIRS, "orange_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_POLISHED_ANDESITE_STAIRS, "magenta_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_STAIRS, "light_blue_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_POLISHED_ANDESITE_STAIRS, "yellow_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(LIME_DYED_POLISHED_ANDESITE_STAIRS, "lime_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(PINK_DYED_POLISHED_ANDESITE_STAIRS, "pink_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_POLISHED_ANDESITE_STAIRS, "gray_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_POLISHED_ANDESITE_STAIRS, "silver_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_POLISHED_ANDESITE_STAIRS, "cyan_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_POLISHED_ANDESITE_STAIRS, "purple_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_POLISHED_ANDESITE_STAIRS, "blue_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_POLISHED_ANDESITE_STAIRS, "brown_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_POLISHED_ANDESITE_STAIRS, "green_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(RED_DYED_POLISHED_ANDESITE_STAIRS, "red_dyed_polished_andesite_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_POLISHED_ANDESITE_STAIRS, "black_dyed_polished_andesite_stairs");
-
-
-                GameRegistry.registerBlock(WHITE_DYED_POLISHED_DIORITE_STAIRS, "white_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_POLISHED_DIORITE_STAIRS, "orange_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_POLISHED_DIORITE_STAIRS, "magenta_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_STAIRS, "light_blue_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_POLISHED_DIORITE_STAIRS, "yellow_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(LIME_DYED_POLISHED_DIORITE_STAIRS, "lime_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(PINK_DYED_POLISHED_DIORITE_STAIRS, "pink_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_POLISHED_DIORITE_STAIRS, "gray_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_POLISHED_DIORITE_STAIRS, "silver_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_POLISHED_DIORITE_STAIRS, "cyan_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_POLISHED_DIORITE_STAIRS, "purple_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_POLISHED_DIORITE_STAIRS, "blue_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_POLISHED_DIORITE_STAIRS, "brown_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_POLISHED_DIORITE_STAIRS, "green_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(RED_DYED_POLISHED_DIORITE_STAIRS, "red_dyed_polished_diorite_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_POLISHED_DIORITE_STAIRS, "black_dyed_polished_diorite_stairs");
+                registerSimpleBlock(WHITE_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(LIME_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(PINK_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(RED_DYED_POLISHED_ANDESITE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_POLISHED_ANDESITE_STAIRS);
 
 
-                GameRegistry.registerBlock(WHITE_DYED_POLISHED_GRANITE_STAIRS, "white_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(ORANGE_DYED_POLISHED_GRANITE_STAIRS, "orange_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(MAGENTA_DYED_POLISHED_GRANITE_STAIRS, "magenta_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_STAIRS, "light_blue_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(YELLOW_DYED_POLISHED_GRANITE_STAIRS, "yellow_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(LIME_DYED_POLISHED_GRANITE_STAIRS, "lime_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(PINK_DYED_POLISHED_GRANITE_STAIRS, "pink_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(GRAY_DYED_POLISHED_GRANITE_STAIRS, "gray_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(SILVER_DYED_POLISHED_GRANITE_STAIRS, "silver_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(CYAN_DYED_POLISHED_GRANITE_STAIRS, "cyan_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(PURPLE_DYED_POLISHED_GRANITE_STAIRS, "purple_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(BLUE_DYED_POLISHED_GRANITE_STAIRS, "blue_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(BROWN_DYED_POLISHED_GRANITE_STAIRS, "brown_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(GREEN_DYED_POLISHED_GRANITE_STAIRS, "green_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(RED_DYED_POLISHED_GRANITE_STAIRS, "red_dyed_polished_granite_stairs");
-                GameRegistry.registerBlock(BLACK_DYED_POLISHED_GRANITE_STAIRS, "black_dyed_polished_granite_stairs");
+                registerSimpleBlock(WHITE_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(LIME_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(PINK_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(RED_DYED_POLISHED_DIORITE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_POLISHED_DIORITE_STAIRS);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(LIME_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(PINK_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(GRAY_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(SILVER_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(CYAN_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(BLUE_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(BROWN_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(GREEN_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(RED_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlock(BLACK_DYED_POLISHED_GRANITE_STAIRS);
             }
         }
 
         //Now register pressure plates
 
         if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
-            GameRegistry.registerBlock(COBBLESTONE_PRESSURE_PLATE, "cobblestone_pressure_plate");
-            GameRegistry.registerBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE, "mossy_cobblestone_pressure_plate");
-            GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE, "granite_pressure_plate");
-            GameRegistry.registerBlock(POLISHED_GRANITE_PRESSURE_PLATE, "polished_granite_pressure_plate");
-            GameRegistry.registerBlock(DIORITE_PRESSURE_PLATE, "diorite_pressure_plate");
-            GameRegistry.registerBlock(POLISHED_DIORITE_PRESSURE_PLATE, "polished_diorite_pressure_plate");
-            GameRegistry.registerBlock(ANDESITE_PRESSURE_PLATE, "andesite_pressure_plate");
-            GameRegistry.registerBlock(POLISHED_ANDESITE_PRESSURE_PLATE, "polished_andesite_pressure_plate");
+            GameRegistry.registerBlock(COBBLESTONE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(POLISHED_GRANITE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(DIORITE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(POLISHED_DIORITE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(ANDESITE_PRESSURE_PLATE);
+            GameRegistry.registerBlock(POLISHED_ANDESITE_PRESSURE_PLATE);
 
-            GameRegistry.registerBlock(STONE_BRICK_PRESSURE_PLATE, "stone_brick_pressure_plate");
-            GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE, "cracked_stone_brick_pressure_plate");
-            GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE, "chiseled_stone_brick_pressure_plate");
-            GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE, "mossy_stone_brick_pressure_plate");
+            GameRegistry.registerBlock(STONE_BRICK_PRESSURE_PLATE);
+            GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE);
+            GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE);
+            GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE);
         }
 
         //Now register levers
