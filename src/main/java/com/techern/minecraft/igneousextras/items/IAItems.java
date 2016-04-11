@@ -13,16 +13,19 @@ import com.techern.minecraft.igneousextras.ConfigHandler;
 public class IAItems {
 	public static Item ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_ANDESITE, "andesite");
 	public static Item ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_ANDESITE, "andesite");
+	//public static Item ANDESITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_ANDESITE, "andesite");FIXME regression?
 	public static Item ANDESITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_ANDESITE, "andesite");
 	public static Item ANDESITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_ANDESITE, "andesite");
 	
 	public static Item GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "granite");
 	public static Item GRANITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_GRANITE, "granite");
+	//public static Item GRANITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_GRANITE, "granite");FIXME regression?
 	public static Item GRANITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_GRANITE, "granite");
 	public static Item GRANITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_GRANITE, "granite");
 	
 	public static Item DIORITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_DIORITE, "diorite");
 	public static Item DIORITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_DIORITE, "diorite");
+	//public static Item DIORITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_DIORITE, "diorite");FIXME regression?
 	public static Item DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_DIORITE, "diorite");
 	public static Item DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_DIORITE, "diorite");
 	
@@ -74,18 +77,19 @@ public class IAItems {
 	}
 
 	public static void registerRecipes() {
-		if (ConfigHandler.ENABLE_GRANITE_TOOLS) registerToolRecipes(Blocks.stone, 1);
-		if (ConfigHandler.ENABLE_DIORITE_TOOLS) registerToolRecipes(Blocks.stone, 3);
-		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) registerToolRecipes(Blocks.stone, 5);
+		if (ConfigHandler.ENABLE_GRANITE_TOOLS) registerToolRecipes(Blocks.stone, 1, GRANITE_SWORD, GRANITE_PICKAXE,/* GRANITE_AXE,*/ GRANITE_SHOVEL, GRANITE_HOE);
+		if (ConfigHandler.ENABLE_DIORITE_TOOLS) registerToolRecipes(Blocks.stone, 3, DIORITE_SWORD, DIORITE_PICKAXE, /*DIORITE_AXE,*/ DIORITE_SHOVEL, DIORITE_HOE);
+		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) registerToolRecipes(Blocks.stone, 5, ANDESITE_SWORD, ANDESITE_PICKAXE, /*ANDESITE_AXE,*/ ANDESITE_SHOVEL, ANDESITE_HOE);
 	}
 
-	private static void registerToolRecipes(Block baseBlock, int meta) {
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), " B ", " B ", " S ", 'S', Items.stick, 'B', baseBlock); //sword
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), "BBB", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //pickaxe
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), "BB ", "BS ", " S ", 'S', Items.stick, 'B', baseBlock); //axe
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), " BB", " SB", " S ", 'S', Items.stick, 'B', baseBlock); //axe flipped
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), " B ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //shovel
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), " BB", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe
-		GameRegistry.addShapedRecipe(new ItemStack(baseBlock, 1, meta), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe flipped
+	private static void registerToolRecipes(Block baseBlock, int meta, Item sword, Item pickaxe, /*Item axe,*/ Item shovel, Item hoe) {
+		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.stick, 'B', baseBlock); //sword
+		GameRegistry.addShapedRecipe(new ItemStack(pickaxe, 1), "BBB", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //pickaxe
+		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), "BB ", "BS ", " S ", 'S', Items.stick, 'B', baseBlock); //FIXME axe
+		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), " BB", " SB", " S ", 'S', Items.stick, 'B', baseBlock); //FIXME axe flipped
+		GameRegistry.addShapedRecipe(new ItemStack(shovel, 1), " B ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //shovel
+		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), " BB", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe
+		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe flipped
+		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe flipped
 	}
 }
