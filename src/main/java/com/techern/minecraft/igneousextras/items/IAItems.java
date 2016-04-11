@@ -83,7 +83,7 @@ public class IAItems {
 	}
 
 	private static void registerToolRecipes(Block baseBlock, int meta, Item sword, Item pickaxe, /*Item axe,*/ Item shovel, Item hoe) {
-		ItemStack baseBlockStack = new ItemStack(baseBlock, meta, 1);
+		ItemStack baseBlockStack = new ItemStack(baseBlock, 1, meta);
 		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.stick, 'B', baseBlockStack); //sword
 		GameRegistry.addShapedRecipe(new ItemStack(pickaxe, 1), "BBB", " S ", " S ", 'S', Items.stick, 'B', baseBlockStack); //pickaxe
 		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), "BB ", "BS ", " S ", 'S', Items.stick, 'B', baseBlockStack); //FIXME axe
