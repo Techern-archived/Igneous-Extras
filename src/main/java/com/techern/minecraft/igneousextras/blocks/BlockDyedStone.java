@@ -24,6 +24,7 @@ public class BlockDyedStone extends BlockColored {
         this.setStepSound(SoundType.STONE);
         this.setCreativeTab(IABlocks.DYED_BLOCKS_TAB);
         this.setUnlocalizedName(unlocalizedName);
+        this.setRegistryName(unlocalizedName);
         this.setHarvestLevel("pickaxe", 0);
     }
 

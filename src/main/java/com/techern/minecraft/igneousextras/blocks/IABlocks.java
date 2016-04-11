@@ -1366,20 +1366,19 @@ public class IABlocks {
      *
      * @since 0.0.1
      */
-    @SuppressWarnings("deprecation")
 	public static void registerBlocks() {
 
         //First, we'll register dyed blocks
         if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
-            GameRegistry.registerBlock(DYED_COBBLESTONE, ItemColoredBlock.class, "dyed_cobblestone");
-            GameRegistry.registerBlock(DYED_MOSSY_COBBLESTONE, ItemColoredBlock.class, "dyed_mossy_cobblestone");
-            GameRegistry.registerBlock(DYED_STONE, ItemColoredBlock.class, "dyed_stone");
-            GameRegistry.registerBlock(DYED_GRANITE, ItemColoredBlock.class, "dyed_granite");
-            GameRegistry.registerBlock(DYED_SMOOTH_GRANITE, ItemColoredBlock.class, "dyed_smooth_granite");
-            GameRegistry.registerBlock(DYED_DIORITE, ItemColoredBlock.class, "dyed_diorite");
-            GameRegistry.registerBlock(DYED_SMOOTH_DIORITE, ItemColoredBlock.class, "dyed_smooth_diorite");
-            GameRegistry.registerBlock(DYED_ANDESITE, ItemColoredBlock.class, "dyed_andesite");
-            GameRegistry.registerBlock(DYED_SMOOTH_ANDESITE, ItemColoredBlock.class, "dyed_smooth_andesite");
+            registerColoredBlock(DYED_COBBLESTONE);
+            registerColoredBlock(DYED_MOSSY_COBBLESTONE);
+            registerColoredBlock(DYED_STONE);
+            registerColoredBlock(DYED_GRANITE);
+            registerColoredBlock(DYED_SMOOTH_GRANITE);
+            registerColoredBlock(DYED_DIORITE);
+            registerColoredBlock(DYED_SMOOTH_DIORITE);
+            registerColoredBlock(DYED_ANDESITE);
+            registerColoredBlock(DYED_SMOOTH_ANDESITE);
         }
 
         if (ConfigHandler.ENABLE_ADDITIONAL_STAIRS) {
@@ -1561,19 +1560,19 @@ public class IABlocks {
         //Now register pressure plates
 
         if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
-            GameRegistry.registerBlock(COBBLESTONE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(GRANITE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(POLISHED_GRANITE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(DIORITE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(POLISHED_DIORITE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(ANDESITE_PRESSURE_PLATE);
-            GameRegistry.registerBlock(POLISHED_ANDESITE_PRESSURE_PLATE);
+            registerSimpleBlock(COBBLESTONE_PRESSURE_PLATE);
+            registerSimpleBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE);
+            registerSimpleBlock(GRANITE_PRESSURE_PLATE);
+            registerSimpleBlock(POLISHED_GRANITE_PRESSURE_PLATE);
+            registerSimpleBlock(DIORITE_PRESSURE_PLATE);
+            registerSimpleBlock(POLISHED_DIORITE_PRESSURE_PLATE);
+            registerSimpleBlock(ANDESITE_PRESSURE_PLATE);
+            registerSimpleBlock(POLISHED_ANDESITE_PRESSURE_PLATE);
 
-            GameRegistry.registerBlock(STONE_BRICK_PRESSURE_PLATE);
-            GameRegistry.registerBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE);
-            GameRegistry.registerBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE);
-            GameRegistry.registerBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE);
+            registerSimpleBlock(STONE_BRICK_PRESSURE_PLATE);
+            registerSimpleBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE);
+            registerSimpleBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE);
+            registerSimpleBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE);
         }
 
         //Now register levers
@@ -2147,7 +2146,7 @@ public class IABlocks {
     }
 
     /**
-     * Registers a simply {@link Block}
+     * Registers a simple {@link Block}
      *
      * TODO Add more variants as needed
      *
@@ -2157,6 +2156,17 @@ public class IABlocks {
     public static void registerSimpleBlock(Block block) {
         GameRegistry.register(block);
         GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
+    }
+
+    /**
+     * Registers a colored {@link Block}
+     *
+     * @param block The {@link Block} to register
+     * @since 0.0.2
+     */
+    public static void registerColoredBlock(Block block) {
+        GameRegistry.register(block);
+        GameRegistry.register(new ItemColoredBlock(block).setRegistryName(block.getRegistryName()));
     }
 
 }
