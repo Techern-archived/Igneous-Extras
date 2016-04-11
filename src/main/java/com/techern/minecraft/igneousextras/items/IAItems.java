@@ -83,13 +83,14 @@ public class IAItems {
 	}
 
 	private static void registerToolRecipes(Block baseBlock, int meta, Item sword, Item pickaxe, /*Item axe,*/ Item shovel, Item hoe) {
-		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.stick, 'B', baseBlock); //sword
-		GameRegistry.addShapedRecipe(new ItemStack(pickaxe, 1), "BBB", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //pickaxe
-		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), "BB ", "BS ", " S ", 'S', Items.stick, 'B', baseBlock); //FIXME axe
-		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), " BB", " SB", " S ", 'S', Items.stick, 'B', baseBlock); //FIXME axe flipped
-		GameRegistry.addShapedRecipe(new ItemStack(shovel, 1), " B ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //shovel
-		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), " BB", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe
-		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe flipped
-		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlock); //hoe flipped
+		ItemStack baseBlockStack = new ItemStack(baseBlock, meta, 1);
+		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.stick, 'B', baseBlockStack); //sword
+		GameRegistry.addShapedRecipe(new ItemStack(pickaxe, 1), "BBB", " S ", " S ", 'S', Items.stick, 'B', baseBlockStack); //pickaxe
+		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), "BB ", "BS ", " S ", 'S', Items.stick, 'B', baseBlockStack); //FIXME axe
+		//GameRegistry.addShapedRecipe(new ItemStack(axe, 1), " BB", " SB", " S ", 'S', Items.stick, 'B', baseBlockStack); //FIXME axe flipped
+		GameRegistry.addShapedRecipe(new ItemStack(shovel, 1), " B ", " S ", " S ", 'S', Items.stick, 'B', baseBlockStack); //shovel
+		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), " BB", " S ", " S ", 'S', Items.stick, 'B', baseBlockStack); //hoe
+		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlockStack); //hoe flipped
+		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.stick, 'B', baseBlockStack); //hoe flipped
 	}
 }
