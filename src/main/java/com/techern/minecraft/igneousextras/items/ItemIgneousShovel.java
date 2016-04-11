@@ -6,5 +6,6 @@ public class ItemIgneousShovel extends ItemSpade {
 	public ItemIgneousShovel(ToolMaterial mat, String unlocalizedName) {
 		super(mat);
 		this.setUnlocalizedName(unlocalizedName + "_shovel");
+		this.setRegistryName(unlocalizedName + "_shovel");
 	}
 }

@@ -29,29 +29,28 @@ public class IAItems {
 	public static Item DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_DIORITE, "diorite");
 	public static Item DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_DIORITE, "diorite");
 	
-	@SuppressWarnings("deprecation")
 	public static void registerItems() {
 		//GameRegistry
 		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) {
-			GameRegistry.registerItem(ANDESITE_SWORD, "andesite_sword");
-			GameRegistry.registerItem(ANDESITE_PICKAXE, "andesite_pickaxe");
+			GameRegistry.register(ANDESITE_SWORD);
+			GameRegistry.register(ANDESITE_PICKAXE);
 			//FIXME axe
-			GameRegistry.registerItem(ANDESITE_SHOVEL, "andesite_shovel");
-			GameRegistry.registerItem(ANDESITE_HOE, "andesite_hoe");
+			GameRegistry.register(ANDESITE_SHOVEL);
+			GameRegistry.register(ANDESITE_HOE);
 		}
 		if (ConfigHandler.ENABLE_GRANITE_TOOLS) {
-			GameRegistry.registerItem(GRANITE_SWORD, "granite_sword");
-			GameRegistry.registerItem(GRANITE_PICKAXE, "granite_pickaxe");
+			GameRegistry.register(GRANITE_SWORD);
+			GameRegistry.register(GRANITE_PICKAXE);
 			//FIXME axe
-			GameRegistry.registerItem(GRANITE_SHOVEL, "granite_shovel");
-			GameRegistry.registerItem(GRANITE_HOE, "granite_hoe");
+			GameRegistry.register(GRANITE_SHOVEL);
+			GameRegistry.register(GRANITE_HOE);
 		}
 		if (ConfigHandler.ENABLE_DIORITE_TOOLS) {
-			GameRegistry.registerItem(DIORITE_SWORD, "diorite_sword");
-			GameRegistry.registerItem(DIORITE_PICKAXE, "diorite_pickaxe");
+			GameRegistry.register(DIORITE_SWORD);
+			GameRegistry.register(DIORITE_PICKAXE);
 			//FIXME axe
-			GameRegistry.registerItem(DIORITE_SHOVEL, "diorite_shovel");
-			GameRegistry.registerItem(DIORITE_HOE, "diorite_hoe");
+			GameRegistry.register(DIORITE_SHOVEL);
+			GameRegistry.register(DIORITE_HOE);
 		}
 		
 		//Renderers
