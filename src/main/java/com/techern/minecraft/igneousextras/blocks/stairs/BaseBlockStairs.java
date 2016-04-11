@@ -21,6 +21,7 @@ public class BaseBlockStairs extends BlockStairs {
     public BaseBlockStairs(IBlockState referenceState, String unlocalizedName) {
         super(referenceState);
         this.setUnlocalizedName(unlocalizedName);
+        this.setRegistryName(unlocalizedName);
         this.setCreativeTab(IABlocks.STAIRS_TAB);
     }
 }
