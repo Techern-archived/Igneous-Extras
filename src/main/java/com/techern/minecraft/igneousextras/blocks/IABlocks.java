@@ -15,6 +15,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -1579,20 +1580,20 @@ public class IABlocks {
 
         if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
 
-            GameRegistry.registerBlock(STONE_LEVER, "stone_lever");
-            GameRegistry.registerBlock(GRANITE_LEVER, "granite_lever");
-            GameRegistry.registerBlock(POLISHED_GRANITE_LEVER, "polished_granite_lever");
-            GameRegistry.registerBlock(DIORITE_LEVER, "diorite_lever");
-            GameRegistry.registerBlock(POLISHED_DIORITE_LEVER, "polished_diorite_lever");
-            GameRegistry.registerBlock(ANDESITE_LEVER, "andesite_lever");
-            GameRegistry.registerBlock(POLISHED_ANDESITE_LEVER, "polished_andesite_lever");
+            registerSimpleBlock(STONE_LEVER); //GameRegistry.register(STONE_LEVER.setRegistryName("StoneLever");
+            registerSimpleBlock(GRANITE_LEVER);
+            registerSimpleBlock(POLISHED_GRANITE_LEVER);
+            registerSimpleBlock(DIORITE_LEVER);
+            registerSimpleBlock(POLISHED_DIORITE_LEVER);
+            registerSimpleBlock(ANDESITE_LEVER);
+            registerSimpleBlock(POLISHED_ANDESITE_LEVER);
 
-            GameRegistry.registerBlock(MOSSY_COBBLESTONE_LEVER, "mossy_cobblestone_lever");
+            registerSimpleBlock(MOSSY_COBBLESTONE_LEVER);
 
-            GameRegistry.registerBlock(STONE_BRICK_LEVER, "stone_brick_lever");
-            GameRegistry.registerBlock(CHISELED_STONE_BRICK_LEVER, "chiseled_stone_brick_lever");
-            GameRegistry.registerBlock(CRACKED_STONE_BRICK_LEVER, "cracked_stone_brick_lever");
-            GameRegistry.registerBlock(MOSSY_STONE_BRICK_LEVER, "mossy_stone_brick_lever");
+            registerSimpleBlock(STONE_BRICK_LEVER);
+            registerSimpleBlock(CHISELED_STONE_BRICK_LEVER);
+            registerSimpleBlock(CRACKED_STONE_BRICK_LEVER);
+            registerSimpleBlock(MOSSY_STONE_BRICK_LEVER);
 
         }
 
@@ -2143,6 +2144,19 @@ public class IABlocks {
                                          "OOO", "OWO", "OOO",
                                          'W', water, 'O', new ItemStack(blockToReturn, 1, color.getMetadata()));
         }
+    }
+
+    /**
+     * Registers a simply {@link Block}
+     *
+     * TODO Add more variants as needed
+     *
+     * @param block The {@link Block} to register
+     * @since 0.0.2
+     */
+    public static void registerSimpleBlock(Block block) {
+        GameRegistry.register(block);
+        GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
     }
 
 }

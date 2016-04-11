@@ -19,6 +19,7 @@ public class BlockBasicLever extends BlockLever {
     public BlockBasicLever(String unlocalizedName) {
         super();
         this.setUnlocalizedName(unlocalizedName);
+        this.setRegistryName(unlocalizedName);
     }
 
 }
