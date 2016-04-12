@@ -1702,6 +1702,685 @@ public class IABlocks {
 
 
     /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_granite_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_granite_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_granite_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_granite_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_granite_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_granite_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_granite_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_granite_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_granite_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_granite_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_granite_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_granite_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_granite_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_granite_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_granite_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_granite_pressure_plate");
+
+
+    /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_diorite_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_diorite_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_diorite_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_diorite_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_diorite_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_diorite_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_diorite_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_diorite_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_diorite_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_diorite_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_diorite_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_diorite_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_diorite_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_diorite_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_diorite_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_diorite_pressure_plate");
+
+    /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_andesite_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_andesite_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_andesite_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_andesite_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_andesite_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_andesite_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_andesite_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_andesite_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_andesite_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_andesite_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_andesite_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_andesite_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_andesite_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_andesite_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_andesite_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_andesite_pressure_plate");
+
+
+    /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_polished_granite_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_polished_granite_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_POLISHED_GRANITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_polished_granite_pressure_plate");
+
+
+    /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_POLISHED_DIORITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_polished_diorite_pressure_plate");
+
+    /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_polished_andesite_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_polished_andesite_pressure_plate");
+
+
+
+
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1967,6 +2646,114 @@ public class IABlocks {
                 registerSimpleBlock(GREEN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
                 registerSimpleBlock(RED_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
                 registerSimpleBlock(BLACK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
+
+
+                registerSimpleBlock(WHITE_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_GRANITE_PRESSURE_PLATE);
+
+
+                registerSimpleBlock(WHITE_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_DIORITE_PRESSURE_PLATE);
+
+
+                registerSimpleBlock(WHITE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_ANDESITE_PRESSURE_PLATE);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
             }
         }
 
@@ -2255,6 +3042,120 @@ public class IABlocks {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE), 0, "green_dyed_mossy_cobblestone_pressure_plate", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE), 0, "red_dyed_mossy_cobblestone_pressure_plate", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE), 0, "black_dyed_mossy_cobblestone_pressure_plate", "inventory");
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_GRANITE_PRESSURE_PLATE), 0, "white_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_GRANITE_PRESSURE_PLATE), 0, "orange_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_GRANITE_PRESSURE_PLATE), 0, "magenta_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_GRANITE_PRESSURE_PLATE), 0, "light_blue_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_GRANITE_PRESSURE_PLATE), 0, "yellow_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_GRANITE_PRESSURE_PLATE), 0, "lime_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_GRANITE_PRESSURE_PLATE), 0, "pink_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_GRANITE_PRESSURE_PLATE), 0, "gray_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_GRANITE_PRESSURE_PLATE), 0, "silver_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_GRANITE_PRESSURE_PLATE), 0, "cyan_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_GRANITE_PRESSURE_PLATE), 0, "purple_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_GRANITE_PRESSURE_PLATE), 0, "blue_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_GRANITE_PRESSURE_PLATE), 0, "brown_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_GRANITE_PRESSURE_PLATE), 0, "green_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_GRANITE_PRESSURE_PLATE), 0, "red_dyed_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_GRANITE_PRESSURE_PLATE), 0, "black_dyed_granite_pressure_plate", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_DIORITE_PRESSURE_PLATE), 0, "white_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_DIORITE_PRESSURE_PLATE), 0, "orange_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_DIORITE_PRESSURE_PLATE), 0, "magenta_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_DIORITE_PRESSURE_PLATE), 0, "light_blue_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_DIORITE_PRESSURE_PLATE), 0, "yellow_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_DIORITE_PRESSURE_PLATE), 0, "lime_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_DIORITE_PRESSURE_PLATE), 0, "pink_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_DIORITE_PRESSURE_PLATE), 0, "gray_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_DIORITE_PRESSURE_PLATE), 0, "silver_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_DIORITE_PRESSURE_PLATE), 0, "cyan_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_DIORITE_PRESSURE_PLATE), 0, "purple_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_DIORITE_PRESSURE_PLATE), 0, "blue_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_DIORITE_PRESSURE_PLATE), 0, "brown_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_DIORITE_PRESSURE_PLATE), 0, "green_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_DIORITE_PRESSURE_PLATE), 0, "red_dyed_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_DIORITE_PRESSURE_PLATE), 0, "black_dyed_diorite_pressure_plate", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_ANDESITE_PRESSURE_PLATE), 0, "white_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_ANDESITE_PRESSURE_PLATE), 0, "orange_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_ANDESITE_PRESSURE_PLATE), 0, "magenta_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_ANDESITE_PRESSURE_PLATE), 0, "light_blue_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_ANDESITE_PRESSURE_PLATE), 0, "yellow_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_ANDESITE_PRESSURE_PLATE), 0, "lime_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_ANDESITE_PRESSURE_PLATE), 0, "pink_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_ANDESITE_PRESSURE_PLATE), 0, "gray_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_ANDESITE_PRESSURE_PLATE), 0, "silver_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_ANDESITE_PRESSURE_PLATE), 0, "cyan_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_ANDESITE_PRESSURE_PLATE), 0, "purple_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_ANDESITE_PRESSURE_PLATE), 0, "blue_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_ANDESITE_PRESSURE_PLATE), 0, "brown_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_ANDESITE_PRESSURE_PLATE), 0, "green_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_ANDESITE_PRESSURE_PLATE), 0, "red_dyed_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_ANDESITE_PRESSURE_PLATE), 0, "black_dyed_andesite_pressure_plate", "inventory");
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "white_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "orange_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "magenta_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "light_blue_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "yellow_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "lime_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "pink_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "gray_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "silver_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "cyan_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "purple_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "blue_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "brown_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "green_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "red_dyed_polished_granite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_GRANITE_PRESSURE_PLATE), 0, "black_dyed_polished_granite_pressure_plate", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "white_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "orange_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "magenta_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "light_blue_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "yellow_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "lime_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "pink_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "gray_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "silver_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "cyan_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "purple_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "blue_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "brown_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "green_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "red_dyed_polished_diorite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_DIORITE_PRESSURE_PLATE), 0, "black_dyed_polished_diorite_pressure_plate", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "white_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "orange_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "magenta_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "light_blue_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "yellow_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "lime_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "pink_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "gray_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "silver_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "cyan_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "purple_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "blue_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "brown_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "green_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "red_dyed_polished_andesite_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE), 0, "black_dyed_polished_andesite_pressure_plate", "inventory");
+
+
             }
         }
 
@@ -2540,6 +3441,109 @@ public class IABlocks {
                 registerPressurePlateRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
                 registerPressurePlateRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.RED.getMetadata(), RED_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
                 registerPressurePlateRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
+
+
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_GRANITE_PRESSURE_PLATE);
+
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.RED.getMetadata(), RED_DYED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_DIORITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_DIORITE_PRESSURE_PLATE);
+
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.RED.getMetadata(), RED_DYED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_ANDESITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_ANDESITE_PRESSURE_PLATE);
+
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
+
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
+
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
             }
         }
 

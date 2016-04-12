@@ -426,3 +426,111 @@ tile.light_blue_dyed_mossy_cobblestone_pressure_plate.name=Light Blue Dyed Mossy
 tile.pink_dyed_mossy_cobblestone_pressure_plate.name=Pink Dyed Mossy Cobblestone Pressure Plate
 tile.yellow_dyed_mossy_cobblestone_pressure_plate.name=Yellow Dyed Mossy Cobblestone Pressure Plate
 tile.white_dyed_mossy_cobblestone_pressure_plate.name=White Dyed Mossy Cobblestone Pressure Plate
+
+#Now dyed granite pressure plates
+tile.lime_dyed_granite_pressure_plate.name=Lime Dyed Granite Pressure Plate
+tile.purple_dyed_granite_pressure_plate.name=Purple Dyed Granite Pressure Plate
+tile.red_dyed_granite_pressure_plate.name=Red Dyed Granite Pressure Plate
+tile.orange_dyed_granite_pressure_plate.name=Orange Dyed Granite Pressure Plate
+tile.brown_dyed_granite_pressure_plate.name=Brown Dyed Granite Pressure Plate
+tile.black_dyed_granite_pressure_plate.name=Black Dyed Granite Pressure Plate
+tile.gray_dyed_granite_pressure_plate.name=Gray Dyed Granite Pressure Plate
+tile.green_dyed_granite_pressure_plate.name=Green Dyed Granite Pressure Plate
+tile.magenta_dyed_granite_pressure_plate.name=Magenta Dyed Granite Pressure Plate
+tile.silver_dyed_granite_pressure_plate.name=Silver Dyed Granite Pressure Plate
+tile.blue_dyed_granite_pressure_plate.name=Blue Dyed Granite Pressure Plate
+tile.cyan_dyed_granite_pressure_plate.name=Cyan Dyed Granite Pressure Plate
+tile.light_blue_dyed_granite_pressure_plate.name=Light Blue Dyed Granite Pressure Plate
+tile.pink_dyed_granite_pressure_plate.name=Pink Dyed Granite Pressure Plate
+tile.yellow_dyed_granite_pressure_plate.name=Yellow Dyed Granite Pressure Plate
+tile.white_dyed_granite_pressure_plate.name=White Dyed Granite Pressure Plate
+
+#Now dyed diorite pressure plates
+tile.lime_dyed_diorite_pressure_plate.name=Lime Dyed Diorite Pressure Plate
+tile.purple_dyed_diorite_pressure_plate.name=Purple Dyed Diorite Pressure Plate
+tile.red_dyed_diorite_pressure_plate.name=Red Dyed Diorite Pressure Plate
+tile.orange_dyed_diorite_pressure_plate.name=Orange Dyed Diorite Pressure Plate
+tile.brown_dyed_diorite_pressure_plate.name=Brown Dyed Diorite Pressure Plate
+tile.black_dyed_diorite_pressure_plate.name=Black Dyed Diorite Pressure Plate
+tile.gray_dyed_diorite_pressure_plate.name=Gray Dyed Diorite Pressure Plate
+tile.green_dyed_diorite_pressure_plate.name=Green Dyed Diorite Pressure Plate
+tile.magenta_dyed_diorite_pressure_plate.name=Magenta Dyed Diorite Pressure Plate
+tile.silver_dyed_diorite_pressure_plate.name=Silver Dyed Diorite Pressure Plate
+tile.blue_dyed_diorite_pressure_plate.name=Blue Dyed Diorite Pressure Plate
+tile.cyan_dyed_diorite_pressure_plate.name=Cyan Dyed Diorite Pressure Plate
+tile.light_blue_dyed_diorite_pressure_plate.name=Light Blue Dyed Diorite Pressure Plate
+tile.pink_dyed_diorite_pressure_plate.name=Pink Dyed Diorite Pressure Plate
+tile.yellow_dyed_diorite_pressure_plate.name=Yellow Dyed Diorite Pressure Plate
+tile.white_dyed_diorite_pressure_plate.name=White Dyed Diorite Pressure Plate
+
+#Now dyed andesite pressure plates
+tile.lime_dyed_andesite_pressure_plate.name=Lime Dyed Andesite Pressure Plate
+tile.purple_dyed_andesite_pressure_plate.name=Purple Dyed Andesite Pressure Plate
+tile.red_dyed_andesite_pressure_plate.name=Red Dyed Andesite Pressure Plate
+tile.orange_dyed_andesite_pressure_plate.name=Orange Dyed Andesite Pressure Plate
+tile.brown_dyed_andesite_pressure_plate.name=Brown Dyed Andesite Pressure Plate
+tile.black_dyed_andesite_pressure_plate.name=Black Dyed Andesite Pressure Plate
+tile.gray_dyed_andesite_pressure_plate.name=Gray Dyed Andesite Pressure Plate
+tile.green_dyed_andesite_pressure_plate.name=Green Dyed Andesite Pressure Plate
+tile.magenta_dyed_andesite_pressure_plate.name=Magenta Dyed Andesite Pressure Plate
+tile.silver_dyed_andesite_pressure_plate.name=Silver Dyed Andesite Pressure Plate
+tile.blue_dyed_andesite_pressure_plate.name=Blue Dyed Andesite Pressure Plate
+tile.cyan_dyed_andesite_pressure_plate.name=Cyan Dyed Andesite Pressure Plate
+tile.light_blue_dyed_andesite_pressure_plate.name=Light Blue Dyed Andesite Pressure Plate
+tile.pink_dyed_andesite_pressure_plate.name=Pink Dyed Andesite Pressure Plate
+tile.yellow_dyed_andesite_pressure_plate.name=Yellow Dyed Andesite Pressure Plate
+tile.white_dyed_andesite_pressure_plate.name=White Dyed Andesite Pressure Plate
+
+#Now dyed polished granite pressure plates
+tile.lime_dyed_polished_granite_pressure_plate.name=Lime Dyed Polished Granite Pressure Plate
+tile.purple_dyed_polished_granite_pressure_plate.name=Purple Dyed Polished Granite Pressure Plate
+tile.red_dyed_polished_granite_pressure_plate.name=Red Dyed Polished Granite Pressure Plate
+tile.orange_dyed_polished_granite_pressure_plate.name=Orange Dyed Polished Granite Pressure Plate
+tile.brown_dyed_polished_granite_pressure_plate.name=Brown Dyed Polished Granite Pressure Plate
+tile.black_dyed_polished_granite_pressure_plate.name=Black Dyed Polished Granite Pressure Plate
+tile.gray_dyed_polished_granite_pressure_plate.name=Gray Dyed Polished Granite Pressure Plate
+tile.green_dyed_polished_granite_pressure_plate.name=Green Dyed Polished Granite Pressure Plate
+tile.magenta_dyed_polished_granite_pressure_plate.name=Magenta Dyed Polished Granite Pressure Plate
+tile.silver_dyed_polished_granite_pressure_plate.name=Silver Dyed Polished Granite Pressure Plate
+tile.blue_dyed_polished_granite_pressure_plate.name=Blue Dyed Polished Granite Pressure Plate
+tile.cyan_dyed_polished_granite_pressure_plate.name=Cyan Dyed Polished Granite Pressure Plate
+tile.light_blue_dyed_polished_granite_pressure_plate.name=Light Blue Dyed Polished Granite Pressure Plate
+tile.pink_dyed_polished_granite_pressure_plate.name=Pink Dyed Polished Granite Pressure Plate
+tile.yellow_dyed_polished_granite_pressure_plate.name=Yellow Dyed Polished Granite Pressure Plate
+tile.white_dyed_polished_granite_pressure_plate.name=White Dyed Polished Granite Pressure Plate
+
+#Now dyed polished diorite pressure plates
+tile.lime_dyed_polished_diorite_pressure_plate.name=Lime Dyed Polished Diorite Pressure Plate
+tile.purple_dyed_polished_diorite_pressure_plate.name=Purple Dyed Polished Diorite Pressure Plate
+tile.red_dyed_polished_diorite_pressure_plate.name=Red Dyed Polished Diorite Pressure Plate
+tile.orange_dyed_polished_diorite_pressure_plate.name=Orange Dyed Polished Diorite Pressure Plate
+tile.brown_dyed_polished_diorite_pressure_plate.name=Brown Dyed Polished Diorite Pressure Plate
+tile.black_dyed_polished_diorite_pressure_plate.name=Black Dyed Polished Diorite Pressure Plate
+tile.gray_dyed_polished_diorite_pressure_plate.name=Gray Dyed Polished Diorite Pressure Plate
+tile.green_dyed_polished_diorite_pressure_plate.name=Green Dyed Polished Diorite Pressure Plate
+tile.magenta_dyed_polished_diorite_pressure_plate.name=Magenta Dyed Polished Diorite Pressure Plate
+tile.silver_dyed_polished_diorite_pressure_plate.name=Silver Dyed Polished Diorite Pressure Plate
+tile.blue_dyed_polished_diorite_pressure_plate.name=Blue Dyed Polished Diorite Pressure Plate
+tile.cyan_dyed_polished_diorite_pressure_plate.name=Cyan Dyed Polished Diorite Pressure Plate
+tile.light_blue_dyed_polished_diorite_pressure_plate.name=Light Blue Dyed Polished Diorite Pressure Plate
+tile.pink_dyed_polished_diorite_pressure_plate.name=Pink Dyed Polished Diorite Pressure Plate
+tile.yellow_dyed_polished_diorite_pressure_plate.name=Yellow Dyed Polished Diorite Pressure Plate
+tile.white_dyed_polished_diorite_pressure_plate.name=White Dyed Polished Diorite Pressure Plate
+
+#Now dyed polished andesite pressure plates
+tile.lime_dyed_polished_andesite_pressure_plate.name=Lime Dyed Polished Andesite Pressure Plate
+tile.purple_dyed_polished_andesite_pressure_plate.name=Purple Dyed Polished Andesite Pressure Plate
+tile.red_dyed_polished_andesite_pressure_plate.name=Red Dyed Polished Andesite Pressure Plate
+tile.orange_dyed_polished_andesite_pressure_plate.name=Orange Dyed Polished Andesite Pressure Plate
+tile.brown_dyed_polished_andesite_pressure_plate.name=Brown Dyed Polished Andesite Pressure Plate
+tile.black_dyed_polished_andesite_pressure_plate.name=Black Dyed Polished Andesite Pressure Plate
+tile.gray_dyed_polished_andesite_pressure_plate.name=Gray Dyed Polished Andesite Pressure Plate
+tile.green_dyed_polished_andesite_pressure_plate.name=Green Dyed Polished Andesite Pressure Plate
+tile.magenta_dyed_polished_andesite_pressure_plate.name=Magenta Dyed Polished Andesite Pressure Plate
+tile.silver_dyed_polished_andesite_pressure_plate.name=Silver Dyed Polished Andesite Pressure Plate
+tile.blue_dyed_polished_andesite_pressure_plate.name=Blue Dyed Polished Andesite Pressure Plate
+tile.cyan_dyed_polished_andesite_pressure_plate.name=Cyan Dyed Polished Andesite Pressure Plate
+tile.light_blue_dyed_polished_andesite_pressure_plate.name=Light Blue Dyed Polished Andesite Pressure Plate
+tile.pink_dyed_polished_andesite_pressure_plate.name=Pink Dyed Polished Andesite Pressure Plate
+tile.yellow_dyed_polished_andesite_pressure_plate.name=Yellow Dyed Polished Andesite Pressure Plate
+tile.white_dyed_polished_andesite_pressure_plate.name=White Dyed Polished Andesite Pressure Plate
