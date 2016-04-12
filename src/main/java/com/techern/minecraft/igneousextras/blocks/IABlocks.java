@@ -63,6 +63,30 @@ public class IABlocks {
     };
 
     /**
+     * The {@link CreativeTabs} for levers
+     *
+     * @since 0.0.2
+     */
+    public static CreativeTabs IGNEOUS_LEVER_TAB = new CreativeTabs("igneous_levers") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(MOSSY_STONE_BRICK_LEVER);
+        }
+    };
+
+    /**
+     * The {@link CreativeTabs} for pressure plates
+     *
+     * @since 0.0.2
+     */
+    public static CreativeTabs IGNEOUS_PRESSURE_PLATES_TAB = new CreativeTabs("igneous_pressure_plates") {
+        @Override
+        public Item getTabIconItem() {
+            return Item.getItemFromBlock(GRANITE_PRESSURE_PLATE);
+        }
+    };
+
+    /**
      * A {@link BlockColored} defining a {@link BlockDyedCobblestone}
      *
      * @since 0.0.1

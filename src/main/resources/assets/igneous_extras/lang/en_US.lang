@@ -4,6 +4,8 @@
 itemGroup.dyed_blocks=Dyed Blocks
 itemGroup.dyed_igneous_stairs=Dyed Igneous Stairs
 itemGroup.igneous_stairs=Igneous Stairs
+itemGroup.igneous_pressure_plates=Igneous Pressure Plates
+itemGroup.igneous_levers=Igneous Levers
 
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Dyed Cobblestone

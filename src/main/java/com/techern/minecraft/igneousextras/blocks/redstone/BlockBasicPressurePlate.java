@@ -1,5 +1,6 @@
 package com.techern.minecraft.igneousextras.blocks.redstone;
 
+import com.techern.minecraft.igneousextras.blocks.IABlocks;
 import net.minecraft.block.BlockPressurePlate;
 import net.minecraft.block.material.Material;
 
@@ -22,6 +23,7 @@ public class BlockBasicPressurePlate extends BlockPressurePlate {
     public BlockBasicPressurePlate(Material material, Sensitivity sensitivity, String name) {
         super(material, sensitivity);
 
+        this.setCreativeTab(IABlocks.IGNEOUS_PRESSURE_PLATES_TAB);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
     }
