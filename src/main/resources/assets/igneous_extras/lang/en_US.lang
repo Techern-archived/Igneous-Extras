@@ -390,3 +390,39 @@ tile.light_blue_dyed_stone_pressure_plate.name=Light Blue Dyed Stone Pressure Pl
 tile.pink_dyed_stone_pressure_plate.name=Pink Dyed Stone Pressure Plate
 tile.yellow_dyed_stone_pressure_plate.name=Yellow Dyed Stone Pressure Plate
 tile.white_dyed_stone_pressure_plate.name=White Dyed Stone Pressure Plate
+
+#Now dyed cobblestone pressure plates
+tile.lime_dyed_cobblestone_pressure_plate.name=Lime Dyed Cobblestone Pressure Plate
+tile.purple_dyed_cobblestone_pressure_plate.name=Purple Dyed Cobblestone Pressure Plate
+tile.red_dyed_cobblestone_pressure_plate.name=Red Dyed Cobblestone Pressure Plate
+tile.orange_dyed_cobblestone_pressure_plate.name=Orange Dyed Cobblestone Pressure Plate
+tile.brown_dyed_cobblestone_pressure_plate.name=Brown Dyed Cobblestone Pressure Plate
+tile.black_dyed_cobblestone_pressure_plate.name=Black Dyed Cobblestone Pressure Plate
+tile.gray_dyed_cobblestone_pressure_plate.name=Gray Dyed Cobblestone Pressure Plate
+tile.green_dyed_cobblestone_pressure_plate.name=Green Dyed Cobblestone Pressure Plate
+tile.magenta_dyed_cobblestone_pressure_plate.name=Magenta Dyed Cobblestone Pressure Plate
+tile.silver_dyed_cobblestone_pressure_plate.name=Silver Dyed Cobblestone Pressure Plate
+tile.blue_dyed_cobblestone_pressure_plate.name=Blue Dyed Cobblestone Pressure Plate
+tile.cyan_dyed_cobblestone_pressure_plate.name=Cyan Dyed Cobblestone Pressure Plate
+tile.light_blue_dyed_cobblestone_pressure_plate.name=Light Blue Dyed Cobblestone Pressure Plate
+tile.pink_dyed_cobblestone_pressure_plate.name=Pink Dyed Cobblestone Pressure Plate
+tile.yellow_dyed_cobblestone_pressure_plate.name=Yellow Dyed Cobblestone Pressure Plate
+tile.white_dyed_cobblestone_pressure_plate.name=White Dyed Cobblestone Pressure Plate
+
+#Now dyed mossy cobblestone pressure plates
+tile.lime_dyed_mossy_cobblestone_pressure_plate.name=Lime Dyed Mossy Cobblestone Pressure Plate
+tile.purple_dyed_mossy_cobblestone_pressure_plate.name=Purple Dyed Mossy Cobblestone Pressure Plate
+tile.red_dyed_mossy_cobblestone_pressure_plate.name=Red Dyed Mossy Cobblestone Pressure Plate
+tile.orange_dyed_mossy_cobblestone_pressure_plate.name=Orange Dyed Mossy Cobblestone Pressure Plate
+tile.brown_dyed_mossy_cobblestone_pressure_plate.name=Brown Dyed Mossy Cobblestone Pressure Plate
+tile.black_dyed_mossy_cobblestone_pressure_plate.name=Black Dyed Mossy Cobblestone Pressure Plate
+tile.gray_dyed_mossy_cobblestone_pressure_plate.name=Gray Dyed Mossy Cobblestone Pressure Plate
+tile.green_dyed_mossy_cobblestone_pressure_plate.name=Green Dyed Mossy Cobblestone Pressure Plate
+tile.magenta_dyed_mossy_cobblestone_pressure_plate.name=Magenta Dyed Mossy Cobblestone Pressure Plate
+tile.silver_dyed_mossy_cobblestone_pressure_plate.name=Silver Dyed Mossy Cobblestone Pressure Plate
+tile.blue_dyed_mossy_cobblestone_pressure_plate.name=Blue Dyed Mossy Cobblestone Pressure Plate
+tile.cyan_dyed_mossy_cobblestone_pressure_plate.name=Cyan Dyed Mossy Cobblestone Pressure Plate
+tile.light_blue_dyed_mossy_cobblestone_pressure_plate.name=Light Blue Dyed Mossy Cobblestone Pressure Plate
+tile.pink_dyed_mossy_cobblestone_pressure_plate.name=Pink Dyed Mossy Cobblestone Pressure Plate
+tile.yellow_dyed_mossy_cobblestone_pressure_plate.name=Yellow Dyed Mossy Cobblestone Pressure Plate
+tile.white_dyed_mossy_cobblestone_pressure_plate.name=White Dyed Mossy Cobblestone Pressure Plate
