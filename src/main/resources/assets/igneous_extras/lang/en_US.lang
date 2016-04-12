@@ -372,3 +372,21 @@ tile.stone_brick_lever.name=Stone Brick Lever
 tile.cracked_stone_brick_lever.name=Cracked Stone Brick Lever
 tile.chiseled_stone_brick_lever.name=Chiseled Stone Brick Lever
 tile.mossy_stone_brick_lever.name=Mossy Stone Brick Lever
+
+#Now dyed stone pressure plates
+tile.lime_dyed_stone_pressure_plate.name=Lime Dyed Stone Pressure Plate
+tile.purple_dyed_stone_pressure_plate.name=Purple Dyed Stone Pressure Plate
+tile.red_dyed_stone_pressure_plate.name=Red Dyed Stone Pressure Plate
+tile.orange_dyed_stone_pressure_plate.name=Orange Dyed Stone Pressure Plate
+tile.brown_dyed_stone_pressure_plate.name=Brown Dyed Stone Pressure Plate
+tile.black_dyed_stone_pressure_plate.name=Black Dyed Stone Pressure Plate
+tile.gray_dyed_stone_pressure_plate.name=Gray Dyed Stone Pressure Plate
+tile.green_dyed_stone_pressure_plate.name=Green Dyed Stone Pressure Plate
+tile.magenta_dyed_stone_pressure_plate.name=Magenta Dyed Stone Pressure Plate
+tile.silver_dyed_stone_pressure_plate.name=Silver Dyed Stone Pressure Plate
+tile.blue_dyed_stone_pressure_plate.name=Blue Dyed Stone Pressure Plate
+tile.cyan_dyed_stone_pressure_plate.name=Cyan Dyed Stone Pressure Plate
+tile.light_blue_dyed_stone_pressure_plate.name=Light Blue Dyed Stone Pressure Plate
+tile.pink_dyed_stone_pressure_plate.name=Pink Dyed Stone Pressure Plate
+tile.yellow_dyed_stone_pressure_plate.name=Yellow Dyed Stone Pressure Plate
+tile.white_dyed_stone_pressure_plate.name=White Dyed Stone Pressure Plate

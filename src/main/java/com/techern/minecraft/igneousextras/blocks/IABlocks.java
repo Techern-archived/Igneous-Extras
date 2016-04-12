@@ -1362,6 +1362,120 @@ public class IABlocks {
 
 
     /**
+     * Lime coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIME_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "lime_dyed_stone_pressure_plate");
+
+    /**
+     * Black coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLACK_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "black_dyed_stone_pressure_plate");
+
+    /**
+     * Blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BLUE_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "blue_dyed_stone_pressure_plate");
+
+    /**
+     * Brown coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate BROWN_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "brown_dyed_stone_pressure_plate");
+
+    /**
+     * Cyan coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate CYAN_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "cyan_dyed_stone_pressure_plate");
+
+    /**
+     * Gray coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GRAY_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "gray_dyed_stone_pressure_plate");
+
+    /**
+     * Green coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate GREEN_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "green_dyed_stone_pressure_plate");
+
+    /**
+     * Light blue coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "light_blue_dyed_stone_pressure_plate");
+
+    /**
+     * Magenta coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate MAGENTA_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "magenta_dyed_stone_pressure_plate");
+
+    /**
+     * Orange coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate ORANGE_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "orange_dyed_stone_pressure_plate");
+
+    /**
+     * Pink coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PINK_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "pink_dyed_stone_pressure_plate");
+
+    /**
+     * Purple coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate PURPLE_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "purple_dyed_stone_pressure_plate");
+
+    /**
+     * Red coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate RED_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "red_dyed_stone_pressure_plate");
+
+    /**
+     * Silver coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate SILVER_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "silver_dyed_stone_pressure_plate");
+
+    /**
+     * White coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate WHITE_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "white_dyed_stone_pressure_plate");
+
+    /**
+     * Yellow coloured {@link BlockBasicPressurePlate}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicPressurePlate YELLOW_DYED_STONE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_stone_pressure_plate");
+
+
+
+    /**
      * Registers the {@link net.minecraft.block.Block}s added by the {@link IgneousExtrasMod}
      *
      * @since 0.0.1
@@ -1573,6 +1687,25 @@ public class IABlocks {
             registerSimpleBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerSimpleBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE);
             registerSimpleBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE);
+            
+            if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
+                registerSimpleBlock(WHITE_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(ORANGE_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(MAGENTA_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(YELLOW_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(LIME_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(PINK_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(GRAY_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(SILVER_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(CYAN_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(PURPLE_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(BLUE_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(BROWN_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(GREEN_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(RED_DYED_STONE_PRESSURE_PLATE);
+                registerSimpleBlock(BLACK_DYED_STONE_PRESSURE_PLATE);
+            }
         }
 
         //Now register levers
@@ -1808,6 +1941,25 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE), 0, "chiseled_stone_brick_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE), 0, "cracked_stone_brick_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
+
+            if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_STONE_PRESSURE_PLATE), 0, "white_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_STONE_PRESSURE_PLATE), 0, "orange_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_STONE_PRESSURE_PLATE), 0, "magenta_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE), 0, "light_blue_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_STONE_PRESSURE_PLATE), 0, "yellow_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_STONE_PRESSURE_PLATE), 0, "lime_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_STONE_PRESSURE_PLATE), 0, "pink_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_STONE_PRESSURE_PLATE), 0, "gray_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_STONE_PRESSURE_PLATE), 0, "silver_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_STONE_PRESSURE_PLATE), 0, "cyan_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_STONE_PRESSURE_PLATE), 0, "purple_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_STONE_PRESSURE_PLATE), 0, "blue_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_STONE_PRESSURE_PLATE), 0, "brown_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_STONE_PRESSURE_PLATE), 0, "green_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_STONE_PRESSURE_PLATE), 0, "red_dyed_stone_pressure_plate", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_STONE_PRESSURE_PLATE), 0, "black_dyed_stone_pressure_plate", "inventory");
+            }
         }
 
         if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
@@ -2040,6 +2192,25 @@ public class IABlocks {
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
+
+            if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.RED.getMetadata(), RED_DYED_STONE_PRESSURE_PLATE);
+                registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_STONE_PRESSURE_PLATE);
+            }
         }
 
         if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
