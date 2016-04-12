@@ -30,7 +30,8 @@ public class ItemColoredBlock extends ItemBlock {
      *
      * @since 0.0.1
      */
-    public int getMetadata(int damage)
+    @Override
+	public int getMetadata(int damage)
     {
         return damage;
     }
@@ -40,7 +41,8 @@ public class ItemColoredBlock extends ItemBlock {
      *
      * @since 0.0.1
      */
-    public String getUnlocalizedName(ItemStack stack)
+    @Override
+	public String getUnlocalizedName(ItemStack stack)
     {
         return super.getUnlocalizedName() + "." + EnumDyeColor.byMetadata(stack.getMetadata()).getUnlocalizedName();
     }
