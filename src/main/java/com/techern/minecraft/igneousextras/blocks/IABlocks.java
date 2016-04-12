@@ -2400,8 +2400,1018 @@ public class IABlocks {
      */
     public static BlockBasicPressurePlate YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE = new BlockBasicPressurePlate(Material.rock, BlockPressurePlate.Sensitivity.EVERYTHING, "yellow_dyed_polished_andesite_pressure_plate");
 
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_STONE_LEVER = new BlockBasicLever("lime_dyed_stone_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_STONE_LEVER = new BlockBasicLever("black_dyed_stone_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_STONE_LEVER = new BlockBasicLever("blue_dyed_stone_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_STONE_LEVER = new BlockBasicLever("brown_dyed_stone_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_STONE_LEVER = new BlockBasicLever("cyan_dyed_stone_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_STONE_LEVER = new BlockBasicLever("gray_dyed_stone_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_STONE_LEVER = new BlockBasicLever("green_dyed_stone_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_STONE_LEVER = new BlockBasicLever("light_blue_dyed_stone_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_STONE_LEVER = new BlockBasicLever("magenta_dyed_stone_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_STONE_LEVER = new BlockBasicLever("orange_dyed_stone_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_STONE_LEVER = new BlockBasicLever("pink_dyed_stone_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_STONE_LEVER = new BlockBasicLever("purple_dyed_stone_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_STONE_LEVER = new BlockBasicLever("red_dyed_stone_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_STONE_LEVER = new BlockBasicLever("silver_dyed_stone_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_STONE_LEVER = new BlockBasicLever("white_dyed_stone_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_STONE_LEVER = new BlockBasicLever("yellow_dyed_stone_lever");
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_COBBLESTONE_LEVER = new BlockBasicLever("lime_dyed_cobblestone_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_COBBLESTONE_LEVER = new BlockBasicLever("black_dyed_cobblestone_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_COBBLESTONE_LEVER = new BlockBasicLever("blue_dyed_cobblestone_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_COBBLESTONE_LEVER = new BlockBasicLever("brown_dyed_cobblestone_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_COBBLESTONE_LEVER = new BlockBasicLever("cyan_dyed_cobblestone_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_COBBLESTONE_LEVER = new BlockBasicLever("gray_dyed_cobblestone_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_COBBLESTONE_LEVER = new BlockBasicLever("green_dyed_cobblestone_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_COBBLESTONE_LEVER = new BlockBasicLever("light_blue_dyed_cobblestone_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_COBBLESTONE_LEVER = new BlockBasicLever("magenta_dyed_cobblestone_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_COBBLESTONE_LEVER = new BlockBasicLever("orange_dyed_cobblestone_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_COBBLESTONE_LEVER = new BlockBasicLever("pink_dyed_cobblestone_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_COBBLESTONE_LEVER = new BlockBasicLever("purple_dyed_cobblestone_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_COBBLESTONE_LEVER = new BlockBasicLever("red_dyed_cobblestone_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_COBBLESTONE_LEVER = new BlockBasicLever("silver_dyed_cobblestone_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_COBBLESTONE_LEVER = new BlockBasicLever("white_dyed_cobblestone_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_COBBLESTONE_LEVER = new BlockBasicLever("yellow_dyed_cobblestone_lever");
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("lime_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("black_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("blue_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("brown_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("cyan_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("gray_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("green_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("light_blue_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("magenta_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("orange_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("pink_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("purple_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("red_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("silver_dyed_mossy_cobblestone_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("white_dyed_mossy_cobblestone_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_MOSSY_COBBLESTONE_LEVER = new BlockBasicLever("yellow_dyed_mossy_cobblestone_lever");
 
 
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_GRANITE_LEVER = new BlockBasicLever("lime_dyed_granite_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_GRANITE_LEVER = new BlockBasicLever("black_dyed_granite_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_GRANITE_LEVER = new BlockBasicLever("blue_dyed_granite_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_GRANITE_LEVER = new BlockBasicLever("brown_dyed_granite_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_GRANITE_LEVER = new BlockBasicLever("cyan_dyed_granite_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_GRANITE_LEVER = new BlockBasicLever("gray_dyed_granite_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_GRANITE_LEVER = new BlockBasicLever("green_dyed_granite_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_GRANITE_LEVER = new BlockBasicLever("light_blue_dyed_granite_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_GRANITE_LEVER = new BlockBasicLever("magenta_dyed_granite_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_GRANITE_LEVER = new BlockBasicLever("orange_dyed_granite_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_GRANITE_LEVER = new BlockBasicLever("pink_dyed_granite_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_GRANITE_LEVER = new BlockBasicLever("purple_dyed_granite_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_GRANITE_LEVER = new BlockBasicLever("red_dyed_granite_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_GRANITE_LEVER = new BlockBasicLever("silver_dyed_granite_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_GRANITE_LEVER = new BlockBasicLever("white_dyed_granite_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_GRANITE_LEVER = new BlockBasicLever("yellow_dyed_granite_lever");
+
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_DIORITE_LEVER = new BlockBasicLever("lime_dyed_diorite_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_DIORITE_LEVER = new BlockBasicLever("black_dyed_diorite_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_DIORITE_LEVER = new BlockBasicLever("blue_dyed_diorite_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_DIORITE_LEVER = new BlockBasicLever("brown_dyed_diorite_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_DIORITE_LEVER = new BlockBasicLever("cyan_dyed_diorite_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_DIORITE_LEVER = new BlockBasicLever("gray_dyed_diorite_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_DIORITE_LEVER = new BlockBasicLever("green_dyed_diorite_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_DIORITE_LEVER = new BlockBasicLever("light_blue_dyed_diorite_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_DIORITE_LEVER = new BlockBasicLever("magenta_dyed_diorite_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_DIORITE_LEVER = new BlockBasicLever("orange_dyed_diorite_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_DIORITE_LEVER = new BlockBasicLever("pink_dyed_diorite_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_DIORITE_LEVER = new BlockBasicLever("purple_dyed_diorite_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_DIORITE_LEVER = new BlockBasicLever("red_dyed_diorite_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_DIORITE_LEVER = new BlockBasicLever("silver_dyed_diorite_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_DIORITE_LEVER = new BlockBasicLever("white_dyed_diorite_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_DIORITE_LEVER = new BlockBasicLever("yellow_dyed_diorite_lever");
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_ANDESITE_LEVER = new BlockBasicLever("lime_dyed_andesite_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_ANDESITE_LEVER = new BlockBasicLever("black_dyed_andesite_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_ANDESITE_LEVER = new BlockBasicLever("blue_dyed_andesite_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_ANDESITE_LEVER = new BlockBasicLever("brown_dyed_andesite_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_ANDESITE_LEVER = new BlockBasicLever("cyan_dyed_andesite_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_ANDESITE_LEVER = new BlockBasicLever("gray_dyed_andesite_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_ANDESITE_LEVER = new BlockBasicLever("green_dyed_andesite_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_ANDESITE_LEVER = new BlockBasicLever("light_blue_dyed_andesite_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_ANDESITE_LEVER = new BlockBasicLever("magenta_dyed_andesite_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_ANDESITE_LEVER = new BlockBasicLever("orange_dyed_andesite_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_ANDESITE_LEVER = new BlockBasicLever("pink_dyed_andesite_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_ANDESITE_LEVER = new BlockBasicLever("purple_dyed_andesite_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_ANDESITE_LEVER = new BlockBasicLever("red_dyed_andesite_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_ANDESITE_LEVER = new BlockBasicLever("silver_dyed_andesite_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_ANDESITE_LEVER = new BlockBasicLever("white_dyed_andesite_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_ANDESITE_LEVER = new BlockBasicLever("yellow_dyed_andesite_lever");
+
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("lime_dyed_polished_granite_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("black_dyed_polished_granite_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("blue_dyed_polished_granite_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("brown_dyed_polished_granite_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("cyan_dyed_polished_granite_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("gray_dyed_polished_granite_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("green_dyed_polished_granite_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("light_blue_dyed_polished_granite_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("magenta_dyed_polished_granite_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("orange_dyed_polished_granite_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("pink_dyed_polished_granite_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("purple_dyed_polished_granite_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("red_dyed_polished_granite_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("silver_dyed_polished_granite_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("white_dyed_polished_granite_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_POLISHED_GRANITE_LEVER = new BlockBasicLever("yellow_dyed_polished_granite_lever");
+
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("lime_dyed_polished_diorite_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("black_dyed_polished_diorite_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("blue_dyed_polished_diorite_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("brown_dyed_polished_diorite_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("cyan_dyed_polished_diorite_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("gray_dyed_polished_diorite_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("green_dyed_polished_diorite_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("light_blue_dyed_polished_diorite_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("magenta_dyed_polished_diorite_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("orange_dyed_polished_diorite_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("pink_dyed_polished_diorite_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("purple_dyed_polished_diorite_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("red_dyed_polished_diorite_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("silver_dyed_polished_diorite_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("white_dyed_polished_diorite_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_POLISHED_DIORITE_LEVER = new BlockBasicLever("yellow_dyed_polished_diorite_lever");
+
+    /**
+     * Lime coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIME_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("lime_dyed_polished_andesite_lever");
+
+    /**
+     * Black coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLACK_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("black_dyed_polished_andesite_lever");
+
+    /**
+     * Blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BLUE_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("blue_dyed_polished_andesite_lever");
+
+    /**
+     * Brown coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever BROWN_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("brown_dyed_polished_andesite_lever");
+
+    /**
+     * Cyan coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever CYAN_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("cyan_dyed_polished_andesite_lever");
+
+    /**
+     * Gray coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GRAY_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("gray_dyed_polished_andesite_lever");
+
+    /**
+     * Green coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever GREEN_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("green_dyed_polished_andesite_lever");
+
+    /**
+     * Light blue coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever LIGHT_BLUE_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("light_blue_dyed_polished_andesite_lever");
+
+    /**
+     * Magenta coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever MAGENTA_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("magenta_dyed_polished_andesite_lever");
+
+    /**
+     * Orange coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever ORANGE_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("orange_dyed_polished_andesite_lever");
+
+    /**
+     * Pink coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PINK_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("pink_dyed_polished_andesite_lever");
+
+    /**
+     * Purple coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever PURPLE_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("purple_dyed_polished_andesite_lever");
+
+    /**
+     * Red coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever RED_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("red_dyed_polished_andesite_lever");
+
+    /**
+     * Silver coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever SILVER_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("silver_dyed_polished_andesite_lever");
+
+    /**
+     * White coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever WHITE_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("white_dyed_polished_andesite_lever");
+
+    /**
+     * Yellow coloured {@link BlockBasicLever}
+     *
+     * @since 0.0.2
+     */
+    public static BlockBasicLever YELLOW_DYED_POLISHED_ANDESITE_LEVER = new BlockBasicLever("yellow_dyed_polished_andesite_lever");
 
 
     /**
@@ -2799,6 +3809,169 @@ public class IABlocks {
             registerSimpleBlock(CHISELED_STONE_BRICK_LEVER);
             registerSimpleBlock(CRACKED_STONE_BRICK_LEVER);
             registerSimpleBlock(MOSSY_STONE_BRICK_LEVER);
+            
+            if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
+                registerSimpleBlock(WHITE_DYED_STONE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_STONE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_STONE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_STONE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_STONE_LEVER);
+                registerSimpleBlock(LIME_DYED_STONE_LEVER);
+                registerSimpleBlock(PINK_DYED_STONE_LEVER);
+                registerSimpleBlock(GRAY_DYED_STONE_LEVER);
+                registerSimpleBlock(SILVER_DYED_STONE_LEVER);
+                registerSimpleBlock(CYAN_DYED_STONE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_STONE_LEVER);
+                registerSimpleBlock(BLUE_DYED_STONE_LEVER);
+                registerSimpleBlock(BROWN_DYED_STONE_LEVER);
+                registerSimpleBlock(GREEN_DYED_STONE_LEVER);
+                registerSimpleBlock(RED_DYED_STONE_LEVER);
+                registerSimpleBlock(BLACK_DYED_STONE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(LIME_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(PINK_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(GRAY_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(SILVER_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(CYAN_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(BLUE_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(BROWN_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(GREEN_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(RED_DYED_COBBLESTONE_LEVER);
+                registerSimpleBlock(BLACK_DYED_COBBLESTONE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(LIME_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(PINK_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(GRAY_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(SILVER_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(CYAN_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(BLUE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(BROWN_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(GREEN_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(RED_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerSimpleBlock(BLACK_DYED_MOSSY_COBBLESTONE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_GRANITE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_GRANITE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_GRANITE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_GRANITE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_GRANITE_LEVER);
+                registerSimpleBlock(LIME_DYED_GRANITE_LEVER);
+                registerSimpleBlock(PINK_DYED_GRANITE_LEVER);
+                registerSimpleBlock(GRAY_DYED_GRANITE_LEVER);
+                registerSimpleBlock(SILVER_DYED_GRANITE_LEVER);
+                registerSimpleBlock(CYAN_DYED_GRANITE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_GRANITE_LEVER);
+                registerSimpleBlock(BLUE_DYED_GRANITE_LEVER);
+                registerSimpleBlock(BROWN_DYED_GRANITE_LEVER);
+                registerSimpleBlock(GREEN_DYED_GRANITE_LEVER);
+                registerSimpleBlock(RED_DYED_GRANITE_LEVER);
+                registerSimpleBlock(BLACK_DYED_GRANITE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_DIORITE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_DIORITE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_DIORITE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_DIORITE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_DIORITE_LEVER);
+                registerSimpleBlock(LIME_DYED_DIORITE_LEVER);
+                registerSimpleBlock(PINK_DYED_DIORITE_LEVER);
+                registerSimpleBlock(GRAY_DYED_DIORITE_LEVER);
+                registerSimpleBlock(SILVER_DYED_DIORITE_LEVER);
+                registerSimpleBlock(CYAN_DYED_DIORITE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_DIORITE_LEVER);
+                registerSimpleBlock(BLUE_DYED_DIORITE_LEVER);
+                registerSimpleBlock(BROWN_DYED_DIORITE_LEVER);
+                registerSimpleBlock(GREEN_DYED_DIORITE_LEVER);
+                registerSimpleBlock(RED_DYED_DIORITE_LEVER);
+                registerSimpleBlock(BLACK_DYED_DIORITE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(LIME_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(PINK_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(GRAY_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(SILVER_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(CYAN_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(BLUE_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(BROWN_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(GREEN_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(RED_DYED_ANDESITE_LEVER);
+                registerSimpleBlock(BLACK_DYED_ANDESITE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(LIME_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(PINK_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(GRAY_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(SILVER_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(CYAN_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(BLUE_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(BROWN_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(GREEN_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(RED_DYED_POLISHED_GRANITE_LEVER);
+                registerSimpleBlock(BLACK_DYED_POLISHED_GRANITE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(LIME_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(PINK_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(GRAY_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(SILVER_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(CYAN_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(BLUE_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(BROWN_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(GREEN_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(RED_DYED_POLISHED_DIORITE_LEVER);
+                registerSimpleBlock(BLACK_DYED_POLISHED_DIORITE_LEVER);
+
+
+                registerSimpleBlock(WHITE_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(ORANGE_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(MAGENTA_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(YELLOW_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(LIME_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(PINK_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(GRAY_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(SILVER_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(CYAN_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(PURPLE_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(BLUE_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(BROWN_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(GREEN_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(RED_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlock(BLACK_DYED_POLISHED_ANDESITE_LEVER);
+            }
 
         }
 
@@ -3198,6 +4371,192 @@ public class IABlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_LEVER), 0, "cracked_stone_brick_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CHISELED_STONE_BRICK_LEVER), 0, "chiseled_stone_brick_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_LEVER), 0, "mossy_stone_brick_lever", "inventory");
+            
+            if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_STONE_LEVER), 0, "white_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_STONE_LEVER), 0, "orange_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_STONE_LEVER), 0, "magenta_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_STONE_LEVER), 0, "light_blue_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_STONE_LEVER), 0, "yellow_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_STONE_LEVER), 0, "lime_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_STONE_LEVER), 0, "pink_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_STONE_LEVER), 0, "gray_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_STONE_LEVER), 0, "silver_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_STONE_LEVER), 0, "cyan_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_STONE_LEVER), 0, "purple_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_STONE_LEVER), 0, "blue_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_STONE_LEVER), 0, "brown_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_STONE_LEVER), 0, "green_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_STONE_LEVER), 0, "red_dyed_stone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_STONE_LEVER), 0, "black_dyed_stone_lever", "inventory");
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "white_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "orange_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER), 0, "magenta_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "light_blue_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_MOSSY_COBBLESTONE_LEVER), 0, "yellow_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_MOSSY_COBBLESTONE_LEVER), 0, "lime_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_MOSSY_COBBLESTONE_LEVER), 0, "pink_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_MOSSY_COBBLESTONE_LEVER), 0, "gray_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_MOSSY_COBBLESTONE_LEVER), 0, "silver_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_MOSSY_COBBLESTONE_LEVER), 0, "cyan_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "purple_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "blue_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_MOSSY_COBBLESTONE_LEVER), 0, "brown_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_MOSSY_COBBLESTONE_LEVER), 0, "green_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_MOSSY_COBBLESTONE_LEVER), 0, "red_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_MOSSY_COBBLESTONE_LEVER), 0, "black_dyed_mossy_cobblestone_lever", "inventory");
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_COBBLESTONE_LEVER), 0, "white_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_COBBLESTONE_LEVER), 0, "orange_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_COBBLESTONE_LEVER), 0, "magenta_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_COBBLESTONE_LEVER), 0, "light_blue_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_COBBLESTONE_LEVER), 0, "yellow_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_COBBLESTONE_LEVER), 0, "lime_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_COBBLESTONE_LEVER), 0, "pink_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_COBBLESTONE_LEVER), 0, "gray_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_COBBLESTONE_LEVER), 0, "silver_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_COBBLESTONE_LEVER), 0, "cyan_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_COBBLESTONE_LEVER), 0, "purple_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_COBBLESTONE_LEVER), 0, "blue_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_COBBLESTONE_LEVER), 0, "brown_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_COBBLESTONE_LEVER), 0, "green_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_COBBLESTONE_LEVER), 0, "red_dyed_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_COBBLESTONE_LEVER), 0, "black_dyed_cobblestone_lever", "inventory");
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "white_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "orange_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER), 0, "magenta_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "light_blue_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_MOSSY_COBBLESTONE_LEVER), 0, "yellow_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_MOSSY_COBBLESTONE_LEVER), 0, "lime_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_MOSSY_COBBLESTONE_LEVER), 0, "pink_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_MOSSY_COBBLESTONE_LEVER), 0, "gray_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_MOSSY_COBBLESTONE_LEVER), 0, "silver_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_MOSSY_COBBLESTONE_LEVER), 0, "cyan_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "purple_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_MOSSY_COBBLESTONE_LEVER), 0, "blue_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_MOSSY_COBBLESTONE_LEVER), 0, "brown_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_MOSSY_COBBLESTONE_LEVER), 0, "green_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_MOSSY_COBBLESTONE_LEVER), 0, "red_dyed_mossy_cobblestone_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_MOSSY_COBBLESTONE_LEVER), 0, "black_dyed_mossy_cobblestone_lever", "inventory");
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_GRANITE_LEVER), 0, "white_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_GRANITE_LEVER), 0, "orange_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_GRANITE_LEVER), 0, "magenta_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_GRANITE_LEVER), 0, "light_blue_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_GRANITE_LEVER), 0, "yellow_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_GRANITE_LEVER), 0, "lime_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_GRANITE_LEVER), 0, "pink_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_GRANITE_LEVER), 0, "gray_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_GRANITE_LEVER), 0, "silver_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_GRANITE_LEVER), 0, "cyan_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_GRANITE_LEVER), 0, "purple_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_GRANITE_LEVER), 0, "blue_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_GRANITE_LEVER), 0, "brown_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_GRANITE_LEVER), 0, "green_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_GRANITE_LEVER), 0, "red_dyed_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_GRANITE_LEVER), 0, "black_dyed_granite_lever", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_DIORITE_LEVER), 0, "white_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_DIORITE_LEVER), 0, "orange_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_DIORITE_LEVER), 0, "magenta_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_DIORITE_LEVER), 0, "light_blue_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_DIORITE_LEVER), 0, "yellow_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_DIORITE_LEVER), 0, "lime_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_DIORITE_LEVER), 0, "pink_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_DIORITE_LEVER), 0, "gray_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_DIORITE_LEVER), 0, "silver_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_DIORITE_LEVER), 0, "cyan_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_DIORITE_LEVER), 0, "purple_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_DIORITE_LEVER), 0, "blue_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_DIORITE_LEVER), 0, "brown_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_DIORITE_LEVER), 0, "green_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_DIORITE_LEVER), 0, "red_dyed_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_DIORITE_LEVER), 0, "black_dyed_diorite_lever", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_ANDESITE_LEVER), 0, "white_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_ANDESITE_LEVER), 0, "orange_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_ANDESITE_LEVER), 0, "magenta_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_ANDESITE_LEVER), 0, "light_blue_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_ANDESITE_LEVER), 0, "yellow_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_ANDESITE_LEVER), 0, "lime_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_ANDESITE_LEVER), 0, "pink_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_ANDESITE_LEVER), 0, "gray_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_ANDESITE_LEVER), 0, "silver_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_ANDESITE_LEVER), 0, "cyan_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_ANDESITE_LEVER), 0, "purple_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_ANDESITE_LEVER), 0, "blue_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_ANDESITE_LEVER), 0, "brown_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_ANDESITE_LEVER), 0, "green_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_ANDESITE_LEVER), 0, "red_dyed_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_ANDESITE_LEVER), 0, "black_dyed_andesite_lever", "inventory");
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_POLISHED_GRANITE_LEVER), 0, "white_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_POLISHED_GRANITE_LEVER), 0, "orange_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_POLISHED_GRANITE_LEVER), 0, "magenta_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_LEVER), 0, "light_blue_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_POLISHED_GRANITE_LEVER), 0, "yellow_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_POLISHED_GRANITE_LEVER), 0, "lime_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_POLISHED_GRANITE_LEVER), 0, "pink_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_POLISHED_GRANITE_LEVER), 0, "gray_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_POLISHED_GRANITE_LEVER), 0, "silver_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_POLISHED_GRANITE_LEVER), 0, "cyan_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_POLISHED_GRANITE_LEVER), 0, "purple_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_POLISHED_GRANITE_LEVER), 0, "blue_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_POLISHED_GRANITE_LEVER), 0, "brown_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_GRANITE_LEVER), 0, "green_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_GRANITE_LEVER), 0, "red_dyed_polished_granite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_GRANITE_LEVER), 0, "black_dyed_polished_granite_lever", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_POLISHED_DIORITE_LEVER), 0, "white_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_POLISHED_DIORITE_LEVER), 0, "orange_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_POLISHED_DIORITE_LEVER), 0, "magenta_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_LEVER), 0, "light_blue_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_POLISHED_DIORITE_LEVER), 0, "yellow_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_POLISHED_DIORITE_LEVER), 0, "lime_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_POLISHED_DIORITE_LEVER), 0, "pink_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_POLISHED_DIORITE_LEVER), 0, "gray_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_POLISHED_DIORITE_LEVER), 0, "silver_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_POLISHED_DIORITE_LEVER), 0, "cyan_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_POLISHED_DIORITE_LEVER), 0, "purple_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_POLISHED_DIORITE_LEVER), 0, "blue_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_POLISHED_DIORITE_LEVER), 0, "brown_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_DIORITE_LEVER), 0, "green_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_DIORITE_LEVER), 0, "red_dyed_polished_diorite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_DIORITE_LEVER), 0, "black_dyed_polished_diorite_lever", "inventory");
+
+
+
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_POLISHED_ANDESITE_LEVER), 0, "white_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_POLISHED_ANDESITE_LEVER), 0, "orange_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_POLISHED_ANDESITE_LEVER), 0, "magenta_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_LEVER), 0, "light_blue_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(YELLOW_DYED_POLISHED_ANDESITE_LEVER), 0, "yellow_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(LIME_DYED_POLISHED_ANDESITE_LEVER), 0, "lime_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PINK_DYED_POLISHED_ANDESITE_LEVER), 0, "pink_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GRAY_DYED_POLISHED_ANDESITE_LEVER), 0, "gray_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(SILVER_DYED_POLISHED_ANDESITE_LEVER), 0, "silver_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CYAN_DYED_POLISHED_ANDESITE_LEVER), 0, "cyan_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(PURPLE_DYED_POLISHED_ANDESITE_LEVER), 0, "purple_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLUE_DYED_POLISHED_ANDESITE_LEVER), 0, "blue_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BROWN_DYED_POLISHED_ANDESITE_LEVER), 0, "brown_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(GREEN_DYED_POLISHED_ANDESITE_LEVER), 0, "green_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(RED_DYED_POLISHED_ANDESITE_LEVER), 0, "red_dyed_polished_andesite_lever", "inventory");
+                IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(BLACK_DYED_POLISHED_ANDESITE_LEVER), 0, "black_dyed_polished_andesite_lever", "inventory");
+
+
+            }
         }
     }
 
@@ -3586,6 +4945,164 @@ public class IABlocks {
             registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_LEVER);
             registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_LEVER);
             registerLeverRecipe(Blocks.stonebrick, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_LEVER);
+            
+            if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
+
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.RED.getMetadata(), RED_DYED_STONE_LEVER);
+                registerLeverRecipe(DYED_STONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_STONE_LEVER);
+
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.RED.getMetadata(), RED_DYED_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_COBBLESTONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_COBBLESTONE_LEVER);
+
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.RED.getMetadata(), RED_DYED_MOSSY_COBBLESTONE_LEVER);
+                registerLeverRecipe(DYED_MOSSY_COBBLESTONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_MOSSY_COBBLESTONE_LEVER);
+
+
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_GRANITE_LEVER);
+
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.RED.getMetadata(), RED_DYED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_DIORITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_DIORITE_LEVER);
+
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.RED.getMetadata(), RED_DYED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_ANDESITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_ANDESITE_LEVER);
+
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_GRANITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_GRANITE_LEVER);
+
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_DIORITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_DIORITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_DIORITE_LEVER);
+
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.RED.getMetadata(), RED_DYED_POLISHED_ANDESITE_LEVER);
+                registerLeverRecipe(DYED_SMOOTH_ANDESITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_POLISHED_ANDESITE_LEVER);
+                
+            }
         }
 
     }
