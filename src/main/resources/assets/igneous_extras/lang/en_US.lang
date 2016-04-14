@@ -4,6 +4,8 @@
 itemGroup.dyed_blocks=Dyed Blocks
 itemGroup.dyed_igneous_stairs=Dyed Igneous Stairs
 itemGroup.igneous_stairs=Igneous Stairs
+itemGroup.igneous_pressure_plates=Igneous Pressure Plates
+itemGroup.igneous_levers=Igneous Levers
 
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Dyed Cobblestone
@@ -372,6 +374,330 @@ tile.stone_brick_lever.name=Stone Brick Lever
 tile.cracked_stone_brick_lever.name=Cracked Stone Brick Lever
 tile.chiseled_stone_brick_lever.name=Chiseled Stone Brick Lever
 tile.mossy_stone_brick_lever.name=Mossy Stone Brick Lever
+
+#Now dyed stone pressure plates
+tile.lime_dyed_stone_pressure_plate.name=Lime Dyed Stone Pressure Plate
+tile.purple_dyed_stone_pressure_plate.name=Purple Dyed Stone Pressure Plate
+tile.red_dyed_stone_pressure_plate.name=Red Dyed Stone Pressure Plate
+tile.orange_dyed_stone_pressure_plate.name=Orange Dyed Stone Pressure Plate
+tile.brown_dyed_stone_pressure_plate.name=Brown Dyed Stone Pressure Plate
+tile.black_dyed_stone_pressure_plate.name=Black Dyed Stone Pressure Plate
+tile.gray_dyed_stone_pressure_plate.name=Gray Dyed Stone Pressure Plate
+tile.green_dyed_stone_pressure_plate.name=Green Dyed Stone Pressure Plate
+tile.magenta_dyed_stone_pressure_plate.name=Magenta Dyed Stone Pressure Plate
+tile.silver_dyed_stone_pressure_plate.name=Silver Dyed Stone Pressure Plate
+tile.blue_dyed_stone_pressure_plate.name=Blue Dyed Stone Pressure Plate
+tile.cyan_dyed_stone_pressure_plate.name=Cyan Dyed Stone Pressure Plate
+tile.light_blue_dyed_stone_pressure_plate.name=Light Blue Dyed Stone Pressure Plate
+tile.pink_dyed_stone_pressure_plate.name=Pink Dyed Stone Pressure Plate
+tile.yellow_dyed_stone_pressure_plate.name=Yellow Dyed Stone Pressure Plate
+tile.white_dyed_stone_pressure_plate.name=White Dyed Stone Pressure Plate
+
+#Now dyed cobblestone pressure plates
+tile.lime_dyed_cobblestone_pressure_plate.name=Lime Dyed Cobblestone Pressure Plate
+tile.purple_dyed_cobblestone_pressure_plate.name=Purple Dyed Cobblestone Pressure Plate
+tile.red_dyed_cobblestone_pressure_plate.name=Red Dyed Cobblestone Pressure Plate
+tile.orange_dyed_cobblestone_pressure_plate.name=Orange Dyed Cobblestone Pressure Plate
+tile.brown_dyed_cobblestone_pressure_plate.name=Brown Dyed Cobblestone Pressure Plate
+tile.black_dyed_cobblestone_pressure_plate.name=Black Dyed Cobblestone Pressure Plate
+tile.gray_dyed_cobblestone_pressure_plate.name=Gray Dyed Cobblestone Pressure Plate
+tile.green_dyed_cobblestone_pressure_plate.name=Green Dyed Cobblestone Pressure Plate
+tile.magenta_dyed_cobblestone_pressure_plate.name=Magenta Dyed Cobblestone Pressure Plate
+tile.silver_dyed_cobblestone_pressure_plate.name=Silver Dyed Cobblestone Pressure Plate
+tile.blue_dyed_cobblestone_pressure_plate.name=Blue Dyed Cobblestone Pressure Plate
+tile.cyan_dyed_cobblestone_pressure_plate.name=Cyan Dyed Cobblestone Pressure Plate
+tile.light_blue_dyed_cobblestone_pressure_plate.name=Light Blue Dyed Cobblestone Pressure Plate
+tile.pink_dyed_cobblestone_pressure_plate.name=Pink Dyed Cobblestone Pressure Plate
+tile.yellow_dyed_cobblestone_pressure_plate.name=Yellow Dyed Cobblestone Pressure Plate
+tile.white_dyed_cobblestone_pressure_plate.name=White Dyed Cobblestone Pressure Plate
+
+#Now dyed mossy cobblestone pressure plates
+tile.lime_dyed_mossy_cobblestone_pressure_plate.name=Lime Dyed Mossy Cobblestone Pressure Plate
+tile.purple_dyed_mossy_cobblestone_pressure_plate.name=Purple Dyed Mossy Cobblestone Pressure Plate
+tile.red_dyed_mossy_cobblestone_pressure_plate.name=Red Dyed Mossy Cobblestone Pressure Plate
+tile.orange_dyed_mossy_cobblestone_pressure_plate.name=Orange Dyed Mossy Cobblestone Pressure Plate
+tile.brown_dyed_mossy_cobblestone_pressure_plate.name=Brown Dyed Mossy Cobblestone Pressure Plate
+tile.black_dyed_mossy_cobblestone_pressure_plate.name=Black Dyed Mossy Cobblestone Pressure Plate
+tile.gray_dyed_mossy_cobblestone_pressure_plate.name=Gray Dyed Mossy Cobblestone Pressure Plate
+tile.green_dyed_mossy_cobblestone_pressure_plate.name=Green Dyed Mossy Cobblestone Pressure Plate
+tile.magenta_dyed_mossy_cobblestone_pressure_plate.name=Magenta Dyed Mossy Cobblestone Pressure Plate
+tile.silver_dyed_mossy_cobblestone_pressure_plate.name=Silver Dyed Mossy Cobblestone Pressure Plate
+tile.blue_dyed_mossy_cobblestone_pressure_plate.name=Blue Dyed Mossy Cobblestone Pressure Plate
+tile.cyan_dyed_mossy_cobblestone_pressure_plate.name=Cyan Dyed Mossy Cobblestone Pressure Plate
+tile.light_blue_dyed_mossy_cobblestone_pressure_plate.name=Light Blue Dyed Mossy Cobblestone Pressure Plate
+tile.pink_dyed_mossy_cobblestone_pressure_plate.name=Pink Dyed Mossy Cobblestone Pressure Plate
+tile.yellow_dyed_mossy_cobblestone_pressure_plate.name=Yellow Dyed Mossy Cobblestone Pressure Plate
+tile.white_dyed_mossy_cobblestone_pressure_plate.name=White Dyed Mossy Cobblestone Pressure Plate
+
+#Now dyed granite pressure plates
+tile.lime_dyed_granite_pressure_plate.name=Lime Dyed Granite Pressure Plate
+tile.purple_dyed_granite_pressure_plate.name=Purple Dyed Granite Pressure Plate
+tile.red_dyed_granite_pressure_plate.name=Red Dyed Granite Pressure Plate
+tile.orange_dyed_granite_pressure_plate.name=Orange Dyed Granite Pressure Plate
+tile.brown_dyed_granite_pressure_plate.name=Brown Dyed Granite Pressure Plate
+tile.black_dyed_granite_pressure_plate.name=Black Dyed Granite Pressure Plate
+tile.gray_dyed_granite_pressure_plate.name=Gray Dyed Granite Pressure Plate
+tile.green_dyed_granite_pressure_plate.name=Green Dyed Granite Pressure Plate
+tile.magenta_dyed_granite_pressure_plate.name=Magenta Dyed Granite Pressure Plate
+tile.silver_dyed_granite_pressure_plate.name=Silver Dyed Granite Pressure Plate
+tile.blue_dyed_granite_pressure_plate.name=Blue Dyed Granite Pressure Plate
+tile.cyan_dyed_granite_pressure_plate.name=Cyan Dyed Granite Pressure Plate
+tile.light_blue_dyed_granite_pressure_plate.name=Light Blue Dyed Granite Pressure Plate
+tile.pink_dyed_granite_pressure_plate.name=Pink Dyed Granite Pressure Plate
+tile.yellow_dyed_granite_pressure_plate.name=Yellow Dyed Granite Pressure Plate
+tile.white_dyed_granite_pressure_plate.name=White Dyed Granite Pressure Plate
+
+#Now dyed diorite pressure plates
+tile.lime_dyed_diorite_pressure_plate.name=Lime Dyed Diorite Pressure Plate
+tile.purple_dyed_diorite_pressure_plate.name=Purple Dyed Diorite Pressure Plate
+tile.red_dyed_diorite_pressure_plate.name=Red Dyed Diorite Pressure Plate
+tile.orange_dyed_diorite_pressure_plate.name=Orange Dyed Diorite Pressure Plate
+tile.brown_dyed_diorite_pressure_plate.name=Brown Dyed Diorite Pressure Plate
+tile.black_dyed_diorite_pressure_plate.name=Black Dyed Diorite Pressure Plate
+tile.gray_dyed_diorite_pressure_plate.name=Gray Dyed Diorite Pressure Plate
+tile.green_dyed_diorite_pressure_plate.name=Green Dyed Diorite Pressure Plate
+tile.magenta_dyed_diorite_pressure_plate.name=Magenta Dyed Diorite Pressure Plate
+tile.silver_dyed_diorite_pressure_plate.name=Silver Dyed Diorite Pressure Plate
+tile.blue_dyed_diorite_pressure_plate.name=Blue Dyed Diorite Pressure Plate
+tile.cyan_dyed_diorite_pressure_plate.name=Cyan Dyed Diorite Pressure Plate
+tile.light_blue_dyed_diorite_pressure_plate.name=Light Blue Dyed Diorite Pressure Plate
+tile.pink_dyed_diorite_pressure_plate.name=Pink Dyed Diorite Pressure Plate
+tile.yellow_dyed_diorite_pressure_plate.name=Yellow Dyed Diorite Pressure Plate
+tile.white_dyed_diorite_pressure_plate.name=White Dyed Diorite Pressure Plate
+
+#Now dyed andesite pressure plates
+tile.lime_dyed_andesite_pressure_plate.name=Lime Dyed Andesite Pressure Plate
+tile.purple_dyed_andesite_pressure_plate.name=Purple Dyed Andesite Pressure Plate
+tile.red_dyed_andesite_pressure_plate.name=Red Dyed Andesite Pressure Plate
+tile.orange_dyed_andesite_pressure_plate.name=Orange Dyed Andesite Pressure Plate
+tile.brown_dyed_andesite_pressure_plate.name=Brown Dyed Andesite Pressure Plate
+tile.black_dyed_andesite_pressure_plate.name=Black Dyed Andesite Pressure Plate
+tile.gray_dyed_andesite_pressure_plate.name=Gray Dyed Andesite Pressure Plate
+tile.green_dyed_andesite_pressure_plate.name=Green Dyed Andesite Pressure Plate
+tile.magenta_dyed_andesite_pressure_plate.name=Magenta Dyed Andesite Pressure Plate
+tile.silver_dyed_andesite_pressure_plate.name=Silver Dyed Andesite Pressure Plate
+tile.blue_dyed_andesite_pressure_plate.name=Blue Dyed Andesite Pressure Plate
+tile.cyan_dyed_andesite_pressure_plate.name=Cyan Dyed Andesite Pressure Plate
+tile.light_blue_dyed_andesite_pressure_plate.name=Light Blue Dyed Andesite Pressure Plate
+tile.pink_dyed_andesite_pressure_plate.name=Pink Dyed Andesite Pressure Plate
+tile.yellow_dyed_andesite_pressure_plate.name=Yellow Dyed Andesite Pressure Plate
+tile.white_dyed_andesite_pressure_plate.name=White Dyed Andesite Pressure Plate
+
+#Now dyed polished granite pressure plates
+tile.lime_dyed_polished_granite_pressure_plate.name=Lime Dyed Polished Granite Pressure Plate
+tile.purple_dyed_polished_granite_pressure_plate.name=Purple Dyed Polished Granite Pressure Plate
+tile.red_dyed_polished_granite_pressure_plate.name=Red Dyed Polished Granite Pressure Plate
+tile.orange_dyed_polished_granite_pressure_plate.name=Orange Dyed Polished Granite Pressure Plate
+tile.brown_dyed_polished_granite_pressure_plate.name=Brown Dyed Polished Granite Pressure Plate
+tile.black_dyed_polished_granite_pressure_plate.name=Black Dyed Polished Granite Pressure Plate
+tile.gray_dyed_polished_granite_pressure_plate.name=Gray Dyed Polished Granite Pressure Plate
+tile.green_dyed_polished_granite_pressure_plate.name=Green Dyed Polished Granite Pressure Plate
+tile.magenta_dyed_polished_granite_pressure_plate.name=Magenta Dyed Polished Granite Pressure Plate
+tile.silver_dyed_polished_granite_pressure_plate.name=Silver Dyed Polished Granite Pressure Plate
+tile.blue_dyed_polished_granite_pressure_plate.name=Blue Dyed Polished Granite Pressure Plate
+tile.cyan_dyed_polished_granite_pressure_plate.name=Cyan Dyed Polished Granite Pressure Plate
+tile.light_blue_dyed_polished_granite_pressure_plate.name=Light Blue Dyed Polished Granite Pressure Plate
+tile.pink_dyed_polished_granite_pressure_plate.name=Pink Dyed Polished Granite Pressure Plate
+tile.yellow_dyed_polished_granite_pressure_plate.name=Yellow Dyed Polished Granite Pressure Plate
+tile.white_dyed_polished_granite_pressure_plate.name=White Dyed Polished Granite Pressure Plate
+
+#Now dyed polished diorite pressure plates
+tile.lime_dyed_polished_diorite_pressure_plate.name=Lime Dyed Polished Diorite Pressure Plate
+tile.purple_dyed_polished_diorite_pressure_plate.name=Purple Dyed Polished Diorite Pressure Plate
+tile.red_dyed_polished_diorite_pressure_plate.name=Red Dyed Polished Diorite Pressure Plate
+tile.orange_dyed_polished_diorite_pressure_plate.name=Orange Dyed Polished Diorite Pressure Plate
+tile.brown_dyed_polished_diorite_pressure_plate.name=Brown Dyed Polished Diorite Pressure Plate
+tile.black_dyed_polished_diorite_pressure_plate.name=Black Dyed Polished Diorite Pressure Plate
+tile.gray_dyed_polished_diorite_pressure_plate.name=Gray Dyed Polished Diorite Pressure Plate
+tile.green_dyed_polished_diorite_pressure_plate.name=Green Dyed Polished Diorite Pressure Plate
+tile.magenta_dyed_polished_diorite_pressure_plate.name=Magenta Dyed Polished Diorite Pressure Plate
+tile.silver_dyed_polished_diorite_pressure_plate.name=Silver Dyed Polished Diorite Pressure Plate
+tile.blue_dyed_polished_diorite_pressure_plate.name=Blue Dyed Polished Diorite Pressure Plate
+tile.cyan_dyed_polished_diorite_pressure_plate.name=Cyan Dyed Polished Diorite Pressure Plate
+tile.light_blue_dyed_polished_diorite_pressure_plate.name=Light Blue Dyed Polished Diorite Pressure Plate
+tile.pink_dyed_polished_diorite_pressure_plate.name=Pink Dyed Polished Diorite Pressure Plate
+tile.yellow_dyed_polished_diorite_pressure_plate.name=Yellow Dyed Polished Diorite Pressure Plate
+tile.white_dyed_polished_diorite_pressure_plate.name=White Dyed Polished Diorite Pressure Plate
+
+#Now dyed polished andesite pressure plates
+tile.lime_dyed_polished_andesite_pressure_plate.name=Lime Dyed Polished Andesite Pressure Plate
+tile.purple_dyed_polished_andesite_pressure_plate.name=Purple Dyed Polished Andesite Pressure Plate
+tile.red_dyed_polished_andesite_pressure_plate.name=Red Dyed Polished Andesite Pressure Plate
+tile.orange_dyed_polished_andesite_pressure_plate.name=Orange Dyed Polished Andesite Pressure Plate
+tile.brown_dyed_polished_andesite_pressure_plate.name=Brown Dyed Polished Andesite Pressure Plate
+tile.black_dyed_polished_andesite_pressure_plate.name=Black Dyed Polished Andesite Pressure Plate
+tile.gray_dyed_polished_andesite_pressure_plate.name=Gray Dyed Polished Andesite Pressure Plate
+tile.green_dyed_polished_andesite_pressure_plate.name=Green Dyed Polished Andesite Pressure Plate
+tile.magenta_dyed_polished_andesite_pressure_plate.name=Magenta Dyed Polished Andesite Pressure Plate
+tile.silver_dyed_polished_andesite_pressure_plate.name=Silver Dyed Polished Andesite Pressure Plate
+tile.blue_dyed_polished_andesite_pressure_plate.name=Blue Dyed Polished Andesite Pressure Plate
+tile.cyan_dyed_polished_andesite_pressure_plate.name=Cyan Dyed Polished Andesite Pressure Plate
+tile.light_blue_dyed_polished_andesite_pressure_plate.name=Light Blue Dyed Polished Andesite Pressure Plate
+tile.pink_dyed_polished_andesite_pressure_plate.name=Pink Dyed Polished Andesite Pressure Plate
+tile.yellow_dyed_polished_andesite_pressure_plate.name=Yellow Dyed Polished Andesite Pressure Plate
+tile.white_dyed_polished_andesite_pressure_plate.name=White Dyed Polished Andesite Pressure Plate
+
+#Now dyed stone levers
+tile.lime_dyed_stone_lever.name=Lime Dyed Stone Lever
+tile.purple_dyed_stone_lever.name=Purple Dyed Stone Lever
+tile.red_dyed_stone_lever.name=Red Dyed Stone Lever
+tile.orange_dyed_stone_lever.name=Orange Dyed Stone Lever
+tile.brown_dyed_stone_lever.name=Brown Dyed Stone Lever
+tile.black_dyed_stone_lever.name=Black Dyed Stone Lever
+tile.gray_dyed_stone_lever.name=Gray Dyed Stone Lever
+tile.green_dyed_stone_lever.name=Green Dyed Stone Lever
+tile.magenta_dyed_stone_lever.name=Magenta Dyed Stone Lever
+tile.silver_dyed_stone_lever.name=Silver Dyed Stone Lever
+tile.blue_dyed_stone_lever.name=Blue Dyed Stone Lever
+tile.cyan_dyed_stone_lever.name=Cyan Dyed Stone Lever
+tile.light_blue_dyed_stone_lever.name=Light Blue Dyed Stone Lever
+tile.pink_dyed_stone_lever.name=Pink Dyed Stone Lever
+tile.yellow_dyed_stone_lever.name=Yellow Dyed Stone Lever
+tile.white_dyed_stone_lever.name=White Dyed Stone Lever
+
+#Now dyed cobblestone levers
+tile.lime_dyed_cobblestone_lever.name=Lime Dyed Cobblestone Lever
+tile.purple_dyed_cobblestone_lever.name=Purple Dyed Cobblestone Lever
+tile.red_dyed_cobblestone_lever.name=Red Dyed Cobblestone Lever
+tile.orange_dyed_cobblestone_lever.name=Orange Dyed Cobblestone Lever
+tile.brown_dyed_cobblestone_lever.name=Brown Dyed Cobblestone Lever
+tile.black_dyed_cobblestone_lever.name=Black Dyed Cobblestone Lever
+tile.gray_dyed_cobblestone_lever.name=Gray Dyed Cobblestone Lever
+tile.green_dyed_cobblestone_lever.name=Green Dyed Cobblestone Lever
+tile.magenta_dyed_cobblestone_lever.name=Magenta Dyed Cobblestone Lever
+tile.silver_dyed_cobblestone_lever.name=Silver Dyed Cobblestone Lever
+tile.blue_dyed_cobblestone_lever.name=Blue Dyed Cobblestone Lever
+tile.cyan_dyed_cobblestone_lever.name=Cyan Dyed Cobblestone Lever
+tile.light_blue_dyed_cobblestone_lever.name=Light Blue Dyed Cobblestone Lever
+tile.pink_dyed_cobblestone_lever.name=Pink Dyed Cobblestone Lever
+tile.yellow_dyed_cobblestone_lever.name=Yellow Dyed Cobblestone Lever
+tile.white_dyed_cobblestone_lever.name=White Dyed Cobblestone Lever
+
+#Now dyed mossy cobblestone levers
+tile.lime_dyed_mossy_cobblestone_lever.name=Lime Dyed Mossy Cobblestone Lever
+tile.purple_dyed_mossy_cobblestone_lever.name=Purple Dyed Mossy Cobblestone Lever
+tile.red_dyed_mossy_cobblestone_lever.name=Red Dyed Mossy Cobblestone Lever
+tile.orange_dyed_mossy_cobblestone_lever.name=Orange Dyed Mossy Cobblestone Lever
+tile.brown_dyed_mossy_cobblestone_lever.name=Brown Dyed Mossy Cobblestone Lever
+tile.black_dyed_mossy_cobblestone_lever.name=Black Dyed Mossy Cobblestone Lever
+tile.gray_dyed_mossy_cobblestone_lever.name=Gray Dyed Mossy Cobblestone Lever
+tile.green_dyed_mossy_cobblestone_lever.name=Green Dyed Mossy Cobblestone Lever
+tile.magenta_dyed_mossy_cobblestone_lever.name=Magenta Dyed Mossy Cobblestone Lever
+tile.silver_dyed_mossy_cobblestone_lever.name=Silver Dyed Mossy Cobblestone Lever
+tile.blue_dyed_mossy_cobblestone_lever.name=Blue Dyed Mossy Cobblestone Lever
+tile.cyan_dyed_mossy_cobblestone_lever.name=Cyan Dyed Mossy Cobblestone Lever
+tile.light_blue_dyed_mossy_cobblestone_lever.name=Light Blue Dyed Mossy Cobblestone Lever
+tile.pink_dyed_mossy_cobblestone_lever.name=Pink Dyed Mossy Cobblestone Lever
+tile.yellow_dyed_mossy_cobblestone_lever.name=Yellow Dyed Mossy Cobblestone Lever
+tile.white_dyed_mossy_cobblestone_lever.name=White Dyed Mossy Cobblestone Lever
+
+#Now dyed granite levers
+tile.lime_dyed_granite_lever.name=Lime Dyed Granite Lever
+tile.purple_dyed_granite_lever.name=Purple Dyed Granite Lever
+tile.red_dyed_granite_lever.name=Red Dyed Granite Lever
+tile.orange_dyed_granite_lever.name=Orange Dyed Granite Lever
+tile.brown_dyed_granite_lever.name=Brown Dyed Granite Lever
+tile.black_dyed_granite_lever.name=Black Dyed Granite Lever
+tile.gray_dyed_granite_lever.name=Gray Dyed Granite Lever
+tile.green_dyed_granite_lever.name=Green Dyed Granite Lever
+tile.magenta_dyed_granite_lever.name=Magenta Dyed Granite Lever
+tile.silver_dyed_granite_lever.name=Silver Dyed Granite Lever
+tile.blue_dyed_granite_lever.name=Blue Dyed Granite Lever
+tile.cyan_dyed_granite_lever.name=Cyan Dyed Granite Lever
+tile.light_blue_dyed_granite_lever.name=Light Blue Dyed Granite Lever
+tile.pink_dyed_granite_lever.name=Pink Dyed Granite Lever
+tile.yellow_dyed_granite_lever.name=Yellow Dyed Granite Lever
+tile.white_dyed_granite_lever.name=White Dyed Granite Lever
+
+#Now dyed diorite levers
+tile.lime_dyed_diorite_lever.name=Lime Dyed Diorite Lever
+tile.purple_dyed_diorite_lever.name=Purple Dyed Diorite Lever
+tile.red_dyed_diorite_lever.name=Red Dyed Diorite Lever
+tile.orange_dyed_diorite_lever.name=Orange Dyed Diorite Lever
+tile.brown_dyed_diorite_lever.name=Brown Dyed Diorite Lever
+tile.black_dyed_diorite_lever.name=Black Dyed Diorite Lever
+tile.gray_dyed_diorite_lever.name=Gray Dyed Diorite Lever
+tile.green_dyed_diorite_lever.name=Green Dyed Diorite Lever
+tile.magenta_dyed_diorite_lever.name=Magenta Dyed Diorite Lever
+tile.silver_dyed_diorite_lever.name=Silver Dyed Diorite Lever
+tile.blue_dyed_diorite_lever.name=Blue Dyed Diorite Lever
+tile.cyan_dyed_diorite_lever.name=Cyan Dyed Diorite Lever
+tile.light_blue_dyed_diorite_lever.name=Light Blue Dyed Diorite Lever
+tile.pink_dyed_diorite_lever.name=Pink Dyed Diorite Lever
+tile.yellow_dyed_diorite_lever.name=Yellow Dyed Diorite Lever
+tile.white_dyed_diorite_lever.name=White Dyed Diorite Lever
+
+#Now dyed andesite levers
+tile.lime_dyed_andesite_lever.name=Lime Dyed Andesite Lever
+tile.purple_dyed_andesite_lever.name=Purple Dyed Andesite Lever
+tile.red_dyed_andesite_lever.name=Red Dyed Andesite Lever
+tile.orange_dyed_andesite_lever.name=Orange Dyed Andesite Lever
+tile.brown_dyed_andesite_lever.name=Brown Dyed Andesite Lever
+tile.black_dyed_andesite_lever.name=Black Dyed Andesite Lever
+tile.gray_dyed_andesite_lever.name=Gray Dyed Andesite Lever
+tile.green_dyed_andesite_lever.name=Green Dyed Andesite Lever
+tile.magenta_dyed_andesite_lever.name=Magenta Dyed Andesite Lever
+tile.silver_dyed_andesite_lever.name=Silver Dyed Andesite Lever
+tile.blue_dyed_andesite_lever.name=Blue Dyed Andesite Lever
+tile.cyan_dyed_andesite_lever.name=Cyan Dyed Andesite Lever
+tile.light_blue_dyed_andesite_lever.name=Light Blue Dyed Andesite Lever
+tile.pink_dyed_andesite_lever.name=Pink Dyed Andesite Lever
+tile.yellow_dyed_andesite_lever.name=Yellow Dyed Andesite Lever
+tile.white_dyed_andesite_lever.name=White Dyed Andesite Lever
+
+#Now dyed polished granite levers
+tile.lime_dyed_polished_granite_lever.name=Lime Dyed Polished Granite Lever
+tile.purple_dyed_polished_granite_lever.name=Purple Dyed Polished Granite Lever
+tile.red_dyed_polished_granite_lever.name=Red Dyed Polished Granite Lever
+tile.orange_dyed_polished_granite_lever.name=Orange Dyed Polished Granite Lever
+tile.brown_dyed_polished_granite_lever.name=Brown Dyed Polished Granite Lever
+tile.black_dyed_polished_granite_lever.name=Black Dyed Polished Granite Lever
+tile.gray_dyed_polished_granite_lever.name=Gray Dyed Polished Granite Lever
+tile.green_dyed_polished_granite_lever.name=Green Dyed Polished Granite Lever
+tile.magenta_dyed_polished_granite_lever.name=Magenta Dyed Polished Granite Lever
+tile.silver_dyed_polished_granite_lever.name=Silver Dyed Polished Granite Lever
+tile.blue_dyed_polished_granite_lever.name=Blue Dyed Polished Granite Lever
+tile.cyan_dyed_polished_granite_lever.name=Cyan Dyed Polished Granite Lever
+tile.light_blue_dyed_polished_granite_lever.name=Light Blue Dyed Polished Granite Lever
+tile.pink_dyed_polished_granite_lever.name=Pink Dyed Polished Granite Lever
+tile.yellow_dyed_polished_granite_lever.name=Yellow Dyed Polished Granite Lever
+tile.white_dyed_polished_granite_lever.name=White Dyed Polished Granite Lever
+
+#Now dyed polished diorite levers
+tile.lime_dyed_polished_diorite_lever.name=Lime Dyed Polished Diorite Lever
+tile.purple_dyed_polished_diorite_lever.name=Purple Dyed Polished Diorite Lever
+tile.red_dyed_polished_diorite_lever.name=Red Dyed Polished Diorite Lever
+tile.orange_dyed_polished_diorite_lever.name=Orange Dyed Polished Diorite Lever
+tile.brown_dyed_polished_diorite_lever.name=Brown Dyed Polished Diorite Lever
+tile.black_dyed_polished_diorite_lever.name=Black Dyed Polished Diorite Lever
+tile.gray_dyed_polished_diorite_lever.name=Gray Dyed Polished Diorite Lever
+tile.green_dyed_polished_diorite_lever.name=Green Dyed Polished Diorite Lever
+tile.magenta_dyed_polished_diorite_lever.name=Magenta Dyed Polished Diorite Lever
+tile.silver_dyed_polished_diorite_lever.name=Silver Dyed Polished Diorite Lever
+tile.blue_dyed_polished_diorite_lever.name=Blue Dyed Polished Diorite Lever
+tile.cyan_dyed_polished_diorite_lever.name=Cyan Dyed Polished Diorite Lever
+tile.light_blue_dyed_polished_diorite_lever.name=Light Blue Dyed Polished Diorite Lever
+tile.pink_dyed_polished_diorite_lever.name=Pink Dyed Polished Diorite Lever
+tile.yellow_dyed_polished_diorite_lever.name=Yellow Dyed Polished Diorite Lever
+tile.white_dyed_polished_diorite_lever.name=White Dyed Polished Diorite Lever
+
+#Now dyed polished andesite levers
+tile.lime_dyed_polished_andesite_lever.name=Lime Dyed Polished Andesite Lever
+tile.purple_dyed_polished_andesite_lever.name=Purple Dyed Polished Andesite Lever
+tile.red_dyed_polished_andesite_lever.name=Red Dyed Polished Andesite Lever
+tile.orange_dyed_polished_andesite_lever.name=Orange Dyed Polished Andesite Lever
+tile.brown_dyed_polished_andesite_lever.name=Brown Dyed Polished Andesite Lever
+tile.black_dyed_polished_andesite_lever.name=Black Dyed Polished Andesite Lever
+tile.gray_dyed_polished_andesite_lever.name=Gray Dyed Polished Andesite Lever
+tile.green_dyed_polished_andesite_lever.name=Green Dyed Polished Andesite Lever
+tile.magenta_dyed_polished_andesite_lever.name=Magenta Dyed Polished Andesite Lever
+tile.silver_dyed_polished_andesite_lever.name=Silver Dyed Polished Andesite Lever
+tile.blue_dyed_polished_andesite_lever.name=Blue Dyed Polished Andesite Lever
+tile.cyan_dyed_polished_andesite_lever.name=Cyan Dyed Polished Andesite Lever
+tile.light_blue_dyed_polished_andesite_lever.name=Light Blue Dyed Polished Andesite Lever
+tile.pink_dyed_polished_andesite_lever.name=Pink Dyed Polished Andesite Lever
+tile.yellow_dyed_polished_andesite_lever.name=Yellow Dyed Polished Andesite Lever
+tile.white_dyed_polished_andesite_lever.name=White Dyed Polished Andesite Lever
 
 #Time for axes!
 item.granite_axe.name=Granite Axe

@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "texture": "igneous_extras:blocks/yellow_dyed_polished_andesite"
+    },
+    "model": "pressure_plate_up",
+    "uvlock": true
+  },
+  "variants": {
+    "powered": {
+      "true": {
+        "model": "pressure_plate_down"
+      },
+      "false": {
+        "model": "pressure_plate_up"
+      }
+    },
+    "inventory": [{
+    }]
+  }
+}
