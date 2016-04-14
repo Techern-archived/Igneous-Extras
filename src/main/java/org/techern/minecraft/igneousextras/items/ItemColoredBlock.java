@@ -1,4 +1,4 @@
-package com.techern.minecraft.igneousextras.items;
+package org.techern.minecraft.igneousextras.items;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.EnumDyeColor;

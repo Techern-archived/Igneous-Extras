@@ -1,4 +1,4 @@
-package com.techern.minecraft.igneousextras.proxy;
+package org.techern.minecraft.igneousextras.proxy;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.ItemModelMesher;

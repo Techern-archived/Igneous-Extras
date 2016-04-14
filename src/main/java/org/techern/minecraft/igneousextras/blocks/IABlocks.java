@@ -1,12 +1,12 @@
-package com.techern.minecraft.igneousextras.blocks;
+package org.techern.minecraft.igneousextras.blocks;
 
-import com.techern.minecraft.IgneousExtrasMod;
-import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicLever;
-import com.techern.minecraft.igneousextras.ConfigHandler;
-import com.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
-import com.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
-import com.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
-import com.techern.minecraft.igneousextras.items.ItemColoredBlock;
+import org.techern.minecraft.IgneousExtrasMod;
+import org.techern.minecraft.igneousextras.blocks.redstone.BlockBasicLever;
+import org.techern.minecraft.igneousextras.ConfigHandler;
+import org.techern.minecraft.igneousextras.blocks.redstone.BlockBasicPressurePlate;
+import org.techern.minecraft.igneousextras.blocks.stairs.BaseBlockStairs;
+import org.techern.minecraft.igneousextras.blocks.stairs.ColoredBlockStairs;
+import org.techern.minecraft.igneousextras.items.ItemColoredBlock;
 
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
@@ -20,7 +20,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
- * A class that contains every {@link net.minecraft.block.Block} added by the {@link com.techern.minecraft.IgneousExtrasMod}
+ * A class that contains every {@link net.minecraft.block.Block} added by the {@link IgneousExtrasMod}
  *
  * @since 0.0.1
  */

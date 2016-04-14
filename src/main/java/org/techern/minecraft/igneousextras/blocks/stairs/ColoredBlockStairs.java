@@ -1,6 +1,6 @@
-package com.techern.minecraft.igneousextras.blocks.stairs;
+package org.techern.minecraft.igneousextras.blocks.stairs;
 
-import com.techern.minecraft.igneousextras.blocks.IABlocks;
+import org.techern.minecraft.igneousextras.blocks.IABlocks;
 import net.minecraft.block.state.IBlockState;
 
 /**

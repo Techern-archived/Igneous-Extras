@@ -1,9 +1,10 @@
-package com.techern.minecraft.igneousextras.proxy;
+package org.techern.minecraft.igneousextras.proxy;
 
 import net.minecraft.item.Item;
+import org.techern.minecraft.IgneousExtrasMod;
 
 /**
- * A {@link net.minecraftforge.fml.common.SidedProxy} for the {@link com.techern.minecraft.IgneousExtrasMod}
+ * A {@link net.minecraftforge.fml.common.SidedProxy} for the {@link IgneousExtrasMod}
  *
  * @since 0.0.1
  */

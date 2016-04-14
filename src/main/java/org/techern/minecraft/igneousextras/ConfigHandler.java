@@ -1,10 +1,10 @@
-package com.techern.minecraft.igneousextras;
+package org.techern.minecraft.igneousextras;
 
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.util.EnumHelper;
 
-import com.techern.minecraft.IgneousExtrasMod;
+import org.techern.minecraft.IgneousExtrasMod;
 
 /**
  * Configuration handler

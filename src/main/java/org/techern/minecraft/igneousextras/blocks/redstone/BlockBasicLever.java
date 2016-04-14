@@ -1,6 +1,6 @@
-package com.techern.minecraft.igneousextras.blocks.redstone;
+package org.techern.minecraft.igneousextras.blocks.redstone;
 
-import com.techern.minecraft.igneousextras.blocks.IABlocks;
+import org.techern.minecraft.igneousextras.blocks.IABlocks;
 import net.minecraft.block.BlockLever;
 
 /**
