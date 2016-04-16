@@ -35,6 +35,11 @@ public class ConfigHandler {
     public static boolean ENABLE_ANDESITE_TOOLS;
     public static boolean ENABLE_GRANITE_TOOLS;
     public static boolean ENABLE_DIORITE_TOOLS;
+    
+    public static final int POLISHED_BOOST_DURABILITY = 33;
+    public static final float POLISHED_BOOST_EFFICIENCY = 1F;
+    public static final float POLISHED_BOOST_DAMAGE = 0.5F;
+    public static final int POLISHED_BOOST_ENCHANTABILITY = 2;
 
 	public static ToolMaterial MAT_GRANITE;
 	public static ToolMaterial MAT_ANDESITE;
@@ -84,26 +89,26 @@ public class ConfigHandler {
 				cfg.getFloat("damage_on_hit", "diorite_material", 5, 1, Float.MAX_VALUE, "") - 4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				cfg.getInt("enchantability", "diorite_material", 250, 1, Integer.MAX_VALUE, ""));
 
-
+		
 		MAT_POLISHED_GRANITE = EnumHelper.addToolMaterial("polished_granite",
 				cfg.getInt("harvestlevel", "polished_granite_material", 1, 0, Integer.MAX_VALUE, ""),
-				cfg.getInt("durability", "polished_granite_material", (131 + 33), 1, Integer.MAX_VALUE, ""),
-				cfg.getFloat("efficiency", "polished_granite_material", (4.0F + 1F), 1.0F, Float.MAX_VALUE, ""),
+				cfg.getInt("durability", "polished_granite_material", (131 + POLISHED_BOOST_DURABILITY), 1, Integer.MAX_VALUE, ""),
+				cfg.getFloat("efficiency", "polished_granite_material", (4.0F + POLISHED_BOOST_EFFICIENCY), 1.0F, Float.MAX_VALUE, ""),
 				//TODO use this value as base value and put in comment the damage that is added per tool
-				cfg.getFloat("damage_on_hit", "polished_granite_material", (5.0F + 0.5F), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
-				cfg.getInt("enchantability", "polished_granite_material", (5 + 2), 1, Integer.MAX_VALUE, ""));
+				cfg.getFloat("damage_on_hit", "polished_granite_material", (5.0F + POLISHED_BOOST_DAMAGE), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
+				cfg.getInt("enchantability", "polished_granite_material", (5 + POLISHED_BOOST_ENCHANTABILITY), 1, Integer.MAX_VALUE, ""));
 		MAT_POLISHED_ANDESITE = EnumHelper.addToolMaterial("polished_andesite",
 				cfg.getInt("harvestlevel", "polished_andesite_material", 1, 0, Integer.MAX_VALUE, ""),
-				cfg.getInt("durability", "polished_andesite_material", (131 + 33), 1, Integer.MAX_VALUE, ""),
-				cfg.getFloat("efficiency", "polished_andesite_material", (4.0F + 1F), 1.0F, Float.MAX_VALUE, ""),
-				cfg.getFloat("damage_on_hit", "polished_andesite_material", (5.0F + 0.5F), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
-				cfg.getInt("enchantability", "polished_andesite_material", (5 + 2), 1, Integer.MAX_VALUE, ""));
+				cfg.getInt("durability", "polished_andesite_material", (131 + POLISHED_BOOST_DURABILITY), 1, Integer.MAX_VALUE, ""),
+				cfg.getFloat("efficiency", "polished_andesite_material", (4.0F + POLISHED_BOOST_EFFICIENCY), 1.0F, Float.MAX_VALUE, ""),
+				cfg.getFloat("damage_on_hit", "polished_andesite_material", (5.0F + POLISHED_BOOST_DAMAGE), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
+				cfg.getInt("enchantability", "polished_andesite_material", (5 + POLISHED_BOOST_ENCHANTABILITY), 1, Integer.MAX_VALUE, ""));
 		MAT_POLISHED_DIORITE = EnumHelper.addToolMaterial("diorite",
 				cfg.getInt("harvestlevel", "polished_diorite_material", 1, 0, Integer.MAX_VALUE, ""),
-				cfg.getInt("durability", "polished_diorite_material", (131 + 33), 1, Integer.MAX_VALUE, ""),
-				cfg.getFloat("efficiency", "polished_diorite_material", (4.0F + 1F), 1.0F, Float.MAX_VALUE, ""),
-				cfg.getFloat("damage_on_hit", "polished_diorite_material", (5.0F + 0.5F), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
-				cfg.getInt("enchantability", "polished_diorite_material", (5 + 2), 1, Integer.MAX_VALUE, ""));
+				cfg.getInt("durability", "polished_diorite_material", (131 + POLISHED_BOOST_DURABILITY), 1, Integer.MAX_VALUE, ""),
+				cfg.getFloat("efficiency", "polished_diorite_material", (4.0F + POLISHED_BOOST_EFFICIENCY), 1.0F, Float.MAX_VALUE, ""),
+				cfg.getFloat("damage_on_hit", "polished_diorite_material", (5.0F + POLISHED_BOOST_DAMAGE), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
+				cfg.getInt("enchantability", "polished_diorite_material", (5 + POLISHED_BOOST_ENCHANTABILITY), 1, Integer.MAX_VALUE, ""));
     }
 	
 	public static Configuration getConfig() {
