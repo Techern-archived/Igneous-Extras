@@ -1,6 +1,6 @@
 package org.techern.minecraft.igneousextras.blocks.redstone;
 
-import org.techern.minecraft.igneousextras.blocks.IABlocks;
+import org.techern.minecraft.igneousextras.blocks.IEBlocks;
 import net.minecraft.block.BlockLever;
 
 /**
@@ -20,7 +20,7 @@ public class BlockBasicLever extends BlockLever {
     public BlockBasicLever(String unlocalizedName) {
         super();
 
-        this.setCreativeTab(IABlocks.IGNEOUS_LEVER_TAB);
+        this.setCreativeTab(IEBlocks.IGNEOUS_LEVER_TAB);
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(unlocalizedName);
     }

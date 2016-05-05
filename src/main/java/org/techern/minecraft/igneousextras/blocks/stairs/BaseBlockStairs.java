@@ -1,6 +1,6 @@
 package org.techern.minecraft.igneousextras.blocks.stairs;
 
-import org.techern.minecraft.igneousextras.blocks.IABlocks;
+import org.techern.minecraft.igneousextras.blocks.IEBlocks;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.state.IBlockState;
 
@@ -22,6 +22,6 @@ public class BaseBlockStairs extends BlockStairs {
         super(referenceState);
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(unlocalizedName);
-        this.setCreativeTab(IABlocks.STAIRS_TAB);
+        this.setCreativeTab(IEBlocks.STAIRS_TAB);
     }
 }
