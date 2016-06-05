@@ -16,7 +16,7 @@ public class ConfigHandler {
 	/**
      * The {@link Configuration} (backed by a {@link java.io.File} used by {@link IgneousExtrasMod}
      *
-     * @see {@link ConfigHandler.getConfig()}
+     * @see {@link ConfigHandler#getConfig()}
      * @since 0.0.2
      */
     private static Configuration cfg;
