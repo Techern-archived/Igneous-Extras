@@ -55,43 +55,16 @@ public class IgneousItems {
 	public static void registerItems() {
 		//GameRegistry
 		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) {
-			GameRegistry.register(ANDESITE_SWORD);
-			GameRegistry.register(ANDESITE_PICKAXE);
-			GameRegistry.register(ANDESITE_AXE);
-			GameRegistry.register(ANDESITE_SHOVEL);
-			GameRegistry.register(ANDESITE_HOE);
-
-			GameRegistry.register(POLISHED_ANDESITE_SWORD);
-			GameRegistry.register(POLISHED_ANDESITE_PICKAXE);
-			GameRegistry.register(POLISHED_ANDESITE_AXE);
-			GameRegistry.register(POLISHED_ANDESITE_SHOVEL);
-			GameRegistry.register(POLISHED_ANDESITE_HOE);
+			registerItems(ANDESITE_SWORD, ANDESITE_PICKAXE, ANDESITE_AXE, ANDESITE_SHOVEL, ANDESITE_HOE,
+					POLISHED_ANDESITE_SWORD, POLISHED_ANDESITE_PICKAXE, POLISHED_ANDESITE_AXE, POLISHED_ANDESITE_SHOVEL, POLISHED_ANDESITE_HOE);
 		}
 		if (ConfigHandler.ENABLE_GRANITE_TOOLS) {
-			GameRegistry.register(GRANITE_SWORD);
-			GameRegistry.register(GRANITE_PICKAXE);
-			GameRegistry.register(GRANITE_AXE);
-			GameRegistry.register(GRANITE_SHOVEL);
-			GameRegistry.register(GRANITE_HOE);
-			
-			GameRegistry.register(POLISHED_GRANITE_SWORD);
-			GameRegistry.register(POLISHED_GRANITE_PICKAXE);
-			GameRegistry.register(POLISHED_GRANITE_AXE);
-			GameRegistry.register(POLISHED_GRANITE_SHOVEL);
-			GameRegistry.register(POLISHED_GRANITE_HOE);
+			registerItems(GRANITE_SWORD, GRANITE_PICKAXE, GRANITE_AXE, GRANITE_SHOVEL, GRANITE_HOE,
+					POLISHED_GRANITE_SWORD, POLISHED_GRANITE_PICKAXE, POLISHED_GRANITE_AXE, POLISHED_GRANITE_SHOVEL, POLISHED_GRANITE_HOE);
 		}
 		if (ConfigHandler.ENABLE_DIORITE_TOOLS) {
-			GameRegistry.register(DIORITE_SWORD);
-			GameRegistry.register(DIORITE_PICKAXE);
-			GameRegistry.register(DIORITE_AXE);
-			GameRegistry.register(DIORITE_SHOVEL);
-			GameRegistry.register(DIORITE_HOE);
-
-			GameRegistry.register(POLISHED_DIORITE_SWORD);
-			GameRegistry.register(POLISHED_DIORITE_PICKAXE);
-			GameRegistry.register(POLISHED_DIORITE_AXE);
-			GameRegistry.register(POLISHED_DIORITE_SHOVEL);
-			GameRegistry.register(POLISHED_DIORITE_HOE);
+			registerItems(DIORITE_SWORD, DIORITE_PICKAXE, DIORITE_AXE, DIORITE_SHOVEL, DIORITE_HOE,
+					POLISHED_DIORITE_SWORD, POLISHED_DIORITE_PICKAXE, POLISHED_DIORITE_AXE, POLISHED_DIORITE_SHOVEL, POLISHED_DIORITE_HOE);
 		}
 		
 		//Renderers
@@ -150,6 +123,32 @@ public class IgneousItems {
 		}
 	}
 
+	/**
+	 * Registers an {@link Item}
+	 *
+	 * @param item The {@link Item} to be registered
+	 *
+	 * @since 0.0.2
+	 */
+	private static void registerItem(Item item) {
+		GameRegistry.register(item);
+
+		IgneousExtrasMod.REGISTERED_ITEMS += 1;
+	}
+
+	/**
+	 * Registers a number of {@link Item}s
+	 *
+	 * @param items The {@link Item)s to be registered
+	 *
+	 * @since 0.0.2
+	 */
+	private static void registerItems(Item... items) {
+		for (Item item : items) {
+			registerItem(item);
+		}
+	}
+
 	private static void registerToolRecipes(Block baseBlock, int meta, Item sword, Item pickaxe, Item axe, Item shovel, Item hoe) {
 		ItemStack baseBlockStack = new ItemStack(baseBlock, 1, meta);
 		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //sword
@@ -159,5 +158,7 @@ public class IgneousItems {
 		GameRegistry.addShapedRecipe(new ItemStack(shovel, 1), " B ", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //shovel
 		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), " BB", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //hoe
 		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //hoe flipped
+
+		IgneousExtrasMod.REGISTERED_RECIPES += 7;
 	}
 }
