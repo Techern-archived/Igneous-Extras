@@ -3423,371 +3423,167 @@ public class IgneousBlocks {
 
         //First, we'll register dyed blocks
         if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
-            registerColoredBlock(DYED_COBBLESTONE);
-            registerColoredBlock(DYED_MOSSY_COBBLESTONE);
-            registerColoredBlock(DYED_STONE);
-            registerColoredBlock(DYED_GRANITE);
-            registerColoredBlock(DYED_SMOOTH_GRANITE);
-            registerColoredBlock(DYED_DIORITE);
-            registerColoredBlock(DYED_SMOOTH_DIORITE);
-            registerColoredBlock(DYED_ANDESITE);
-            registerColoredBlock(DYED_SMOOTH_ANDESITE);
+            registerColoredBlocks(DYED_COBBLESTONE, DYED_MOSSY_COBBLESTONE,
+                                  DYED_STONE, 
+                                  DYED_GRANITE, DYED_SMOOTH_GRANITE,
+                                  DYED_DIORITE, DYED_SMOOTH_DIORITE,
+                                  DYED_ANDESITE, DYED_SMOOTH_ANDESITE);
         }
 
         if (ConfigHandler.ENABLE_ADDITIONAL_STAIRS) {
-            registerSimpleBlock(STONE_STAIRS);
-            registerSimpleBlock(MOSSY_COBBLESTONE_STAIRS);
-            registerSimpleBlock(GRANITE_STAIRS);
-            registerSimpleBlock(POLISHED_GRANITE_STAIRS);
-            registerSimpleBlock(DIORITE_STAIRS);
-            registerSimpleBlock(POLISHED_DIORITE_STAIRS);
-            registerSimpleBlock(ANDESITE_STAIRS);
-            registerSimpleBlock(POLISHED_ANDESITE_STAIRS);
+            registerSimpleBlocks(STONE_STAIRS, MOSSY_COBBLESTONE_STAIRS,
+                                GRANITE_STAIRS, POLISHED_GRANITE_STAIRS,
+                                DIORITE_STAIRS, POLISHED_DIORITE_STAIRS,
+                                ANDESITE_STAIRS, POLISHED_ANDESITE_STAIRS);
 
             //Okay, dyed blocks now!
             if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
-                registerSimpleBlock(WHITE_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(LIME_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(PINK_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(RED_DYED_COBBLESTONE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_COBBLESTONE_STAIRS);
-
-
-                registerSimpleBlock(WHITE_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(LIME_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(PINK_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(RED_DYED_MOSSY_COBBLESTONE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_MOSSY_COBBLESTONE_STAIRS);
-
-
-                registerSimpleBlock(WHITE_DYED_STONE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_STONE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_STONE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_STONE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_STONE_STAIRS);
-                registerSimpleBlock(LIME_DYED_STONE_STAIRS);
-                registerSimpleBlock(PINK_DYED_STONE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_STONE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_STONE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_STONE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_STONE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_STONE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_STONE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_STONE_STAIRS);
-                registerSimpleBlock(RED_DYED_STONE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_STONE_STAIRS);
-
-                //Ugh
-
-
-                registerSimpleBlock(WHITE_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(LIME_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(PINK_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(RED_DYED_ANDESITE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_ANDESITE_STAIRS);
-
-
-                registerSimpleBlock(WHITE_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(LIME_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(PINK_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(RED_DYED_DIORITE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_DIORITE_STAIRS);
-
-
-                registerSimpleBlock(WHITE_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(LIME_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(PINK_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(RED_DYED_GRANITE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_GRANITE_STAIRS);
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(LIME_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(PINK_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(RED_DYED_POLISHED_ANDESITE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_POLISHED_ANDESITE_STAIRS);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(LIME_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(PINK_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(RED_DYED_POLISHED_DIORITE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_POLISHED_DIORITE_STAIRS);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(LIME_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(PINK_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(GRAY_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(SILVER_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(CYAN_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(BLUE_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(BROWN_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(GREEN_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(RED_DYED_POLISHED_GRANITE_STAIRS);
-                registerSimpleBlock(BLACK_DYED_POLISHED_GRANITE_STAIRS);
+                registerSimpleBlocks(WHITE_DYED_COBBLESTONE_STAIRS, ORANGE_DYED_COBBLESTONE_STAIRS,
+                        MAGENTA_DYED_COBBLESTONE_STAIRS, LIGHT_BLUE_DYED_COBBLESTONE_STAIRS,
+                        YELLOW_DYED_COBBLESTONE_STAIRS, LIME_DYED_COBBLESTONE_STAIRS,
+                        PINK_DYED_COBBLESTONE_STAIRS, GRAY_DYED_COBBLESTONE_STAIRS,
+                        SILVER_DYED_COBBLESTONE_STAIRS, CYAN_DYED_COBBLESTONE_STAIRS,
+                        PURPLE_DYED_COBBLESTONE_STAIRS, BLUE_DYED_COBBLESTONE_STAIRS,
+                        BROWN_DYED_COBBLESTONE_STAIRS, GREEN_DYED_COBBLESTONE_STAIRS,
+                        RED_DYED_COBBLESTONE_STAIRS, BLACK_DYED_COBBLESTONE_STAIRS,
+                        WHITE_DYED_MOSSY_COBBLESTONE_STAIRS, ORANGE_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        MAGENTA_DYED_MOSSY_COBBLESTONE_STAIRS, LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        YELLOW_DYED_MOSSY_COBBLESTONE_STAIRS, LIME_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        PINK_DYED_MOSSY_COBBLESTONE_STAIRS, GRAY_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        SILVER_DYED_MOSSY_COBBLESTONE_STAIRS, CYAN_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        PURPLE_DYED_MOSSY_COBBLESTONE_STAIRS, BLUE_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        BROWN_DYED_MOSSY_COBBLESTONE_STAIRS, GREEN_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        RED_DYED_MOSSY_COBBLESTONE_STAIRS, BLACK_DYED_MOSSY_COBBLESTONE_STAIRS,
+                        WHITE_DYED_STONE_STAIRS, ORANGE_DYED_STONE_STAIRS, MAGENTA_DYED_STONE_STAIRS,
+                        LIGHT_BLUE_DYED_STONE_STAIRS, YELLOW_DYED_STONE_STAIRS, LIME_DYED_STONE_STAIRS,
+                        PINK_DYED_STONE_STAIRS, GRAY_DYED_STONE_STAIRS, SILVER_DYED_STONE_STAIRS,
+                        CYAN_DYED_STONE_STAIRS, PURPLE_DYED_STONE_STAIRS, BLUE_DYED_STONE_STAIRS,
+                        BROWN_DYED_STONE_STAIRS, GREEN_DYED_STONE_STAIRS, RED_DYED_STONE_STAIRS, BLACK_DYED_STONE_STAIRS,
+                        WHITE_DYED_ANDESITE_STAIRS, ORANGE_DYED_ANDESITE_STAIRS,
+                        MAGENTA_DYED_ANDESITE_STAIRS, LIGHT_BLUE_DYED_ANDESITE_STAIRS, YELLOW_DYED_ANDESITE_STAIRS,
+                        LIME_DYED_ANDESITE_STAIRS, PINK_DYED_ANDESITE_STAIRS, GRAY_DYED_ANDESITE_STAIRS,
+                        SILVER_DYED_ANDESITE_STAIRS, CYAN_DYED_ANDESITE_STAIRS, PURPLE_DYED_ANDESITE_STAIRS,
+                        BLUE_DYED_ANDESITE_STAIRS, BROWN_DYED_ANDESITE_STAIRS, GREEN_DYED_ANDESITE_STAIRS,
+                        RED_DYED_ANDESITE_STAIRS, BLACK_DYED_ANDESITE_STAIRS,
+                        WHITE_DYED_DIORITE_STAIRS, ORANGE_DYED_DIORITE_STAIRS, MAGENTA_DYED_DIORITE_STAIRS,
+                        LIGHT_BLUE_DYED_DIORITE_STAIRS, YELLOW_DYED_DIORITE_STAIRS, LIME_DYED_DIORITE_STAIRS,
+                        PINK_DYED_DIORITE_STAIRS, GRAY_DYED_DIORITE_STAIRS, SILVER_DYED_DIORITE_STAIRS,
+                        CYAN_DYED_DIORITE_STAIRS, PURPLE_DYED_DIORITE_STAIRS, BLUE_DYED_DIORITE_STAIRS,
+                        BROWN_DYED_DIORITE_STAIRS, GREEN_DYED_DIORITE_STAIRS, RED_DYED_DIORITE_STAIRS,
+                        BLACK_DYED_DIORITE_STAIRS, WHITE_DYED_GRANITE_STAIRS, ORANGE_DYED_GRANITE_STAIRS, MAGENTA_DYED_GRANITE_STAIRS,
+                        LIGHT_BLUE_DYED_GRANITE_STAIRS, YELLOW_DYED_GRANITE_STAIRS, LIME_DYED_GRANITE_STAIRS,
+                        PINK_DYED_GRANITE_STAIRS, GRAY_DYED_GRANITE_STAIRS, SILVER_DYED_GRANITE_STAIRS,
+                        CYAN_DYED_GRANITE_STAIRS, PURPLE_DYED_GRANITE_STAIRS, BLUE_DYED_GRANITE_STAIRS,
+                        BROWN_DYED_GRANITE_STAIRS, GREEN_DYED_GRANITE_STAIRS, RED_DYED_GRANITE_STAIRS,
+                        BLACK_DYED_GRANITE_STAIRS, WHITE_DYED_POLISHED_ANDESITE_STAIRS, ORANGE_DYED_POLISHED_ANDESITE_STAIRS,
+                        MAGENTA_DYED_POLISHED_ANDESITE_STAIRS, LIGHT_BLUE_DYED_POLISHED_ANDESITE_STAIRS,
+                        YELLOW_DYED_POLISHED_ANDESITE_STAIRS, LIME_DYED_POLISHED_ANDESITE_STAIRS,
+                        PINK_DYED_POLISHED_ANDESITE_STAIRS, GRAY_DYED_POLISHED_ANDESITE_STAIRS,
+                        SILVER_DYED_POLISHED_ANDESITE_STAIRS, CYAN_DYED_POLISHED_ANDESITE_STAIRS,
+                        PURPLE_DYED_POLISHED_ANDESITE_STAIRS, BLUE_DYED_POLISHED_ANDESITE_STAIRS,
+                        BROWN_DYED_POLISHED_ANDESITE_STAIRS, GREEN_DYED_POLISHED_ANDESITE_STAIRS,
+                        RED_DYED_POLISHED_ANDESITE_STAIRS, BLACK_DYED_POLISHED_ANDESITE_STAIRS,
+                        WHITE_DYED_POLISHED_DIORITE_STAIRS, ORANGE_DYED_POLISHED_DIORITE_STAIRS,
+                        MAGENTA_DYED_POLISHED_DIORITE_STAIRS, LIGHT_BLUE_DYED_POLISHED_DIORITE_STAIRS,
+                        YELLOW_DYED_POLISHED_DIORITE_STAIRS, LIME_DYED_POLISHED_DIORITE_STAIRS,
+                        PINK_DYED_POLISHED_DIORITE_STAIRS, GRAY_DYED_POLISHED_DIORITE_STAIRS,
+                        SILVER_DYED_POLISHED_DIORITE_STAIRS, CYAN_DYED_POLISHED_DIORITE_STAIRS,
+                        PURPLE_DYED_POLISHED_DIORITE_STAIRS, BLUE_DYED_POLISHED_DIORITE_STAIRS,
+                        BROWN_DYED_POLISHED_DIORITE_STAIRS, GREEN_DYED_POLISHED_DIORITE_STAIRS,
+                        RED_DYED_POLISHED_DIORITE_STAIRS, BLACK_DYED_POLISHED_DIORITE_STAIRS,
+                        WHITE_DYED_POLISHED_GRANITE_STAIRS, ORANGE_DYED_POLISHED_GRANITE_STAIRS,
+                        MAGENTA_DYED_POLISHED_GRANITE_STAIRS, LIGHT_BLUE_DYED_POLISHED_GRANITE_STAIRS,
+                        YELLOW_DYED_POLISHED_GRANITE_STAIRS, LIME_DYED_POLISHED_GRANITE_STAIRS,
+                        PINK_DYED_POLISHED_GRANITE_STAIRS, GRAY_DYED_POLISHED_GRANITE_STAIRS,
+                        SILVER_DYED_POLISHED_GRANITE_STAIRS, CYAN_DYED_POLISHED_GRANITE_STAIRS,
+                        PURPLE_DYED_POLISHED_GRANITE_STAIRS, BLUE_DYED_POLISHED_GRANITE_STAIRS,
+                        BROWN_DYED_POLISHED_GRANITE_STAIRS, GREEN_DYED_POLISHED_GRANITE_STAIRS,
+                        RED_DYED_POLISHED_GRANITE_STAIRS, BLACK_DYED_POLISHED_GRANITE_STAIRS);
             }
         }
 
         //Now register pressure plates
 
         if (ConfigHandler.ENABLE_ADDITIONAL_PRESSURE_PLATES) {
-            registerSimpleBlock(COBBLESTONE_PRESSURE_PLATE);
-            registerSimpleBlock(MOSSY_COBBLESTONE_PRESSURE_PLATE);
-            registerSimpleBlock(GRANITE_PRESSURE_PLATE);
-            registerSimpleBlock(POLISHED_GRANITE_PRESSURE_PLATE);
-            registerSimpleBlock(DIORITE_PRESSURE_PLATE);
-            registerSimpleBlock(POLISHED_DIORITE_PRESSURE_PLATE);
-            registerSimpleBlock(ANDESITE_PRESSURE_PLATE);
-            registerSimpleBlock(POLISHED_ANDESITE_PRESSURE_PLATE);
-
-            registerSimpleBlock(STONE_BRICK_PRESSURE_PLATE);
-            registerSimpleBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE);
-            registerSimpleBlock(CHISELED_STONE_BRICK_PRESSURE_PLATE);
-            registerSimpleBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE);
+            registerSimpleBlocks(COBBLESTONE_PRESSURE_PLATE, MOSSY_COBBLESTONE_PRESSURE_PLATE, GRANITE_PRESSURE_PLATE,
+                    POLISHED_GRANITE_PRESSURE_PLATE, DIORITE_PRESSURE_PLATE, POLISHED_DIORITE_PRESSURE_PLATE,
+                    ANDESITE_PRESSURE_PLATE, POLISHED_ANDESITE_PRESSURE_PLATE, STONE_BRICK_PRESSURE_PLATE,
+                    CRACKED_STONE_BRICK_PRESSURE_PLATE, CHISELED_STONE_BRICK_PRESSURE_PLATE,
+                    MOSSY_STONE_BRICK_PRESSURE_PLATE);
             
             if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
-                registerSimpleBlock(WHITE_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_STONE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_STONE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_COBBLESTONE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_GRANITE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_DIORITE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_ANDESITE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_POLISHED_GRANITE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_POLISHED_DIORITE_PRESSURE_PLATE);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(LIME_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(PINK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(GRAY_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(SILVER_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(CYAN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(BROWN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(GREEN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(RED_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
-                registerSimpleBlock(BLACK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
+                registerSimpleBlocks(WHITE_DYED_STONE_PRESSURE_PLATE, ORANGE_DYED_STONE_PRESSURE_PLATE,
+                        MAGENTA_DYED_STONE_PRESSURE_PLATE, LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE,
+                        YELLOW_DYED_STONE_PRESSURE_PLATE, LIME_DYED_STONE_PRESSURE_PLATE,
+                        PINK_DYED_STONE_PRESSURE_PLATE, GRAY_DYED_STONE_PRESSURE_PLATE,
+                        SILVER_DYED_STONE_PRESSURE_PLATE, CYAN_DYED_STONE_PRESSURE_PLATE,
+                        PURPLE_DYED_STONE_PRESSURE_PLATE, BLUE_DYED_STONE_PRESSURE_PLATE,
+                        BROWN_DYED_STONE_PRESSURE_PLATE, GREEN_DYED_STONE_PRESSURE_PLATE, RED_DYED_STONE_PRESSURE_PLATE,
+                        BLACK_DYED_STONE_PRESSURE_PLATE, WHITE_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        ORANGE_DYED_COBBLESTONE_PRESSURE_PLATE, MAGENTA_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_COBBLESTONE_PRESSURE_PLATE, YELLOW_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        LIME_DYED_COBBLESTONE_PRESSURE_PLATE, PINK_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        GRAY_DYED_COBBLESTONE_PRESSURE_PLATE, SILVER_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        CYAN_DYED_COBBLESTONE_PRESSURE_PLATE, PURPLE_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        BLUE_DYED_COBBLESTONE_PRESSURE_PLATE, BROWN_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        GREEN_DYED_COBBLESTONE_PRESSURE_PLATE, RED_DYED_COBBLESTONE_PRESSURE_PLATE,
+                        BLACK_DYED_COBBLESTONE_PRESSURE_PLATE, WHITE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        ORANGE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, MAGENTA_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, YELLOW_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        LIME_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, PINK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        GRAY_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, SILVER_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        CYAN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, PURPLE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        BLUE_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, BROWN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        GREEN_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, RED_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE,
+                        BLACK_DYED_MOSSY_COBBLESTONE_PRESSURE_PLATE, WHITE_DYED_GRANITE_PRESSURE_PLATE,
+                        ORANGE_DYED_GRANITE_PRESSURE_PLATE, MAGENTA_DYED_GRANITE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_GRANITE_PRESSURE_PLATE, YELLOW_DYED_GRANITE_PRESSURE_PLATE,
+                        LIME_DYED_GRANITE_PRESSURE_PLATE, PINK_DYED_GRANITE_PRESSURE_PLATE,
+                        GRAY_DYED_GRANITE_PRESSURE_PLATE, SILVER_DYED_GRANITE_PRESSURE_PLATE,
+                        CYAN_DYED_GRANITE_PRESSURE_PLATE, PURPLE_DYED_GRANITE_PRESSURE_PLATE,
+                        BLUE_DYED_GRANITE_PRESSURE_PLATE, BROWN_DYED_GRANITE_PRESSURE_PLATE,
+                        GREEN_DYED_GRANITE_PRESSURE_PLATE, RED_DYED_GRANITE_PRESSURE_PLATE,
+                        BLACK_DYED_GRANITE_PRESSURE_PLATE, WHITE_DYED_DIORITE_PRESSURE_PLATE,
+                        ORANGE_DYED_DIORITE_PRESSURE_PLATE, MAGENTA_DYED_DIORITE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_DIORITE_PRESSURE_PLATE, YELLOW_DYED_DIORITE_PRESSURE_PLATE,
+                        LIME_DYED_DIORITE_PRESSURE_PLATE, PINK_DYED_DIORITE_PRESSURE_PLATE,
+                        GRAY_DYED_DIORITE_PRESSURE_PLATE, SILVER_DYED_DIORITE_PRESSURE_PLATE,
+                        CYAN_DYED_DIORITE_PRESSURE_PLATE, PURPLE_DYED_DIORITE_PRESSURE_PLATE,
+                        BLUE_DYED_DIORITE_PRESSURE_PLATE, BROWN_DYED_DIORITE_PRESSURE_PLATE,
+                        GREEN_DYED_DIORITE_PRESSURE_PLATE, RED_DYED_DIORITE_PRESSURE_PLATE,
+                        BLACK_DYED_DIORITE_PRESSURE_PLATE, WHITE_DYED_ANDESITE_PRESSURE_PLATE,
+                        ORANGE_DYED_ANDESITE_PRESSURE_PLATE, MAGENTA_DYED_ANDESITE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_ANDESITE_PRESSURE_PLATE, YELLOW_DYED_ANDESITE_PRESSURE_PLATE,
+                        LIME_DYED_ANDESITE_PRESSURE_PLATE, PINK_DYED_ANDESITE_PRESSURE_PLATE,
+                        GRAY_DYED_ANDESITE_PRESSURE_PLATE, SILVER_DYED_ANDESITE_PRESSURE_PLATE,
+                        CYAN_DYED_ANDESITE_PRESSURE_PLATE, PURPLE_DYED_ANDESITE_PRESSURE_PLATE,
+                        BLUE_DYED_ANDESITE_PRESSURE_PLATE, BROWN_DYED_ANDESITE_PRESSURE_PLATE,
+                        GREEN_DYED_ANDESITE_PRESSURE_PLATE, RED_DYED_ANDESITE_PRESSURE_PLATE,
+                        BLACK_DYED_ANDESITE_PRESSURE_PLATE, WHITE_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        ORANGE_DYED_POLISHED_GRANITE_PRESSURE_PLATE, MAGENTA_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE, YELLOW_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        LIME_DYED_POLISHED_GRANITE_PRESSURE_PLATE, PINK_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        GRAY_DYED_POLISHED_GRANITE_PRESSURE_PLATE, SILVER_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        CYAN_DYED_POLISHED_GRANITE_PRESSURE_PLATE, PURPLE_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        BLUE_DYED_POLISHED_GRANITE_PRESSURE_PLATE, BROWN_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        GREEN_DYED_POLISHED_GRANITE_PRESSURE_PLATE, RED_DYED_POLISHED_GRANITE_PRESSURE_PLATE,
+                        BLACK_DYED_POLISHED_GRANITE_PRESSURE_PLATE, WHITE_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        ORANGE_DYED_POLISHED_DIORITE_PRESSURE_PLATE, MAGENTA_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE, YELLOW_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        LIME_DYED_POLISHED_DIORITE_PRESSURE_PLATE, PINK_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        GRAY_DYED_POLISHED_DIORITE_PRESSURE_PLATE, SILVER_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        CYAN_DYED_POLISHED_DIORITE_PRESSURE_PLATE, PURPLE_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        BLUE_DYED_POLISHED_DIORITE_PRESSURE_PLATE, BROWN_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        GREEN_DYED_POLISHED_DIORITE_PRESSURE_PLATE, RED_DYED_POLISHED_DIORITE_PRESSURE_PLATE,
+                        BLACK_DYED_POLISHED_DIORITE_PRESSURE_PLATE, WHITE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        ORANGE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, MAGENTA_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        LIGHT_BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, YELLOW_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        LIME_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, PINK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        GRAY_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, SILVER_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        CYAN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, PURPLE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        BLUE_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, BROWN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        GREEN_DYED_POLISHED_ANDESITE_PRESSURE_PLATE, RED_DYED_POLISHED_ANDESITE_PRESSURE_PLATE,
+                        BLACK_DYED_POLISHED_ANDESITE_PRESSURE_PLATE);
             }
         }
 
@@ -3795,182 +3591,70 @@ public class IgneousBlocks {
 
         if (ConfigHandler.ENABLE_ADDITIONAL_LEVERS) {
 
-            registerSimpleBlock(STONE_LEVER); //GameRegistry.register(STONE_LEVER.setRegistryName("StoneLever");
-            registerSimpleBlock(GRANITE_LEVER);
-            registerSimpleBlock(POLISHED_GRANITE_LEVER);
-            registerSimpleBlock(DIORITE_LEVER);
-            registerSimpleBlock(POLISHED_DIORITE_LEVER);
-            registerSimpleBlock(ANDESITE_LEVER);
-            registerSimpleBlock(POLISHED_ANDESITE_LEVER);
-
-            registerSimpleBlock(MOSSY_COBBLESTONE_LEVER);
-
-            registerSimpleBlock(STONE_BRICK_LEVER);
-            registerSimpleBlock(CHISELED_STONE_BRICK_LEVER);
-            registerSimpleBlock(CRACKED_STONE_BRICK_LEVER);
-            registerSimpleBlock(MOSSY_STONE_BRICK_LEVER);
+            registerSimpleBlocks(STONE_LEVER, GRANITE_LEVER, POLISHED_GRANITE_LEVER, DIORITE_LEVER,
+                    POLISHED_DIORITE_LEVER, ANDESITE_LEVER, POLISHED_ANDESITE_LEVER, MOSSY_COBBLESTONE_LEVER,
+                    STONE_BRICK_LEVER, CHISELED_STONE_BRICK_LEVER, CRACKED_STONE_BRICK_LEVER, MOSSY_STONE_BRICK_LEVER);
             
             if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
-                registerSimpleBlock(WHITE_DYED_STONE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_STONE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_STONE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_STONE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_STONE_LEVER);
-                registerSimpleBlock(LIME_DYED_STONE_LEVER);
-                registerSimpleBlock(PINK_DYED_STONE_LEVER);
-                registerSimpleBlock(GRAY_DYED_STONE_LEVER);
-                registerSimpleBlock(SILVER_DYED_STONE_LEVER);
-                registerSimpleBlock(CYAN_DYED_STONE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_STONE_LEVER);
-                registerSimpleBlock(BLUE_DYED_STONE_LEVER);
-                registerSimpleBlock(BROWN_DYED_STONE_LEVER);
-                registerSimpleBlock(GREEN_DYED_STONE_LEVER);
-                registerSimpleBlock(RED_DYED_STONE_LEVER);
-                registerSimpleBlock(BLACK_DYED_STONE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(LIME_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(PINK_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(GRAY_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(SILVER_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(CYAN_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(BLUE_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(BROWN_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(GREEN_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(RED_DYED_COBBLESTONE_LEVER);
-                registerSimpleBlock(BLACK_DYED_COBBLESTONE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(LIME_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(PINK_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(GRAY_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(SILVER_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(CYAN_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(BLUE_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(BROWN_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(GREEN_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(RED_DYED_MOSSY_COBBLESTONE_LEVER);
-                registerSimpleBlock(BLACK_DYED_MOSSY_COBBLESTONE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_GRANITE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_GRANITE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_GRANITE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_GRANITE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_GRANITE_LEVER);
-                registerSimpleBlock(LIME_DYED_GRANITE_LEVER);
-                registerSimpleBlock(PINK_DYED_GRANITE_LEVER);
-                registerSimpleBlock(GRAY_DYED_GRANITE_LEVER);
-                registerSimpleBlock(SILVER_DYED_GRANITE_LEVER);
-                registerSimpleBlock(CYAN_DYED_GRANITE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_GRANITE_LEVER);
-                registerSimpleBlock(BLUE_DYED_GRANITE_LEVER);
-                registerSimpleBlock(BROWN_DYED_GRANITE_LEVER);
-                registerSimpleBlock(GREEN_DYED_GRANITE_LEVER);
-                registerSimpleBlock(RED_DYED_GRANITE_LEVER);
-                registerSimpleBlock(BLACK_DYED_GRANITE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_DIORITE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_DIORITE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_DIORITE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_DIORITE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_DIORITE_LEVER);
-                registerSimpleBlock(LIME_DYED_DIORITE_LEVER);
-                registerSimpleBlock(PINK_DYED_DIORITE_LEVER);
-                registerSimpleBlock(GRAY_DYED_DIORITE_LEVER);
-                registerSimpleBlock(SILVER_DYED_DIORITE_LEVER);
-                registerSimpleBlock(CYAN_DYED_DIORITE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_DIORITE_LEVER);
-                registerSimpleBlock(BLUE_DYED_DIORITE_LEVER);
-                registerSimpleBlock(BROWN_DYED_DIORITE_LEVER);
-                registerSimpleBlock(GREEN_DYED_DIORITE_LEVER);
-                registerSimpleBlock(RED_DYED_DIORITE_LEVER);
-                registerSimpleBlock(BLACK_DYED_DIORITE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(LIME_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(PINK_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(GRAY_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(SILVER_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(CYAN_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(BLUE_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(BROWN_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(GREEN_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(RED_DYED_ANDESITE_LEVER);
-                registerSimpleBlock(BLACK_DYED_ANDESITE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(LIME_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(PINK_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(GRAY_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(SILVER_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(CYAN_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(BLUE_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(BROWN_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(GREEN_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(RED_DYED_POLISHED_GRANITE_LEVER);
-                registerSimpleBlock(BLACK_DYED_POLISHED_GRANITE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(LIME_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(PINK_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(GRAY_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(SILVER_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(CYAN_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(BLUE_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(BROWN_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(GREEN_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(RED_DYED_POLISHED_DIORITE_LEVER);
-                registerSimpleBlock(BLACK_DYED_POLISHED_DIORITE_LEVER);
-
-
-                registerSimpleBlock(WHITE_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(ORANGE_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(MAGENTA_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(LIGHT_BLUE_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(YELLOW_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(LIME_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(PINK_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(GRAY_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(SILVER_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(CYAN_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(PURPLE_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(BLUE_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(BROWN_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(GREEN_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(RED_DYED_POLISHED_ANDESITE_LEVER);
-                registerSimpleBlock(BLACK_DYED_POLISHED_ANDESITE_LEVER);
+                registerSimpleBlocks(WHITE_DYED_STONE_LEVER, ORANGE_DYED_STONE_LEVER, MAGENTA_DYED_STONE_LEVER,
+                        LIGHT_BLUE_DYED_STONE_LEVER, YELLOW_DYED_STONE_LEVER, LIME_DYED_STONE_LEVER,
+                        PINK_DYED_STONE_LEVER, GRAY_DYED_STONE_LEVER, SILVER_DYED_STONE_LEVER, CYAN_DYED_STONE_LEVER,
+                        PURPLE_DYED_STONE_LEVER, BLUE_DYED_STONE_LEVER, BROWN_DYED_STONE_LEVER, GREEN_DYED_STONE_LEVER,
+                        RED_DYED_STONE_LEVER, BLACK_DYED_STONE_LEVER, WHITE_DYED_COBBLESTONE_LEVER,
+                        ORANGE_DYED_COBBLESTONE_LEVER, MAGENTA_DYED_COBBLESTONE_LEVER,
+                        LIGHT_BLUE_DYED_COBBLESTONE_LEVER, YELLOW_DYED_COBBLESTONE_LEVER, LIME_DYED_COBBLESTONE_LEVER,
+                        PINK_DYED_COBBLESTONE_LEVER, GRAY_DYED_COBBLESTONE_LEVER, SILVER_DYED_COBBLESTONE_LEVER,
+                        CYAN_DYED_COBBLESTONE_LEVER, PURPLE_DYED_COBBLESTONE_LEVER, BLUE_DYED_COBBLESTONE_LEVER,
+                        BROWN_DYED_COBBLESTONE_LEVER, GREEN_DYED_COBBLESTONE_LEVER, RED_DYED_COBBLESTONE_LEVER,
+                        BLACK_DYED_COBBLESTONE_LEVER, WHITE_DYED_MOSSY_COBBLESTONE_LEVER,
+                        ORANGE_DYED_MOSSY_COBBLESTONE_LEVER, MAGENTA_DYED_MOSSY_COBBLESTONE_LEVER,
+                        LIGHT_BLUE_DYED_MOSSY_COBBLESTONE_LEVER, YELLOW_DYED_MOSSY_COBBLESTONE_LEVER,
+                        LIME_DYED_MOSSY_COBBLESTONE_LEVER, PINK_DYED_MOSSY_COBBLESTONE_LEVER,
+                        GRAY_DYED_MOSSY_COBBLESTONE_LEVER, SILVER_DYED_MOSSY_COBBLESTONE_LEVER,
+                        CYAN_DYED_MOSSY_COBBLESTONE_LEVER, PURPLE_DYED_MOSSY_COBBLESTONE_LEVER,
+                        BLUE_DYED_MOSSY_COBBLESTONE_LEVER, BROWN_DYED_MOSSY_COBBLESTONE_LEVER,
+                        GREEN_DYED_MOSSY_COBBLESTONE_LEVER, RED_DYED_MOSSY_COBBLESTONE_LEVER,
+                        BLACK_DYED_MOSSY_COBBLESTONE_LEVER, WHITE_DYED_GRANITE_LEVER, ORANGE_DYED_GRANITE_LEVER,
+                        MAGENTA_DYED_GRANITE_LEVER, LIGHT_BLUE_DYED_GRANITE_LEVER, YELLOW_DYED_GRANITE_LEVER,
+                        LIME_DYED_GRANITE_LEVER, PINK_DYED_GRANITE_LEVER, GRAY_DYED_GRANITE_LEVER,
+                        SILVER_DYED_GRANITE_LEVER, CYAN_DYED_GRANITE_LEVER, PURPLE_DYED_GRANITE_LEVER,
+                        BLUE_DYED_GRANITE_LEVER, BROWN_DYED_GRANITE_LEVER, GREEN_DYED_GRANITE_LEVER,
+                        RED_DYED_GRANITE_LEVER, BLACK_DYED_GRANITE_LEVER, WHITE_DYED_DIORITE_LEVER,
+                        ORANGE_DYED_DIORITE_LEVER, MAGENTA_DYED_DIORITE_LEVER, LIGHT_BLUE_DYED_DIORITE_LEVER,
+                        YELLOW_DYED_DIORITE_LEVER, LIME_DYED_DIORITE_LEVER, PINK_DYED_DIORITE_LEVER,
+                        GRAY_DYED_DIORITE_LEVER, SILVER_DYED_DIORITE_LEVER, CYAN_DYED_DIORITE_LEVER,
+                        PURPLE_DYED_DIORITE_LEVER, BLUE_DYED_DIORITE_LEVER, BROWN_DYED_DIORITE_LEVER,
+                        GREEN_DYED_DIORITE_LEVER, RED_DYED_DIORITE_LEVER, BLACK_DYED_DIORITE_LEVER,
+                        WHITE_DYED_ANDESITE_LEVER, ORANGE_DYED_ANDESITE_LEVER, MAGENTA_DYED_ANDESITE_LEVER,
+                        LIGHT_BLUE_DYED_ANDESITE_LEVER, YELLOW_DYED_ANDESITE_LEVER, LIME_DYED_ANDESITE_LEVER,
+                        PINK_DYED_ANDESITE_LEVER, GRAY_DYED_ANDESITE_LEVER, SILVER_DYED_ANDESITE_LEVER,
+                        CYAN_DYED_ANDESITE_LEVER, PURPLE_DYED_ANDESITE_LEVER, BLUE_DYED_ANDESITE_LEVER,
+                        BROWN_DYED_ANDESITE_LEVER, GREEN_DYED_ANDESITE_LEVER, RED_DYED_ANDESITE_LEVER,
+                        BLACK_DYED_ANDESITE_LEVER, WHITE_DYED_POLISHED_GRANITE_LEVER,
+                        ORANGE_DYED_POLISHED_GRANITE_LEVER, MAGENTA_DYED_POLISHED_GRANITE_LEVER,
+                        LIGHT_BLUE_DYED_POLISHED_GRANITE_LEVER, YELLOW_DYED_POLISHED_GRANITE_LEVER,
+                        LIME_DYED_POLISHED_GRANITE_LEVER, PINK_DYED_POLISHED_GRANITE_LEVER,
+                        GRAY_DYED_POLISHED_GRANITE_LEVER, SILVER_DYED_POLISHED_GRANITE_LEVER,
+                        CYAN_DYED_POLISHED_GRANITE_LEVER, PURPLE_DYED_POLISHED_GRANITE_LEVER,
+                        BLUE_DYED_POLISHED_GRANITE_LEVER, BROWN_DYED_POLISHED_GRANITE_LEVER,
+                        GREEN_DYED_POLISHED_GRANITE_LEVER, RED_DYED_POLISHED_GRANITE_LEVER,
+                        BLACK_DYED_POLISHED_GRANITE_LEVER, WHITE_DYED_POLISHED_DIORITE_LEVER,
+                        ORANGE_DYED_POLISHED_DIORITE_LEVER, MAGENTA_DYED_POLISHED_DIORITE_LEVER,
+                        LIGHT_BLUE_DYED_POLISHED_DIORITE_LEVER, YELLOW_DYED_POLISHED_DIORITE_LEVER,
+                        LIME_DYED_POLISHED_DIORITE_LEVER, PINK_DYED_POLISHED_DIORITE_LEVER,
+                        GRAY_DYED_POLISHED_DIORITE_LEVER, SILVER_DYED_POLISHED_DIORITE_LEVER,
+                        CYAN_DYED_POLISHED_DIORITE_LEVER, PURPLE_DYED_POLISHED_DIORITE_LEVER,
+                        BLUE_DYED_POLISHED_DIORITE_LEVER, BROWN_DYED_POLISHED_DIORITE_LEVER,
+                        GREEN_DYED_POLISHED_DIORITE_LEVER, RED_DYED_POLISHED_DIORITE_LEVER,
+                        BLACK_DYED_POLISHED_DIORITE_LEVER, WHITE_DYED_POLISHED_ANDESITE_LEVER,
+                        ORANGE_DYED_POLISHED_ANDESITE_LEVER, MAGENTA_DYED_POLISHED_ANDESITE_LEVER,
+                        LIGHT_BLUE_DYED_POLISHED_ANDESITE_LEVER, YELLOW_DYED_POLISHED_ANDESITE_LEVER,
+                        LIME_DYED_POLISHED_ANDESITE_LEVER, PINK_DYED_POLISHED_ANDESITE_LEVER,
+                        GRAY_DYED_POLISHED_ANDESITE_LEVER, SILVER_DYED_POLISHED_ANDESITE_LEVER,
+                        CYAN_DYED_POLISHED_ANDESITE_LEVER, PURPLE_DYED_POLISHED_ANDESITE_LEVER,
+                        BLUE_DYED_POLISHED_ANDESITE_LEVER, BROWN_DYED_POLISHED_ANDESITE_LEVER,
+                        GREEN_DYED_POLISHED_ANDESITE_LEVER, RED_DYED_POLISHED_ANDESITE_LEVER,
+                        BLACK_DYED_POLISHED_ANDESITE_LEVER);
             }
 
         }
@@ -5121,6 +4805,8 @@ public class IgneousBlocks {
 
         GameRegistry.addShapedRecipe(output, "  I", " II", "III", 'I', input);
         GameRegistry.addShapedRecipe(output, "I  ", "II ", "III", 'I', input);
+
+        IgneousExtrasMod.REGISTERED_RECIPES += 1;
     }
 
     /**
@@ -5136,6 +4822,8 @@ public class IgneousBlocks {
         ItemStack output = new ItemStack(plateBlock, 1, 0);
 
         GameRegistry.addShapedRecipe(output, "II", 'I', input);
+
+        IgneousExtrasMod.REGISTERED_RECIPES += 1;
     }
 
     /**
@@ -5152,6 +4840,8 @@ public class IgneousBlocks {
         ItemStack stick = new ItemStack(Items.STICK, 1);
 
         GameRegistry.addShapedRecipe(output, "S", "I", 'I', input, 'S', stick);
+
+        IgneousExtrasMod.REGISTERED_RECIPES += 1;
     }
 
     /**
@@ -5188,6 +4878,9 @@ public class IgneousBlocks {
             GameRegistry.addShapedRecipe(new ItemStack(blockToConsume, 8, consumptionMetadata),
                                          "OOO", "OWO", "OOO",
                                          'W', water, 'O', new ItemStack(blockToReturn, 1, color.getMetadata()));
+
+
+            IgneousExtrasMod.REGISTERED_RECIPES += 2;
         }
     }
 
@@ -5202,6 +4895,20 @@ public class IgneousBlocks {
     public static void registerSimpleBlock(Block block) {
         GameRegistry.register(block);
         GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
+
+        IgneousExtrasMod.REGISTERED_BLOCKS += 1;
+    }
+
+    /**
+     * Registers a number of simple {@link Block}s
+     *
+     * @param blocks The {@link Block}s to register
+     * @since 0.0.2
+     */
+    public static void registerSimpleBlocks(Block... blocks) {
+        for (Block block : blocks) {
+            registerSimpleBlock(block);
+        }
     }
 
     /**
@@ -5213,6 +4920,20 @@ public class IgneousBlocks {
     public static void registerColoredBlock(Block block) {
         GameRegistry.register(block);
         GameRegistry.register(new ItemColoredBlock(block).setRegistryName(block.getRegistryName()));
+
+        IgneousExtrasMod.REGISTERED_BLOCKS += 1;
+    }
+
+    /**
+     * Registers a number of colored {@link Block}s
+     *
+     * @param blocks The {@link Block}s to register
+     * @since 0.0.2
+     */
+    public static void registerColoredBlocks(Block... blocks) {
+        for (Block block : blocks) {
+            registerColoredBlock(block);
+        }
     }
 
 }
