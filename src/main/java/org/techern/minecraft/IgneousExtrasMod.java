@@ -106,7 +106,7 @@ public class IgneousExtrasMod {
     public void handlePostInitEvent(FMLPostInitializationEvent event) {
         IgneousBlocks.registerRecipes();
         if (ConfigHandler.getConfig().hasChanged()) {
-            LOGGER.info("Igneous Additions found extra / changed configuration, and is now saving");
+            LOGGER.info("Igneous Extras found extra / changed configuration, and is now saving");
             ConfigHandler.getConfig().save();
         }
 
