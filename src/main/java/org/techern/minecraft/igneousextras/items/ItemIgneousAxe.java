@@ -1,61 +1,11 @@
 package org.techern.minecraft.igneousextras.items;
 
-import com.google.common.collect.Sets;
-import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemTool;
+import net.minecraft.item.ItemAxe;
 
-import java.util.Set;
-
-/**
- * An extension of {@link ItemTool} (for now) that pretends to be an {@link net.minecraft.item.ItemAxe}
- *
- * @since 0.0.2
- */
-public class ItemIgneousAxe extends ItemTool {
-
-	/**
-	 * The temporary hardcoded list of blocks this {@link ItemIgneousAxe} is effective on
-	 *
-	 * @since 0.0.2
-	 */
-	private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(Blocks.PLANKS, Blocks.BOOKSHELF, Blocks.LOG, Blocks.LOG2, Blocks.CHEST, Blocks.PUMPKIN, Blocks.LIT_PUMPKIN, Blocks.MELON_BLOCK, Blocks.LADDER, Blocks.WOODEN_BUTTON, Blocks.WOODEN_PRESSURE_PLATE);
-
-	/**
-	 * The temporary hardcoded list of tool classes this {@link ItemIgneousAxe} is
-	 *
-	 * Lol
-	 *
-	 * @since 0.0.2
-	 */
-	private static final Set<String> CLASSES = Sets.newHashSet("axe");
-
-	/**
-	 * Creates a new {@link ItemIgneousAxe}
-	 *
-	 * @param mat The {@link net.minecraft.item.Item.ToolMaterial} being used
-	 * @param unlocalizedName The name of this {@link ItemIgneousAxe}
-	 *
-	 * @since 0.0.2
-	 */
+public class ItemIgneousAxe extends ItemAxe {
 	public ItemIgneousAxe(ToolMaterial mat, String unlocalizedName) {
-		super(8.0F, -3.2F, mat, EFFECTIVE_ON);
+		super(mat, 8.0F, -3.2F);
 		this.setUnlocalizedName(unlocalizedName + "_axe");
 		this.setRegistryName(unlocalizedName + "_axe");
-	}
-
-	/**
-	 * Gets a {@link Set<String>} of tool classes defining this {@link ItemIgneousAxe}
-	 *
-	 * @param ignoreMe Ignore me
-	 *
-	 * @return A {@link Set<String>} of tool classes
-	 *
-	 * @since 0.0.2
-	 */
-	@Override
-	public Set<String> getToolClasses(ItemStack ignoreMe) {
-		return CLASSES;
 	}
 }
