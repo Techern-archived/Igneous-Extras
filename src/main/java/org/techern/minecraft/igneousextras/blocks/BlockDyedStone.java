@@ -22,7 +22,7 @@ public class BlockDyedStone extends BlockColored {
         this.setHardness(1.5F);
         this.setResistance(10.0F);
         this.setSoundType(SoundType.STONE);
-        this.setCreativeTab(IEBlocks.DYED_BLOCKS_TAB);
+        this.setCreativeTab(IgneousBlocks.DYED_BLOCKS_TAB);
         this.setUnlocalizedName(unlocalizedName);
         this.setRegistryName(unlocalizedName);
         this.setHarvestLevel("pickaxe", 0);

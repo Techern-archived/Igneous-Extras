@@ -1,6 +1,6 @@
 package org.techern.minecraft.igneousextras.blocks.stairs;
 
-import org.techern.minecraft.igneousextras.blocks.IEBlocks;
+import org.techern.minecraft.igneousextras.blocks.IgneousBlocks;
 import net.minecraft.block.state.IBlockState;
 
 /**
@@ -19,6 +19,6 @@ public class ColoredBlockStairs extends BaseBlockStairs {
      */
     public ColoredBlockStairs(IBlockState referenceState, String unlocalizedName) {
         super(referenceState, unlocalizedName);
-        this.setCreativeTab(IEBlocks.DYED_STAIRS_TAB);
+        this.setCreativeTab(IgneousBlocks.DYED_STAIRS_TAB);
     }
 }

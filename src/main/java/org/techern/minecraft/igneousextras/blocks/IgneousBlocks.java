@@ -24,7 +24,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  *
  * @since 0.0.1
  */
-public class IEBlocks {
+public class IgneousBlocks {
 
     /**
      * The {@link CreativeTabs} for dyed blocks
