@@ -17,11 +17,11 @@ public class BlockDyedCobblestone extends BlockColored {
      * @since 0.0.1
      */
     public BlockDyedCobblestone() {
-        super(Material.rock);
+        super(Material.ROCK);
 
         this.setHardness(2.0F);
         this.setResistance(10.0F);
-        this.setStepSound(SoundType.STONE);
+        this.setSoundType(SoundType.STONE);
         this.setCreativeTab(IEBlocks.DYED_BLOCKS_TAB);
         this.setUnlocalizedName("dyed_cobblestone");
         this.setRegistryName("dyed_cobblestone");
