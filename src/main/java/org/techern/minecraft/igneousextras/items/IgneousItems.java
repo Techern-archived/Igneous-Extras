@@ -9,6 +9,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import org.techern.minecraft.IgneousExtrasMod;
 import org.techern.minecraft.igneousextras.ConfigHandler;
+import org.techern.minecraft.igneousextras.items.tools.ItemIgneousAxe;
+import org.techern.minecraft.igneousextras.items.tools.ItemIgneousHoe;
+import org.techern.minecraft.igneousextras.items.tools.ItemIgneousPickaxe;
+import org.techern.minecraft.igneousextras.items.tools.ItemIgneousShovel;
+import org.techern.minecraft.igneousextras.items.weapons.ItemIgneousSword;
 
 public class IgneousItems {
 	public static Item ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_ANDESITE, "andesite");

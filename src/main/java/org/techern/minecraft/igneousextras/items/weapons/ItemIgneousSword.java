@@ -1,4 +1,4 @@
-package org.techern.minecraft.igneousextras.items;
+package org.techern.minecraft.igneousextras.items.weapons;
 
 import net.minecraft.item.ItemSword;
 
