@@ -10,8 +10,9 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.techern.minecraft.igneousextras.ConfigHandler;
-import org.techern.minecraft.igneousextras.blocks.IEBlocks;
 import org.techern.minecraft.igneousextras.items.IEItems;
+import org.techern.minecraft.igneousextras.blocks.IgneousBlocks;
+
 import org.techern.minecraft.igneousextras.proxy.ClientProxy;
 import org.techern.minecraft.igneousextras.proxy.CommonProxy;
 
@@ -72,8 +73,8 @@ public class IgneousExtrasMod {
      */
     @Mod.EventHandler
     public void handleInitEvent(FMLInitializationEvent event) {
+        IgneousBlocks.registerBlocks(); //We'll register blocks first so we don't crash when we eventually start doing dyed tools
         IEItems.registerItems();
-        IEBlocks.registerBlocks();
     }
 
     /**
@@ -85,9 +86,10 @@ public class IgneousExtrasMod {
     @Mod.EventHandler
     public void handlePostInitEvent(FMLPostInitializationEvent event) {
         IEItems.registerRecipes();
-        IEBlocks.registerRecipes();
+        IgneousBlocks.registerRecipes();
+        
         if (ConfigHandler.getConfig().hasChanged()) {
-            LOGGER.info("Igneous Additions found extra / changed configuration, and is now saving");
+            LOGGER.info("Igneous Extras found extra / changed configuration, and is now saving");
             ConfigHandler.getConfig().save();
         }
     }

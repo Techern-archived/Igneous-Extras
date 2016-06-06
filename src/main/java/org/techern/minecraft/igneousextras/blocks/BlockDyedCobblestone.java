@@ -22,7 +22,7 @@ public class BlockDyedCobblestone extends BlockColored {
         this.setHardness(2.0F);
         this.setResistance(10.0F);
         this.setSoundType(SoundType.STONE);
-        this.setCreativeTab(IEBlocks.DYED_BLOCKS_TAB);
+        this.setCreativeTab(IgneousBlocks.DYED_BLOCKS_TAB);
         this.setUnlocalizedName("dyed_cobblestone");
         this.setRegistryName("dyed_cobblestone");
         this.setHarvestLevel("pickaxe", 0);
