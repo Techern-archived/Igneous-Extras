@@ -31,6 +31,27 @@ public class IgneousExtrasMod {
     public static final String VERSION = "0.0.2-SNAPSHOT";
 
     /**
+     * The number of registered blocks
+     *
+     * @since 0.0.2
+     */
+    public static short REGISTERED_BLOCKS = 0;
+
+    /**
+     * The number of registered items
+     *
+     * @since 0.0.2
+     */
+    public static short REGISTERED_ITEMS = 0;
+
+    /**
+     * The number of registered blocks
+     *
+     * @since 0.0.2
+     */
+    public static short REGISTERED_RECIPES = 0;
+
+    /**
      * The {@link Logger} for this mod
      *
      * Gets replaced in {@link IgneousExtrasMod#handlePreInitEvent(FMLPreInitializationEvent)}
@@ -88,6 +109,8 @@ public class IgneousExtrasMod {
             LOGGER.info("Igneous Additions found extra / changed configuration, and is now saving");
             ConfigHandler.getConfig().save();
         }
+
+        LOGGER.info("IE loaded {} blocks, {} items, and {} recipes", REGISTERED_BLOCKS, REGISTERED_ITEMS, REGISTERED_RECIPES);
     }
 
 }

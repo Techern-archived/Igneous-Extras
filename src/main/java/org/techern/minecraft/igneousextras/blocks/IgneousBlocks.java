@@ -4805,6 +4805,8 @@ public class IgneousBlocks {
 
         GameRegistry.addShapedRecipe(output, "  I", " II", "III", 'I', input);
         GameRegistry.addShapedRecipe(output, "I  ", "II ", "III", 'I', input);
+
+        IgneousExtrasMod.REGISTERED_RECIPES += 1;
     }
 
     /**
@@ -4820,6 +4822,8 @@ public class IgneousBlocks {
         ItemStack output = new ItemStack(plateBlock, 1, 0);
 
         GameRegistry.addShapedRecipe(output, "II", 'I', input);
+
+        IgneousExtrasMod.REGISTERED_RECIPES += 1;
     }
 
     /**
@@ -4836,6 +4840,8 @@ public class IgneousBlocks {
         ItemStack stick = new ItemStack(Items.STICK, 1);
 
         GameRegistry.addShapedRecipe(output, "S", "I", 'I', input, 'S', stick);
+
+        IgneousExtrasMod.REGISTERED_RECIPES += 1;
     }
 
     /**
@@ -4872,6 +4878,9 @@ public class IgneousBlocks {
             GameRegistry.addShapedRecipe(new ItemStack(blockToConsume, 8, consumptionMetadata),
                                          "OOO", "OWO", "OOO",
                                          'W', water, 'O', new ItemStack(blockToReturn, 1, color.getMetadata()));
+
+
+            IgneousExtrasMod.REGISTERED_RECIPES += 2;
         }
     }
 
@@ -4886,6 +4895,8 @@ public class IgneousBlocks {
     public static void registerSimpleBlock(Block block) {
         GameRegistry.register(block);
         GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
+
+        IgneousExtrasMod.REGISTERED_BLOCKS += 1;
     }
 
     /**
@@ -4909,6 +4920,8 @@ public class IgneousBlocks {
     public static void registerColoredBlock(Block block) {
         GameRegistry.register(block);
         GameRegistry.register(new ItemColoredBlock(block).setRegistryName(block.getRegistryName()));
+
+        IgneousExtrasMod.REGISTERED_BLOCKS += 1;
     }
 
     /**
