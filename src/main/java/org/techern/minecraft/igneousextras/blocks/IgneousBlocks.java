@@ -24,6 +24,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
  *
  * @since 0.0.1
  */
+@SuppressWarnings("static-access")
 public class IgneousBlocks {
 
     /**
