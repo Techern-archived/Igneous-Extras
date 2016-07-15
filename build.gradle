@@ -25,7 +25,7 @@ group= "org.techern.minecraft" // http://maven.apache.org/guides/mini/guide-nami
 archivesBaseName = "IgneousExtras"
 
 minecraft {
-    version = "1.9.4-12.17.0.1954" //TODO Keep updating until release
+    version = "1.10.2-12.18.1.2011" //TODO Keep updating until release
     runDir = "run"
 
     // the mappings can be changed at any time, and must be in the following format.
