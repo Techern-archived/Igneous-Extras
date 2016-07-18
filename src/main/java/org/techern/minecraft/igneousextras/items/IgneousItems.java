@@ -4,12 +4,14 @@ import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import org.techern.minecraft.IgneousExtrasMod;
 import org.techern.minecraft.igneousextras.ConfigHandler;
+import org.techern.minecraft.igneousextras.blocks.IgneousBlocks;
 import org.techern.minecraft.igneousextras.items.tools.ItemIgneousAxe;
 import org.techern.minecraft.igneousextras.items.tools.ItemIgneousHoe;
 import org.techern.minecraft.igneousextras.items.tools.ItemIgneousPickaxe;
@@ -66,15 +68,42 @@ public class IgneousItems {
 	public static Item POLISHED_DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
 	public static Item POLISHED_DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
 
+	public static Item BLACK_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "black_dyed_granite");
+	public static Item BLUE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "blue_dyed_granite");
+	public static Item BROWN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "brown_dyed_granite");
+	public static Item CYAN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "cyan_dyed_granite");
+	public static Item GRAY_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "gray_dyed_granite");
+	public static Item GREEN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "green_dyed_granite");
+	public static Item LIGHT_BLUE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "light_blue_dyed_granite");
+	public static Item LIME_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "lime_dyed_granite");
+	public static Item MAGENTA_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "magenta_dyed_granite");
+	public static Item ORANGE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "orange_dyed_granite");
+	public static Item PINK_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "pink_dyed_granite");
+	public static Item PURPLE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "purple_dyed_granite");
+	public static Item RED_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "red_dyed_granite");
+	public static Item SILVER_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "silver_dyed_granite");
+	public static Item WHITE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "white_dyed_granite");
+	public static Item YELLOW_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "yellow_dyed_granite");
+
 	public static void registerItems() {
 		//GameRegistry
 		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) {
 			registerItems(ANDESITE_SWORD, ANDESITE_PICKAXE, ANDESITE_AXE, ANDESITE_SHOVEL, ANDESITE_HOE,
 					POLISHED_ANDESITE_SWORD, POLISHED_ANDESITE_PICKAXE, POLISHED_ANDESITE_AXE, POLISHED_ANDESITE_SHOVEL, POLISHED_ANDESITE_HOE);
+
 		}
 		if (ConfigHandler.ENABLE_GRANITE_TOOLS) {
 			registerItems(GRANITE_SWORD, GRANITE_PICKAXE, GRANITE_AXE, GRANITE_SHOVEL, GRANITE_HOE,
 					POLISHED_GRANITE_SWORD, POLISHED_GRANITE_PICKAXE, POLISHED_GRANITE_AXE, POLISHED_GRANITE_SHOVEL, POLISHED_GRANITE_HOE);
+
+			if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
+				registerItems(BLACK_DYED_GRANITE_SWORD, BLUE_DYED_GRANITE_SWORD, BROWN_DYED_GRANITE_SWORD,
+						CYAN_DYED_GRANITE_SWORD, GRAY_DYED_GRANITE_SWORD, GREEN_DYED_GRANITE_SWORD,
+						LIGHT_BLUE_DYED_GRANITE_SWORD, LIME_DYED_GRANITE_SWORD, MAGENTA_DYED_GRANITE_SWORD,
+						ORANGE_DYED_GRANITE_SWORD, PINK_DYED_GRANITE_SWORD, PURPLE_DYED_GRANITE_SWORD,
+						RED_DYED_GRANITE_SWORD, SILVER_DYED_GRANITE_SWORD, WHITE_DYED_GRANITE_SWORD,
+						YELLOW_DYED_GRANITE_SWORD);
+			}
 		}
 		if (ConfigHandler.ENABLE_DIORITE_TOOLS) {
 			registerItems(DIORITE_SWORD, DIORITE_PICKAXE, DIORITE_AXE, DIORITE_SHOVEL, DIORITE_HOE,
@@ -119,12 +148,50 @@ public class IgneousItems {
 		IgneousExtrasMod.PROXY.registerItemModelMesher(POLISHED_DIORITE_AXE, 0, POLISHED_DIORITE_AXE.getUnlocalizedName().substring(5), "inventory");
 		IgneousExtrasMod.PROXY.registerItemModelMesher(POLISHED_DIORITE_SHOVEL, 0, POLISHED_DIORITE_SHOVEL.getUnlocalizedName().substring(5), "inventory");
 		IgneousExtrasMod.PROXY.registerItemModelMesher(POLISHED_DIORITE_HOE, 0, POLISHED_DIORITE_HOE.getUnlocalizedName().substring(5), "inventory");
+
+		//Now... Now for dyed ones. Awww
+		IgneousExtrasMod.PROXY.registerItemModelMesher(BLACK_DYED_GRANITE_SWORD, 0, "black_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(BLUE_DYED_GRANITE_SWORD, 0, "blue_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(BROWN_DYED_GRANITE_SWORD, 0, "brown_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(CYAN_DYED_GRANITE_SWORD, 0, "cyan_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(GRAY_DYED_GRANITE_SWORD, 0, "gray_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(GREEN_DYED_GRANITE_SWORD, 0, "green_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(LIGHT_BLUE_DYED_GRANITE_SWORD, 0, "light_blue_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(LIME_DYED_GRANITE_SWORD, 0, "lime_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(MAGENTA_DYED_GRANITE_SWORD, 0, "magenta_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(ORANGE_DYED_GRANITE_SWORD, 0, "orange_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(PINK_DYED_GRANITE_SWORD, 0, "pink_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(PURPLE_DYED_GRANITE_SWORD, 0, "purple_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(RED_DYED_GRANITE_SWORD, 0, "red_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(SILVER_DYED_GRANITE_SWORD, 0, "silver_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(WHITE_DYED_GRANITE_SWORD, 0, "white_dyed_granite_sword", "inventory");
+		IgneousExtrasMod.PROXY.registerItemModelMesher(YELLOW_DYED_GRANITE_SWORD, 0, "yellow_dyed_granite_sword", "inventory");
+
 	}
 
 	public static void registerRecipes() {
 		if (ConfigHandler.ENABLE_GRANITE_TOOLS) {
 			registerToolRecipes(Blocks.STONE, 1, GRANITE_SWORD, GRANITE_PICKAXE, GRANITE_AXE, GRANITE_SHOVEL, GRANITE_HOE);
 			registerToolRecipes(Blocks.STONE, 2, POLISHED_GRANITE_SWORD, POLISHED_GRANITE_PICKAXE, POLISHED_GRANITE_AXE, POLISHED_GRANITE_SHOVEL, POLISHED_GRANITE_HOE);
+		
+			if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.BROWN.getMetadata(), BROWN_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.CYAN.getMetadata(), CYAN_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.GRAY.getMetadata(), GRAY_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.LIGHT_BLUE.getMetadata(), LIGHT_BLUE_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.LIME.getMetadata(), LIME_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.PINK.getMetadata(), PINK_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.PURPLE.getMetadata(), PURPLE_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.RED.getMetadata(), RED_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.SILVER.getMetadata(), SILVER_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_GRANITE_SWORD);
+				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_GRANITE_SWORD);
+			}
 		}
 		if (ConfigHandler.ENABLE_DIORITE_TOOLS) {
 			registerToolRecipes(Blocks.STONE, 3, DIORITE_SWORD, DIORITE_PICKAXE, DIORITE_AXE, DIORITE_SHOVEL, DIORITE_HOE);
@@ -165,7 +232,9 @@ public class IgneousItems {
 
 	private static void registerToolRecipes(Block baseBlock, int meta, Item sword, Item pickaxe, Item axe, Item shovel, Item hoe) {
 		ItemStack baseBlockStack = new ItemStack(baseBlock, 1, meta);
-		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //sword
+		
+		registerSwordRecipe(baseBlock, meta, sword);
+
 		GameRegistry.addShapedRecipe(new ItemStack(pickaxe, 1), "BBB", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //pickaxe
 		GameRegistry.addShapedRecipe(new ItemStack(axe, 1), "BB ", "BS ", " S ", 'S', Items.STICK, 'B', baseBlockStack);
 		GameRegistry.addShapedRecipe(new ItemStack(axe, 1), " BB", " SB", " S ", 'S', Items.STICK, 'B', baseBlockStack);
@@ -174,5 +243,19 @@ public class IgneousItems {
 		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //hoe flipped
 
 		IgneousExtrasMod.REGISTERED_RECIPES += 7;
+	}
+
+	/**
+	 * Registers a sword recipe
+	 *
+	 * @param baseBlock The base {@link Block}
+	 * @param meta The metadata
+	 * @param sword The sword {@link Item}
+	 *
+	 * @since 0.0.2
+     */
+	private static void registerSwordRecipe(Block baseBlock, int meta, Item sword) {
+		ItemStack baseBlockStack = new ItemStack(baseBlock, 1, meta);
+		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.STICK, 'B', baseBlockStack);
 	}
 }
