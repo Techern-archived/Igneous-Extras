@@ -19,7 +19,7 @@ archivesBaseName = "IgneousExtras"
 minecraft {
     version = "1.10.2-12.18.1.2014" //TODO Keep updating until release
     runDir = "run"
-    mappings = "snapshot_20160518"
+    mappings = "snapshot_20160718"
 }
 
 processResources
