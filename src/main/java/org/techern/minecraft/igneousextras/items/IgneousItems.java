@@ -1,6 +1,7 @@
 package org.techern.minecraft.igneousextras.items;
 
 import net.minecraft.block.Block;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
@@ -16,6 +17,19 @@ import org.techern.minecraft.igneousextras.items.tools.ItemIgneousShovel;
 import org.techern.minecraft.igneousextras.items.weapons.ItemIgneousSword;
 
 public class IgneousItems {
+
+	/**
+	 * The {@link CreativeTabs} for new swords
+	 *
+	 * @since 0.0.1
+	 */
+	public static CreativeTabs SWORDS_TAB = new CreativeTabs("igneous_swords") {
+		@Override
+		public Item getTabIconItem() {
+			return GRANITE_SWORD;
+		}
+	};
+
 	public static Item ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_ANDESITE, "andesite");
 	public static Item ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_ANDESITE, "andesite");
 	public static Item ANDESITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_ANDESITE, "andesite");
