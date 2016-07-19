@@ -32,58 +32,58 @@ public class IgneousItems {
 		}
 	};
 
-	public static Item ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_ANDESITE, "andesite");
-	public static Item ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_ANDESITE, "andesite");
-	public static Item ANDESITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_ANDESITE, "andesite");
-	public static Item ANDESITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_ANDESITE, "andesite");
-	public static Item ANDESITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_ANDESITE, "andesite");
+	public static Item ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.ANDESITE_MATERIAL, "andesite");
+	public static Item ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.ANDESITE_MATERIAL, "andesite");
+	public static Item ANDESITE_AXE = new ItemIgneousAxe(ConfigHandler.ANDESITE_MATERIAL, "andesite");
+	public static Item ANDESITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.ANDESITE_MATERIAL, "andesite");
+	public static Item ANDESITE_HOE = new ItemIgneousHoe(ConfigHandler.ANDESITE_MATERIAL, "andesite");
 
-	public static Item GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "granite");
-	public static Item GRANITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_GRANITE, "granite");
-	public static Item GRANITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_GRANITE, "granite");
-	public static Item GRANITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_GRANITE, "granite");
-	public static Item GRANITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_GRANITE, "granite");
+	public static Item GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "granite");
+	public static Item GRANITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.GRANITE_MATERIAL, "granite");
+	public static Item GRANITE_AXE = new ItemIgneousAxe(ConfigHandler.GRANITE_MATERIAL, "granite");
+	public static Item GRANITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.GRANITE_MATERIAL, "granite");
+	public static Item GRANITE_HOE = new ItemIgneousHoe(ConfigHandler.GRANITE_MATERIAL, "granite");
 
-	public static Item DIORITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_DIORITE, "diorite");
-	public static Item DIORITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_DIORITE, "diorite");
-	public static Item DIORITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_DIORITE, "diorite");
-	public static Item DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_DIORITE, "diorite");
-	public static Item DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_DIORITE, "diorite");
+	public static Item DIORITE_SWORD = new ItemIgneousSword(ConfigHandler.DIORITE_MATERIAL, "diorite");
+	public static Item DIORITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.DIORITE_MATERIAL, "diorite");
+	public static Item DIORITE_AXE = new ItemIgneousAxe(ConfigHandler.DIORITE_MATERIAL, "diorite");
+	public static Item DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.DIORITE_MATERIAL, "diorite");
+	public static Item DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.DIORITE_MATERIAL, "diorite");
 	
-	public static Item POLISHED_ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_POLISHED_ANDESITE, "polished_andesite");
-	public static Item POLISHED_ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_POLISHED_ANDESITE, "polished_andesite");
-	public static Item POLISHED_ANDESITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_POLISHED_ANDESITE, "polished_andesite");
-	public static Item POLISHED_ANDESITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_POLISHED_ANDESITE, "polished_andesite");
-	public static Item POLISHED_ANDESITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_POLISHED_ANDESITE, "polished_andesite");
+	public static Item POLISHED_ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.POLISHED_ANDESITE_MATERIAL, "polished_andesite");
+	public static Item POLISHED_ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.POLISHED_ANDESITE_MATERIAL, "polished_andesite");
+	public static Item POLISHED_ANDESITE_AXE = new ItemIgneousAxe(ConfigHandler.POLISHED_ANDESITE_MATERIAL, "polished_andesite");
+	public static Item POLISHED_ANDESITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.POLISHED_ANDESITE_MATERIAL, "polished_andesite");
+	public static Item POLISHED_ANDESITE_HOE = new ItemIgneousHoe(ConfigHandler.POLISHED_ANDESITE_MATERIAL, "polished_andesite");
 
-	public static Item POLISHED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_POLISHED_GRANITE, "polished_granite");
-	public static Item POLISHED_GRANITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_POLISHED_GRANITE, "polished_granite");
-	public static Item POLISHED_GRANITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_POLISHED_GRANITE, "polished_granite");
-	public static Item POLISHED_GRANITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_POLISHED_GRANITE, "polished_granite");
-	public static Item POLISHED_GRANITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_POLISHED_GRANITE, "polished_granite");
+	public static Item POLISHED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.POLISHED_GRANITE_MATERIAL, "polished_granite");
+	public static Item POLISHED_GRANITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.POLISHED_GRANITE_MATERIAL, "polished_granite");
+	public static Item POLISHED_GRANITE_AXE = new ItemIgneousAxe(ConfigHandler.POLISHED_GRANITE_MATERIAL, "polished_granite");
+	public static Item POLISHED_GRANITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.POLISHED_GRANITE_MATERIAL, "polished_granite");
+	public static Item POLISHED_GRANITE_HOE = new ItemIgneousHoe(ConfigHandler.POLISHED_GRANITE_MATERIAL, "polished_granite");
 
-	public static Item POLISHED_DIORITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
-	public static Item POLISHED_DIORITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
-	public static Item POLISHED_DIORITE_AXE = new ItemIgneousAxe(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
-	public static Item POLISHED_DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
-	public static Item POLISHED_DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.MAT_POLISHED_DIORITE, "polished_diorite");
+	public static Item POLISHED_DIORITE_SWORD = new ItemIgneousSword(ConfigHandler.POLISHED_DIORITE_MATERIAL, "polished_diorite");
+	public static Item POLISHED_DIORITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.POLISHED_DIORITE_MATERIAL, "polished_diorite");
+	public static Item POLISHED_DIORITE_AXE = new ItemIgneousAxe(ConfigHandler.POLISHED_DIORITE_MATERIAL, "polished_diorite");
+	public static Item POLISHED_DIORITE_SHOVEL = new ItemIgneousShovel(ConfigHandler.POLISHED_DIORITE_MATERIAL, "polished_diorite");
+	public static Item POLISHED_DIORITE_HOE = new ItemIgneousHoe(ConfigHandler.POLISHED_DIORITE_MATERIAL, "polished_diorite");
 
-	public static Item BLACK_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "black_dyed_granite");
-	public static Item BLUE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "blue_dyed_granite");
-	public static Item BROWN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "brown_dyed_granite");
-	public static Item CYAN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "cyan_dyed_granite");
-	public static Item GRAY_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "gray_dyed_granite");
-	public static Item GREEN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "green_dyed_granite");
-	public static Item LIGHT_BLUE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "light_blue_dyed_granite");
-	public static Item LIME_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "lime_dyed_granite");
-	public static Item MAGENTA_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "magenta_dyed_granite");
-	public static Item ORANGE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "orange_dyed_granite");
-	public static Item PINK_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "pink_dyed_granite");
-	public static Item PURPLE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "purple_dyed_granite");
-	public static Item RED_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "red_dyed_granite");
-	public static Item SILVER_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "silver_dyed_granite");
-	public static Item WHITE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "white_dyed_granite");
-	public static Item YELLOW_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.MAT_GRANITE, "yellow_dyed_granite");
+	public static Item BLACK_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "black_dyed_granite");
+	public static Item BLUE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "blue_dyed_granite");
+	public static Item BROWN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "brown_dyed_granite");
+	public static Item CYAN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "cyan_dyed_granite");
+	public static Item GRAY_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "gray_dyed_granite");
+	public static Item GREEN_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "green_dyed_granite");
+	public static Item LIGHT_BLUE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "light_blue_dyed_granite");
+	public static Item LIME_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "lime_dyed_granite");
+	public static Item MAGENTA_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "magenta_dyed_granite");
+	public static Item ORANGE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "orange_dyed_granite");
+	public static Item PINK_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "pink_dyed_granite");
+	public static Item PURPLE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "purple_dyed_granite");
+	public static Item RED_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "red_dyed_granite");
+	public static Item SILVER_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "silver_dyed_granite");
+	public static Item WHITE_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "white_dyed_granite");
+	public static Item YELLOW_DYED_GRANITE_SWORD = new ItemIgneousSword(ConfigHandler.GRANITE_MATERIAL, "yellow_dyed_granite");
 
 	public static void registerItems() {
 		//GameRegistry

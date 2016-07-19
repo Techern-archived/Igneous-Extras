@@ -49,20 +49,83 @@ public class ConfigHandler {
 	 * @since 0.0.2
 	 */
 	public static boolean ENABLE_ADDITIONAL_LEVERS;
-    
+
+    /**
+	 * Checks to see if additional tools are enabled
+	 *
+	 * @since 0.0.2
+	 */
     public static boolean ENABLE_ADDITIONAL_TOOLS;
-    
+
+    /**
+	 * The durability boost for polished tools
+	 *
+	 * @since 0.0.2
+	 */
     public static final int POLISHED_BOOST_DURABILITY = 33;
+
+	/**
+	 * The efficiency boost for polished tools
+	 *
+	 * @since 0.0.2
+	 */
     public static final float POLISHED_BOOST_EFFICIENCY = 1F;
+
+	/**
+	 * The damage boost for polished tools
+	 *
+	 * @since 0.0.2
+	 */
     public static final float POLISHED_BOOST_DAMAGE = 0.5F;
+
+	/**
+	 * The enchantability boost for polished tools
+	 *
+	 * @since 0.0.2
+	 */
     public static final int POLISHED_BOOST_ENCHANTABILITY = 2;
 
-	public static ToolMaterial MAT_GRANITE;
-	public static ToolMaterial MAT_ANDESITE;
-	public static ToolMaterial MAT_DIORITE;
-	public static ToolMaterial MAT_POLISHED_GRANITE;
-	public static ToolMaterial MAT_POLISHED_ANDESITE;
-	public static ToolMaterial MAT_POLISHED_DIORITE;
+	/**
+	 * The {@link ToolMaterial} entry for granite
+	 *
+	 * @since 0.0.2
+	 */
+	public static ToolMaterial GRANITE_MATERIAL;
+
+	/**
+	 * The {@link ToolMaterial} entry for andesite
+	 *
+	 * @since 0.0.2
+	 */
+	public static ToolMaterial ANDESITE_MATERIAL;
+
+	/**
+	 * The {@link ToolMaterial} entry for diorite
+	 *
+	 * @since 0.0.2
+	 */
+	public static ToolMaterial DIORITE_MATERIAL;
+
+	/**
+	 * The {@link ToolMaterial} entry for polished granite
+	 *
+	 * @since 0.0.2
+	 */
+	public static ToolMaterial POLISHED_GRANITE_MATERIAL;
+
+	/**
+	 * The {@link ToolMaterial} entry for polished andesite
+	 *
+	 * @since 0.0.2
+	 */
+	public static ToolMaterial POLISHED_ANDESITE_MATERIAL;
+
+	/**
+	 * The {@link ToolMaterial} entry for polished diorite
+	 *
+	 * @since 0.0.2
+	 */
+	public static ToolMaterial POLISHED_DIORITE_MATERIAL;
 
 
     /**
@@ -86,19 +149,19 @@ public class ConfigHandler {
     	ENABLE_ADDITIONAL_TOOLS = configuration.get("ADDITIONAL_ITEMS", "TOOL", true, "Enable additional tools").getBoolean();
 
     	//Materials
-		MAT_GRANITE = EnumHelper.addToolMaterial("granite",
+		GRANITE_MATERIAL = EnumHelper.addToolMaterial("granite",
 				configuration.getInt("harvestlevel", "granite_material", 1, 0, Integer.MAX_VALUE, ""),
 				configuration.getInt("durability", "granite_material", 131, 1, Integer.MAX_VALUE, ""),
 				configuration.getFloat("efficiency", "granite_material", 4.0F, 1.0F, Float.MAX_VALUE, ""),
 				configuration.getFloat("damage_on_hit", "granite_material", 5.0F, 1, Float.MAX_VALUE, "") - 4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				configuration.getInt("enchantability", "granite_material", 5, 1, Integer.MAX_VALUE, ""));
-		MAT_ANDESITE = EnumHelper.addToolMaterial("andesite",
+		ANDESITE_MATERIAL = EnumHelper.addToolMaterial("andesite",
 				configuration.getInt("harvestlevel", "andesite_material", 1, 0, Integer.MAX_VALUE, ""),
 				configuration.getInt("durability", "andesite_material", 131, 1, Integer.MAX_VALUE, ""),
 				configuration.getFloat("efficiency", "andesite_material", 4.0F, 1.0F, Float.MAX_VALUE, ""),
 				configuration.getFloat("damage_on_hit", "andesite_material", 5.0F, 1, Float.MAX_VALUE, "") - 4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				configuration.getInt("enchantability", "andesite_material", 5, 1, Integer.MAX_VALUE, ""));
-		MAT_DIORITE = EnumHelper.addToolMaterial("diorite",
+		DIORITE_MATERIAL = EnumHelper.addToolMaterial("diorite",
 				configuration.getInt("harvestlevel", "diorite_material", 1, 0, Integer.MAX_VALUE, ""),
 				configuration.getInt("durability", "diorite_material", 131, 1, Integer.MAX_VALUE, ""),
 				configuration.getFloat("efficiency", "diorite_material", 4.0F, 1.0F, Float.MAX_VALUE, ""),
@@ -106,19 +169,19 @@ public class ConfigHandler {
 				configuration.getInt("enchantability", "diorite_material", 250, 1, Integer.MAX_VALUE, ""));
 
 		
-		MAT_POLISHED_GRANITE = EnumHelper.addToolMaterial("polished_granite",
+		POLISHED_GRANITE_MATERIAL = EnumHelper.addToolMaterial("polished_granite",
 				configuration.getInt("harvestlevel", "polished_granite_material", 1, 0, Integer.MAX_VALUE, ""),
 				configuration.getInt("durability", "polished_granite_material", (131 + POLISHED_BOOST_DURABILITY), 1, Integer.MAX_VALUE, ""),
 				configuration.getFloat("efficiency", "polished_granite_material", (4.0F + POLISHED_BOOST_EFFICIENCY), 1.0F, Float.MAX_VALUE, ""),
 				configuration.getFloat("damage_on_hit", "polished_granite_material", (5.0F + POLISHED_BOOST_DAMAGE), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				configuration.getInt("enchantability", "polished_granite_material", (5 + POLISHED_BOOST_ENCHANTABILITY), 1, Integer.MAX_VALUE, ""));
-		MAT_POLISHED_ANDESITE = EnumHelper.addToolMaterial("polished_andesite",
+		POLISHED_ANDESITE_MATERIAL = EnumHelper.addToolMaterial("polished_andesite",
 				configuration.getInt("harvestlevel", "polished_andesite_material", 1, 0, Integer.MAX_VALUE, ""),
 				configuration.getInt("durability", "polished_andesite_material", (131 + POLISHED_BOOST_DURABILITY), 1, Integer.MAX_VALUE, ""),
 				configuration.getFloat("efficiency", "polished_andesite_material", (4.0F + POLISHED_BOOST_EFFICIENCY), 1.0F, Float.MAX_VALUE, ""),
 				configuration.getFloat("damage_on_hit", "polished_andesite_material", (5.0F + POLISHED_BOOST_DAMAGE), 1, Float.MAX_VALUE, "")-4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				configuration.getInt("enchantability", "polished_andesite_material", (5 + POLISHED_BOOST_ENCHANTABILITY), 1, Integer.MAX_VALUE, ""));
-		MAT_POLISHED_DIORITE = EnumHelper.addToolMaterial("diorite",
+		POLISHED_DIORITE_MATERIAL = EnumHelper.addToolMaterial("diorite",
 				configuration.getInt("harvestlevel", "polished_diorite_material", 1, 0, Integer.MAX_VALUE, ""),
 				configuration.getInt("durability", "polished_diorite_material", (131 + POLISHED_BOOST_DURABILITY), 1, Integer.MAX_VALUE, ""),
 				configuration.getFloat("efficiency", "polished_diorite_material", (4.0F + POLISHED_BOOST_EFFICIENCY), 1.0F, Float.MAX_VALUE, ""),
