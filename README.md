@@ -1,5 +1,5 @@
 # Igneous-Extras
-A revival of the Igneous Additions mod for Minecraft 1.10 (and beyond)
+A revival of the Igneous Additions mod for Minecraft 1.10.2 (and beyond)
 
 ## Releases (New to old) - Including next release
 
