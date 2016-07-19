@@ -1,8 +1,6 @@
 package org.techern.minecraft.igneousextras;
 
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.config.Configuration;
-import net.minecraftforge.common.util.EnumHelper;
 
 import org.techern.minecraft.IgneousExtrasMod;
 
@@ -13,39 +11,69 @@ import org.techern.minecraft.IgneousExtrasMod;
  * @since 0.0.2
  */
 public class ConfigHandler {
+
 	/**
      * The {@link Configuration} (backed by a {@link java.io.File} used by {@link IgneousExtrasMod}
      *
-     * @see {@link ConfigHandler#getConfig()}
+     * @see {@link ConfigHandler#getRawConfig()}
      * @since 0.0.2
      */
-    private static Configuration cfg;
+    private static Configuration configuration;
 
-	public static ToolMaterial MAT_GRANITE;
-	public static ToolMaterial MAT_ANDESITE;
-	public static ToolMaterial MAT_DIORITE;
-    
+    /**
+	 * Checks to see if dyed stone blocks are enabled
+	 *
+	 * @since 0.0.2
+	 */
     public static boolean ENABLE_DYED_STONE_BLOCKS;
+
+	/**
+	 * Checks to see if additional stairs are enabled
+	 *
+	 * @since 0.0.2
+	 */
     public static boolean ENABLE_ADDITIONAL_STAIRS;
 
+	/**
+	 * Checks to see if additional pressure plates are enabled
+	 *
+	 * @since 0.0.2
+	 */
 	public static boolean ENABLE_ADDITIONAL_PRESSURE_PLATES;
 
+	/**
+	 * Checks to see if additional levers are enabled
+	 *
+	 * @since 0.0.2
+	 */
 	public static boolean ENABLE_ADDITIONAL_LEVERS;
 
-    
-	public static void init(Configuration cfgFile) {
-    	cfg = cfgFile;
-    	cfg.load();
+	/**
+	 * Initialize the configuration handler
+	 *
+	 * @param rawConfiguration The raw {@link Configuration} being imported
+	 *
+	 * @since 0.0.2
+     */
+	public static void init(Configuration rawConfiguration) {
+    	configuration = rawConfiguration;
+    	configuration.load();
     	
-    	ENABLE_DYED_STONE_BLOCKS = cfg.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean();
-    	ENABLE_ADDITIONAL_STAIRS = cfg.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean();
-    	ENABLE_ADDITIONAL_PRESSURE_PLATES = cfg.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean();
-		ENABLE_ADDITIONAL_LEVERS = cfg.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean();
-    	
+    	ENABLE_DYED_STONE_BLOCKS = configuration.get("ADDITIONAL_BLOCKS", "DYED_STONE_BLOCKS", true, "Enable the use of dyed stone blocks").getBoolean();
+    	ENABLE_ADDITIONAL_STAIRS = configuration.get("ADDITIONAL_BLOCKS", "STAIRS", true, "Enable the use of additional stair blocks").getBoolean();
+    	ENABLE_ADDITIONAL_PRESSURE_PLATES = configuration.get("ADDITIONAL_BLOCKS", "PRESSURE_PLATES", true, "Enable the use of additional pressure plates").getBoolean();
+		ENABLE_ADDITIONAL_LEVERS = configuration.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean();
+
     }
-	
-	public static Configuration getConfig() {
-		return cfg;
+
+	/**
+	 * Get the raw {@link Configuration}
+	 *
+	 * @return The raw {@link Configuration}
+	 * @since 0.0.2
+     */
+	public static Configuration getRawConfig() {
+		return configuration;
 	}
 	
 }
