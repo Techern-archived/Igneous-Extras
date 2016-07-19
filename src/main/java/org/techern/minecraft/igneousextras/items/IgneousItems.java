@@ -87,12 +87,13 @@ public class IgneousItems {
 
 	public static void registerItems() {
 		//GameRegistry
-		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) {
+		if (ConfigHandler.ENABLE_ADDITIONAL_TOOLS) {
+
+			//Start with andesite tools
 			registerItems(ANDESITE_SWORD, ANDESITE_PICKAXE, ANDESITE_AXE, ANDESITE_SHOVEL, ANDESITE_HOE,
 					POLISHED_ANDESITE_SWORD, POLISHED_ANDESITE_PICKAXE, POLISHED_ANDESITE_AXE, POLISHED_ANDESITE_SHOVEL, POLISHED_ANDESITE_HOE);
 
-		}
-		if (ConfigHandler.ENABLE_GRANITE_TOOLS) {
+			//Then granite tools
 			registerItems(GRANITE_SWORD, GRANITE_PICKAXE, GRANITE_AXE, GRANITE_SHOVEL, GRANITE_HOE,
 					POLISHED_GRANITE_SWORD, POLISHED_GRANITE_PICKAXE, POLISHED_GRANITE_AXE, POLISHED_GRANITE_SHOVEL, POLISHED_GRANITE_HOE);
 
@@ -104,8 +105,8 @@ public class IgneousItems {
 						RED_DYED_GRANITE_SWORD, SILVER_DYED_GRANITE_SWORD, WHITE_DYED_GRANITE_SWORD,
 						YELLOW_DYED_GRANITE_SWORD);
 			}
-		}
-		if (ConfigHandler.ENABLE_DIORITE_TOOLS) {
+
+			//Then diorite tools
 			registerItems(DIORITE_SWORD, DIORITE_PICKAXE, DIORITE_AXE, DIORITE_SHOVEL, DIORITE_HOE,
 					POLISHED_DIORITE_SWORD, POLISHED_DIORITE_PICKAXE, POLISHED_DIORITE_AXE, POLISHED_DIORITE_SHOVEL, POLISHED_DIORITE_HOE);
 		}
@@ -170,10 +171,15 @@ public class IgneousItems {
 	}
 
 	public static void registerRecipes() {
-		if (ConfigHandler.ENABLE_GRANITE_TOOLS) {
+
+		//First, we register recipes for tools
+		if (ConfigHandler.ENABLE_ADDITIONAL_TOOLS) {
+
+			//Start with granite
+
 			registerToolRecipes(Blocks.STONE, 1, GRANITE_SWORD, GRANITE_PICKAXE, GRANITE_AXE, GRANITE_SHOVEL, GRANITE_HOE);
 			registerToolRecipes(Blocks.STONE, 2, POLISHED_GRANITE_SWORD, POLISHED_GRANITE_PICKAXE, POLISHED_GRANITE_AXE, POLISHED_GRANITE_SHOVEL, POLISHED_GRANITE_HOE);
-		
+
 			if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
 				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_GRANITE_SWORD);
 				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.BLUE.getMetadata(), BLUE_DYED_GRANITE_SWORD);
@@ -192,15 +198,16 @@ public class IgneousItems {
 				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_GRANITE_SWORD);
 				registerSwordRecipe(IgneousBlocks.DYED_GRANITE, EnumDyeColor.YELLOW.getMetadata(), YELLOW_DYED_GRANITE_SWORD);
 			}
-		}
-		if (ConfigHandler.ENABLE_DIORITE_TOOLS) {
+
+			//Then diorite
+
 			registerToolRecipes(Blocks.STONE, 3, DIORITE_SWORD, DIORITE_PICKAXE, DIORITE_AXE, DIORITE_SHOVEL, DIORITE_HOE);
 			registerToolRecipes(Blocks.STONE, 4, POLISHED_DIORITE_SWORD, POLISHED_DIORITE_PICKAXE, POLISHED_DIORITE_AXE, POLISHED_DIORITE_SHOVEL, POLISHED_DIORITE_HOE);
-		}
-		
-		if (ConfigHandler.ENABLE_ANDESITE_TOOLS) {
+
+			//Then andesite
 			registerToolRecipes(Blocks.STONE, 5, ANDESITE_SWORD, ANDESITE_PICKAXE, ANDESITE_AXE, ANDESITE_SHOVEL, ANDESITE_HOE);
 			registerToolRecipes(Blocks.STONE, 6, POLISHED_ANDESITE_SWORD, POLISHED_ANDESITE_PICKAXE, POLISHED_ANDESITE_AXE, POLISHED_ANDESITE_SHOVEL, POLISHED_ANDESITE_HOE);
+
 		}
 	}
 
@@ -242,7 +249,7 @@ public class IgneousItems {
 		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), " BB", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //hoe
 		GameRegistry.addShapedRecipe(new ItemStack(hoe, 1), "BB ", " S ", " S ", 'S', Items.STICK, 'B', baseBlockStack); //hoe flipped
 
-		IgneousExtrasMod.REGISTERED_RECIPES += 7;
+		IgneousExtrasMod.REGISTERED_RECIPES += 6;
 	}
 
 	/**
@@ -257,5 +264,6 @@ public class IgneousItems {
 	private static void registerSwordRecipe(Block baseBlock, int meta, Item sword) {
 		ItemStack baseBlockStack = new ItemStack(baseBlock, 1, meta);
 		GameRegistry.addShapedRecipe(new ItemStack(sword, 1), " B ", " B ", " S ", 'S', Items.STICK, 'B', baseBlockStack);
+		IgneousExtrasMod.REGISTERED_RECIPES += 1;
 	}
 }

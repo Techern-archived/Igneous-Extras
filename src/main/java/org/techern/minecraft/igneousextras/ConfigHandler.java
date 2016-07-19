@@ -50,9 +50,7 @@ public class ConfigHandler {
 	 */
 	public static boolean ENABLE_ADDITIONAL_LEVERS;
     
-    public static boolean ENABLE_ANDESITE_TOOLS;
-    public static boolean ENABLE_GRANITE_TOOLS;
-    public static boolean ENABLE_DIORITE_TOOLS;
+    public static boolean ENABLE_ADDITIONAL_TOOLS;
     
     public static final int POLISHED_BOOST_DURABILITY = 33;
     public static final float POLISHED_BOOST_EFFICIENCY = 1F;
@@ -85,10 +83,8 @@ public class ConfigHandler {
 		ENABLE_ADDITIONAL_LEVERS = configuration.get("ADDITIONAL_BLOCKS", "LEVERS", true, "Enable the use of additional levers").getBoolean();
     	
     	//Items
-    	ENABLE_ANDESITE_TOOLS = configuration.get("ADDITIONAL_TOOLS", "ANDESITE", true, "Enable andesite tools").getBoolean();
-    	ENABLE_GRANITE_TOOLS = configuration.get("ADDITIONAL_TOOLS", "GRANITE", true, "Enable granite tools").getBoolean();
-    	ENABLE_DIORITE_TOOLS = configuration.get("ADDITIONAL_TOOLS", "DIORITE", true, "Enable diorite tools").getBoolean();
-    	
+    	ENABLE_ADDITIONAL_TOOLS = configuration.get("ADDITIONAL_ITEMS", "TOOL", true, "Enable additional tools").getBoolean();
+
     	//Materials
 		MAT_GRANITE = EnumHelper.addToolMaterial("granite",
 				configuration.getInt("harvestlevel", "granite_material", 1, 0, Integer.MAX_VALUE, ""),
