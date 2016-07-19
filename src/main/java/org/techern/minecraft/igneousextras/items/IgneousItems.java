@@ -237,6 +237,17 @@ public class IgneousItems {
 		}
 	}
 
+	/**
+	 * Registers all recipes associated with tools
+	 *
+	 * @param baseBlock The base block used by the recipe
+	 * @param meta The metadata of the base block
+	 * @param sword The sword item
+	 * @param pickaxe The pickaxe item
+	 * @param axe The axe item
+	 * @param shovel The shovel item
+     * @param hoe The hoe item
+     */
 	private static void registerToolRecipes(Block baseBlock, int meta, Item sword, Item pickaxe, Item axe, Item shovel, Item hoe) {
 		ItemStack baseBlockStack = new ItemStack(baseBlock, 1, meta);
 		
