@@ -108,10 +108,11 @@ public class IgneousExtrasMod {
     public void handlePostInitEvent(FMLPostInitializationEvent event) {
         IgneousItems.registerRecipes();
         IgneousBlocks.registerRecipes();
-        
-        if (ConfigHandler.getConfig().hasChanged()) {
+
+
+        if (ConfigHandler.getRawConfig().hasChanged()) {
             LOGGER.info("Igneous Extras found extra / changed configuration, and is now saving");
-            ConfigHandler.getConfig().save();
+            ConfigHandler.getRawConfig().save();
         }
 
         LOGGER.info("IE loaded {} blocks, {} items, and {} recipes", REGISTERED_BLOCKS, REGISTERED_ITEMS, REGISTERED_RECIPES);
