@@ -22,6 +22,11 @@ public class ConfigHandler {
      */
     private static Configuration configuration;
 
+	/**
+	 * Checks to see if dyed stone blocks are enabled
+	 *
+	 * @since 0.0.2
+	 */
     public static boolean ENABLE_DYED_STONE_BLOCKS;
 
 	/**
