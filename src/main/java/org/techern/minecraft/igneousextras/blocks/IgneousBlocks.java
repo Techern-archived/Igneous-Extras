@@ -3438,7 +3438,7 @@ public class IgneousBlocks {
                                 ANDESITE_STAIRS, POLISHED_ANDESITE_STAIRS);
 
             //Okay, dyed blocks now!
-            if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 registerSimpleBlocks(WHITE_DYED_COBBLESTONE_STAIRS, ORANGE_DYED_COBBLESTONE_STAIRS,
                         MAGENTA_DYED_COBBLESTONE_STAIRS, LIGHT_BLUE_DYED_COBBLESTONE_STAIRS,
                         YELLOW_DYED_COBBLESTONE_STAIRS, LIME_DYED_COBBLESTONE_STAIRS,
@@ -3512,7 +3512,7 @@ public class IgneousBlocks {
                     CRACKED_STONE_BRICK_PRESSURE_PLATE, CHISELED_STONE_BRICK_PRESSURE_PLATE,
                     MOSSY_STONE_BRICK_PRESSURE_PLATE);
             
-            if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 registerSimpleBlocks(WHITE_DYED_STONE_PRESSURE_PLATE, ORANGE_DYED_STONE_PRESSURE_PLATE,
                         MAGENTA_DYED_STONE_PRESSURE_PLATE, LIGHT_BLUE_DYED_STONE_PRESSURE_PLATE,
                         YELLOW_DYED_STONE_PRESSURE_PLATE, LIME_DYED_STONE_PRESSURE_PLATE,
@@ -3596,7 +3596,7 @@ public class IgneousBlocks {
                     POLISHED_DIORITE_LEVER, ANDESITE_LEVER, POLISHED_ANDESITE_LEVER, MOSSY_COBBLESTONE_LEVER,
                     STONE_BRICK_LEVER, CHISELED_STONE_BRICK_LEVER, CRACKED_STONE_BRICK_LEVER, MOSSY_STONE_BRICK_LEVER);
             
-            if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 registerSimpleBlocks(WHITE_DYED_STONE_LEVER, ORANGE_DYED_STONE_LEVER, MAGENTA_DYED_STONE_LEVER,
                         LIGHT_BLUE_DYED_STONE_LEVER, YELLOW_DYED_STONE_LEVER, LIME_DYED_STONE_LEVER,
                         PINK_DYED_STONE_LEVER, GRAY_DYED_STONE_LEVER, SILVER_DYED_STONE_LEVER, CYAN_DYED_STONE_LEVER,
@@ -3698,7 +3698,7 @@ public class IgneousBlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(POLISHED_ANDESITE_STAIRS), 0, "polished_andesite_stairs", "inventory");
 
             //Now begin the dyed versions
-            if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_COBBLESTONE_STAIRS), 0, "white_dyed_cobblestone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_COBBLESTONE_STAIRS), 0, "orange_dyed_cobblestone_stairs", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_COBBLESTONE_STAIRS), 0, "magenta_dyed_cobblestone_stairs", "inventory");
@@ -3873,7 +3873,7 @@ public class IgneousBlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CRACKED_STONE_BRICK_PRESSURE_PLATE), 0, "cracked_stone_brick_pressure_plate", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_PRESSURE_PLATE), 0, "mossy_stone_brick_pressure_plate", "inventory");
 
-            if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_STONE_PRESSURE_PLATE), 0, "white_dyed_stone_pressure_plate", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_STONE_PRESSURE_PLATE), 0, "orange_dyed_stone_pressure_plate", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MAGENTA_DYED_STONE_PRESSURE_PLATE), 0, "magenta_dyed_stone_pressure_plate", "inventory");
@@ -4057,7 +4057,7 @@ public class IgneousBlocks {
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(CHISELED_STONE_BRICK_LEVER), 0, "chiseled_stone_brick_lever", "inventory");
             IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(MOSSY_STONE_BRICK_LEVER), 0, "mossy_stone_brick_lever", "inventory");
             
-            if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
 
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(WHITE_DYED_STONE_LEVER), 0, "white_dyed_stone_lever", "inventory");
                 IgneousExtrasMod.PROXY.registerItemModelMesher(Item.getItemFromBlock(ORANGE_DYED_STONE_LEVER), 0, "orange_dyed_stone_lever", "inventory");
@@ -4275,7 +4275,7 @@ public class IgneousBlocks {
             registerStairsRecipe(Blocks.STONE, 6, POLISHED_ANDESITE_STAIRS);
 
             //Now dyed variants
-            if (ConfigHandler.ENABLE_DYED_STONE_STAIRS) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_COBBLESTONE_STAIRS);
                 registerStairsRecipe(DYED_COBBLESTONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_COBBLESTONE_STAIRS);
@@ -4328,9 +4328,6 @@ public class IgneousBlocks {
                 registerStairsRecipe(DYED_STONE, EnumDyeColor.GREEN.getMetadata(), GREEN_DYED_STONE_STAIRS);
                 registerStairsRecipe(DYED_STONE, EnumDyeColor.RED.getMetadata(), RED_DYED_STONE_STAIRS);
                 registerStairsRecipe(DYED_STONE, EnumDyeColor.BLACK.getMetadata(), BLACK_DYED_STONE_STAIRS);
-
-                //<h1>UGHHHHH</h1>
-                //Maybe I should have skipped dyed stone... But oh well
 
                 registerStairsRecipe(DYED_ANDESITE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_ANDESITE_STAIRS);
                 registerStairsRecipe(DYED_ANDESITE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_ANDESITE_STAIRS);
@@ -4458,7 +4455,7 @@ public class IgneousBlocks {
             registerPressurePlateRecipe(Blocks.STONEBRICK, BlockStoneBrick.EnumType.CRACKED.getMetadata(), CRACKED_STONE_BRICK_PRESSURE_PLATE);
             registerPressurePlateRecipe(Blocks.STONEBRICK, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_PRESSURE_PLATE);
 
-            if (ConfigHandler.ENABLE_DYED_STONE_PRESSURE_PLATES) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
                 registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_STONE_PRESSURE_PLATE);
                 registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_STONE_PRESSURE_PLATE);
                 registerPressurePlateRecipe(DYED_STONE, EnumDyeColor.MAGENTA.getMetadata(), MAGENTA_DYED_STONE_PRESSURE_PLATE);
@@ -4631,7 +4628,7 @@ public class IgneousBlocks {
             registerLeverRecipe(Blocks.STONEBRICK, BlockStoneBrick.EnumType.CHISELED.getMetadata(), CHISELED_STONE_BRICK_LEVER);
             registerLeverRecipe(Blocks.STONEBRICK, BlockStoneBrick.EnumType.MOSSY.getMetadata(), MOSSY_STONE_BRICK_LEVER);
             
-            if (ConfigHandler.ENABLE_DYED_STONE_LEVERS) {
+            if (ConfigHandler.ENABLE_DYED_STONE_BLOCKS) {
 
                 registerLeverRecipe(DYED_STONE, EnumDyeColor.WHITE.getMetadata(), WHITE_DYED_STONE_LEVER);
                 registerLeverRecipe(DYED_STONE, EnumDyeColor.ORANGE.getMetadata(), ORANGE_DYED_STONE_LEVER);
