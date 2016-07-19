@@ -46,19 +46,19 @@ public class ConfigHandler {
 				cfg.getInt("harvestlevel", "granite_material", 1, 0, Integer.MAX_VALUE, ""),
 				cfg.getInt("durability", "granite_material", 250, 1, Integer.MAX_VALUE, ""),
 				cfg.getFloat("efficiency", "granite_material", 4.5F, 1.0F, Float.MAX_VALUE, ""),
-				cfg.getFloat("damge_on_hit", "granite_material", 5.0F, 1, Float.MAX_VALUE, "") -4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
+				cfg.getFloat("damage_on_hit", "granite_material", 5.0F, 1, Float.MAX_VALUE, "") -4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				cfg.getInt("enchantability", "granite_material", 250, 1, Integer.MAX_VALUE, ""));
 		MAT_ANDESITE = EnumHelper.addToolMaterial("andesite",
 				cfg.getInt("harvestlevel", "andesite_material", 1, 0, Integer.MAX_VALUE, ""),
 				cfg.getInt("durability", "andesite_material", 250, 1, Integer.MAX_VALUE, ""),
 				cfg.getFloat("efficiency", "andesite_material", 4.5F, 1.0F, Float.MAX_VALUE, ""),
-				cfg.getFloat("damge_on_hit", "andesite_material", 5.0F, 1, Float.MAX_VALUE, "") -4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
+				cfg.getFloat("damage_on_hit", "andesite_material", 5.0F, 1, Float.MAX_VALUE, "") -4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				cfg.getInt("enchantability", "andesite_material", 250, 1, Integer.MAX_VALUE, ""));
 		MAT_DIORITE = EnumHelper.addToolMaterial("diorite",
 				cfg.getInt("harvestlevel", "diorite_material", 1, 0, Integer.MAX_VALUE, ""),
 				cfg.getInt("durability", "diorite_material", 250, 1, Integer.MAX_VALUE, ""),
 				cfg.getFloat("efficiency", "diorite_material", 4.5F, 1.0F, Float.MAX_VALUE, ""),
-				cfg.getFloat("damge_on_hit", "diorite_material", 5.0F, 1, Float.MAX_VALUE, "") -4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
+				cfg.getFloat("damage_on_hit", "diorite_material", 5.0F, 1, Float.MAX_VALUE, "") -4F, //Minecraft automatically adds 4.0F, so to give an actual representation I retract 4.0F
 				cfg.getInt("enchantability", "diorite_material", 250, 1, Integer.MAX_VALUE, ""));
     }
 	
