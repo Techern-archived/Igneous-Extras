@@ -1,5 +1,6 @@
 package org.techern.minecraft.igneousextras.items;
 
+import mcp.MethodsReturnNonnullByDefault;
 import net.minecraft.block.Block;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.ItemBlock;
@@ -42,6 +43,7 @@ public class ItemColoredBlock extends ItemBlock {
      * @since 0.0.1
      */
     @Override
+    @MethodsReturnNonnullByDefault
 	public String getUnlocalizedName(ItemStack stack)
     {
         return super.getUnlocalizedName() + "." + EnumDyeColor.byMetadata(stack.getMetadata()).getUnlocalizedName();
