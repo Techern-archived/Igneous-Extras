@@ -4,6 +4,8 @@
 itemGroup.dyed_blocks=Colorrred Squares
 itemGroup.dyed_igneous_stairs=Stairs o' Colorrred Rock
 itemGroup.igneous_stairs=Stairs o' Rock
+itemGroup.igneous_pressure_plates=Booby Traps o' Rock
+itemGroup.igneous_levers=Leverrr o' Rock
 
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Colorrred Pebbles
@@ -358,3 +360,341 @@ tile.stone_brick_pressure_plate.name=Rock Brick Booby Trap
 tile.cracked_stone_brick_pressure_plate.name=Cracked Rock Brick Booby Trap
 tile.chiseled_stone_brick_pressure_plate.name=Pretty Rock Brick Booby Trap
 tile.mossy_stone_brick_pressure_plate.name=Slimy Rock Brick Booby Trap
+
+#Now dyed cobblestone pressure plates
+tile.lime_dyed_cobblestone_pressure_plate.name=Lime Colorrred Pebble Booby Trap
+tile.purple_dyed_cobblestone_pressure_plate.name=Purple Colorrred Pebble Booby Trap
+tile.red_dyed_cobblestone_pressure_plate.name=Red Colorrred Pebble Booby Trap
+tile.orange_dyed_cobblestone_pressure_plate.name=Orange Colorrred Pebble Booby Trap
+tile.brown_dyed_cobblestone_pressure_plate.name=Brown Colorrred Pebble Booby Trap
+tile.black_dyed_cobblestone_pressure_plate.name=Black Colorrred Pebble Booby Trap
+tile.gray_dyed_cobblestone_pressure_plate.name=Gray Colorrred Pebble Booby Trap
+tile.green_dyed_cobblestone_pressure_plate.name=Green Colorrred Pebble Booby Trap
+tile.magenta_dyed_cobblestone_pressure_plate.name=Magenta Colorrred Pebble Booby Trap
+tile.silver_dyed_cobblestone_pressure_plate.name=Silver Colorrred Pebble Booby Trap
+tile.blue_dyed_cobblestone_pressure_plate.name=Blue Colorrred Pebble Booby Trap
+tile.cyan_dyed_cobblestone_pressure_plate.name=Cyan Colorrred Pebble Booby Trap
+tile.light_blue_dyed_cobblestone_pressure_plate.name=Light Blue Colorrred Pebble Booby Trap
+tile.pink_dyed_cobblestone_pressure_plate.name=Pink Colorrred Pebble Booby Trap
+tile.yellow_dyed_cobblestone_pressure_plate.name=Yellow Colorrred Pebble Booby Trap
+tile.white_dyed_cobblestone_pressure_plate.name=White Colorrred Pebble Booby Trap
+
+#Now dyed mossy cobblestone pressure plates
+tile.lime_dyed_mossy_cobblestone_pressure_plate.name=Lime Colorrred Slimy Pebble Booby Trap
+tile.purple_dyed_mossy_cobblestone_pressure_plate.name=Purple Colorrred Slimy Pebble Booby Trap
+tile.red_dyed_mossy_cobblestone_pressure_plate.name=Red Colorrred Slimy Pebble Booby Trap
+tile.orange_dyed_mossy_cobblestone_pressure_plate.name=Orange Colorrred Slimy Pebble Booby Trap
+tile.brown_dyed_mossy_cobblestone_pressure_plate.name=Brown Colorrred Slimy Pebble Booby Trap
+tile.black_dyed_mossy_cobblestone_pressure_plate.name=Black Colorrred Slimy Pebble Booby Trap
+tile.gray_dyed_mossy_cobblestone_pressure_plate.name=Gray Colorrred Slimy Pebble Booby Trap
+tile.green_dyed_mossy_cobblestone_pressure_plate.name=Green Colorrred Slimy Pebble Booby Trap
+tile.magenta_dyed_mossy_cobblestone_pressure_plate.name=Magenta Colorrred Slimy Pebble Booby Trap
+tile.silver_dyed_mossy_cobblestone_pressure_plate.name=Silver Colorrred Slimy Pebble Booby Trap
+tile.blue_dyed_mossy_cobblestone_pressure_plate.name=Blue Colorrred Slimy Pebble Booby Trap
+tile.cyan_dyed_mossy_cobblestone_pressure_plate.name=Cyan Colorrred Slimy Pebble Booby Trap
+tile.light_blue_dyed_mossy_cobblestone_pressure_plate.name=Light Blue Colorrred Slimy Pebble Booby Trap
+tile.pink_dyed_mossy_cobblestone_pressure_plate.name=Pink Colorrred Slimy Pebble Booby Trap
+tile.yellow_dyed_mossy_cobblestone_pressure_plate.name=Yellow Colorrred Slimy Pebble Booby Trap
+tile.white_dyed_mossy_cobblestone_pressure_plate.name=White Colorrred Slimy Pebble Booby Trap
+
+#Now dyed stone pressure plates
+tile.lime_dyed_stone_pressure_plate.name=Lime Colorrred Rock Booby Trap
+tile.purple_dyed_stone_pressure_plate.name=Purple Colorrred Rock Booby Trap
+tile.red_dyed_stone_pressure_plate.name=Red Colorrred Rock Booby Trap
+tile.orange_dyed_stone_pressure_plate.name=Orange Colorrred Rock Booby Trap
+tile.brown_dyed_stone_pressure_plate.name=Brown Colorrred Rock Booby Trap
+tile.black_dyed_stone_pressure_plate.name=Black Colorrred Rock Booby Trap
+tile.gray_dyed_stone_pressure_plate.name=Gray Colorrred Rock Booby Trap
+tile.green_dyed_stone_pressure_plate.name=Green Colorrred Rock Booby Trap
+tile.magenta_dyed_stone_pressure_plate.name=Magenta Colorrred Rock Booby Trap
+tile.silver_dyed_stone_pressure_plate.name=Silver Colorrred Rock Booby Trap
+tile.blue_dyed_stone_pressure_plate.name=Blue Colorrred Rock Booby Trap
+tile.cyan_dyed_stone_pressure_plate.name=Cyan Colorrred Rock Booby Trap
+tile.light_blue_dyed_stone_pressure_plate.name=Light Blue Colorrred Rock Booby Trap
+tile.pink_dyed_stone_pressure_plate.name=Pink Colorrred Rock Booby Trap
+tile.yellow_dyed_stone_pressure_plate.name=Yellow Colorrred Rock Booby Trap
+tile.white_dyed_stone_pressure_plate.name=White Colorrred Rock Booby Trap
+
+#Now dyed andesite pressure plates
+tile.lime_dyed_andesite_pressure_plate.name=Lime Colorrred Grey Pebble Booby Trap
+tile.purple_dyed_andesite_pressure_plate.name=Purple Colorrred Grey Pebble Booby Trap
+tile.red_dyed_andesite_pressure_plate.name=Red Colorrred Grey Pebble Booby Trap
+tile.orange_dyed_andesite_pressure_plate.name=Orange Colorrred Grey Pebble Booby Trap
+tile.brown_dyed_andesite_pressure_plate.name=Brown Colorrred Grey Pebble Booby Trap
+tile.black_dyed_andesite_pressure_plate.name=Black Colorrred Grey Pebble Booby Trap
+tile.gray_dyed_andesite_pressure_plate.name=Gray Colorrred Grey Pebble Booby Trap
+tile.green_dyed_andesite_pressure_plate.name=Green Colorrred Grey Pebble Booby Trap
+tile.magenta_dyed_andesite_pressure_plate.name=Magenta Colorrred Grey Pebble Booby Trap
+tile.silver_dyed_andesite_pressure_plate.name=Silver Colorrred Grey Pebble Booby Trap
+tile.blue_dyed_andesite_pressure_plate.name=Blue Colorrred Grey Pebble Booby Trap
+tile.cyan_dyed_andesite_pressure_plate.name=Cyan Colorrred Grey Pebble Booby Trap
+tile.light_blue_dyed_andesite_pressure_plate.name=Light Blue Colorrred Grey Pebble Booby Trap
+tile.pink_dyed_andesite_pressure_plate.name=Pink Colorrred Grey Pebble Booby Trap
+tile.yellow_dyed_andesite_pressure_plate.name=Yellow Colorrred Grey Pebble Booby Trap
+tile.white_dyed_andesite_pressure_plate.name=Grey Colorrred Grey Pebble Booby Trap
+
+#Now dyed diorite pressure plates
+tile.lime_dyed_diorite_pressure_plate.name=Lime Colorrred White Pebble Booby Trap
+tile.purple_dyed_diorite_pressure_plate.name=Purple Colorrred White Pebble Booby Trap
+tile.red_dyed_diorite_pressure_plate.name=Red Colorrred White Pebble Booby Trap
+tile.orange_dyed_diorite_pressure_plate.name=Orange Colorrred White Pebble Booby Trap
+tile.brown_dyed_diorite_pressure_plate.name=Brown Colorrred White Pebble Booby Trap
+tile.black_dyed_diorite_pressure_plate.name=Black Colorrred White Pebble Booby Trap
+tile.gray_dyed_diorite_pressure_plate.name=Gray Colorrred White Pebble Booby Trap
+tile.green_dyed_diorite_pressure_plate.name=Green Colorrred White Pebble Booby Trap
+tile.magenta_dyed_diorite_pressure_plate.name=Magenta Colorrred White Pebble Booby Trap
+tile.silver_dyed_diorite_pressure_plate.name=Silver Colorrred White Pebble Booby Trap
+tile.blue_dyed_diorite_pressure_plate.name=Blue Colorrred White Pebble Booby Trap
+tile.cyan_dyed_diorite_pressure_plate.name=Cyan Colorrred White Pebble Booby Trap
+tile.light_blue_dyed_diorite_pressure_plate.name=Light Blue Colorrred White Pebble Booby Trap
+tile.pink_dyed_diorite_pressure_plate.name=Pink Colorrred White Pebble Booby Trap
+tile.yellow_dyed_diorite_pressure_plate.name=Yellow Colorrred White Pebble Booby Trap
+tile.white_dyed_diorite_pressure_plate.name=White Colorrred White Pebble Booby Trap
+
+#Now dyed granite pressure plates
+tile.lime_dyed_granite_pressure_plate.name=Lime Colorrred Brown Pebble Booby Trap
+tile.purple_dyed_granite_pressure_plate.name=Purple Colorrred Brown Pebble Booby Trap
+tile.red_dyed_granite_pressure_plate.name=Red Colorrred Brown Pebble Booby Trap
+tile.orange_dyed_granite_pressure_plate.name=Orange Colorrred Brown Pebble Booby Trap
+tile.brown_dyed_granite_pressure_plate.name=Brown Colorrred Brown Pebble Booby Trap
+tile.black_dyed_granite_pressure_plate.name=Black Colorrred Brown Pebble Booby Trap
+tile.gray_dyed_granite_pressure_plate.name=Gray Colorrred Brown Pebble Booby Trap
+tile.green_dyed_granite_pressure_plate.name=Green Colorrred Brown Pebble Booby Trap
+tile.magenta_dyed_granite_pressure_plate.name=Magenta Colorrred Brown Pebble Booby Trap
+tile.silver_dyed_granite_pressure_plate.name=Silver Colorrred Brown Pebble Booby Trap
+tile.blue_dyed_granite_pressure_plate.name=Blue Colorrred Brown Pebble Booby Trap
+tile.cyan_dyed_granite_pressure_plate.name=Cyan Colorrred Brown Pebble Booby Trap
+tile.light_blue_dyed_granite_pressure_plate.name=Light Blue Colorrred Brown Pebble Booby Trap
+tile.pink_dyed_granite_pressure_plate.name=Pink Colorrred Brown Pebble Booby Trap
+tile.yellow_dyed_granite_pressure_plate.name=Yellow Colorrred Brown Pebble Booby Trap
+tile.white_dyed_granite_pressure_plate.name=White Colorrred Brown Pebble Booby Trap
+
+#Now dyed polished andesite pressure plates
+tile.lime_dyed_polished_andesite_pressure_plate.name=Lime Colorrred Good lookin' Grey Pebble Booby Trap
+tile.purple_dyed_polished_andesite_pressure_plate.name=Purple Colorrred Good lookin' Grey Pebble Booby Trap
+tile.red_dyed_polished_andesite_pressure_plate.name=Red Colorrred Good lookin' Grey Pebble Booby Trap
+tile.orange_dyed_polished_andesite_pressure_plate.name=Orange Colorrred Good lookin' Grey Pebble Booby Trap
+tile.brown_dyed_polished_andesite_pressure_plate.name=Brown Colorrred Good lookin' Grey Pebble Booby Trap
+tile.black_dyed_polished_andesite_pressure_plate.name=Black Colorrred Good lookin' Grey Pebble Booby Trap
+tile.gray_dyed_polished_andesite_pressure_plate.name=Gray Colorrred Good lookin' Grey Pebble Booby Trap
+tile.green_dyed_polished_andesite_pressure_plate.name=Green Colorrred Good lookin' Grey Pebble Booby Trap
+tile.magenta_dyed_polished_andesite_pressure_plate.name=Magenta Colorrred Good lookin' Grey Pebble Booby Trap
+tile.silver_dyed_polished_andesite_pressure_plate.name=Silver Colorrred Good lookin' Grey Pebble Booby Trap
+tile.blue_dyed_polished_andesite_pressure_plate.name=Blue Colorrred Good lookin' Grey Pebble Booby Trap
+tile.cyan_dyed_polished_andesite_pressure_plate.name=Cyan Colorrred Good lookin' Grey Pebble Booby Trap
+tile.light_blue_dyed_polished_andesite_pressure_plate.name=Light Blue Colorrred Good lookin' Grey Pebble Booby Trap
+tile.pink_dyed_polished_andesite_pressure_plate.name=Pink Colorrred Good lookin' Grey Pebble Booby Trap
+tile.yellow_dyed_polished_andesite_pressure_plate.name=Yellow Colorrred Good lookin' Grey Pebble Booby Trap
+tile.white_dyed_polished_andesite_pressure_plate.name=Grey Colorrred Good lookin' Grey Pebble Booby Trap
+
+#Now dyed polished diorite pressure plates
+tile.lime_dyed_polished_diorite_pressure_plate.name=Lime Colorrred Good lookin' White Pebble Booby Trap
+tile.purple_dyed_polished_diorite_pressure_plate.name=Purple Colorrred Good lookin' White Pebble Booby Trap
+tile.red_dyed_polished_diorite_pressure_plate.name=Red Colorrred Good lookin' White Pebble Booby Trap
+tile.orange_dyed_polished_diorite_pressure_plate.name=Orange Colorrred Good lookin' White Pebble Booby Trap
+tile.brown_dyed_polished_diorite_pressure_plate.name=Brown Colorrred Good lookin' White Pebble Booby Trap
+tile.black_dyed_polished_diorite_pressure_plate.name=Black Colorrred Good lookin' White Pebble Booby Trap
+tile.gray_dyed_polished_diorite_pressure_plate.name=Gray Colorrred Good lookin' White Pebble Booby Trap
+tile.green_dyed_polished_diorite_pressure_plate.name=Green Colorrred Good lookin' White Pebble Booby Trap
+tile.magenta_dyed_polished_diorite_pressure_plate.name=Magenta Colorrred Good lookin' White Pebble Booby Trap
+tile.silver_dyed_polished_diorite_pressure_plate.name=Silver Colorrred Good lookin' White Pebble Booby Trap
+tile.blue_dyed_polished_diorite_pressure_plate.name=Blue Colorrred Good lookin' White Pebble Booby Trap
+tile.cyan_dyed_polished_diorite_pressure_plate.name=Cyan Colorrred Good lookin' White Pebble Booby Trap
+tile.light_blue_dyed_polished_diorite_pressure_plate.name=Light Blue Colorrred Good lookin' White Pebble Booby Trap
+tile.pink_dyed_polished_diorite_pressure_plate.name=Pink Colorrred Good lookin' White Pebble Booby Trap
+tile.yellow_dyed_polished_diorite_pressure_plate.name=Yellow Colorrred Good lookin' White Pebble Booby Trap
+tile.white_dyed_polished_diorite_pressure_plate.name=White Colorrred Good lookin' White Pebble Booby Trap
+
+#Now dyed polished granite pressure plates
+tile.lime_dyed_polished_granite_pressure_plate.name=Lime Colorrred Good lookin' Brown Pebble Booby Trap
+tile.purple_dyed_polished_granite_pressure_plate.name=Purple Colorrred Good lookin' Brown Pebble Booby Trap
+tile.red_dyed_polished_granite_pressure_plate.name=Red Colorrred Good lookin' Brown Pebble Booby Trap
+tile.orange_dyed_polished_granite_pressure_plate.name=Orange Colorrred Good lookin' Brown Pebble Booby Trap
+tile.brown_dyed_polished_granite_pressure_plate.name=Brown Colorrred Good lookin' Brown Pebble Booby Trap
+tile.black_dyed_polished_granite_pressure_plate.name=Black Colorrred Good lookin' Brown Pebble Booby Trap
+tile.gray_dyed_polished_granite_pressure_plate.name=Gray Colorrred Good lookin' Brown Pebble Booby Trap
+tile.green_dyed_polished_granite_pressure_plate.name=Green Colorrred Good lookin' Brown Pebble Booby Trap
+tile.magenta_dyed_polished_granite_pressure_plate.name=Magenta Colorrred Good lookin' Brown Pebble Booby Trap
+tile.silver_dyed_polished_granite_pressure_plate.name=Silver Colorrred Good lookin' Brown Pebble Booby Trap
+tile.blue_dyed_polished_granite_pressure_plate.name=Blue Colorrred Good lookin' Brown Pebble Booby Trap
+tile.cyan_dyed_polished_granite_pressure_plate.name=Cyan Colorrred Good lookin' Brown Pebble Booby Trap
+tile.light_blue_dyed_polished_granite_pressure_plate.name=Light Blue Colorrred Good lookin' Brown Pebble Booby Trap
+tile.pink_dyed_polished_granite_pressure_plate.name=Pink Colorrred Good lookin' Brown Pebble Booby Trap
+tile.yellow_dyed_polished_granite_pressure_plate.name=Yellow Colorrred Good lookin' Brown Pebble Booby Trap
+tile.white_dyed_polished_granite_pressure_plate.name=White Colorrred Good lookin' Brown Pebble Booby Trap
+
+#Now levers
+tile.cobblestone_lever.name=Pebble Leverrr
+tile.mossy_cobblestone_lever.name=Mossy Pebble Leverrr
+tile.granite_lever.name=Brown Pebble Leverrr
+tile.polished_granite_lever.name=Good lookin' Brown Pebble Leverrr
+tile.diorite_lever.name=White Pebble Leverrr
+tile.polished_diorite_lever.name=Good lookin' White Pebble Leverrr
+tile.andesite_lever.name=Grey Pebble Leverrr
+tile.polished_andesite_lever.name=Good lookin' Grey Pebble Leverrr
+tile.stone_brick_lever.name=Rock Brick Leverrr
+tile.cracked_stone_brick_lever.name=Cracked Rock Brick Leverrr
+tile.chiseled_stone_brick_lever.name=Pretty Rock Brick Leverrr
+tile.mossy_stone_brick_lever.name=Slimy Rock Brick Leverrr
+
+#Now dyed cobblestone levers
+tile.lime_dyed_cobblestone_lever.name=Lime Colorrred Pebble Leverrr
+tile.purple_dyed_cobblestone_lever.name=Purple Colorrred Pebble Leverrr
+tile.red_dyed_cobblestone_lever.name=Red Colorrred Pebble Leverrr
+tile.orange_dyed_cobblestone_lever.name=Orange Colorrred Pebble Leverrr
+tile.brown_dyed_cobblestone_lever.name=Brown Colorrred Pebble Leverrr
+tile.black_dyed_cobblestone_lever.name=Black Colorrred Pebble Leverrr
+tile.gray_dyed_cobblestone_lever.name=Gray Colorrred Pebble Leverrr
+tile.green_dyed_cobblestone_lever.name=Green Colorrred Pebble Leverrr
+tile.magenta_dyed_cobblestone_lever.name=Magenta Colorrred Pebble Leverrr
+tile.silver_dyed_cobblestone_lever.name=Silver Colorrred Pebble Leverrr
+tile.blue_dyed_cobblestone_lever.name=Blue Colorrred Pebble Leverrr
+tile.cyan_dyed_cobblestone_lever.name=Cyan Colorrred Pebble Leverrr
+tile.light_blue_dyed_cobblestone_lever.name=Light Blue Colorrred Pebble Leverrr
+tile.pink_dyed_cobblestone_lever.name=Pink Colorrred Pebble Leverrr
+tile.yellow_dyed_cobblestone_lever.name=Yellow Colorrred Pebble Leverrr
+tile.white_dyed_cobblestone_lever.name=White Colorrred Pebble Leverrr
+
+#Now dyed mossy cobblestone levers
+tile.lime_dyed_mossy_cobblestone_lever.name=Lime Colorrred Slimy Pebble Leverrr
+tile.purple_dyed_mossy_cobblestone_lever.name=Purple Colorrred Slimy Pebble Leverrr
+tile.red_dyed_mossy_cobblestone_lever.name=Red Colorrred Slimy Pebble Leverrr
+tile.orange_dyed_mossy_cobblestone_lever.name=Orange Colorrred Slimy Pebble Leverrr
+tile.brown_dyed_mossy_cobblestone_lever.name=Brown Colorrred Slimy Pebble Leverrr
+tile.black_dyed_mossy_cobblestone_lever.name=Black Colorrred Slimy Pebble Leverrr
+tile.gray_dyed_mossy_cobblestone_lever.name=Gray Colorrred Slimy Pebble Leverrr
+tile.green_dyed_mossy_cobblestone_lever.name=Green Colorrred Slimy Pebble Leverrr
+tile.magenta_dyed_mossy_cobblestone_lever.name=Magenta Colorrred Slimy Pebble Leverrr
+tile.silver_dyed_mossy_cobblestone_lever.name=Silver Colorrred Slimy Pebble Leverrr
+tile.blue_dyed_mossy_cobblestone_lever.name=Blue Colorrred Slimy Pebble Leverrr
+tile.cyan_dyed_mossy_cobblestone_lever.name=Cyan Colorrred Slimy Pebble Leverrr
+tile.light_blue_dyed_mossy_cobblestone_lever.name=Light Blue Colorrred Slimy Pebble Leverrr
+tile.pink_dyed_mossy_cobblestone_lever.name=Pink Colorrred Slimy Pebble Leverrr
+tile.yellow_dyed_mossy_cobblestone_lever.name=Yellow Colorrred Slimy Pebble Leverrr
+tile.white_dyed_mossy_cobblestone_lever.name=White Colorrred Slimy Pebble Leverrr
+
+#Now dyed stone levers
+tile.lime_dyed_stone_lever.name=Lime Colorrred Rock Leverrr
+tile.purple_dyed_stone_lever.name=Purple Colorrred Rock Leverrr
+tile.red_dyed_stone_lever.name=Red Colorrred Rock Leverrr
+tile.orange_dyed_stone_lever.name=Orange Colorrred Rock Leverrr
+tile.brown_dyed_stone_lever.name=Brown Colorrred Rock Leverrr
+tile.black_dyed_stone_lever.name=Black Colorrred Rock Leverrr
+tile.gray_dyed_stone_lever.name=Gray Colorrred Rock Leverrr
+tile.green_dyed_stone_lever.name=Green Colorrred Rock Leverrr
+tile.magenta_dyed_stone_lever.name=Magenta Colorrred Rock Leverrr
+tile.silver_dyed_stone_lever.name=Silver Colorrred Rock Leverrr
+tile.blue_dyed_stone_lever.name=Blue Colorrred Rock Leverrr
+tile.cyan_dyed_stone_lever.name=Cyan Colorrred Rock Leverrr
+tile.light_blue_dyed_stone_lever.name=Light Blue Colorrred Rock Leverrr
+tile.pink_dyed_stone_lever.name=Pink Colorrred Rock Leverrr
+tile.yellow_dyed_stone_lever.name=Yellow Colorrred Rock Leverrr
+tile.white_dyed_stone_lever.name=White Colorrred Rock Leverrr
+
+#Now dyed andesite levers
+tile.lime_dyed_andesite_lever.name=Lime Colorrred Grey Pebble Leverrr
+tile.purple_dyed_andesite_lever.name=Purple Colorrred Grey Pebble Leverrr
+tile.red_dyed_andesite_lever.name=Red Colorrred Grey Pebble Leverrr
+tile.orange_dyed_andesite_lever.name=Orange Colorrred Grey Pebble Leverrr
+tile.brown_dyed_andesite_lever.name=Brown Colorrred Grey Pebble Leverrr
+tile.black_dyed_andesite_lever.name=Black Colorrred Grey Pebble Leverrr
+tile.gray_dyed_andesite_lever.name=Gray Colorrred Grey Pebble Leverrr
+tile.green_dyed_andesite_lever.name=Green Colorrred Grey Pebble Leverrr
+tile.magenta_dyed_andesite_lever.name=Magenta Colorrred Grey Pebble Leverrr
+tile.silver_dyed_andesite_lever.name=Silver Colorrred Grey Pebble Leverrr
+tile.blue_dyed_andesite_lever.name=Blue Colorrred Grey Pebble Leverrr
+tile.cyan_dyed_andesite_lever.name=Cyan Colorrred Grey Pebble Leverrr
+tile.light_blue_dyed_andesite_lever.name=Light Blue Colorrred Grey Pebble Leverrr
+tile.pink_dyed_andesite_lever.name=Pink Colorrred Grey Pebble Leverrr
+tile.yellow_dyed_andesite_lever.name=Yellow Colorrred Grey Pebble Leverrr
+tile.white_dyed_andesite_lever.name=Grey Colorrred Grey Pebble Leverrr
+
+#Now dyed diorite levers
+tile.lime_dyed_diorite_lever.name=Lime Colorrred White Pebble Leverrr
+tile.purple_dyed_diorite_lever.name=Purple Colorrred White Pebble Leverrr
+tile.red_dyed_diorite_lever.name=Red Colorrred White Pebble Leverrr
+tile.orange_dyed_diorite_lever.name=Orange Colorrred White Pebble Leverrr
+tile.brown_dyed_diorite_lever.name=Brown Colorrred White Pebble Leverrr
+tile.black_dyed_diorite_lever.name=Black Colorrred White Pebble Leverrr
+tile.gray_dyed_diorite_lever.name=Gray Colorrred White Pebble Leverrr
+tile.green_dyed_diorite_lever.name=Green Colorrred White Pebble Leverrr
+tile.magenta_dyed_diorite_lever.name=Magenta Colorrred White Pebble Leverrr
+tile.silver_dyed_diorite_lever.name=Silver Colorrred White Pebble Leverrr
+tile.blue_dyed_diorite_lever.name=Blue Colorrred White Pebble Leverrr
+tile.cyan_dyed_diorite_lever.name=Cyan Colorrred White Pebble Leverrr
+tile.light_blue_dyed_diorite_lever.name=Light Blue Colorrred White Pebble Leverrr
+tile.pink_dyed_diorite_lever.name=Pink Colorrred White Pebble Leverrr
+tile.yellow_dyed_diorite_lever.name=Yellow Colorrred White Pebble Leverrr
+tile.white_dyed_diorite_lever.name=White Colorrred White Pebble Leverrr
+
+#Now dyed granite levers
+tile.lime_dyed_granite_lever.name=Lime Colorrred Brown Pebble Leverrr
+tile.purple_dyed_granite_lever.name=Purple Colorrred Brown Pebble Leverrr
+tile.red_dyed_granite_lever.name=Red Colorrred Brown Pebble Leverrr
+tile.orange_dyed_granite_lever.name=Orange Colorrred Brown Pebble Leverrr
+tile.brown_dyed_granite_lever.name=Brown Colorrred Brown Pebble Leverrr
+tile.black_dyed_granite_lever.name=Black Colorrred Brown Pebble Leverrr
+tile.gray_dyed_granite_lever.name=Gray Colorrred Brown Pebble Leverrr
+tile.green_dyed_granite_lever.name=Green Colorrred Brown Pebble Leverrr
+tile.magenta_dyed_granite_lever.name=Magenta Colorrred Brown Pebble Leverrr
+tile.silver_dyed_granite_lever.name=Silver Colorrred Brown Pebble Leverrr
+tile.blue_dyed_granite_lever.name=Blue Colorrred Brown Pebble Leverrr
+tile.cyan_dyed_granite_lever.name=Cyan Colorrred Brown Pebble Leverrr
+tile.light_blue_dyed_granite_lever.name=Light Blue Colorrred Brown Pebble Leverrr
+tile.pink_dyed_granite_lever.name=Pink Colorrred Brown Pebble Leverrr
+tile.yellow_dyed_granite_lever.name=Yellow Colorrred Brown Pebble Leverrr
+tile.white_dyed_granite_lever.name=White Colorrred Brown Pebble Leverrr
+
+#Now dyed polished andesite levers
+tile.lime_dyed_polished_andesite_lever.name=Lime Colorrred Good lookin' Grey Pebble Leverrr
+tile.purple_dyed_polished_andesite_lever.name=Purple Colorrred Good lookin' Grey Pebble Leverrr
+tile.red_dyed_polished_andesite_lever.name=Red Colorrred Good lookin' Grey Pebble Leverrr
+tile.orange_dyed_polished_andesite_lever.name=Orange Colorrred Good lookin' Grey Pebble Leverrr
+tile.brown_dyed_polished_andesite_lever.name=Brown Colorrred Good lookin' Grey Pebble Leverrr
+tile.black_dyed_polished_andesite_lever.name=Black Colorrred Good lookin' Grey Pebble Leverrr
+tile.gray_dyed_polished_andesite_lever.name=Gray Colorrred Good lookin' Grey Pebble Leverrr
+tile.green_dyed_polished_andesite_lever.name=Green Colorrred Good lookin' Grey Pebble Leverrr
+tile.magenta_dyed_polished_andesite_lever.name=Magenta Colorrred Good lookin' Grey Pebble Leverrr
+tile.silver_dyed_polished_andesite_lever.name=Silver Colorrred Good lookin' Grey Pebble Leverrr
+tile.blue_dyed_polished_andesite_lever.name=Blue Colorrred Good lookin' Grey Pebble Leverrr
+tile.cyan_dyed_polished_andesite_lever.name=Cyan Colorrred Good lookin' Grey Pebble Leverrr
+tile.light_blue_dyed_polished_andesite_lever.name=Light Blue Colorrred Good lookin' Grey Pebble Leverrr
+tile.pink_dyed_polished_andesite_lever.name=Pink Colorrred Good lookin' Grey Pebble Leverrr
+tile.yellow_dyed_polished_andesite_lever.name=Yellow Colorrred Good lookin' Grey Pebble Leverrr
+tile.white_dyed_polished_andesite_lever.name=Grey Colorrred Good lookin' Grey Pebble Leverrr
+
+#Now dyed polished diorite levers
+tile.lime_dyed_polished_diorite_lever.name=Lime Colorrred Good lookin' White Pebble Leverrr
+tile.purple_dyed_polished_diorite_lever.name=Purple Colorrred Good lookin' White Pebble Leverrr
+tile.red_dyed_polished_diorite_lever.name=Red Colorrred Good lookin' White Pebble Leverrr
+tile.orange_dyed_polished_diorite_lever.name=Orange Colorrred Good lookin' White Pebble Leverrr
+tile.brown_dyed_polished_diorite_lever.name=Brown Colorrred Good lookin' White Pebble Leverrr
+tile.black_dyed_polished_diorite_lever.name=Black Colorrred Good lookin' White Pebble Leverrr
+tile.gray_dyed_polished_diorite_lever.name=Gray Colorrred Good lookin' White Pebble Leverrr
+tile.green_dyed_polished_diorite_lever.name=Green Colorrred Good lookin' White Pebble Leverrr
+tile.magenta_dyed_polished_diorite_lever.name=Magenta Colorrred Good lookin' White Pebble Leverrr
+tile.silver_dyed_polished_diorite_lever.name=Silver Colorrred Good lookin' White Pebble Leverrr
+tile.blue_dyed_polished_diorite_lever.name=Blue Colorrred Good lookin' White Pebble Leverrr
+tile.cyan_dyed_polished_diorite_lever.name=Cyan Colorrred Good lookin' White Pebble Leverrr
+tile.light_blue_dyed_polished_diorite_lever.name=Light Blue Colorrred Good lookin' White Pebble Leverrr
+tile.pink_dyed_polished_diorite_lever.name=Pink Colorrred Good lookin' White Pebble Leverrr
+tile.yellow_dyed_polished_diorite_lever.name=Yellow Colorrred Good lookin' White Pebble Leverrr
+tile.white_dyed_polished_diorite_lever.name=White Colorrred Good lookin' White Pebble Leverrr
+
+#Now dyed polished granite levers
+tile.lime_dyed_polished_granite_lever.name=Lime Colorrred Good lookin' Brown Pebble Leverrr
+tile.purple_dyed_polished_granite_lever.name=Purple Colorrred Good lookin' Brown Pebble Leverrr
+tile.red_dyed_polished_granite_lever.name=Red Colorrred Good lookin' Brown Pebble Leverrr
+tile.orange_dyed_polished_granite_lever.name=Orange Colorrred Good lookin' Brown Pebble Leverrr
+tile.brown_dyed_polished_granite_lever.name=Brown Colorrred Good lookin' Brown Pebble Leverrr
+tile.black_dyed_polished_granite_lever.name=Black Colorrred Good lookin' Brown Pebble Leverrr
+tile.gray_dyed_polished_granite_lever.name=Gray Colorrred Good lookin' Brown Pebble Leverrr
+tile.green_dyed_polished_granite_lever.name=Green Colorrred Good lookin' Brown Pebble Leverrr
+tile.magenta_dyed_polished_granite_lever.name=Magenta Colorrred Good lookin' Brown Pebble Leverrr
+tile.silver_dyed_polished_granite_lever.name=Silver Colorrred Good lookin' Brown Pebble Leverrr
+tile.blue_dyed_polished_granite_lever.name=Blue Colorrred Good lookin' Brown Pebble Leverrr
+tile.cyan_dyed_polished_granite_lever.name=Cyan Colorrred Good lookin' Brown Pebble Leverrr
+tile.light_blue_dyed_polished_granite_lever.name=Light Blue Colorrred Good lookin' Brown Pebble Leverrr
+tile.pink_dyed_polished_granite_lever.name=Pink Colorrred Good lookin' Brown Pebble Leverrr
+tile.yellow_dyed_polished_granite_lever.name=Yellow Colorrred Good lookin' Brown Pebble Leverrr
+tile.white_dyed_polished_granite_lever.name=White Colorrred Good lookin' Brown Pebble Leverrr
