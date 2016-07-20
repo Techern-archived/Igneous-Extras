@@ -4,7 +4,7 @@ A revival of the Igneous Additions mod for Minecraft 1.10.2 (and beyond)
 ## Releases (New to old) - Including next release
 
 
-###![0.0.2](https://img.shields.io/badge/0.0.2-In_development_for_1.10.2-orange.svg?style=social)
+###![0.0.2](https://img.shields.io/badge/0.0.2-In_development_for_1.10.2_and_1.9-orange.svg?style=social)
 
  * ![Broken Stairs bugfix](https://img.shields.io/badge/Bugfix:_Broken_stairs-Complete-brightgreen.svg?style=plastic)
  * ![New stone slab texture](https://img.shields.io/badge/New_stone_slab_texture-Complete-brightgreen.svg?style=plastic)
