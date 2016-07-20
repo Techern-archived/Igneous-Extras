@@ -1,5 +1,6 @@
 package org.techern.minecraft.igneousextras.blocks;
 
+import mcp.MethodsReturnNonnullByDefault;
 import org.techern.minecraft.IgneousExtrasMod;
 import org.techern.minecraft.igneousextras.blocks.redstone.BlockBasicLever;
 import org.techern.minecraft.igneousextras.ConfigHandler;
@@ -33,6 +34,7 @@ public class IgneousBlocks {
      */
     public static CreativeTabs DYED_BLOCKS_TAB = new CreativeTabs("dyed_blocks") {
         @Override
+        @MethodsReturnNonnullByDefault
         public Item getTabIconItem() {
             return Item.getItemFromBlock(DYED_COBBLESTONE);
         }
@@ -45,6 +47,7 @@ public class IgneousBlocks {
      */
     public static CreativeTabs STAIRS_TAB = new CreativeTabs("igneous_stairs") {
         @Override
+        @MethodsReturnNonnullByDefault
         public Item getTabIconItem() {
             return Item.getItemFromBlock(GRANITE_STAIRS);
         }
@@ -57,6 +60,7 @@ public class IgneousBlocks {
      */
     public static CreativeTabs DYED_STAIRS_TAB = new CreativeTabs("dyed_igneous_stairs") {
         @Override
+        @MethodsReturnNonnullByDefault
         public Item getTabIconItem() {
             return Item.getItemFromBlock(WHITE_DYED_COBBLESTONE_STAIRS);
         }
@@ -69,6 +73,7 @@ public class IgneousBlocks {
      */
     public static CreativeTabs IGNEOUS_LEVER_TAB = new CreativeTabs("igneous_levers") {
         @Override
+        @MethodsReturnNonnullByDefault
         public Item getTabIconItem() {
             return Item.getItemFromBlock(MOSSY_STONE_BRICK_LEVER);
         }
@@ -81,6 +86,7 @@ public class IgneousBlocks {
      */
     public static CreativeTabs IGNEOUS_PRESSURE_PLATES_TAB = new CreativeTabs("igneous_pressure_plates") {
         @Override
+        @MethodsReturnNonnullByDefault
         public Item getTabIconItem() {
             return Item.getItemFromBlock(GRANITE_PRESSURE_PLATE);
         }
