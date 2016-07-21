@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "igneous_extras:items/black_dyed_polished_andesite_pickaxe"
+  }
+}

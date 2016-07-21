@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "igneous_extras:items/light_blue_dyed_andesite_shovel"
+  }
+}

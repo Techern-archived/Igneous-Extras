@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "igneous_extras:items/blue_dyed_diorite_sword"
+  }
+}

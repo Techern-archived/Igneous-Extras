@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "igneous_extras:items/brown_dyed_polished_diorite_axe"
+  }
+}
