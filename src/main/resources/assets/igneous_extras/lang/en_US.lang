@@ -757,3 +757,525 @@ item.light_blue_dyed_granite_sword.name=Light Blue Dyed Granite Sword
 item.pink_dyed_granite_sword.name=Pink Dyed Granite Sword
 item.yellow_dyed_granite_sword.name=Yellow Dyed Granite Sword
 item.white_dyed_granite_sword.name=White Dyed Granite Sword
+
+#Dyed polished granite swords
+item.lime_dyed_polished_granite_sword.name=Lime Dyed Polished Granite Sword
+item.purple_dyed_polished_granite_sword.name=Purple Dyed Polished Granite Sword
+item.red_dyed_polished_granite_sword.name=Red Dyed Polished Granite Sword
+item.orange_dyed_polished_granite_sword.name=Orange Dyed Polished Granite Sword
+item.brown_dyed_polished_granite_sword.name=Brown Dyed Polished Granite Sword
+item.black_dyed_polished_granite_sword.name=Black Dyed Polished Granite Sword
+item.gray_dyed_polished_granite_sword.name=Gray Dyed Polished Granite Sword
+item.green_dyed_polished_granite_sword.name=Green Dyed Polished Granite Sword
+item.magenta_dyed_polished_granite_sword.name=Magenta Dyed Polished Granite Sword
+item.silver_dyed_polished_granite_sword.name=Silver Dyed Polished Granite Sword
+item.blue_dyed_polished_granite_sword.name=Blue Dyed Polished Granite Sword
+item.cyan_dyed_polished_granite_sword.name=Cyan Dyed Polished Granite Sword
+item.light_blue_dyed_polished_granite_sword.name=Light Blue Dyed Polished Granite Sword
+item.pink_dyed_polished_granite_sword.name=Pink Dyed Polished Granite Sword
+item.yellow_dyed_polished_granite_sword.name=Yellow Dyed Polished Granite Sword
+item.white_dyed_polished_granite_sword.name=White Dyed Polished Granite Sword
+
+#Dyed granite hoes
+item.lime_dyed_granite_hoe.name=Lime Dyed Granite Hoe
+item.purple_dyed_granite_hoe.name=Purple Dyed Granite Hoe
+item.red_dyed_granite_hoe.name=Red Dyed Granite Hoe
+item.orange_dyed_granite_hoe.name=Orange Dyed Granite Hoe
+item.brown_dyed_granite_hoe.name=Brown Dyed Granite Hoe
+item.black_dyed_granite_hoe.name=Black Dyed Granite Hoe
+item.gray_dyed_granite_hoe.name=Gray Dyed Granite Hoe
+item.green_dyed_granite_hoe.name=Green Dyed Granite Hoe
+item.magenta_dyed_granite_hoe.name=Magenta Dyed Granite Hoe
+item.silver_dyed_granite_hoe.name=Silver Dyed Granite Hoe
+item.blue_dyed_granite_hoe.name=Blue Dyed Granite Hoe
+item.cyan_dyed_granite_hoe.name=Cyan Dyed Granite Hoe
+item.light_blue_dyed_granite_hoe.name=Light Blue Dyed Granite Hoe
+item.pink_dyed_granite_hoe.name=Pink Dyed Granite Hoe
+item.yellow_dyed_granite_hoe.name=Yellow Dyed Granite Hoe
+item.white_dyed_granite_hoe.name=White Dyed Granite Hoe
+
+#Dyed polished granite hoes
+item.lime_dyed_polished_granite_hoe.name=Lime Dyed Polished Granite Hoe
+item.purple_dyed_polished_granite_hoe.name=Purple Dyed Polished Granite Hoe
+item.red_dyed_polished_granite_hoe.name=Red Dyed Polished Granite Hoe
+item.orange_dyed_polished_granite_hoe.name=Orange Dyed Polished Granite Hoe
+item.brown_dyed_polished_granite_hoe.name=Brown Dyed Polished Granite Hoe
+item.black_dyed_polished_granite_hoe.name=Black Dyed Polished Granite Hoe
+item.gray_dyed_polished_granite_hoe.name=Gray Dyed Polished Granite Hoe
+item.green_dyed_polished_granite_hoe.name=Green Dyed Polished Granite Hoe
+item.magenta_dyed_polished_granite_hoe.name=Magenta Dyed Polished Granite Hoe
+item.silver_dyed_polished_granite_hoe.name=Silver Dyed Polished Granite Hoe
+item.blue_dyed_polished_granite_hoe.name=Blue Dyed Polished Granite Hoe
+item.cyan_dyed_polished_granite_hoe.name=Cyan Dyed Polished Granite Hoe
+item.light_blue_dyed_polished_granite_hoe.name=Light Blue Dyed Polished Granite Hoe
+item.pink_dyed_polished_granite_hoe.name=Pink Dyed Polished Granite Hoe
+item.yellow_dyed_polished_granite_hoe.name=Yellow Dyed Polished Granite Hoe
+item.white_dyed_polished_granite_hoe.name=White Dyed Polished Granite Hoe
+
+#Dyed granite axes
+item.lime_dyed_granite_axe.name=Lime Dyed Granite Axe
+item.purple_dyed_granite_axe.name=Purple Dyed Granite Axe
+item.red_dyed_granite_axe.name=Red Dyed Granite Axe
+item.orange_dyed_granite_axe.name=Orange Dyed Granite Axe
+item.brown_dyed_granite_axe.name=Brown Dyed Granite Axe
+item.black_dyed_granite_axe.name=Black Dyed Granite Axe
+item.gray_dyed_granite_axe.name=Gray Dyed Granite Axe
+item.green_dyed_granite_axe.name=Green Dyed Granite Axe
+item.magenta_dyed_granite_axe.name=Magenta Dyed Granite Axe
+item.silver_dyed_granite_axe.name=Silver Dyed Granite Axe
+item.blue_dyed_granite_axe.name=Blue Dyed Granite Axe
+item.cyan_dyed_granite_axe.name=Cyan Dyed Granite Axe
+item.light_blue_dyed_granite_axe.name=Light Blue Dyed Granite Axe
+item.pink_dyed_granite_axe.name=Pink Dyed Granite Axe
+item.yellow_dyed_granite_axe.name=Yellow Dyed Granite Axe
+item.white_dyed_granite_axe.name=White Dyed Granite Axe
+
+#Dyed polished granite axes
+item.lime_dyed_polished_granite_axe.name=Lime Dyed Polished Granite Axe
+item.purple_dyed_polished_granite_axe.name=Purple Dyed Polished Granite Axe
+item.red_dyed_polished_granite_axe.name=Red Dyed Polished Granite Axe
+item.orange_dyed_polished_granite_axe.name=Orange Dyed Polished Granite Axe
+item.brown_dyed_polished_granite_axe.name=Brown Dyed Polished Granite Axe
+item.black_dyed_polished_granite_axe.name=Black Dyed Polished Granite Axe
+item.gray_dyed_polished_granite_axe.name=Gray Dyed Polished Granite Axe
+item.green_dyed_polished_granite_axe.name=Green Dyed Polished Granite Axe
+item.magenta_dyed_polished_granite_axe.name=Magenta Dyed Polished Granite Axe
+item.silver_dyed_polished_granite_axe.name=Silver Dyed Polished Granite Axe
+item.blue_dyed_polished_granite_axe.name=Blue Dyed Polished Granite Axe
+item.cyan_dyed_polished_granite_axe.name=Cyan Dyed Polished Granite Axe
+item.light_blue_dyed_polished_granite_axe.name=Light Blue Dyed Polished Granite Axe
+item.pink_dyed_polished_granite_axe.name=Pink Dyed Polished Granite Axe
+item.yellow_dyed_polished_granite_axe.name=Yellow Dyed Polished Granite Axe
+item.white_dyed_polished_granite_axe.name=White Dyed Polished Granite Axe
+
+#Dyed granite pickaxes
+item.lime_dyed_granite_pickaxe.name=Lime Dyed Granite Pickaxe
+item.purple_dyed_granite_pickaxe.name=Purple Dyed Granite Pickaxe
+item.red_dyed_granite_pickaxe.name=Red Dyed Granite Pickaxe
+item.orange_dyed_granite_pickaxe.name=Orange Dyed Granite Pickaxe
+item.brown_dyed_granite_pickaxe.name=Brown Dyed Granite Pickaxe
+item.black_dyed_granite_pickaxe.name=Black Dyed Granite Pickaxe
+item.gray_dyed_granite_pickaxe.name=Gray Dyed Granite Pickaxe
+item.green_dyed_granite_pickaxe.name=Green Dyed Granite Pickaxe
+item.magenta_dyed_granite_pickaxe.name=Magenta Dyed Granite Pickaxe
+item.silver_dyed_granite_pickaxe.name=Silver Dyed Granite Pickaxe
+item.blue_dyed_granite_pickaxe.name=Blue Dyed Granite Pickaxe
+item.cyan_dyed_granite_pickaxe.name=Cyan Dyed Granite Pickaxe
+item.light_blue_dyed_granite_pickaxe.name=Light Blue Dyed Granite Pickaxe
+item.pink_dyed_granite_pickaxe.name=Pink Dyed Granite Pickaxe
+item.yellow_dyed_granite_pickaxe.name=Yellow Dyed Granite Pickaxe
+item.white_dyed_granite_pickaxe.name=White Dyed Granite Pickaxe
+
+#Dyed polished granite pickaxes
+item.lime_dyed_polished_granite_pickaxe.name=Lime Dyed Polished Granite Pickaxe
+item.purple_dyed_polished_granite_pickaxe.name=Purple Dyed Polished Granite Pickaxe
+item.red_dyed_polished_granite_pickaxe.name=Red Dyed Polished Granite Pickaxe
+item.orange_dyed_polished_granite_pickaxe.name=Orange Dyed Polished Granite Pickaxe
+item.brown_dyed_polished_granite_pickaxe.name=Brown Dyed Polished Granite Pickaxe
+item.black_dyed_polished_granite_pickaxe.name=Black Dyed Polished Granite Pickaxe
+item.gray_dyed_polished_granite_pickaxe.name=Gray Dyed Polished Granite Pickaxe
+item.green_dyed_polished_granite_pickaxe.name=Green Dyed Polished Granite Pickaxe
+item.magenta_dyed_polished_granite_pickaxe.name=Magenta Dyed Polished Granite Pickaxe
+item.silver_dyed_polished_granite_pickaxe.name=Silver Dyed Polished Granite Pickaxe
+item.blue_dyed_polished_granite_pickaxe.name=Blue Dyed Polished Granite Pickaxe
+item.cyan_dyed_polished_granite_pickaxe.name=Cyan Dyed Polished Granite Pickaxe
+item.light_blue_dyed_polished_granite_pickaxe.name=Light Blue Dyed Polished Granite Pickaxe
+item.pink_dyed_polished_granite_pickaxe.name=Pink Dyed Polished Granite Pickaxe
+item.yellow_dyed_polished_granite_pickaxe.name=Yellow Dyed Polished Granite Pickaxe
+item.white_dyed_polished_granite_pickaxe.name=White Dyed Polished Granite Pickaxe
+
+#Dyed granite shovels
+item.lime_dyed_granite_shovel.name=Lime Dyed Granite Shovel
+item.purple_dyed_granite_shovel.name=Purple Dyed Granite Shovel
+item.red_dyed_granite_shovel.name=Red Dyed Granite Shovel
+item.orange_dyed_granite_shovel.name=Orange Dyed Granite Shovel
+item.brown_dyed_granite_shovel.name=Brown Dyed Granite Shovel
+item.black_dyed_granite_shovel.name=Black Dyed Granite Shovel
+item.gray_dyed_granite_shovel.name=Gray Dyed Granite Shovel
+item.green_dyed_granite_shovel.name=Green Dyed Granite Shovel
+item.magenta_dyed_granite_shovel.name=Magenta Dyed Granite Shovel
+item.silver_dyed_granite_shovel.name=Silver Dyed Granite Shovel
+item.blue_dyed_granite_shovel.name=Blue Dyed Granite Shovel
+item.cyan_dyed_granite_shovel.name=Cyan Dyed Granite Shovel
+item.light_blue_dyed_granite_shovel.name=Light Blue Dyed Granite Shovel
+item.pink_dyed_granite_shovel.name=Pink Dyed Granite Shovel
+item.yellow_dyed_granite_shovel.name=Yellow Dyed Granite Shovel
+item.white_dyed_granite_shovel.name=White Dyed Granite Shovel
+
+#Dyed polished granite shovels
+item.lime_dyed_polished_granite_shovel.name=Lime Dyed Polished Granite Shovel
+item.purple_dyed_polished_granite_shovel.name=Purple Dyed Polished Granite Shovel
+item.red_dyed_polished_granite_shovel.name=Red Dyed Polished Granite Shovel
+item.orange_dyed_polished_granite_shovel.name=Orange Dyed Polished Granite Shovel
+item.brown_dyed_polished_granite_shovel.name=Brown Dyed Polished Granite Shovel
+item.black_dyed_polished_granite_shovel.name=Black Dyed Polished Granite Shovel
+item.gray_dyed_polished_granite_shovel.name=Gray Dyed Polished Granite Shovel
+item.green_dyed_polished_granite_shovel.name=Green Dyed Polished Granite Shovel
+item.magenta_dyed_polished_granite_shovel.name=Magenta Dyed Polished Granite Shovel
+item.silver_dyed_polished_granite_shovel.name=Silver Dyed Polished Granite Shovel
+item.blue_dyed_polished_granite_shovel.name=Blue Dyed Polished Granite Shovel
+item.cyan_dyed_polished_granite_shovel.name=Cyan Dyed Polished Granite Shovel
+item.light_blue_dyed_polished_granite_shovel.name=Light Blue Dyed Polished Granite Shovel
+item.pink_dyed_polished_granite_shovel.name=Pink Dyed Polished Granite Shovel
+item.yellow_dyed_polished_granite_shovel.name=Yellow Dyed Polished Granite Shovel
+item.white_dyed_polished_granite_shovel.name=White Dyed Polished Granite Shovel
+
+#Dyed diorite swords
+item.lime_dyed_diorite_sword.name=Lime Dyed Diorite Sword
+item.purple_dyed_diorite_sword.name=Purple Dyed Diorite Sword
+item.red_dyed_diorite_sword.name=Red Dyed Diorite Sword
+item.orange_dyed_diorite_sword.name=Orange Dyed Diorite Sword
+item.brown_dyed_diorite_sword.name=Brown Dyed Diorite Sword
+item.black_dyed_diorite_sword.name=Black Dyed Diorite Sword
+item.gray_dyed_diorite_sword.name=Gray Dyed Diorite Sword
+item.green_dyed_diorite_sword.name=Green Dyed Diorite Sword
+item.magenta_dyed_diorite_sword.name=Magenta Dyed Diorite Sword
+item.silver_dyed_diorite_sword.name=Silver Dyed Diorite Sword
+item.blue_dyed_diorite_sword.name=Blue Dyed Diorite Sword
+item.cyan_dyed_diorite_sword.name=Cyan Dyed Diorite Sword
+item.light_blue_dyed_diorite_sword.name=Light Blue Dyed Diorite Sword
+item.pink_dyed_diorite_sword.name=Pink Dyed Diorite Sword
+item.yellow_dyed_diorite_sword.name=Yellow Dyed Diorite Sword
+item.white_dyed_diorite_sword.name=White Dyed Diorite Sword
+
+#Dyed polished diorite swords
+item.lime_dyed_polished_diorite_sword.name=Lime Dyed Polished Diorite Sword
+item.purple_dyed_polished_diorite_sword.name=Purple Dyed Polished Diorite Sword
+item.red_dyed_polished_diorite_sword.name=Red Dyed Polished Diorite Sword
+item.orange_dyed_polished_diorite_sword.name=Orange Dyed Polished Diorite Sword
+item.brown_dyed_polished_diorite_sword.name=Brown Dyed Polished Diorite Sword
+item.black_dyed_polished_diorite_sword.name=Black Dyed Polished Diorite Sword
+item.gray_dyed_polished_diorite_sword.name=Gray Dyed Polished Diorite Sword
+item.green_dyed_polished_diorite_sword.name=Green Dyed Polished Diorite Sword
+item.magenta_dyed_polished_diorite_sword.name=Magenta Dyed Polished Diorite Sword
+item.silver_dyed_polished_diorite_sword.name=Silver Dyed Polished Diorite Sword
+item.blue_dyed_polished_diorite_sword.name=Blue Dyed Polished Diorite Sword
+item.cyan_dyed_polished_diorite_sword.name=Cyan Dyed Polished Diorite Sword
+item.light_blue_dyed_polished_diorite_sword.name=Light Blue Dyed Polished Diorite Sword
+item.pink_dyed_polished_diorite_sword.name=Pink Dyed Polished Diorite Sword
+item.yellow_dyed_polished_diorite_sword.name=Yellow Dyed Polished Diorite Sword
+item.white_dyed_polished_diorite_sword.name=White Dyed Polished Diorite Sword
+
+#Dyed diorite hoes
+item.lime_dyed_diorite_hoe.name=Lime Dyed Diorite Hoe
+item.purple_dyed_diorite_hoe.name=Purple Dyed Diorite Hoe
+item.red_dyed_diorite_hoe.name=Red Dyed Diorite Hoe
+item.orange_dyed_diorite_hoe.name=Orange Dyed Diorite Hoe
+item.brown_dyed_diorite_hoe.name=Brown Dyed Diorite Hoe
+item.black_dyed_diorite_hoe.name=Black Dyed Diorite Hoe
+item.gray_dyed_diorite_hoe.name=Gray Dyed Diorite Hoe
+item.green_dyed_diorite_hoe.name=Green Dyed Diorite Hoe
+item.magenta_dyed_diorite_hoe.name=Magenta Dyed Diorite Hoe
+item.silver_dyed_diorite_hoe.name=Silver Dyed Diorite Hoe
+item.blue_dyed_diorite_hoe.name=Blue Dyed Diorite Hoe
+item.cyan_dyed_diorite_hoe.name=Cyan Dyed Diorite Hoe
+item.light_blue_dyed_diorite_hoe.name=Light Blue Dyed Diorite Hoe
+item.pink_dyed_diorite_hoe.name=Pink Dyed Diorite Hoe
+item.yellow_dyed_diorite_hoe.name=Yellow Dyed Diorite Hoe
+item.white_dyed_diorite_hoe.name=White Dyed Diorite Hoe
+
+#Dyed polished diorite hoes
+item.lime_dyed_polished_diorite_hoe.name=Lime Dyed Polished Diorite Hoe
+item.purple_dyed_polished_diorite_hoe.name=Purple Dyed Polished Diorite Hoe
+item.red_dyed_polished_diorite_hoe.name=Red Dyed Polished Diorite Hoe
+item.orange_dyed_polished_diorite_hoe.name=Orange Dyed Polished Diorite Hoe
+item.brown_dyed_polished_diorite_hoe.name=Brown Dyed Polished Diorite Hoe
+item.black_dyed_polished_diorite_hoe.name=Black Dyed Polished Diorite Hoe
+item.gray_dyed_polished_diorite_hoe.name=Gray Dyed Polished Diorite Hoe
+item.green_dyed_polished_diorite_hoe.name=Green Dyed Polished Diorite Hoe
+item.magenta_dyed_polished_diorite_hoe.name=Magenta Dyed Polished Diorite Hoe
+item.silver_dyed_polished_diorite_hoe.name=Silver Dyed Polished Diorite Hoe
+item.blue_dyed_polished_diorite_hoe.name=Blue Dyed Polished Diorite Hoe
+item.cyan_dyed_polished_diorite_hoe.name=Cyan Dyed Polished Diorite Hoe
+item.light_blue_dyed_polished_diorite_hoe.name=Light Blue Dyed Polished Diorite Hoe
+item.pink_dyed_polished_diorite_hoe.name=Pink Dyed Polished Diorite Hoe
+item.yellow_dyed_polished_diorite_hoe.name=Yellow Dyed Polished Diorite Hoe
+item.white_dyed_polished_diorite_hoe.name=White Dyed Polished Diorite Hoe
+
+#Dyed diorite axes
+item.lime_dyed_diorite_axe.name=Lime Dyed Diorite Axe
+item.purple_dyed_diorite_axe.name=Purple Dyed Diorite Axe
+item.red_dyed_diorite_axe.name=Red Dyed Diorite Axe
+item.orange_dyed_diorite_axe.name=Orange Dyed Diorite Axe
+item.brown_dyed_diorite_axe.name=Brown Dyed Diorite Axe
+item.black_dyed_diorite_axe.name=Black Dyed Diorite Axe
+item.gray_dyed_diorite_axe.name=Gray Dyed Diorite Axe
+item.green_dyed_diorite_axe.name=Green Dyed Diorite Axe
+item.magenta_dyed_diorite_axe.name=Magenta Dyed Diorite Axe
+item.silver_dyed_diorite_axe.name=Silver Dyed Diorite Axe
+item.blue_dyed_diorite_axe.name=Blue Dyed Diorite Axe
+item.cyan_dyed_diorite_axe.name=Cyan Dyed Diorite Axe
+item.light_blue_dyed_diorite_axe.name=Light Blue Dyed Diorite Axe
+item.pink_dyed_diorite_axe.name=Pink Dyed Diorite Axe
+item.yellow_dyed_diorite_axe.name=Yellow Dyed Diorite Axe
+item.white_dyed_diorite_axe.name=White Dyed Diorite Axe
+
+#Dyed polished diorite axes
+item.lime_dyed_polished_diorite_axe.name=Lime Dyed Polished Diorite Axe
+item.purple_dyed_polished_diorite_axe.name=Purple Dyed Polished Diorite Axe
+item.red_dyed_polished_diorite_axe.name=Red Dyed Polished Diorite Axe
+item.orange_dyed_polished_diorite_axe.name=Orange Dyed Polished Diorite Axe
+item.brown_dyed_polished_diorite_axe.name=Brown Dyed Polished Diorite Axe
+item.black_dyed_polished_diorite_axe.name=Black Dyed Polished Diorite Axe
+item.gray_dyed_polished_diorite_axe.name=Gray Dyed Polished Diorite Axe
+item.green_dyed_polished_diorite_axe.name=Green Dyed Polished Diorite Axe
+item.magenta_dyed_polished_diorite_axe.name=Magenta Dyed Polished Diorite Axe
+item.silver_dyed_polished_diorite_axe.name=Silver Dyed Polished Diorite Axe
+item.blue_dyed_polished_diorite_axe.name=Blue Dyed Polished Diorite Axe
+item.cyan_dyed_polished_diorite_axe.name=Cyan Dyed Polished Diorite Axe
+item.light_blue_dyed_polished_diorite_axe.name=Light Blue Dyed Polished Diorite Axe
+item.pink_dyed_polished_diorite_axe.name=Pink Dyed Polished Diorite Axe
+item.yellow_dyed_polished_diorite_axe.name=Yellow Dyed Polished Diorite Axe
+item.white_dyed_polished_diorite_axe.name=White Dyed Polished Diorite Axe
+
+#Dyed diorite pickaxes
+item.lime_dyed_diorite_pickaxe.name=Lime Dyed Diorite Pickaxe
+item.purple_dyed_diorite_pickaxe.name=Purple Dyed Diorite Pickaxe
+item.red_dyed_diorite_pickaxe.name=Red Dyed Diorite Pickaxe
+item.orange_dyed_diorite_pickaxe.name=Orange Dyed Diorite Pickaxe
+item.brown_dyed_diorite_pickaxe.name=Brown Dyed Diorite Pickaxe
+item.black_dyed_diorite_pickaxe.name=Black Dyed Diorite Pickaxe
+item.gray_dyed_diorite_pickaxe.name=Gray Dyed Diorite Pickaxe
+item.green_dyed_diorite_pickaxe.name=Green Dyed Diorite Pickaxe
+item.magenta_dyed_diorite_pickaxe.name=Magenta Dyed Diorite Pickaxe
+item.silver_dyed_diorite_pickaxe.name=Silver Dyed Diorite Pickaxe
+item.blue_dyed_diorite_pickaxe.name=Blue Dyed Diorite Pickaxe
+item.cyan_dyed_diorite_pickaxe.name=Cyan Dyed Diorite Pickaxe
+item.light_blue_dyed_diorite_pickaxe.name=Light Blue Dyed Diorite Pickaxe
+item.pink_dyed_diorite_pickaxe.name=Pink Dyed Diorite Pickaxe
+item.yellow_dyed_diorite_pickaxe.name=Yellow Dyed Diorite Pickaxe
+item.white_dyed_diorite_pickaxe.name=White Dyed Diorite Pickaxe
+
+#Dyed polished diorite pickaxes
+item.lime_dyed_polished_diorite_pickaxe.name=Lime Dyed Polished Diorite Pickaxe
+item.purple_dyed_polished_diorite_pickaxe.name=Purple Dyed Polished Diorite Pickaxe
+item.red_dyed_polished_diorite_pickaxe.name=Red Dyed Polished Diorite Pickaxe
+item.orange_dyed_polished_diorite_pickaxe.name=Orange Dyed Polished Diorite Pickaxe
+item.brown_dyed_polished_diorite_pickaxe.name=Brown Dyed Polished Diorite Pickaxe
+item.black_dyed_polished_diorite_pickaxe.name=Black Dyed Polished Diorite Pickaxe
+item.gray_dyed_polished_diorite_pickaxe.name=Gray Dyed Polished Diorite Pickaxe
+item.green_dyed_polished_diorite_pickaxe.name=Green Dyed Polished Diorite Pickaxe
+item.magenta_dyed_polished_diorite_pickaxe.name=Magenta Dyed Polished Diorite Pickaxe
+item.silver_dyed_polished_diorite_pickaxe.name=Silver Dyed Polished Diorite Pickaxe
+item.blue_dyed_polished_diorite_pickaxe.name=Blue Dyed Polished Diorite Pickaxe
+item.cyan_dyed_polished_diorite_pickaxe.name=Cyan Dyed Polished Diorite Pickaxe
+item.light_blue_dyed_polished_diorite_pickaxe.name=Light Blue Dyed Polished Diorite Pickaxe
+item.pink_dyed_polished_diorite_pickaxe.name=Pink Dyed Polished Diorite Pickaxe
+item.yellow_dyed_polished_diorite_pickaxe.name=Yellow Dyed Polished Diorite Pickaxe
+item.white_dyed_polished_diorite_pickaxe.name=White Dyed Polished Diorite Pickaxe
+
+#Dyed diorite shovels
+item.lime_dyed_diorite_shovel.name=Lime Dyed Diorite Shovel
+item.purple_dyed_diorite_shovel.name=Purple Dyed Diorite Shovel
+item.red_dyed_diorite_shovel.name=Red Dyed Diorite Shovel
+item.orange_dyed_diorite_shovel.name=Orange Dyed Diorite Shovel
+item.brown_dyed_diorite_shovel.name=Brown Dyed Diorite Shovel
+item.black_dyed_diorite_shovel.name=Black Dyed Diorite Shovel
+item.gray_dyed_diorite_shovel.name=Gray Dyed Diorite Shovel
+item.green_dyed_diorite_shovel.name=Green Dyed Diorite Shovel
+item.magenta_dyed_diorite_shovel.name=Magenta Dyed Diorite Shovel
+item.silver_dyed_diorite_shovel.name=Silver Dyed Diorite Shovel
+item.blue_dyed_diorite_shovel.name=Blue Dyed Diorite Shovel
+item.cyan_dyed_diorite_shovel.name=Cyan Dyed Diorite Shovel
+item.light_blue_dyed_diorite_shovel.name=Light Blue Dyed Diorite Shovel
+item.pink_dyed_diorite_shovel.name=Pink Dyed Diorite Shovel
+item.yellow_dyed_diorite_shovel.name=Yellow Dyed Diorite Shovel
+item.white_dyed_diorite_shovel.name=White Dyed Diorite Shovel
+
+#Dyed polished diorite shovels
+item.lime_dyed_polished_diorite_shovel.name=Lime Dyed Polished Diorite Shovel
+item.purple_dyed_polished_diorite_shovel.name=Purple Dyed Polished Diorite Shovel
+item.red_dyed_polished_diorite_shovel.name=Red Dyed Polished Diorite Shovel
+item.orange_dyed_polished_diorite_shovel.name=Orange Dyed Polished Diorite Shovel
+item.brown_dyed_polished_diorite_shovel.name=Brown Dyed Polished Diorite Shovel
+item.black_dyed_polished_diorite_shovel.name=Black Dyed Polished Diorite Shovel
+item.gray_dyed_polished_diorite_shovel.name=Gray Dyed Polished Diorite Shovel
+item.green_dyed_polished_diorite_shovel.name=Green Dyed Polished Diorite Shovel
+item.magenta_dyed_polished_diorite_shovel.name=Magenta Dyed Polished Diorite Shovel
+item.silver_dyed_polished_diorite_shovel.name=Silver Dyed Polished Diorite Shovel
+item.blue_dyed_polished_diorite_shovel.name=Blue Dyed Polished Diorite Shovel
+item.cyan_dyed_polished_diorite_shovel.name=Cyan Dyed Polished Diorite Shovel
+item.light_blue_dyed_polished_diorite_shovel.name=Light Blue Dyed Polished Diorite Shovel
+item.pink_dyed_polished_diorite_shovel.name=Pink Dyed Polished Diorite Shovel
+item.yellow_dyed_polished_diorite_shovel.name=Yellow Dyed Polished Diorite Shovel
+item.white_dyed_polished_diorite_shovel.name=White Dyed Polished Diorite Shovel
+
+#Dyed andesite swords
+item.lime_dyed_andesite_sword.name=Lime Dyed Andesite Sword
+item.purple_dyed_andesite_sword.name=Purple Dyed Andesite Sword
+item.red_dyed_andesite_sword.name=Red Dyed Andesite Sword
+item.orange_dyed_andesite_sword.name=Orange Dyed Andesite Sword
+item.brown_dyed_andesite_sword.name=Brown Dyed Andesite Sword
+item.black_dyed_andesite_sword.name=Black Dyed Andesite Sword
+item.gray_dyed_andesite_sword.name=Gray Dyed Andesite Sword
+item.green_dyed_andesite_sword.name=Green Dyed Andesite Sword
+item.magenta_dyed_andesite_sword.name=Magenta Dyed Andesite Sword
+item.silver_dyed_andesite_sword.name=Silver Dyed Andesite Sword
+item.blue_dyed_andesite_sword.name=Blue Dyed Andesite Sword
+item.cyan_dyed_andesite_sword.name=Cyan Dyed Andesite Sword
+item.light_blue_dyed_andesite_sword.name=Light Blue Dyed Andesite Sword
+item.pink_dyed_andesite_sword.name=Pink Dyed Andesite Sword
+item.yellow_dyed_andesite_sword.name=Yellow Dyed Andesite Sword
+item.white_dyed_andesite_sword.name=White Dyed Andesite Sword
+
+#Dyed polished andesite swords
+item.lime_dyed_polished_andesite_sword.name=Lime Dyed Polished Andesite Sword
+item.purple_dyed_polished_andesite_sword.name=Purple Dyed Polished Andesite Sword
+item.red_dyed_polished_andesite_sword.name=Red Dyed Polished Andesite Sword
+item.orange_dyed_polished_andesite_sword.name=Orange Dyed Polished Andesite Sword
+item.brown_dyed_polished_andesite_sword.name=Brown Dyed Polished Andesite Sword
+item.black_dyed_polished_andesite_sword.name=Black Dyed Polished Andesite Sword
+item.gray_dyed_polished_andesite_sword.name=Gray Dyed Polished Andesite Sword
+item.green_dyed_polished_andesite_sword.name=Green Dyed Polished Andesite Sword
+item.magenta_dyed_polished_andesite_sword.name=Magenta Dyed Polished Andesite Sword
+item.silver_dyed_polished_andesite_sword.name=Silver Dyed Polished Andesite Sword
+item.blue_dyed_polished_andesite_sword.name=Blue Dyed Polished Andesite Sword
+item.cyan_dyed_polished_andesite_sword.name=Cyan Dyed Polished Andesite Sword
+item.light_blue_dyed_polished_andesite_sword.name=Light Blue Dyed Polished Andesite Sword
+item.pink_dyed_polished_andesite_sword.name=Pink Dyed Polished Andesite Sword
+item.yellow_dyed_polished_andesite_sword.name=Yellow Dyed Polished Andesite Sword
+item.white_dyed_polished_andesite_sword.name=White Dyed Polished Andesite Sword
+
+#Dyed andesite hoes
+item.lime_dyed_andesite_hoe.name=Lime Dyed Andesite Hoe
+item.purple_dyed_andesite_hoe.name=Purple Dyed Andesite Hoe
+item.red_dyed_andesite_hoe.name=Red Dyed Andesite Hoe
+item.orange_dyed_andesite_hoe.name=Orange Dyed Andesite Hoe
+item.brown_dyed_andesite_hoe.name=Brown Dyed Andesite Hoe
+item.black_dyed_andesite_hoe.name=Black Dyed Andesite Hoe
+item.gray_dyed_andesite_hoe.name=Gray Dyed Andesite Hoe
+item.green_dyed_andesite_hoe.name=Green Dyed Andesite Hoe
+item.magenta_dyed_andesite_hoe.name=Magenta Dyed Andesite Hoe
+item.silver_dyed_andesite_hoe.name=Silver Dyed Andesite Hoe
+item.blue_dyed_andesite_hoe.name=Blue Dyed Andesite Hoe
+item.cyan_dyed_andesite_hoe.name=Cyan Dyed Andesite Hoe
+item.light_blue_dyed_andesite_hoe.name=Light Blue Dyed Andesite Hoe
+item.pink_dyed_andesite_hoe.name=Pink Dyed Andesite Hoe
+item.yellow_dyed_andesite_hoe.name=Yellow Dyed Andesite Hoe
+item.white_dyed_andesite_hoe.name=White Dyed Andesite Hoe
+
+#Dyed polished andesite hoes
+item.lime_dyed_polished_andesite_hoe.name=Lime Dyed Polished Andesite Hoe
+item.purple_dyed_polished_andesite_hoe.name=Purple Dyed Polished Andesite Hoe
+item.red_dyed_polished_andesite_hoe.name=Red Dyed Polished Andesite Hoe
+item.orange_dyed_polished_andesite_hoe.name=Orange Dyed Polished Andesite Hoe
+item.brown_dyed_polished_andesite_hoe.name=Brown Dyed Polished Andesite Hoe
+item.black_dyed_polished_andesite_hoe.name=Black Dyed Polished Andesite Hoe
+item.gray_dyed_polished_andesite_hoe.name=Gray Dyed Polished Andesite Hoe
+item.green_dyed_polished_andesite_hoe.name=Green Dyed Polished Andesite Hoe
+item.magenta_dyed_polished_andesite_hoe.name=Magenta Dyed Polished Andesite Hoe
+item.silver_dyed_polished_andesite_hoe.name=Silver Dyed Polished Andesite Hoe
+item.blue_dyed_polished_andesite_hoe.name=Blue Dyed Polished Andesite Hoe
+item.cyan_dyed_polished_andesite_hoe.name=Cyan Dyed Polished Andesite Hoe
+item.light_blue_dyed_polished_andesite_hoe.name=Light Blue Dyed Polished Andesite Hoe
+item.pink_dyed_polished_andesite_hoe.name=Pink Dyed Polished Andesite Hoe
+item.yellow_dyed_polished_andesite_hoe.name=Yellow Dyed Polished Andesite Hoe
+item.white_dyed_polished_andesite_hoe.name=White Dyed Polished Andesite Hoe
+
+#Dyed andesite axes
+item.lime_dyed_andesite_axe.name=Lime Dyed Andesite Axe
+item.purple_dyed_andesite_axe.name=Purple Dyed Andesite Axe
+item.red_dyed_andesite_axe.name=Red Dyed Andesite Axe
+item.orange_dyed_andesite_axe.name=Orange Dyed Andesite Axe
+item.brown_dyed_andesite_axe.name=Brown Dyed Andesite Axe
+item.black_dyed_andesite_axe.name=Black Dyed Andesite Axe
+item.gray_dyed_andesite_axe.name=Gray Dyed Andesite Axe
+item.green_dyed_andesite_axe.name=Green Dyed Andesite Axe
+item.magenta_dyed_andesite_axe.name=Magenta Dyed Andesite Axe
+item.silver_dyed_andesite_axe.name=Silver Dyed Andesite Axe
+item.blue_dyed_andesite_axe.name=Blue Dyed Andesite Axe
+item.cyan_dyed_andesite_axe.name=Cyan Dyed Andesite Axe
+item.light_blue_dyed_andesite_axe.name=Light Blue Dyed Andesite Axe
+item.pink_dyed_andesite_axe.name=Pink Dyed Andesite Axe
+item.yellow_dyed_andesite_axe.name=Yellow Dyed Andesite Axe
+item.white_dyed_andesite_axe.name=White Dyed Andesite Axe
+
+#Dyed polished andesite axes
+item.lime_dyed_polished_andesite_axe.name=Lime Dyed Polished Andesite Axe
+item.purple_dyed_polished_andesite_axe.name=Purple Dyed Polished Andesite Axe
+item.red_dyed_polished_andesite_axe.name=Red Dyed Polished Andesite Axe
+item.orange_dyed_polished_andesite_axe.name=Orange Dyed Polished Andesite Axe
+item.brown_dyed_polished_andesite_axe.name=Brown Dyed Polished Andesite Axe
+item.black_dyed_polished_andesite_axe.name=Black Dyed Polished Andesite Axe
+item.gray_dyed_polished_andesite_axe.name=Gray Dyed Polished Andesite Axe
+item.green_dyed_polished_andesite_axe.name=Green Dyed Polished Andesite Axe
+item.magenta_dyed_polished_andesite_axe.name=Magenta Dyed Polished Andesite Axe
+item.silver_dyed_polished_andesite_axe.name=Silver Dyed Polished Andesite Axe
+item.blue_dyed_polished_andesite_axe.name=Blue Dyed Polished Andesite Axe
+item.cyan_dyed_polished_andesite_axe.name=Cyan Dyed Polished Andesite Axe
+item.light_blue_dyed_polished_andesite_axe.name=Light Blue Dyed Polished Andesite Axe
+item.pink_dyed_polished_andesite_axe.name=Pink Dyed Polished Andesite Axe
+item.yellow_dyed_polished_andesite_axe.name=Yellow Dyed Polished Andesite Axe
+item.white_dyed_polished_andesite_axe.name=White Dyed Polished Andesite Axe
+
+#Dyed andesite pickaxes
+item.lime_dyed_andesite_pickaxe.name=Lime Dyed Andesite Pickaxe
+item.purple_dyed_andesite_pickaxe.name=Purple Dyed Andesite Pickaxe
+item.red_dyed_andesite_pickaxe.name=Red Dyed Andesite Pickaxe
+item.orange_dyed_andesite_pickaxe.name=Orange Dyed Andesite Pickaxe
+item.brown_dyed_andesite_pickaxe.name=Brown Dyed Andesite Pickaxe
+item.black_dyed_andesite_pickaxe.name=Black Dyed Andesite Pickaxe
+item.gray_dyed_andesite_pickaxe.name=Gray Dyed Andesite Pickaxe
+item.green_dyed_andesite_pickaxe.name=Green Dyed Andesite Pickaxe
+item.magenta_dyed_andesite_pickaxe.name=Magenta Dyed Andesite Pickaxe
+item.silver_dyed_andesite_pickaxe.name=Silver Dyed Andesite Pickaxe
+item.blue_dyed_andesite_pickaxe.name=Blue Dyed Andesite Pickaxe
+item.cyan_dyed_andesite_pickaxe.name=Cyan Dyed Andesite Pickaxe
+item.light_blue_dyed_andesite_pickaxe.name=Light Blue Dyed Andesite Pickaxe
+item.pink_dyed_andesite_pickaxe.name=Pink Dyed Andesite Pickaxe
+item.yellow_dyed_andesite_pickaxe.name=Yellow Dyed Andesite Pickaxe
+item.white_dyed_andesite_pickaxe.name=White Dyed Andesite Pickaxe
+
+#Dyed polished andesite pickaxes
+item.lime_dyed_polished_andesite_pickaxe.name=Lime Dyed Polished Andesite Pickaxe
+item.purple_dyed_polished_andesite_pickaxe.name=Purple Dyed Polished Andesite Pickaxe
+item.red_dyed_polished_andesite_pickaxe.name=Red Dyed Polished Andesite Pickaxe
+item.orange_dyed_polished_andesite_pickaxe.name=Orange Dyed Polished Andesite Pickaxe
+item.brown_dyed_polished_andesite_pickaxe.name=Brown Dyed Polished Andesite Pickaxe
+item.black_dyed_polished_andesite_pickaxe.name=Black Dyed Polished Andesite Pickaxe
+item.gray_dyed_polished_andesite_pickaxe.name=Gray Dyed Polished Andesite Pickaxe
+item.green_dyed_polished_andesite_pickaxe.name=Green Dyed Polished Andesite Pickaxe
+item.magenta_dyed_polished_andesite_pickaxe.name=Magenta Dyed Polished Andesite Pickaxe
+item.silver_dyed_polished_andesite_pickaxe.name=Silver Dyed Polished Andesite Pickaxe
+item.blue_dyed_polished_andesite_pickaxe.name=Blue Dyed Polished Andesite Pickaxe
+item.cyan_dyed_polished_andesite_pickaxe.name=Cyan Dyed Polished Andesite Pickaxe
+item.light_blue_dyed_polished_andesite_pickaxe.name=Light Blue Dyed Polished Andesite Pickaxe
+item.pink_dyed_polished_andesite_pickaxe.name=Pink Dyed Polished Andesite Pickaxe
+item.yellow_dyed_polished_andesite_pickaxe.name=Yellow Dyed Polished Andesite Pickaxe
+item.white_dyed_polished_andesite_pickaxe.name=White Dyed Polished Andesite Pickaxe
+
+#Dyed andesite shovels
+item.lime_dyed_andesite_shovel.name=Lime Dyed Andesite Shovel
+item.purple_dyed_andesite_shovel.name=Purple Dyed Andesite Shovel
+item.red_dyed_andesite_shovel.name=Red Dyed Andesite Shovel
+item.orange_dyed_andesite_shovel.name=Orange Dyed Andesite Shovel
+item.brown_dyed_andesite_shovel.name=Brown Dyed Andesite Shovel
+item.black_dyed_andesite_shovel.name=Black Dyed Andesite Shovel
+item.gray_dyed_andesite_shovel.name=Gray Dyed Andesite Shovel
+item.green_dyed_andesite_shovel.name=Green Dyed Andesite Shovel
+item.magenta_dyed_andesite_shovel.name=Magenta Dyed Andesite Shovel
+item.silver_dyed_andesite_shovel.name=Silver Dyed Andesite Shovel
+item.blue_dyed_andesite_shovel.name=Blue Dyed Andesite Shovel
+item.cyan_dyed_andesite_shovel.name=Cyan Dyed Andesite Shovel
+item.light_blue_dyed_andesite_shovel.name=Light Blue Dyed Andesite Shovel
+item.pink_dyed_andesite_shovel.name=Pink Dyed Andesite Shovel
+item.yellow_dyed_andesite_shovel.name=Yellow Dyed Andesite Shovel
+item.white_dyed_andesite_shovel.name=White Dyed Andesite Shovel
+
+#Dyed polished andesite shovels
+item.lime_dyed_polished_andesite_shovel.name=Lime Dyed Polished Andesite Shovel
+item.purple_dyed_polished_andesite_shovel.name=Purple Dyed Polished Andesite Shovel
+item.red_dyed_polished_andesite_shovel.name=Red Dyed Polished Andesite Shovel
+item.orange_dyed_polished_andesite_shovel.name=Orange Dyed Polished Andesite Shovel
+item.brown_dyed_polished_andesite_shovel.name=Brown Dyed Polished Andesite Shovel
+item.black_dyed_polished_andesite_shovel.name=Black Dyed Polished Andesite Shovel
+item.gray_dyed_polished_andesite_shovel.name=Gray Dyed Polished Andesite Shovel
+item.green_dyed_polished_andesite_shovel.name=Green Dyed Polished Andesite Shovel
+item.magenta_dyed_polished_andesite_shovel.name=Magenta Dyed Polished Andesite Shovel
+item.silver_dyed_polished_andesite_shovel.name=Silver Dyed Polished Andesite Shovel
+item.blue_dyed_polished_andesite_shovel.name=Blue Dyed Polished Andesite Shovel
+item.cyan_dyed_polished_andesite_shovel.name=Cyan Dyed Polished Andesite Shovel
+item.light_blue_dyed_polished_andesite_shovel.name=Light Blue Dyed Polished Andesite Shovel
+item.pink_dyed_polished_andesite_shovel.name=Pink Dyed Polished Andesite Shovel
+item.yellow_dyed_polished_andesite_shovel.name=Yellow Dyed Polished Andesite Shovel
+item.white_dyed_polished_andesite_shovel.name=White Dyed Polished Andesite Shovel
