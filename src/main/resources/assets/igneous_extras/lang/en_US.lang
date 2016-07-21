@@ -7,6 +7,7 @@ itemGroup.igneous_stairs=Igneous Stairs
 itemGroup.igneous_pressure_plates=Igneous Pressure Plates
 itemGroup.igneous_levers=Igneous Levers
 itemGroup.igneous_swords=Igneous Swords
+itemGroup.igneous_tools=Igneous Tools
 
 #Start off with dyed cobblestone blocks
 tile.dyed_cobblestone.lime.name=Lime Dyed Cobblestone

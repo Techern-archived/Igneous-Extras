@@ -20,17 +20,29 @@ import org.techern.minecraft.igneousextras.items.weapons.ItemIgneousSword;
 
 public class IgneousItems {
 
-	/**
-	 * The {@link CreativeTabs} for new swords
-	 *
-	 * @since 0.0.1
-	 */
-	public static CreativeTabs SWORDS_TAB = new CreativeTabs("igneous_swords") {
-		@Override
-		public Item getTabIconItem() {
-			return GRANITE_SWORD;
-		}
-	};
+    /**
+     * The {@link CreativeTabs} for new swords
+     *
+     * @since 0.0.2
+     */
+    public static CreativeTabs SWORDS_TAB = new CreativeTabs("igneous_swords") {
+        @Override
+        public Item getTabIconItem() {
+            return GRANITE_SWORD;
+        }
+    };
+
+    /**
+     * The {@link CreativeTabs} for new tools
+     *
+     * @since 0.0.2
+     */
+    public static CreativeTabs TOOLS_TAB = new CreativeTabs("igneous_tools") {
+        @Override
+        public Item getTabIconItem() {
+            return GRANITE_AXE;
+        }
+    };
 
 	public static Item ANDESITE_SWORD = new ItemIgneousSword(ConfigHandler.ANDESITE_MATERIAL, "andesite");
 	public static Item ANDESITE_PICKAXE = new ItemIgneousPickaxe(ConfigHandler.ANDESITE_MATERIAL, "andesite");
